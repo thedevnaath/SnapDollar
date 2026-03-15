@@ -1,40 +1,210 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnapDollar | Map Your Success</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <style>
-        body { background-color: #0f172a; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; padding: 0; }
-        .hero { text-align: center; padding: 5rem 2rem 2rem 2rem; }
-        .hero h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #38bdf8; letter-spacing: -1px; }
-        .hero p { font-size: 1.2rem; color: #94a3b8; margin-bottom: 2rem; }
-        .search-container { margin: 0 auto 4rem auto; max-width: 600px; }
-        input[type="text"] { width: 100%; padding: 1.2rem 1.5rem; border-radius: 50px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: #fff; font-size: 1.2rem; outline: none; box-shadow: 0 4px 30px rgba(0,0,0,0.5); transition: border-color 0.3s ease; }
-        input[type="text"]:focus { border-color: #38bdf8; background: rgba(255,255,255,0.1); }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; padding: 0 2rem 4rem 2rem; max-width: 1200px; margin: 0 auto; }
-        .card { background: rgba(255,255,255,0.03); padding: 2.5rem 1.5rem; border-radius: 16px; text-align: center; border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; }
-        .card:hover { transform: translateY(-8px); border-color: #38bdf8; background: rgba(255,255,255,0.08); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
-        .card h3 { margin: 0; font-size: 1.3rem; font-weight: 600; }
+        /* The Wealth Engine Palette */
+        :root {
+            --bg-obsidian: #050505;
+            --card-bg: #111111;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --neon-emerald: #00ff88;
+            --emerald-glow: rgba(0, 255, 136, 0.15);
+        }
+
+        body { 
+            background-color: var(--bg-obsidian); 
+            color: var(--text-main); 
+            font-family: 'Inter', system-ui, sans-serif; /* Clean body font */
+            margin: 0; 
+            padding: 0; 
+        }
+
+        h1, h2, h3, .logo {
+            font-family: 'Space Grotesk', sans-serif; /* Aggressive, modern headers */
+        }
+
+        /* Top Navigation */
+        .navbar {
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: flex-start; /* 'flex-start' keeps it on the left. Change to 'flex-end' to move it to the right! */
+        }
+        .brand-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem; /* This creates the perfect spacing between your logo and the text */
+        }
+        .custom-logo {
+            height: 36px; /* Adjust this number to make your logo bigger or smaller */
+            width: auto;
+            border-radius: 8px; /* Optional: curves the edges of your logo slightly */
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .logo span {
+            color: var(--neon-emerald);
+        }
+
+        /* Hero Section */
+        .hero { 
+            text-align: center; 
+            padding: 4rem 2rem 2rem 2rem; 
+        }
+        .hero h1 { 
+            font-size: 3.5rem; 
+            margin-bottom: 1rem; 
+            letter-spacing: -1.5px;
+            line-height: 1.1;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+        }
+
+        /* Universal Search Bar */
+        .search-container { 
+            margin: 0 auto 4rem auto; 
+            max-width: 600px; 
+            position: relative;
+        }
+        input[type="text"] { 
+            width: 100%; 
+            padding: 1.2rem 1.5rem 1.2rem 3.5rem; 
+            border-radius: 12px; 
+            border: 1px solid #222; 
+            background: var(--card-bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem; 
+            outline: none; 
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus {
+            border-color: var(--neon-emerald);
+            box-shadow: 0 0 25px var(--emerald-glow);
+        }
+        .search-icon {
+            position: absolute;
+            left: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            width: 20px;
+            height: 20px;
+            transition: color 0.3s ease;
+        }
+        input[type="text"]:focus + .search-icon {
+            color: var(--neon-emerald);
+        }
+
+        /* Universe of Careers Grid */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+            gap: 1.5rem; 
+            padding: 0 2rem 5rem 2rem; 
+            max-width: 1100px; 
+            margin: 0 auto; 
+        }
+        .card { 
+            background: var(--card-bg); 
+            padding: 2rem 1.5rem; 
+            border-radius: 12px; 
+            border: 1px solid #222; 
+            transition: all 0.3s ease; 
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.2rem;
+        }
+        .card:hover { 
+            transform: translateY(-6px); 
+            border-color: var(--neon-emerald); 
+            box-shadow: 0 10px 30px var(--emerald-glow);
+        }
+        .icon-wrapper {
+            background: rgba(0, 255, 136, 0.1);
+            color: var(--neon-emerald);
+            padding: 0.8rem;
+            border-radius: 8px;
+            display: flex;
+        }
+        .card h3 { 
+            margin: 0; 
+            font-size: 1.2rem; 
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
+
+    <nav class="navbar">
+        <div class="brand-container">
+            <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
+            <div class="logo">Snap<span>Dollar</span></div>
+        </div>
+    </nav>
+
     <div class="hero">
-        <h1>Discover Your Path. Map Your Success.</h1>
-        <p>Explore every career in the universe.</p>
+        <h1>Map your success.</h1>
+        <p>Explore every career path, discover high-ROI opportunities, and design your future.</p>
+        
         <div class="search-container">
-            <input type="text" placeholder="Search 'Software Engineer'...">
+            <input type="text" id="job-search" placeholder="Search for 'Investment Banker'...">
+            <i data-lucide="search" class="search-icon"></i>
         </div>
     </div>
+
     <div class="grid">
-        <div class="card"><h3>Technology & Data</h3></div>
-        <div class="card"><h3>Business & Finance</h3></div>
-        <div class="card"><h3>Healthcare & Medicine</h3></div>
-        <div class="card"><h3>Engineering & Trades</h3></div>
-        <div class="card"><h3>Creative & Media</h3></div>
-        <div class="card"><h3>Science & Research</h3></div>
-        <div class="card"><h3>Law & Public Service</h3></div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="cpu"></i></div>
+            <h3>Technology & Data</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="trending-up"></i></div>
+            <h3>Business & Finance</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="heart-pulse"></i></div>
+            <h3>Healthcare & Medicine</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="wrench"></i></div>
+            <h3>Engineering & Trades</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="palette"></i></div>
+            <h3>Creative & Media</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="flask-conical"></i></div>
+            <h3>Science & Research</h3>
+        </div>
+        <div class="card">
+            <div class="icon-wrapper"><i data-lucide="scale"></i></div>
+            <h3>Law & Public Service</h3>
+        </div>
     </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
