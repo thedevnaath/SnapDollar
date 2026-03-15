@@ -206,5 +206,54 @@
     <script>
         lucide.createIcons();
     </script>
+    <script>
+        const searchInput = document.getElementById('job-search');
+        const careers = [
+            "Software Engineer",
+            "Investment Banker",
+            "Machine Learning Engineer",
+            "Creative Director",
+            "Cardiothoracic Surgeon",
+            "Corporate Lawyer",
+            "Product Manager"
+        ];
+        
+        let careerIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            const currentCareer = careers[careerIndex];
+
+            if (isDeleting) {
+                // Delete characters
+                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
+                charIndex--;
+            } else {
+                // Type characters
+                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
+                charIndex++;
+            }
+
+            // Speed logic: typing is slower than deleting
+            let typingSpeed = isDeleting ? 40 : 100;
+
+            if (!isDeleting && charIndex === currentCareer.length) {
+                // Pause when the word is fully typed
+                typingSpeed = 2000; 
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                // Move to the next word when fully deleted
+                isDeleting = false;
+                careerIndex = (careerIndex + 1) % careers.length;
+                typingSpeed = 500; // Pause before starting the next word
+            }
+
+            setTimeout(typeEffect, typingSpeed);
+        }
+
+        // Wait 1 second after the page loads, then start the animation
+        setTimeout(typeEffect, 1000);
+    </script>
 </body>
 </html>
