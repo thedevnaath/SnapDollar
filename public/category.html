@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapDollar | Careers</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        :root {
+            --bg-obsidian: #050505;
+            --card-bg: #111111;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --neon-emerald: #00ff88;
+            --emerald-glow: rgba(0, 255, 136, 0.15);
+        }
+
+        body { 
+            background-color: var(--bg-obsidian); 
+            color: var(--text-main); 
+            font-family: 'Inter', system-ui, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
+
+        /* Top Navigation */
+        .navbar {
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .brand-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+        .custom-logo { height: 36px; width: auto; border-radius: 8px; }
+        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; color: var(--text-main); }
+        .logo span { color: var(--neon-emerald); }
+        
+        .back-btn {
+            color: var(--text-muted);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .back-btn:hover { color: var(--neon-emerald); }
+
+        /* Header Section */
+        .category-header { text-align: center; padding: 4rem 2rem 3rem 2rem; }
+        .category-header h1 { font-size: 3rem; margin-bottom: 1rem; letter-spacing: -1px; }
+        .category-header p { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto; }
+
+        /* Job Cards Grid */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 1.5rem; 
+            padding: 0 2rem 5rem 2rem; 
+            max-width: 1100px; 
+            margin: 0 auto; 
+        }
+        
+        /* Loading Text */
+        .loading { text-align: center; color: var(--neon-emerald); font-size: 1.2rem; width: 100%; grid-column: 1 / -1; }
+
+        /* Individual Job Card Styles */
+        .card { 
+            background: var(--card-bg); 
+            padding: 2rem; 
+            border-radius: 12px; 
+            border: 1px solid #222; 
+            transition: all 0.3s ease; 
+        }
+        .card:hover { 
+            transform: translateY(-4px); 
+            border-color: var(--neon-emerald); 
+            box-shadow: 0 10px 30px var(--emerald-glow);
+        }
+        .card-top {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .icon-wrapper {
+            background: rgba(0, 255, 136, 0.1);
+            color: var(--neon-emerald);
+            padding: 0.8rem;
+            border-radius: 8px;
+            display: flex;
+        }
+        .card h3 { margin: 0; font-size: 1.4rem; }
+        .card p { color: var(--text-muted); line-height: 1.6; margin-bottom: 1.5rem; font-size: 0.95rem; }
+        
+        /* Badges (Salary & ROI) */
+        .badges { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+        .badge {
+            padding: 0.4rem 0.8rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .badge-salary { background: rgba(0, 255, 136, 0.1); color: var(--neon-emerald); border: 1px solid rgba(0, 255, 136, 0.2); }
+        .badge-roi { background: rgba(255, 255, 255, 0.05); color: #fff; border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="brand-container">
+            <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
+            <div class="logo">Snap<span>Dollar</span></div>
+        </a>
+        <a href="index.html" class="back-btn"><i data-lucide="arrow-left" style="width: 18px;"></i> Back to Home</a>
+    </nav>
+
+    <div class="category-header">
+        <h1 id="page-title">Loading...</h1>
+        <p id="page-desc">Fetching the best careers in the universe.</p>
+    </div>
+
+    <div class="grid" id="jobs-container">
+        <div class="loading">Booting up the database...</div>
+    </div>
+
+    <script>
+        // Start Lucide icons for the static elements (like the back button)
+        lucide.createIcons();
+
+        // The function that fetches our data
+        async function loadCareers() {
+            try {
+                // 1. Fetch the JSON file we just made
+                const response = await fetch('data/tech.json');
+                const data = await response.json();
+
+                // 2. Inject the Title and Description into the HTML
+                document.getElementById('page-title').innerText = data.category;
+                document.getElementById('page-desc').innerText = data.description;
+                document.title = `SnapDollar | ${data.category}`;
+
+                // 3. Grab the empty grid and clear out the "Loading..." text
+                const container = document.getElementById('jobs-container');
+                container.innerHTML = ''; 
+
+                // 4. Loop through every job in the JSON and build a card for it
+                data.careers.forEach(job => {
+                    const cardHTML = `
+                        <div class="card">
+                            <div class="card-top">
+                                <div class="icon-wrapper"><i data-lucide="${job.icon}"></i></div>
+                                <h3>${job.title}</h3>
+                            </div>
+                            <p>${job.description}</p>
+                            <div class="badges">
+                                <span class="badge badge-salary"><i data-lucide="banknote" style="width:14px;"></i> ${job.salaryRange}</span>
+                                <span class="badge badge-roi"><i data-lucide="zap" style="width:14px;"></i> ROI: ${job.roiRating}</span>
+                            </div>
+                        </div>
+                    `;
+                    // Inject the card into the grid
+                    container.innerHTML += cardHTML;
+                });
+
+                // 5. Run the icon script again so the new icons actually show up
+                lucide.createIcons();
+
+            } catch (error) {
+                console.error("Error fetching data:", error);
+                document.getElementById('jobs-container').innerHTML = '<div class="loading" style="color: red;">Error loading data. Check your connection.</div>';
+            }
+        }
+
+        // Run the function the second the page loads
+        loadCareers();
+    </script>
+</body>
+</html>
