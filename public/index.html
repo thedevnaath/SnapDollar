@@ -122,6 +122,14 @@
             max-width: 1100px; 
             margin: 0 auto; 
         }
+
+        /* Clean Link Routing */
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block; 
+        }
+
         .card { 
             background: var(--card-bg); 
             padding: 2rem 1.5rem; 
@@ -133,6 +141,8 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 1.2rem;
+            height: 100%; /* Ensures cards stretch evenly inside the link */
+            box-sizing: border-box;
         }
         .card:hover { 
             transform: translateY(-6px); 
@@ -173,10 +183,13 @@
     </div>
 
     <div class="grid">
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="cpu"></i></div>
-            <h3>Technology & Data</h3>
-        </div>
+        <a href="category.html" class="card-link">
+            <div class="card">
+                <div class="icon-wrapper"><i data-lucide="cpu"></i></div>
+                <h3>Technology & Data</h3>
+            </div>
+        </a>
+
         <div class="card">
             <div class="icon-wrapper"><i data-lucide="trending-up"></i></div>
             <h3>Business & Finance</h3>
