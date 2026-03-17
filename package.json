@@ -1,10 +1,13 @@
 {
   "name": "snapdollar",
-  "version": "latest",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "latest"
   },
   "repository": {
     "type": "git",
