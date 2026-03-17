@@ -45,9 +45,14 @@ async function runGhostwriter() {
 
     try {
         const result = await model.generateContent(prompt);
-        const careerData = JSON.parse(result.response.text());
+        let rawText = result.response.text();
         
-        // Save the AI's output as a new JSON file in your database
+        // CLEANER: Strip out any markdown formatting the AI might add
+        rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+        
+        const careerData = JSON.parse(rawText);
+        
+        // Save the AI's output as a new JSON file
         const filePath = `./public/data/${careerData.id}.json`;
         fs.writeFileSync(filePath, JSON.stringify(careerData, null, 2));
         
