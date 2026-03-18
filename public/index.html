@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SnapDollar | Map Your Success</title>
+    <title>SnapDollar | The Career Universe</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
-        /* The Wealth Engine Palette */
         :root {
             --bg-obsidian: #050505;
             --card-bg: #111111;
@@ -25,249 +23,152 @@
         body { 
             background-color: var(--bg-obsidian); 
             color: var(--text-main); 
-            font-family: 'Inter', system-ui, sans-serif; /* Clean body font */
+            font-family: 'Inter', system-ui, sans-serif; 
             margin: 0; 
             padding: 0; 
         }
 
-        h1, h2, h3, .logo {
-            font-family: 'Space Grotesk', sans-serif; /* Aggressive, modern headers */
-        }
+        h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 
         /* Top Navigation */
         .navbar {
             padding: 1.5rem 2rem;
             display: flex;
-            justify-content: flex-start; /* 'flex-start' keeps it on the left. Change to 'flex-end' to move it to the right! */
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
         }
         .brand-container {
             display: flex;
             align-items: center;
-            gap: 0.75rem; /* This creates the perfect spacing between your logo and the text */
+            gap: 0.75rem;
+            text-decoration: none;
         }
-        .custom-logo {
-            height: 36px; /* Adjust this number to make your logo bigger or smaller */
-            width: auto;
-            border-radius: 8px; /* Optional: curves the edges of your logo slightly */
-        }
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-        }
-        .logo span {
-            color: var(--neon-emerald);
-        }
+        .custom-logo { height: 36px; width: auto; border-radius: 8px; }
+        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; color: var(--text-main); }
+        .logo span { color: var(--neon-emerald); }
 
         /* Hero Section */
-        .hero { 
-            text-align: center; 
-            padding: 4rem 2rem 2rem 2rem; 
-        }
-        .hero h1 { 
-            font-size: 3.5rem; 
-            margin-bottom: 1rem; 
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-        }
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            margin-bottom: 3rem;
-        }
-
-        /* Universal Search Bar */
-        .search-container { 
-            margin: 0 auto 4rem auto; 
-            max-width: 600px; 
-            position: relative;
-        }
-        input[type="text"] { 
+        .hero { text-align: center; padding: 6rem 2rem 4rem 2rem; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; letter-spacing: -1px; }
+        .hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 3rem auto; }
+        
+        /* Search Bar */
+        .search-container { max-width: 600px; margin: 0 auto; position: relative; }
+        .search-bar { 
             width: 100%; 
-            padding: 1.2rem 1.5rem 1.2rem 3.5rem; 
-            border-radius: 12px; 
-            border: 1px solid #222; 
-            background: var(--card-bg);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
+            padding: 1.2rem 1.5rem 1.2rem 3rem; 
+            border-radius: 50px; 
+            border: 1px solid #333; 
+            background: var(--card-bg); 
+            color: #fff; 
             font-size: 1.1rem; 
             outline: none; 
-            transition: all 0.3s ease;
-            box-sizing: border-box;
+            transition: border-color 0.3s; 
+            box-sizing: border-box; 
         }
-        input[type="text"]:focus {
-            border-color: var(--neon-emerald);
-            box-shadow: 0 0 25px var(--emerald-glow);
-        }
-        .search-icon {
-            position: absolute;
-            left: 1.2rem;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-muted);
-            width: 20px;
-            height: 20px;
-            transition: color 0.3s ease;
-        }
-        input[type="text"]:focus + .search-icon {
-            color: var(--neon-emerald);
-        }
+        .search-bar:focus { border-color: var(--neon-emerald); }
+        .search-icon { position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); width: 20px; }
 
-        /* Universe of Careers Grid */
+        /* Categories Section */
+        .categories-section { padding: 2rem 2rem 5rem 2rem; max-width: 1100px; margin: 0 auto; }
+        .categories-section h2 { text-align: center; font-size: 2rem; margin-bottom: 3rem; }
+        
         .grid { 
             display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
             gap: 1.5rem; 
-            padding: 0 2rem 5rem 2rem; 
-            max-width: 1100px; 
-            margin: 0 auto; 
         }
-
-        /* Clean Link Routing */
-        .card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block; 
-        }
-
-        .card { 
+        
+        /* Clean links for cards */
+        .category-link { text-decoration: none; color: inherit; display: block; }
+        
+        .category-card { 
             background: var(--card-bg); 
-            padding: 2rem 1.5rem; 
+            padding: 2rem; 
             border-radius: 12px; 
             border: 1px solid #222; 
             transition: all 0.3s ease; 
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 1.2rem;
-            height: 100%; /* Ensures cards stretch evenly inside the link */
-            box-sizing: border-box;
+            text-align: center; 
+            height: 100%; 
+            box-sizing: border-box; 
         }
-        .card:hover { 
-            transform: translateY(-6px); 
+        
+        .category-link:hover .category-card { 
+            transform: translateY(-4px); 
             border-color: var(--neon-emerald); 
-            box-shadow: 0 10px 30px var(--emerald-glow);
+            box-shadow: 0 10px 30px var(--emerald-glow); 
         }
-        .icon-wrapper {
-            background: rgba(0, 255, 136, 0.1);
-            color: var(--neon-emerald);
-            padding: 0.8rem;
-            border-radius: 8px;
-            display: flex;
-        }
-        .card h3 { 
-            margin: 0; 
-            font-size: 1.2rem; 
-            font-weight: 500;
-        }
+        
+        .category-card i { color: var(--neon-emerald); margin-bottom: 1rem; width: 32px; height: 32px; }
+        .category-card h3 { font-size: 1.4rem; margin: 0 0 0.5rem 0; }
+        .category-card p { color: var(--text-muted); margin: 0; line-height: 1.5; font-size: 0.95rem; }
     </style>
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="brand-container">
+        <a href="index.html" class="brand-container">
             <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
             <div class="logo">Snap<span>Dollar</span></div>
-        </div>
+        </a>
     </nav>
 
-    <div class="hero">
-        <h1>Map your success.</h1>
-        <p>Explore every career path, discover high-ROI opportunities, and design your future.</p>
-        
+    <header class="hero">
+        <h1>Find Your Next <br><span style="color: var(--neon-emerald);">High-ROI Career</span></h1>
+        <p>We use AI to map out the most lucrative, fast-growing jobs in the universe.</p>
         <div class="search-container">
-            <input type="text" id="job-search" placeholder="Search for 'Investment Banker'...">
             <i data-lucide="search" class="search-icon"></i>
+            <input type="text" class="search-bar" id="searchInput" placeholder="Search for a career (e.g., Software Engineer)...">
         </div>
-    </div>
+    </header>
 
-    <div class="grid">
-        <a href="category.html" class="card-link">
-            <div class="card">
-                <div class="icon-wrapper"><i data-lucide="cpu"></i></div>
-                <h3>Technology & Data</h3>
-            </div>
-        </a>
+    <section class="categories-section">
+        <h2>Explore Sectors</h2>
+        <div class="grid">
+            
+            <a href="category.html?id=tech" class="category-link">
+                <div class="category-card">
+                    <i data-lucide="cpu"></i>
+                    <h3>Technology & Data</h3>
+                    <p>Software engineering, artificial intelligence, and cloud architecture.</p>
+                </div>
+            </a>
+            
+            <a href="category.html?id=finance" class="category-link">
+                <div class="category-card">
+                    <i data-lucide="line-chart"></i>
+                    <h3>Finance & Markets</h3>
+                    <p>Investment banking, quantitative analysis, and fintech.</p>
+                </div>
+            </a>
 
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="trending-up"></i></div>
-            <h3>Business & Finance</h3>
+            <a href="category.html?id=healthcare" class="category-link">
+                <div class="category-card">
+                    <i data-lucide="activity"></i>
+                    <h3>Healthcare & Biotech</h3>
+                    <p>Medical professionals, biotech research, and digital health.</p>
+                </div>
+            </a>
+
         </div>
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="heart-pulse"></i></div>
-            <h3>Healthcare & Medicine</h3>
-        </div>
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="wrench"></i></div>
-            <h3>Engineering & Trades</h3>
-        </div>
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="palette"></i></div>
-            <h3>Creative & Media</h3>
-        </div>
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="flask-conical"></i></div>
-            <h3>Science & Research</h3>
-        </div>
-        <div class="card">
-            <div class="icon-wrapper"><i data-lucide="scale"></i></div>
-            <h3>Law & Public Service</h3>
-        </div>
-    </div>
+    </section>
 
     <script>
+        // Start icons
         lucide.createIcons();
-    </script>
-    <script>
-        const searchInput = document.getElementById('job-search');
-        const careers = [
-            "Software Engineer",
-            "Investment Banker",
-            "Machine Learning Engineer",
-            "Creative Director",
-            "Cardiothoracic Surgeon",
-            "Corporate Lawyer",
-            "Product Manager"
-        ];
         
-        let careerIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-
-        function typeEffect() {
-            const currentCareer = careers[careerIndex];
-
-            if (isDeleting) {
-                // Delete characters
-                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
-                charIndex--;
-            } else {
-                // Type characters
-                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
-                charIndex++;
+        // Universal Search Engine Logic
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                // Convert exactly how our database formats titles (e.g., "Software Engineer" -> "software-engineer")
+                const query = this.value.trim().toLowerCase().replace(/\s+/g, '-');
+                if (query) {
+                    window.location.href = `career.html?id=${query}`;
+                }
             }
-
-            // Speed logic: typing is slower than deleting
-            let typingSpeed = isDeleting ? 40 : 100;
-
-            if (!isDeleting && charIndex === currentCareer.length) {
-                // Pause when the word is fully typed
-                typingSpeed = 2000; 
-                isDeleting = true;
-            } else if (isDeleting && charIndex === 0) {
-                // Move to the next word when fully deleted
-                isDeleting = false;
-                careerIndex = (careerIndex + 1) % careers.length;
-                typingSpeed = 500; // Pause before starting the next word
-            }
-
-            setTimeout(typeEffect, typingSpeed);
-        }
-
-        // Wait 1 second after the page loads, then start the animation
-        setTimeout(typeEffect, 1000);
+        });
     </script>
 </body>
 </html>
-
