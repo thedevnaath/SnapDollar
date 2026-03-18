@@ -77,6 +77,9 @@
         /* Loading Text */
         .loading { text-align: center; color: var(--neon-emerald); font-size: 1.2rem; width: 100%; grid-column: 1 / -1; }
 
+        /* Make the entire card a clean clickable link */
+        .card-link { text-decoration: none; color: inherit; display: block; }
+
         /* Individual Job Card Styles */
         .card { 
             background: var(--card-bg); 
@@ -84,12 +87,17 @@
             border-radius: 12px; 
             border: 1px solid #222; 
             transition: all 0.3s ease; 
+            height: 100%;
+            box-sizing: border-box;
         }
-        .card:hover { 
+        
+        /* Apply the hover effect when the LINK is hovered */
+        .card-link:hover .card { 
             transform: translateY(-4px); 
             border-color: var(--neon-emerald); 
             box-shadow: 0 10px 30px var(--emerald-glow);
         }
+        
         .card-top {
             display: flex;
             align-items: center;
@@ -141,50 +149,62 @@
     </div>
 
     <script>
-        // Start Lucide icons for the static elements (like the back button)
+        // Start Lucide icons for the static elements
         lucide.createIcons();
 
         // The function that fetches our data
         async function loadCareers() {
             try {
-                // 1. Fetch the JSON file we just made
-                const response = await fetch('data/tech.json');
+                // 1. Read the URL to see which category was clicked (defaults to 'tech' if empty)
+                const urlParams = new URLSearchParams(window.location.search);
+                const categoryId = urlParams.get('id') || 'tech';
+
+                // 2. Fetch the dynamically selected JSON file
+                const response = await fetch(`data/${categoryId}.json`);
+                
+                // If the file doesn't exist, trigger the error
+                if (!response.ok) throw new Error("Database not found");
+                
                 const data = await response.json();
 
-                // 2. Inject the Title and Description into the HTML
+                // 3. Inject the Title and Description into the HTML
                 document.getElementById('page-title').innerText = data.category;
                 document.getElementById('page-desc').innerText = data.description;
                 document.title = `SnapDollar | ${data.category}`;
 
-                // 3. Grab the empty grid and clear out the "Loading..." text
+                // 4. Grab the empty grid and clear out the "Loading..." text
                 const container = document.getElementById('jobs-container');
                 container.innerHTML = ''; 
 
-                // 4. Loop through every job in the JSON and build a card for it
+                // 5. Loop through every job in the JSON and build a clickable card for it
                 data.careers.forEach(job => {
                     const cardHTML = `
-                        <div class="card">
-                            <div class="card-top">
-                                <div class="icon-wrapper"><i data-lucide="${job.icon}"></i></div>
-                                <h3>${job.title}</h3>
+                        <a href="career.html?id=${job.id}" class="card-link">
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="icon-wrapper"><i data-lucide="${job.icon}"></i></div>
+                                    <h3>${job.title}</h3>
+                                </div>
+                                <p>${job.description}</p>
+                                <div class="badges">
+                                    <span class="badge badge-salary"><i data-lucide="banknote" style="width:14px;"></i> ${job.salaryRange}</span>
+                                    <span class="badge badge-roi"><i data-lucide="zap" style="width:14px;"></i> ROI: ${job.roiRating}</span>
+                                </div>
                             </div>
-                            <p>${job.description}</p>
-                            <div class="badges">
-                                <span class="badge badge-salary"><i data-lucide="banknote" style="width:14px;"></i> ${job.salaryRange}</span>
-                                <span class="badge badge-roi"><i data-lucide="zap" style="width:14px;"></i> ROI: ${job.roiRating}</span>
-                            </div>
-                        </div>
+                        </a>
                     `;
                     // Inject the card into the grid
                     container.innerHTML += cardHTML;
                 });
 
-                // 5. Run the icon script again so the new icons actually show up
+                // 6. Run the icon script again so the new icons actually show up
                 lucide.createIcons();
 
             } catch (error) {
                 console.error("Error fetching data:", error);
-                document.getElementById('jobs-container').innerHTML = '<div class="loading" style="color: red;">Error loading data. Check your connection.</div>';
+                document.getElementById('page-title').innerText = "Category Not Found";
+                document.getElementById('page-desc').innerText = "We are still building this database sector. Check back soon.";
+                document.getElementById('jobs-container').innerHTML = '';
             }
         }
 
