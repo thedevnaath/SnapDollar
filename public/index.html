@@ -278,6 +278,16 @@
 
         // Wait 1 second after the page loads, then start the animation
         setTimeout(typeEffect, 1000);
+        // --- NEW SEARCH LOGIC ---
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                // Convert typed text (e.g., "Software Engineer") to URL format ("software-engineer")
+                const query = this.value.trim().toLowerCase().replace(/\s+/g, '-');
+                if (query) {
+                    window.location.href = `career.html?id=${query}`;
+                }
+            }
+        });
     </script>
 </body>
 </html>
