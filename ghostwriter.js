@@ -17,7 +17,7 @@ async function runGhostwriter() {
     You are the Chief Data Architect for SnapDollar. 
     Identify a high-value, highly-paid, or emerging career that we should add to our database.
     
-    You MUST include a "categoryId" field. Choose the best fit from this exact list: "tech", "finance", "healthcare", "business", "engineering".
+    You MUST include a "categoryId" field. Choose the best fit from this exact list: "tech", "finance", "medical", "engineer", "creative", "science", "publicservice".
     
     Generate a complete JSON file STRICTLY following this exact schema:
     {
