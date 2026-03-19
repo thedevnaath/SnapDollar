@@ -3,8 +3,8 @@ name: Weekly AI Ghostwriter
 # This tells the robot to wake up every Sunday at midnight (UTC)
 # We also add 'workflow_dispatch' so you can click a button to run it manually anytime.
 on:
-  schedule:
-    - cron: '0 0 * * 0'
+  #schedule:
+  #  - cron: '0 0 * * 0'
   workflow_dispatch:
 permissions:
   contents: write
