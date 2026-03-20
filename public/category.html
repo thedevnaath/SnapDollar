@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnapDollar | Careers</title>
+    <meta property="og:title" content="SnapDollar | Sector Explore">
+    <meta property="og:description" content="Explore high-ROI careers in this sector.">
+    <meta property="og:image" content="https://snapdollar.web.app/logo.png">
+    <meta property="og:type" content="website">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -131,13 +135,16 @@
 </head>
 <body>
 
-    <nav class="navbar">
+     <nav class="navbar">
         <a href="index.html" class="brand-container">
             <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
             <div class="logo">Snap<span>Dollar</span></div>
         </a>
-        <a href="index.html" class="back-btn"><i data-lucide="arrow-left" style="width: 18px;"></i> Back to Home</a>
+        <button id="share-btn" class="back-btn" style="background: none; border: none; font-size: 1rem; cursor: pointer; padding: 0; font-family: inherit;">
+            <i data-lucide="share-2" style="width: 18px;"></i> Share
+        </button>
     </nav>
+
 
     <div class="category-header">
         <h1 id="page-title">Loading...</h1>
@@ -210,6 +217,25 @@
 
         // Run the function the second the page loads
         loadCareers();
+                // --- NATIVE SHARE LOGIC ---
+        document.getElementById('share-btn').addEventListener('click', async () => {
+            const categoryName = document.getElementById('page-title').innerText;
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: `SnapDollar | ${categoryName}`,
+                        text: `Check out the best careers in ${categoryName} on SnapDollar!`,
+                        url: window.location.href
+                    });
+                } catch (err) {
+                    console.log("Share cancelled.");
+                }
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert("Link copied to clipboard!");
+            }
+        });
+
     </script>
 </body>
 </html>
