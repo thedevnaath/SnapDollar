@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnapDollar | Map Your Success</title>
-    
+    <meta property="og:title" content="SnapDollar | Map Your Success">
+    <meta property="og:description" content="Explore every career path, discover high-ROI opportunities, and design your future.">
+    <meta property="og:image" content="https://snapdollar.web.app/logo.png">
+    <meta property="og:url" content="https://snapdollar.web.app/">
+    <meta property="og:type" content="website">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -165,12 +170,16 @@
 </head>
 <body>
 
-    <nav class="navbar">
+     <nav class="navbar" style="justify-content: space-between;">
         <div class="brand-container">
             <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
             <div class="logo">Snap<span>Dollar</span></div>
         </div>
+        <button id="share-btn" style="background: none; border: none; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem; font-weight: 500; font-size: 1rem; font-family: inherit; cursor: pointer; transition: color 0.3s; padding: 0;" onmouseover="this.style.color='var(--neon-emerald)'" onmouseout="this.style.color='var(--text-muted)'">
+            <i data-lucide="share-2" style="width: 18px;"></i> Share
+        </button>
     </nav>
+
 
     <div class="hero">
         <h1>Map your success.</h1>
@@ -288,6 +297,24 @@
                 }
             }
         });
+                // --- NATIVE SHARE LOGIC ---
+        document.getElementById('share-btn').addEventListener('click', async () => {
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: "SnapDollar",
+                        text: "Explore high-ROI careers on SnapDollar!",
+                        url: window.location.href
+                    });
+                } catch (err) {
+                    console.log("Share cancelled.");
+                }
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert("Link copied to clipboard!");
+            }
+        });
+
     </script>
 </body>
 </html>
