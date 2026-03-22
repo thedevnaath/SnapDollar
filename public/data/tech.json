@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "mlops-engineer",
+      "title": "Machine Learning Operations (MLOps) Engineer",
+      "icon": "workflow",
+      "description": "MLOps Engineers bridge the gap between data science and operations, deploying, monitoring, and managing machine learning models in production. They build robust, scalable, and automated pipelines, ensuring models perform reliably and deliver business value. This role is critical for bringing AI from research to real-world impact.",
+      "salaryRange": "$130k - $220k",
+      "roiRating": "High"
+    },
+    {
       "id": "software-engineer",
       "title": "Software Engineer",
       "icon": "terminal",
