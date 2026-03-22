@@ -86,8 +86,11 @@
             <div class="header-section">
                 <div class="icon-wrapper"><i id="job-icon" data-lucide="briefcase" style="width: 32px; height: 32px;"></i></div>
                 <h1 id="job-title">Loading...</h1>
-                <div id="job-tagline" class="tagline">Loading...</div>
                 <p id="job-overview" class="overview">Loading...</p>
+                <div style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    <i data-lucide="clock" style="width: 14px; display: inline-block; vertical-align: middle;"></i> 
+                    Last Updated: <span id="last-updated">--</span>
+                </div>
             </div>
 
             <div class="metrics-grid">
@@ -96,109 +99,91 @@
                     <div id="roi-rating" class="value" style="color: var(--neon-emerald);">--</div>
                 </div>
                 <div class="metric-card">
-                    <h3>Time to ROI</h3>
-                    <div id="roi-time" class="value">--</div>
+                    <h3>Salary Range</h3>
+                    <div id="salary-range" class="value">--</div>
                 </div>
                 <div class="metric-card">
-                    <h3>Growth</h3>
-                    <div id="growth" class="value">--</div>
+                    <h3>Sector</h3>
+                    <div id="job-sector" class="value" style="text-transform: capitalize;">--</div>
                 </div>
             </div>
 
-            <div class="content-grid">
-                <div class="info-panel">
-                    <h2><i data-lucide="trending-up"></i> Salary Trajectory</h2>
-                    <div class="salary-bar"><span>Entry Level:</span> <span id="sal-entry">--</span></div>
-                    <div class="salary-bar"><span>Mid Level:</span> <span id="sal-mid">--</span></div>
-                    <div class="salary-bar"><span>Senior Level:</span> <span id="sal-senior" style="color: var(--neon-emerald);">--</span></div>
+            <div id="dynamic-content-grid" class="content-grid">
                 </div>
-
-                <div class="info-panel">
-                    <h2><i data-lucide="brain-circuit"></i> Core Skills</h2>
-                    <ul id="skills-list"></ul>
-                </div>
-
-                <div class="info-panel" style="grid-column: 1 / -1;">
-                    <h2><i data-lucide="sun"></i> Day in the Life</h2>
-                    <p id="day-in-life" style="color: var(--text-muted); line-height: 1.6;"></p>
-                </div>
-
-                <div class="info-panel">
-                    <h2><i data-lucide="star"></i> Famous Examples</h2>
-                    <h3 style="font-size:1rem; margin-top:0;">Individuals</h3>
-                    <ul id="famous-people" style="margin-bottom:1.5rem;"></ul>
-                    <h3 style="font-size:1rem;">Companies</h3>
-                    <ul id="famous-companies"></ul>
-                </div>
-
-                <div class="info-panel">
-                    <h2><i data-lucide="scale"></i> Reality Check</h2>
-                    <ul id="pros-cons-list"></ul>
-                </div>
-            </div>
         </div>
     </div>
 
     <script>
         lucide.createIcons();
 
+        // Basic Markdown parser for AI content (Bolding and Bullet Points)
+        function formatMarkdown(text) {
+            if(!text) return '';
+            return text
+                .replace(/\*\*(.*?)\*\*/g, '<strong style="color: #fff;">$1</strong>')
+                .replace(/\n\s*-\s/g, '<br><br>• ')
+                .replace(/\n\s*\*\s/g, '<br><br>• ')
+                .replace(/\n/g, '<br>');
+        }
+
         async function loadJobDetails() {
             try {
-                // Read the URL to see which specific job was clicked
                 const urlParams = new URLSearchParams(window.location.search);
                 const jobId = urlParams.get('id');
 
                 if (!jobId) throw new Error("No job ID provided");
 
-                // Fetch the specific deep-dive JSON file
                 const response = await fetch(`data/${jobId}.json`);
                 if (!response.ok) throw new Error("Database not found");
                 
                 const data = await response.json();
 
-                // Inject the Data
+                // 1. Inject the Header Data
                 document.title = `SnapDollar | ${data.title}`;
                 document.getElementById('job-title').innerText = data.title;
-                document.getElementById('job-tagline').innerText = data.tagline;
-                document.getElementById('job-overview').innerText = data.overview;
-                document.getElementById('job-icon').setAttribute('data-lucide', data.icon);
+                document.getElementById('job-overview').innerText = data.description;
+                document.getElementById('last-updated').innerText = data.lastUpdated || "Recently Updated";
+                document.getElementById('job-icon').setAttribute('data-lucide', data.icon || 'briefcase');
                 
+                // 2. Inject Top Metrics
                 document.getElementById('roi-rating').innerText = data.roiRating;
-                document.getElementById('roi-time').innerText = data.timeToROI;
-                document.getElementById('growth').innerText = data.growthPredicted;
+                document.getElementById('salary-range').innerText = data.salaryRange;
+                document.getElementById('job-sector').innerText = data.sector;
                 
-                document.getElementById('sal-entry').innerText = data.salary.entry;
-                document.getElementById('sal-mid').innerText = data.salary.mid;
-                document.getElementById('sal-senior').innerText = data.salary.senior;
-                
-                document.getElementById('day-in-life').innerText = data.dayInTheLife;
+                // 3. Dynamically Generate the Content Grid from AI Sections
+                const contentGrid = document.getElementById('dynamic-content-grid');
+                contentGrid.innerHTML = ''; // Clear it out
 
-                // Build Skills List
-                const skillsList = document.getElementById('skills-list');
-                data.skills.forEach(skill => {
-                    skillsList.innerHTML += `<li><i data-lucide="check-circle-2"></i> ${skill}</li>`;
-                });
+                if (data.sections) {
+                    data.sections.forEach(section => {
+                        // Create a beautiful section header
+                        contentGrid.innerHTML += `
+                            <div style="grid-column: 1 / -1; margin-top: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;">
+                                <h2 style="color: var(--neon-emerald); font-size: 1.5rem; margin: 0; font-family: 'Space Grotesk', sans-serif;">${section.title}</h2>
+                            </div>
+                        `;
+                        
+                        // Loop through the AI's data cards
+                        section.cards.forEach(card => {
+                            // Make dense cards span the full width of the screen so they don't look cramped
+                            const fullWidthCards = ["The Execution Plan", "A Day in the Life", "What You Actually Do"];
+                            const isFullWidth = fullWidthCards.includes(card.title) ? "grid-column: 1 / -1;" : "";
+                            
+                            contentGrid.innerHTML += `
+                                <div class="info-panel" style="${isFullWidth}">
+                                    <h2>${card.title}</h2>
+                                    <p style="font-style: italic; color: var(--text-muted); font-size: 0.95rem; margin-top: -1.2rem; margin-bottom: 1.5rem;">"${card.subconsciousQuestion}"</p>
+                                    <div style="color: var(--text-muted); line-height: 1.7; font-size: 1rem;">
+                                        ${formatMarkdown(card.content)}
+                                    </div>
+                                </div>
+                            `;
+                        });
+                    });
+                } else {
+                     contentGrid.innerHTML = `<div class="loading" style="grid-column: 1 / -1;">Legacy data format detected. AI will upgrade this file soon.</div>`;
+                }
 
-                // Build Famous Examples
-                const peopleList = document.getElementById('famous-people');
-                data.famousExamples.individuals.forEach(person => {
-                    peopleList.innerHTML += `<li><i data-lucide="user"></i> ${person}</li>`;
-                });
-                const companiesList = document.getElementById('famous-companies');
-                data.famousExamples.companies.forEach(company => {
-                    companiesList.innerHTML += `<li><i data-lucide="building"></i> ${company}</li>`;
-                });
-
-                // Build Pros and Cons
-                const prosConsList = document.getElementById('pros-cons-list');
-                data.pros.forEach(pro => {
-                    prosConsList.innerHTML += `<li><i data-lucide="plus-circle" style="color: var(--neon-emerald);"></i> ${pro}</li>`;
-                });
-                data.cons.forEach(con => {
-                    prosConsList.innerHTML += `<li><i data-lucide="minus-circle" style="color: #ef4444;"></i> ${con}</li>`;
-                });
-
-                // Hide loading, show dashboard, reload icons
                 document.getElementById('loading-state').style.display = 'none';
                 document.getElementById('dashboard').style.display = 'block';
                 lucide.createIcons();
@@ -214,7 +199,8 @@
         }
 
         loadJobDetails();
-                // --- NATIVE SHARE LOGIC ---
+
+        // --- NATIVE SHARE LOGIC ---
         document.getElementById('share-btn').addEventListener('click', async () => {
             const currentJobTitle = document.getElementById('job-title').innerText;
             if (navigator.share) {
