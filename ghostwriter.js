@@ -1,100 +1,191 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require('fs');
+const path = require('path');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-// Connect securely using your hidden GitHub Secret
+// Initialize Gemini API
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+
+// File Paths
+const BACKLOG_PATH = path.join(__dirname, 'backlog.json');
+const DATA_DIR = path.join(__dirname, 'public', 'data');
 
 async function runGhostwriter() {
-    console.log("Waking up Ghostwriter...");
-    
-    const model = genAI.getGenerativeModel({ 
-        model: "gemini-2.5-flash",
-        generationConfig: { responseMimeType: "application/json" }
-    });
-
-    // We added 'categoryId' to the prompt so the AI knows which folder to link it to
-    const prompt = `
-    You are the Chief Data Architect for SnapDollar. 
-    Identify a high-value, highly-paid, or emerging career that we should add to our database.
-    
-    You MUST include a "categoryId" field. Choose the best fit from this exact list: "tech", "finance", "medical", "engineer", "creative", "science", "publicservice".
-    
-    Generate a complete JSON file STRICTLY following this exact schema:
-    {
-      "categoryId": "tech",
-      "id": "kebab-case-job-title",
-      "title": "Full Job Title",
-      "icon": "cpu", 
-      "tagline": "A punchy one-sentence tagline.",
-      "overview": "A detailed 2-3 sentence overview of the job.",
-      "growthPredicted": "Predicted job growth over the next decade.",
-      "roiRating": "Excellent, High, or Good",
-      "timeToROI": "E.g., 2-4 Years",
-      "salary": {
-        "entry": "$...",
-        "mid": "$...",
-        "senior": "$..."
-      },
-      "dayInTheLife": "A realistic breakdown of how they spend their 9-to-5.",
-      "famousExamples": {
-        "individuals": ["Name 1", "Name 2"],
-        "companies": ["Company 1", "Company 2"]
-      },
-      "skills": ["Skill 1", "Skill 2", "Skill 3"],
-      "pros": ["Pro 1", "Pro 2"],
-      "cons": ["Con 1", "Con 2"]
-    }`;
-
     try {
+        console.log("🤖 Waking up Ghostwriter AI...");
+
+        // 1. Check the Backlog
+        if (!fs.existsSync(BACKLOG_PATH)) {
+            console.error("❌ backlog.json not found! Please create it.");
+            process.exit(1);
+        }
+
+        const backlogRaw = fs.readFileSync(BACKLOG_PATH, 'utf-8');
+        let backlog = JSON.parse(backlogRaw);
+
+        if (backlog.length === 0) {
+            console.log("✅ Backlog is empty. All careers have been written!");
+            process.exit(0);
+        }
+
+        // 2. Pop the top career off the backlog
+        const currentJob = backlog.shift(); // Removes the first item
+        console.log(`🎯 Target acquired: ${currentJob.title} in sector: ${currentJob.sector}`);
+
+        // 3. Generate today's date for the "Last Updated" tag
+        const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+        // 4. The Master Psychological Prompt
+        const prompt = `
+You are an elite career strategist and data analyst. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. Tone: Direct, plain-English, high-impact, actionable. No corporate fluff.
+3. Every card MUST have a "title", a "subconsciousQuestion" (what the user is actually worrying about), and "content" (the answer, which can use markdown like bolding or bullet points).
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing what they actually do.",
+  "salaryRange": "e.g., $100k - $180k",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., cpu, database, code)",
+  "sections": [
+    {
+      "title": "The Basics",
+      "cards": [
+        {
+          "title": "What You Actually Do",
+          "subconsciousQuestion": "Will I understand this job?",
+          "content": "Deep, detailed paragraph explaining the daily mechanics."
+        },
+        {
+          "title": "Salary Insights",
+          "subconsciousQuestion": "Will I be rich?",
+          "content": "Provide realistic data formatted EXACTLY like this (Use flags, pick the top 3 paying countries + Remote):\n🇺🇸 USA: $X – $Y\n🇩🇪 Germany: €X – €Y\n🇬🇧 UK: £X – £Y\n🌍 Remote: $X – $Y\n\n📈 Growth: [Fast/Medium/Slow] - [Brief explanation of trajectory]"
+        },
+        {
+          "title": "Core Tech Stack & Skills",
+          "subconsciousQuestion": "What exact tools do I need to learn?",
+          "content": "Bulleted list of the top 5 mandatory tools/skills."
+        },
+        {
+          "title": "Equity & Perks",
+          "subconsciousQuestion": "Do I get company stock or just a salary?",
+          "content": "Explain RSUs, bonuses, or profit-sharing norms for this specific role."
+        }
+      ]
+    },
+    {
+      "title": "Getting In",
+      "cards": [
+        {
+          "title": "The Execution Plan",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "**Path 1: The Traditional Route**\nExplain the exact degree, internships, and first job title to target.\n\n**Path 2: The Hacker Route**\nExplain bootcamps, specific portfolio projects, and bypassing HR.\n\n**Path 3: The Pivot Route**\nExplain how to transition from an unrelated job leveraging outside capital or freelance gigs."
+        },
+        {
+          "title": "Time & Money Cost",
+          "subconsciousQuestion": "How much debt and time will this take?",
+          "content": "Detailed estimate of the dollar cost ($X - $Y) and time cost (X months - Y years)."
+        },
+        {
+          "title": "Barrier to Entry",
+          "subconsciousQuestion": "Is it impossible for a junior to get hired?",
+          "content": "Explain the interview difficulty (e.g., 7 rounds, live coding) and current junior market saturation."
+        }
+      ]
+    },
+    {
+      "title": "The Daily Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "What is hour-by-hour reality?",
+          "content": "Highly detailed narrative of what a typical Tuesday looks like from morning standup to logging off."
+        },
+        {
+          "title": "Stress & Burnout Risk",
+          "subconsciousQuestion": "Will this job destroy my mental health?",
+          "content": "Rating (High/Medium/Low) plus a brutal, honest explanation of the main daily stressor."
+        },
+        {
+          "title": "Remote Flexibility",
+          "subconsciousQuestion": "Can I work from a laptop in Bali?",
+          "content": "Explain if it is strictly on-site, hybrid, or highly remote-friendly."
+        }
+      ]
+    },
+    {
+      "title": "The Future",
+      "cards": [
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will ChatGPT take my job in 5 years?",
+          "content": "Honest assessment of automation risk."
+        },
+        {
+          "title": "Pivot Options",
+          "subconsciousQuestion": "If I hate this, what else can I do?",
+          "content": "List 2-3 specific careers they can easily transition into."
+        },
+        {
+          "title": "Solo / Founder Scope",
+          "subconsciousQuestion": "Can I quit and be my own boss?",
+          "content": "Explain if there is a realistic path to freelancing or starting an agency."
+        }
+      ]
+    }
+  ]
+}`;
+
+        console.log("🧠 Thinking...");
         const result = await model.generateContent(prompt);
-        let rawText = result.response.text();
-        
-        // Strip markdown formatting
-        rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
-        const careerData = JSON.parse(rawText);
-        
-        // --- ACTION 1: SAVE THE DEEP DIVE FILE ---
-        const deepDivePath = `./public/data/${careerData.id}.json`;
-        fs.writeFileSync(deepDivePath, JSON.stringify(careerData, null, 2));
-        console.log(`✅ Saved Deep Dive: ${careerData.id}.json`);
+        let rawResponse = result.response.text();
 
-        // --- ACTION 2: UPDATE THE CATEGORY MANIFEST ---
-        const manifestPath = `./public/data/${careerData.categoryId}.json`;
-        let manifestData;
+        // Clean markdown code blocks from JSON response if present
+        rawResponse = rawResponse.replace(/```json\n/g, '').replace(/```\n/g, '').replace(/```/g, '');
         
-        // If the category file (like tech.json) exists, read it. If not, create a skeleton.
-        if (fs.existsSync(manifestPath)) {
-            manifestData = JSON.parse(fs.readFileSync(manifestPath));
+        const newCareerData = JSON.parse(rawResponse);
+        const newFileName = `${newCareerData.id}.json`;
+        const newFilePath = path.join(DATA_DIR, newFileName);
+
+        // 5. Save the Deep-Dive JSON
+        fs.writeFileSync(newFilePath, JSON.stringify(newCareerData, null, 2));
+        console.log(`📝 Successfully wrote ${newFileName}`);
+
+        // 6. Update the Category Summary File (e.g., tech.json)
+        const categoryFilePath = path.join(DATA_DIR, `${currentJob.sector}.json`);
+        if (fs.existsSync(categoryFilePath)) {
+            let categoryData = JSON.parse(fs.readFileSync(categoryFilePath, 'utf-8'));
+            
+            // Inject the new tiny summary card at the TOP of the array
+            categoryData.careers.unshift({
+                id: newCareerData.id,
+                title: newCareerData.title,
+                icon: newCareerData.icon,
+                description: newCareerData.description,
+                salaryRange: newCareerData.salaryRange,
+                roiRating: newCareerData.roiRating
+            });
+
+            fs.writeFileSync(categoryFilePath, JSON.stringify(categoryData, null, 2));
+            console.log(`🔗 Successfully linked to ${currentJob.sector}.json`);
         } else {
-            manifestData = {
-                category: careerData.categoryId.toUpperCase(),
-                description: `Explore top careers in the ${careerData.categoryId} sector.`,
-                careers: []
-            };
+             console.log(`⚠️ Category file ${currentJob.sector}.json not found. Skipping link.`);
         }
 
-        // Build the tiny summary card for the category page
-        const summaryCard = {
-            id: careerData.id,
-            title: careerData.title,
-            icon: careerData.icon,
-            salaryRange: `${careerData.salary.entry} - ${careerData.salary.senior}`,
-            roiRating: careerData.roiRating,
-            description: careerData.overview
-        };
-
-        // Prevent duplicates: Only add it if it doesn't already exist in the list
-        const exists = manifestData.careers.find(c => c.id === careerData.id);
-        if (!exists) {
-            manifestData.careers.push(summaryCard);
-            fs.writeFileSync(manifestPath, JSON.stringify(manifestData, null, 2));
-            console.log(`✅ Updated Manifest: Added ${careerData.title} to ${careerData.categoryId}.json`);
-        } else {
-            console.log(`⚠️ Career ${careerData.id} is already in the manifest.`);
-        }
+        // 7. Update the Backlog (Save the deletion)
+        fs.writeFileSync(BACKLOG_PATH, JSON.stringify(backlog, null, 2));
+        console.log("🗑️ Removed career from backlog. Operation Complete.");
 
     } catch (error) {
-        console.error("Ghostwriter encountered an error:", error);
+        console.error("❌ Error running Ghostwriter:", error);
         process.exit(1);
     }
 }
