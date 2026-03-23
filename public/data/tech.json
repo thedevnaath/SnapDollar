@@ -9,46 +9,6 @@
       "description": "An MLOps Engineer builds and maintains the pipelines that take AI models from experimental code to reliable, real-world tools. They ensure machine learning systems run smoothly, deliver value, and don't break unexpectedly. It's the critical role that makes AI practical and profitable.",
       "salaryRange": "$120k - $200k",
       "roiRating": "High"
-    },
-    {
-      "id": "mlops-engineer",
-      "title": "Machine Learning Operations (MLOps) Engineer",
-      "icon": "workflow",
-      "description": "MLOps Engineers bridge the gap between data science and operations, deploying, monitoring, and managing machine learning models in production. They build robust, scalable, and automated pipelines, ensuring models perform reliably and deliver business value. This role is critical for bringing AI from research to real-world impact.",
-      "salaryRange": "$130k - $220k",
-      "roiRating": "High"
-    },
-    {
-      "id": "software-engineer",
-      "title": "Software Engineer",
-      "icon": "terminal",
-      "salaryRange": "$90k - $250k+",
-      "roiRating": "Excellent",
-      "description": "Designs, builds, and maintains software systems and applications. The core engine of any tech company."
-    },
-    {
-      "id": "data-scientist",
-      "title": "Data Scientist",
-      "icon": "database",
-      "salaryRange": "$100k - $220k+",
-      "roiRating": "High",
-      "description": "Analyzes complex data sets to find trends and drive strategic business decisions."
-    },
-    {
-      "id": "cloud-architect",
-      "title": "Cloud Architect",
-      "icon": "cloud",
-      "salaryRange": "$130k - $280k+",
-      "roiRating": "Excellent",
-      "description": "Oversees a company's cloud computing strategy, including cloud adoption, design, and management."
-    },
-    {
-      "id": "ai-prompt-engineer",
-      "title": "AI Prompt Engineer",
-      "icon": "cpu",
-      "salaryRange": "$90,000 - $130,000 - $180,000 - $250,000+",
-      "roiRating": "Excellent",
-      "description": "AI Prompt Engineers are specialized professionals focused on designing, testing, and refining prompts for large language models (LLMs) and other generative AI systems. Their expertise ensures AI outputs are accurate, relevant, and aligned with desired objectives, playing a critical role in optimizing AI performance and mitigating unintended biases."
     }
   ]
 }
