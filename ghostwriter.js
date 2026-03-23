@@ -35,15 +35,16 @@ async function runGhostwriter() {
         // 3. Generate today's date for the "Last Updated" tag
         const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-        // 4. The Master Psychological Prompt
+        // 4. The Master Psychological & SEO Prompt 2.0
         const prompt = `
-You are an elite career strategist and data analyst. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+You are an elite career strategist, data analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
 Sector: "${currentJob.sector}".
 
-CRITICAL INSTRUCTIONS:
+CRITICAL INSTRUCTIONS & TONE:
 1. Output ONLY valid JSON. No markdown formatting outside of string values.
-2. Tone: Direct, plain-English, high-impact, actionable. No corporate fluff.
-3. Every card MUST have a "title", a "subconsciousQuestion" (what the user is actually worrying about), and "content" (the answer, which can use markdown like bolding or bullet points).
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a highly professional, analytical, and financially-focused tone suitable for adults making serious life decisions. Use simple words to explain complex realities. Zero corporate fluff.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings to prevent visual fatigue.
+4. Every card MUST have a "title", a "subconsciousQuestion", and "content".
 
 JSON SCHEMA REQUIRED:
 {
@@ -52,6 +53,14 @@ JSON SCHEMA REQUIRED:
   "sector": "${currentJob.sector}",
   "lastUpdated": "${today}",
   "description": "2-3 punchy sentences summarizing what they actually do.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'salary, requirements, and lifestyle'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range, e.g., $100,000 - $180,000"
+  },
   "salaryRange": "e.g., $100k - $180k",
   "roiRating": "High / Medium / Low",
   "icon": "A relevant Lucide icon name (e.g., cpu, database, code)",
@@ -60,14 +69,19 @@ JSON SCHEMA REQUIRED:
       "title": "The Basics",
       "cards": [
         {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con]\\n❌ **Con:** [Second con]"
+        },
+        {
           "title": "What You Actually Do",
           "subconsciousQuestion": "Will I understand this job?",
-          "content": "Deep, detailed paragraph explaining the daily mechanics."
+          "content": "Deep, detailed paragraph explaining the daily mechanics using the 15-year-old rule."
         },
         {
           "title": "Salary Insights",
           "subconsciousQuestion": "Will I be rich?",
-          "content": "Provide realistic data formatted EXACTLY like this (Use flags, pick the top 3 paying countries + Remote):\n🇺🇸 USA: $X – $Y\n🇩🇪 Germany: €X – €Y\n🇬🇧 UK: £X – £Y\n🌍 Remote: $X – $Y\n\n📈 Growth: [Fast/Medium/Slow] - [Brief explanation of trajectory]"
+          "content": "Provide realistic data formatted EXACTLY like this (Use flags, pick top 3 paying countries + Remote):\\n🇺🇸 USA: $X – $Y\\n🇩🇪 Germany: €X – €Y\\n🇬🇧 UK: £X – £Y\\n🌍 Remote: $X – $Y\\n\\n📈 **Growth:** [Fast/Medium/Slow] - [Brief explanation of trajectory]"
         },
         {
           "title": "Core Tech Stack & Skills",
@@ -87,7 +101,7 @@ JSON SCHEMA REQUIRED:
         {
           "title": "The Execution Plan",
           "subconsciousQuestion": "What exactly should I do tomorrow?",
-          "content": "**Path 1: The Traditional Route**\nExplain the exact degree, internships, and first job title to target.\n\n**Path 2: The Hacker Route**\nExplain bootcamps, specific portfolio projects, and bypassing HR.\n\n**Path 3: The Pivot Route**\nExplain how to transition from an unrelated job leveraging outside capital or freelance gigs."
+          "content": "**Path 1: The Traditional Route**\\nExplain the exact degree, internships, and first job title.\\n\\n**Path 2: The Hacker Route**\\nExplain bootcamps, portfolio projects, and bypassing HR.\\n\\n**Path 3: The Pivot Route**\\nExplain how to transition from an unrelated job leveraging outside capital or freelance gigs."
         },
         {
           "title": "Time & Money Cost",
@@ -107,7 +121,7 @@ JSON SCHEMA REQUIRED:
         {
           "title": "A Day in the Life",
           "subconsciousQuestion": "What is hour-by-hour reality?",
-          "content": "Highly detailed narrative of what a typical Tuesday looks like from morning standup to logging off."
+          "content": "Highly detailed narrative of what a typical Tuesday looks like. Break it up with a punchy list of metrics at the end (e.g., **Meetings:** High, **Travel:** Low)."
         },
         {
           "title": "Stress & Burnout Risk",
@@ -124,6 +138,11 @@ JSON SCHEMA REQUIRED:
     {
       "title": "The Future",
       "cards": [
+        {
+          "title": "10-Year Demand",
+          "subconsciousQuestion": "Is this industry dying?",
+          "content": "Honest assessment of the expected growth rate and market demand over the next decade."
+        },
         {
           "title": "AI Threat Level",
           "subconsciousQuestion": "Will ChatGPT take my job in 5 years?",
