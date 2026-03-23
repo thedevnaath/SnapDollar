@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnapDollar | Career Deep Dive</title>
+    
+    <meta name="description" content="Check out this high-ROI career breakdown on SnapDollar.">
     <meta property="og:title" content="SnapDollar | Career Intelligence">
     <meta property="og:description" content="Check out this high-ROI career breakdown.">
     <meta property="og:image" content="https://snapdollar.web.app/logo.png">
@@ -138,19 +140,35 @@
                 
                 const data = await response.json();
 
-                // 1. Inject the Header Data
+                // 1. Inject the Visible Header Data
                 document.title = `SnapDollar | ${data.title}`;
                 document.getElementById('job-title').innerText = data.title;
                 document.getElementById('job-overview').innerText = data.description;
                 document.getElementById('last-updated').innerText = data.lastUpdated || "Recently Updated";
                 document.getElementById('job-icon').setAttribute('data-lucide', data.icon || 'briefcase');
                 
-                // 2. Inject Top Metrics
+                // 2. Inject the Invisible SEO Payload (Google & AI crawlers)
+                if (data.seoMetaDescription) {
+                    const metaDesc = document.querySelector('meta[name="description"]');
+                    if (metaDesc) metaDesc.content = data.seoMetaDescription;
+                    
+                    const ogDesc = document.querySelector('meta[property="og:description"]');
+                    if (ogDesc) ogDesc.content = data.seoMetaDescription;
+                }
+
+                if (data.seoSchema) {
+                    const schemaScript = document.createElement('script');
+                    schemaScript.type = "application/ld+json";
+                    schemaScript.textContent = JSON.stringify(data.seoSchema);
+                    document.head.appendChild(schemaScript);
+                }
+
+                // 3. Inject Top Metrics
                 document.getElementById('roi-rating').innerText = data.roiRating;
                 document.getElementById('salary-range').innerText = data.salaryRange;
                 document.getElementById('job-sector').innerText = data.sector;
                 
-                // 3. Dynamically Generate the Content Grid from AI Sections
+                // 4. Dynamically Generate the Content Grid from AI Sections
                 const contentGrid = document.getElementById('dynamic-content-grid');
                 contentGrid.innerHTML = ''; // Clear it out
 
