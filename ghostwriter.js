@@ -169,6 +169,137 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        } else if (currentJob.sector === "medical") {
+            // ==========================================
+            // MASTER PROMPT 4.0 (HEALTHCARE & MEDICINE)
+            // ==========================================
+            console.log("⚕️ Loading Healthcare & Medicine Prompt (Master Prompt 4.0)...");
+            prompt = `
+You are an elite medical career strategist, healthcare data analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a highly professional, brutally honest tone suitable for adults making life-altering decisions. Do not sugarcoat medicine. Be brutally honest about student debt, the grueling residency years, bodily fluids, emotional trauma, and charting/insurance paperwork.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings to prevent visual fatigue.
+4. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core medical function and the ultimate patient/financial impact.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'salary, residency length, and burnout rate'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range including post-residency attending salaries."
+  },
+  "salaryRange": "e.g., $250k - $600k+ (Attending)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., stethoscope, activity, cross)",
+  "sections": [
+    {
+      "title": "The Diagnosis & The Money",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact medical/financial pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about debt/residency/stress]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "What You Actually Do (Patients vs. Paperwork)",
+          "subconsciousQuestion": "Am I doing surgery, or filling out insurance forms?",
+          "content": "Deeply explain the daily mechanics. Give a realistic ratio of direct patient care vs. EMR (Electronic Medical Record) charting."
+        },
+        {
+          "title": "The Financial Reality (Training vs. Attending)",
+          "subconsciousQuestion": "When do I actually get rich?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n📉 **During Training (Residency/Fellowship):** $X - $Y (Explain the low pay for 80-hour weeks)\\n📈 **Fully Licensed (Attending):** $X - $Y\\n\\n💡 **The Payoff:** Explain how compensation scales (e.g., RVUs, shift differentials, partnership track)."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Am I built for this?",
+          "content": "Explicitly state who this is for: **Introverted puzzle solver (e.g., Pathology) or High-Adrenaline Extrovert (e.g., ER)?** Explain why."
+        },
+        {
+          "title": "Scope of Practice & Autonomy",
+          "subconsciousQuestion": "Who is my boss?",
+          "content": "Explain if this role requires physician supervision, or if they hold ultimate legal authority/liability."
+        }
+      ]
+    },
+    {
+      "title": "The Gauntlet (Getting In)",
+      "cards": [
+        {
+          "title": "The Execution Plan (The Pipeline)",
+          "subconsciousQuestion": "What is the exact timeline?",
+          "content": "Map the strict years required using arrows: e.g., **Pre-Med (4 Yrs) ➔ Med School (4 Yrs) ➔ Residency (3-7 Yrs) ➔ Fellowship**."
+        },
+        {
+          "title": "The Filter (Acceptance & Match Rates)",
+          "subconsciousQuestion": "What are the odds I actually make it?",
+          "content": "Brutally honest statistics on program acceptance rates, board exams (USMLE/NCLEX), and the stress of 'The Match'."
+        },
+        {
+          "title": "Time & Massive Debt Cost",
+          "subconsciousQuestion": "Will I owe half a million dollars?",
+          "content": "Estimate the total cost of required schooling ($X - $Y) and the total years post-high school before hitting peak earning potential."
+        }
+      ]
+    },
+    {
+      "title": "The Physical Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "Will I ever sleep?",
+          "content": "Explain the schedule structure: **Shift Work (e.g., 3x12s), Clinic Hours (9-to-5), or On-Call schedules.** Describe a typical, exhausting day."
+        },
+        {
+          "title": "The Trauma & Burnout Risk",
+          "subconsciousQuestion": "Will this destroy my mental health?",
+          "content": "Rating (High/Medium/Low) plus a brutal explanation of the main daily stressor (e.g., life-and-death decisions, abusive patients, malpractice fear)."
+        },
+        {
+          "title": "The 'Gross' Factor & Physical Toll",
+          "subconsciousQuestion": "Can my stomach handle this?",
+          "content": "Explain the exposure to bodily fluids, infectious diseases, and the physical toll of standing for 10+ hours in an OR or unit."
+        }
+      ]
+    },
+    {
+      "title": "The Prognosis & The Future",
+      "cards": [
+        {
+          "title": "Private Practice vs. Corporate Hospital",
+          "subconsciousQuestion": "Can I be my own boss?",
+          "content": "Explain if opening a private clinic is still viable for this specialty, or if it is heavily dominated by corporate hospital employment."
+        },
+        {
+          "title": "Exit Opportunities (The Non-Clinical Pivot)",
+          "subconsciousQuestion": "If I hate patient care, how do I pay off my loans?",
+          "content": "List 2-3 specific non-clinical roles they can pivot into (e.g., Medical Consulting, Pharma, Hospital Admin)."
+        },
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will AI diagnose patients better than me?",
+          "content": "Honest assessment of whether AI is a tool to help them (safe) or a threat to replace them (risk)."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
         } else {
             // ==========================================
             // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
