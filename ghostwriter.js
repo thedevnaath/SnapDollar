@@ -35,8 +35,146 @@ async function runGhostwriter() {
         // 3. Generate today's date for the "Last Updated" tag
         const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-        // 4. The Master Psychological & SEO Prompt 2.0
-        const prompt = `
+        // 4. THE PROMPT SWITCHBOARD (Routing logic based on sector)
+        let prompt = "";
+
+        if (currentJob.sector === "finance") {
+            // ==========================================
+            // MASTER PROMPT 3.0 (FINANCE & BUSINESS)
+            // ==========================================
+            console.log("💼 Loading Finance & Business Prompt (Master Prompt 3.0)...");
+            prompt = `
+You are an elite Wall Street career strategist, financial data analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a highly professional, financially-focused tone suitable for adults making serious life decisions. Zero corporate fluff. Be brutally honest about toxic hours, burnout, and gatekeeping.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings to prevent visual fatigue.
+4. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core function and the ultimate financial upside.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'salary, hours, and exit opportunities'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range including bonuses."
+  },
+  "salaryRange": "e.g., $150k - $400k+ (Includes Bonus)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., pie-chart, trending-up, landmark)",
+  "sections": [
+    {
+      "title": "The Basics & The Money",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact financial/career pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about hours/stress]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "What You Actually Do",
+          "subconsciousQuestion": "Am I just staring at Excel, or closing deals?",
+          "content": "Deep, detailed paragraph explaining the daily mechanics using the 15-year-old rule."
+        },
+        {
+          "title": "Total Compensation (Base + Bonus)",
+          "subconsciousQuestion": "How rich will I actually get?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n🇺🇸 USA: $X Base + [X-Y]% Bonus\\n🇬🇧 UK: £X Base + [X-Y]% Bonus\\n\\n📈 **The Payoff:** Explain how bonuses and profit-sharing (carry) work in this specific role."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Does my brain actually work like this?",
+          "content": "Explicitly state who this is for: **Introvert or Extrovert?** **Risk-Taker or Stable Thinker?** Explain why."
+        },
+        {
+          "title": "Hard Tools & Hidden Skills",
+          "subconsciousQuestion": "Do I need to be a math genius or a smooth talker?",
+          "content": "**The Hard Tools:** [List 2-3 like Excel, Bloomberg, Python]\\n**The Hidden Traits:** [List 2-3 psychological traits like 'Ruthless prioritization' or 'High rejection tolerance']."
+        }
+      ]
+    },
+    {
+      "title": "Getting In (The Price of Admission)",
+      "cards": [
+        {
+          "title": "The Execution Plan",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "**Path 1: The Target School Route**\\nExplain the Ivy League/Top Tier undergrad to internship pipeline.\\n\\n**Path 2: The MBA Pivot**\\nExplain going back to a top business school to break in.\\n\\n**Path 3: The Non-Target Hustle**\\nExplain how to network in from a normal college."
+        },
+        {
+          "title": "The Pedigree & Network Barrier",
+          "subconsciousQuestion": "Can I get in if I didn't go to Harvard?",
+          "content": "Brutally honest assessment of how much the name of your university matters for this specific role."
+        },
+        {
+          "title": "Time & Money Cost",
+          "subconsciousQuestion": "Is the student debt worth it?",
+          "content": "Estimate the cost of required degrees/MBAs/CFAs vs. the starting salary."
+        }
+      ]
+    },
+    {
+      "title": "The Brutal Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "Will I ever sleep or see my family?",
+          "content": "**Morning (Strategy/Prep):** [What happens]\\n**Afternoon (Execution/Meetings):** [What happens]\\n**Evening (Reporting/Revisions):** [What happens]\\n\\n⏱ **Expected Hours:** [e.g., 60-80 hours/week]"
+        },
+        {
+          "title": "Stress & Burnout Risk",
+          "subconsciousQuestion": "Will this destroy my mental health?",
+          "content": "Rating (High/Medium/Low) plus a brutal explanation of the main daily stressor (e.g., demanding clients, market crashes)."
+        },
+        {
+          "title": "Culture & Environment",
+          "subconsciousQuestion": "Is it a toxic 'Wolf of Wall Street' vibe?",
+          "content": "Explain the office politics and general vibe of this specific sector."
+        }
+      ]
+    },
+    {
+      "title": "The Endgame & The Future",
+      "cards": [
+        {
+          "title": "The Corporate Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "Draw the exact timeline using arrows: e.g., **Analyst (Yrs 1-2) ➔ Associate (Yrs 3-5) ➔ VP (Yrs 6-8) ➔ Managing Director**"
+        },
+        {
+          "title": "Exit Opportunities",
+          "subconsciousQuestion": "Where do I go after I burn out?",
+          "content": "List the top 2-3 highly lucrative 'exit' careers people pivot to after leaving this job."
+        },
+        {
+          "title": "AI Threat Level & 10-Year Demand",
+          "subconsciousQuestion": "Will AI just do all the financial modeling?",
+          "content": "Honest assessment of automation risk and whether this specific industry is growing or shrinking."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
+        } else {
+            // ==========================================
+            // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
+            // ==========================================
+            console.log("💻 Loading Tech & Data Prompt (Master Prompt 2.0)...");
+            prompt = `
 You are an elite career strategist, data analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
 Sector: "${currentJob.sector}".
 
@@ -162,6 +300,7 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        }
 
         console.log("🧠 Thinking...");
         const result = await model.generateContent(prompt);
