@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "cloud-security-architect",
+      "title": "Cloud Security Architect",
+      "icon": "shieldCheck",
+      "description": "Cloud Security Architects are the master builders of digital fortresses in the cloud. They design and implement the complex security systems that protect companies' data and applications, ensuring they are safe from hackers and compliant with strict rules. This role combines deep technical know-how with strategic thinking to prevent digital disasters.",
+      "salaryRange": "$150k - $250k",
+      "roiRating": "High"
+    },
+    {
       "id": "mlops-engineer",
       "title": "Machine Learning Operations (MLOps) Engineer",
       "icon": "cloud",
