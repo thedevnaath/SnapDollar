@@ -1,5 +1,14 @@
 {
   "category": "Finance & Markets",
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
-  "careers": []
+  "careers": [
+    {
+      "id": "quantitative-analyst-quant",
+      "title": "Quantitative Analyst (Quant)",
+      "icon": "sigma",
+      "description": "Quants are the rocket scientists of finance, designing and implementing complex mathematical models for pricing financial instruments, managing risk, and executing trading strategies. This role demands deep analytical rigor and coding proficiency, offering elite compensation for those who can turn numbers into profit.",
+      "salaryRange": "$150k - $600k+ (Includes Bonus)",
+      "roiRating": "High"
+    }
+  ]
 }
