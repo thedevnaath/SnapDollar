@@ -431,6 +431,137 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        } else if (currentJob.sector === "creative") {
+            // ==========================================
+            // MASTER PROMPT 6.0 (CREATIVE & MEDIA)
+            // ==========================================
+            console.log("🎨 Loading Creative & Media Prompt (Master Prompt 6.0)...");
+            prompt = `
+You are an elite creative director, media career strategist, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a highly professional, brutally honest tone suitable for adults. Do not sugarcoat the "starving artist" trope. Be brutally honest about the 'Passion Tax', the extreme AI threat to creatives, and the feast-or-famine gig economy.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings to prevent visual fatigue. Keep paragraphs punchy.
+4. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core creative function and the ultimate commercial/business upside.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'freelance salary, portfolio requirements, and AI risk'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range including freelance potential."
+  },
+  "salaryRange": "e.g., $50k - $120k+ (Highly Variable)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., pen-tool, camera, monitor-play)",
+  "sections": [
+    {
+      "title": "The Canvas & The Cash",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact creative/lifestyle pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about subjective rejection or unstable income]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "Art vs. Admin (The Daily Split)",
+          "subconsciousQuestion": "Am I just creating all day, or dealing with annoying clients?",
+          "content": "Deeply explain the daily mechanics. Give a realistic percentage breakdown (e.g., 60% actual design/creation vs. 40% client management, pitching, and revisions)."
+        },
+        {
+          "title": "The Financial Reality (Stable vs. Hustle)",
+          "subconsciousQuestion": "Will I be a starving artist?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n🏢 **In-House / Studio (Stable):** $X - $Y\\n🚀 **Freelance / Creator (Variable):** $X - $Y\\n\\n💡 **The Payoff:** Explain the feast-or-famine nature of this role and how top earners scale (e.g., day-rates, retainers, sponsorships)."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Do I have thick enough skin for this?",
+          "content": "Explicitly state who this is for: **Fragile Artist or Commercial Problem-Solver?** Explain how they must handle brutal, subjective client feedback."
+        },
+        {
+          "title": "The 'Invisible' Skills",
+          "subconsciousQuestion": "What matters besides my raw talent?",
+          "content": "Explain that raw talent is only 50% of the job. List the critical business skills required (e.g., sales, personal branding, hitting ruthless deadlines)."
+        }
+      ]
+    },
+    {
+      "title": "The Portfolio & The Pedigree",
+      "cards": [
+        {
+          "title": "The Execution Plan (The 3 Playbooks)",
+          "subconsciousQuestion": "How do I actually get hired?",
+          "content": "Map the entry paths:\\n**Path 1: The Formal/Studio Route:** (e.g., BFA ➔ Prestigious Internship).\\n**Path 2: The Freelance Hustle:** (Cold-emailing, Upwork, building retainer clients).\\n**Path 3: The Creator Route:** (Building a direct audience on YouTube/Social Media)."
+        },
+        {
+          "title": "The True Gatekeeper (Portfolio vs. Paper)",
+          "subconsciousQuestion": "Do I *really* need a degree?",
+          "content": "Brutally assess if this role demands formal academics (e.g., Architecture) OR if a killer showreel/portfolio makes a degree 100% irrelevant (e.g., Video Editing)."
+        },
+        {
+          "title": "Time & Debt Cost (The 'Art School' ROI)",
+          "subconsciousQuestion": "Should I go $100k into debt for this?",
+          "content": "Evaluate the cost of formal training vs. the expected starting salary. Compare an expensive art/film school network against spending $0 learning on YouTube."
+        }
+      ]
+    },
+    {
+      "title": "The Mental Toll",
+      "cards": [
+        {
+          "title": "A Day in the Life (The Creative Grind)",
+          "subconsciousQuestion": "Is it glamorous or just exhausting?",
+          "content": "Map the chaos: Ideation ➔ Execution ➔ 'The Client Feedback Loop of Doom'. Describe a typical, creatively draining day."
+        },
+        {
+          "title": "Burnout & 'The Passion Tax'",
+          "subconsciousQuestion": "Will this job make me hate my hobby?",
+          "content": "Explain 'The Passion Tax' (companies underpaying because 'you love what you do') and the stress of turning creativity into an on-demand commodity."
+        },
+        {
+          "title": "Culture & Job Security",
+          "subconsciousQuestion": "Will I get fired if the client budget dries up?",
+          "content": "Explain the extreme volatility of the creative agency and gig economy. (e.g., 'Agency loses a major client, half the creative team gets fired')."
+        }
+      ]
+    },
+    {
+      "title": "The Endgame & The Future",
+      "cards": [
+        {
+          "title": "The Creative Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "Draw the exact timeline from 'Doer' to 'Director': e.g., **Junior Designer ➔ Senior Creative ➔ Art Director ➔ Agency Partner**."
+        },
+        {
+          "title": "Solo / Founder Scope (Building the Agency)",
+          "subconsciousQuestion": "Can I build my own empire?",
+          "content": "Explain the exact transition from a solo freelancer to owning a boutique production company or design agency."
+        },
+        {
+          "title": "AI Threat Level (The Generative Tsunami)",
+          "subconsciousQuestion": "Will Midjourney and Sora steal my job?",
+          "content": "Brutal, honest assessment of automation risk. Assess if this specific role will be wiped out, or if they must adapt to become an 'AI Director'."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
         } else {
             // ==========================================
             // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
