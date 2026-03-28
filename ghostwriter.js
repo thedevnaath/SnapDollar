@@ -693,6 +693,138 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        } else if (currentJob.sector === "publicservice") {
+            // ==========================================
+            // MASTER PROMPT 8.0 (LAW & PUBLIC SERVICE)
+            // ==========================================
+            console.log("⚖️ Loading Law & Public Service Prompt (Master Prompt 8.0)...");
+            prompt = `
+You are an elite legal career strategist, government policy analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply. Maintain a brutally honest tone. Shatter the "Suits" or "Law & Order" TV fantasy. 
+3. GLOBAL ADAPTABILITY: Do NOT use country-specific acronyms exclusively (e.g., instead of just "The US Bar Exam", say "your country's national licensing exam, like the Bar or Judiciary exams"). Speak in universal archetypes about government bureaucracy, red tape, and corporate law.
+4. Highlight the "Bimodal Salary Trap" (extreme wealth in private corporate law vs. low pay/high stability in government/public defense).
+5. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core justice/policy function and the ultimate societal/financial reality.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'salary, required exams, and burnout'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range highlighting the Private Sector vs. Public Sector gap."
+  },
+  "salaryRange": "e.g., $60k (Public) - $215k+ (Private)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., scale, shield, building-2)",
+  "sections": [
+    {
+      "title": "The Power & The Paycheck",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact societal/financial pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about bureaucracy, billable hours, or debt]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "Impact vs. Bureaucracy (The Daily Split)",
+          "subconsciousQuestion": "Am I saving the world, or just doing paperwork?",
+          "content": "Shatter the TV fantasy. Give a brutal percentage split between the idealized work (arguing cases, catching bad guys) versus the crushing reality of filing motions, reading endless case law, or navigating government red tape."
+        },
+        {
+          "title": "The Financial Reality (Private Cash vs. Public Pension)",
+          "subconsciousQuestion": "Will I actually be rich?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n🏛️ **Public/Government (High Stability, Pensions):** $X - $Y\\n🏢 **Private/Corporate (Cutthroat, Massive Cash):** $X - $Y\\n\\n💡 **The Payoff:** Explain the bimodal salary trap—why there is rarely a 'middle' income in this field."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Do I have the stomach for this?",
+          "content": "Explicitly state who this is for. Contrast the 'Ruthless negotiator' with the 'Patient, rule-following administrator' or the 'High-stress crisis manager'."
+        },
+        {
+          "title": "The 'Invisible' Skills",
+          "subconsciousQuestion": "Is being passionate about justice enough?",
+          "content": "Explain that passion means nothing without extreme reading comprehension, navigating intense office politics, or passing deep background checks."
+        }
+      ]
+    },
+    {
+      "title": "The Gatekeepers & The Debt",
+      "cards": [
+        {
+          "title": "The Execution Plan (The Pipeline)",
+          "subconsciousQuestion": "What is the exact timeline?",
+          "content": "Map the pipeline using global terms: e.g., **Undergrad ➔ National Entrance Exam (e.g., LSAT/Civil Service) ➔ Academy/Law School ➔ Licensing**."
+        },
+        {
+          "title": "The True Gatekeeper (Clearances & Pedigree)",
+          "subconsciousQuestion": "Will a mistake from my past ruin my chances?",
+          "content": "Brutally explain how Elite University Pedigree acts as a gatekeeper for corporate wealth, OR how past drug use/debt will cause you to fail a national security clearance for government work."
+        },
+        {
+          "title": "Time & The Debt Trap",
+          "subconsciousQuestion": "Will I be crushed by student loans?",
+          "content": "Address the extreme debt of law school (often $200k+) versus the $0 debt of a government/police academy. Discuss the reality of relying on 10-year public service loan forgiveness programs."
+        }
+      ]
+    },
+    {
+      "title": "The Moral Toll",
+      "cards": [
+        {
+          "title": "A Day in the Life (The Grind)",
+          "subconsciousQuestion": "Is it exciting or soul-crushing?",
+          "content": "Describe the grind. Highlight the 'billable hour' (tracking life in 6-minute increments) for private law, or the slow, methodical pace of government policy work."
+        },
+        {
+          "title": "Moral Injury & Burnout Risk",
+          "subconsciousQuestion": "Will this destroy my faith in humanity?",
+          "content": "Discuss 'moral injury': e.g., lawyers defending guilty corporations, social workers fighting broken systems, or police dealing with trauma. Rate the burnout risk."
+        },
+        {
+          "title": "Culture & Job Security (The Golden Handcuffs)",
+          "subconsciousQuestion": "Is it a toxic environment?",
+          "content": "Contrast the cutthroat 'up or out' culture of private law firms with the extreme job security of government work (where it is nearly impossible to be fired, breeding complacency)."
+        }
+      ]
+    },
+    {
+      "title": "The Endgame & The Future",
+      "cards": [
+        {
+          "title": "The Hierarchy Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "Draw the exact timeline: e.g., **Junior Associate ➔ Senior Associate ➔ Partner** OR **Entry Civil Servant ➔ Senior Executive/Director**."
+        },
+        {
+          "title": "Solo / Founder Scope (The Empire vs. The Pivot)",
+          "subconsciousQuestion": "Can I build my own empire?",
+          "content": "CRITICAL INSTRUCTION: If this is a Private Law career, explain how to build a solo practice and scale to a multi-partner firm. IF this is a Public/Government career, state brutally that you cannot 'start a government', but explain the lucrative 'Revolving Door' pivot (quitting government to do private consulting, lobbying, or defense contracting)."
+        },
+        {
+          "title": "AI Threat Level (The Paperwork Purge)",
+          "subconsciousQuestion": "Will AI write all the contracts/policy?",
+          "content": "Assess if this role is safe (e.g., courtroom judges, field agents) or highly threatened by AI doing document review and policy drafting in seconds."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
         } else {
             // ==========================================
             // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
