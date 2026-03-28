@@ -1,6 +1,14 @@
 {
   "category": "Law & Public Service",
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
-  "careers": []
+  "careers": [
+    {
+      "id": "corporate-lawyer-m-and-a",
+      "title": "Corporate Lawyer (M&A)",
+      "icon": "building-2",
+      "description": "A Corporate Lawyer specializing in Mergers & Acquisitions (M&A) navigates the complex legal landscape of company takeovers, divestitures, and consolidations. This role is a private sector powerhouse, driven by massive financial transactions, offering extreme wealth potential at the cost of relentless hours and immense pressure. It stands in stark contrast to the stability and public service ethos of government roles.",
+      "salaryRange": "N/A (Public M&A) - $215k+ (Private, Entry-Level) to $1M+ (Private, Partner)",
+      "roiRating": "High"
+    }
+  ]
 }
-
