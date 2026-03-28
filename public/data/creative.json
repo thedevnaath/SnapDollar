@@ -1,5 +1,14 @@
 {
   "category": "Creative & Media",
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
-  "careers": []
+  "careers": [
+    {
+      "id": "art-director",
+      "title": "Art Director",
+      "icon": "palette",
+      "description": "An Art Director is the visionary leader shaping the visual identity and aesthetic of campaigns, brands, or products. They translate strategic goals into compelling visual narratives, guiding teams to execute their creative vision. It's where high-level creative strategy meets commercial impact.",
+      "salaryRange": "$70k - $180k+ (Highly Variable)",
+      "roiRating": "High"
+    }
+  ]
 }
