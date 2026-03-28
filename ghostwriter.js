@@ -300,6 +300,137 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        } else if (currentJob.sector === "engineering") {
+            // ==========================================
+            // MASTER PROMPT 5.0 (ENGINEERING & TRADES)
+            // ==========================================
+            console.log("👷 Loading Engineering & Trades Prompt (Master Prompt 5.0)...");
+            prompt = `
+You are an elite career strategist, industrial data analyst, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a highly professional, brutally honest tone suitable for adults making life-altering decisions. Do not sugarcoat the physical toll of the trades or the math gatekeeping of engineering. Be brutally honest about debt, union vs. non-union, and physical destruction.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings to prevent visual fatigue. Keep paragraphs punchy and engaging.
+4. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core building function and the ultimate financial/business upside.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'salary, union apprenticeships, and physical toll'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range including overtime or union rates."
+  },
+  "salaryRange": "e.g., $80k - $150k+ (With Overtime)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., hard-hat, wrench, compass)",
+  "sections": [
+    {
+      "title": "The Blueprint & The Money",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact financial/lifestyle pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about physical toll or math difficulty]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "The 'Desk vs. Dirt' Ratio",
+          "subconsciousQuestion": "Am I staring at a screen, or wearing a hard hat?",
+          "content": "Deeply explain the daily mechanics in an engaging way. Give a realistic percentage of time spent in the office designing (e.g., AutoCAD) vs. time spent out on the physical job site getting dirty."
+        },
+        {
+          "title": "The Financial Reality (Base vs. Overtime)",
+          "subconsciousQuestion": "How rich will I actually get?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n🇺🇸 USA: $X Base + [High/Low] Overtime Potential\\n🇬🇧 UK: £X Base + [High/Low] Overtime Potential\\n\\n💡 **The Payoff:** Explain how compensation scales (e.g., Union scale, Time-and-a-half, Per Diem travel pay, or PE license bumps)."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Am I built for this?",
+          "content": "Explicitly state who this is for: **Hyper-detail-oriented Math Nerd or Hands-on Spatial Problem Solver?** Explain exactly why."
+        },
+        {
+          "title": "Hard Tools & Physical Skills",
+          "subconsciousQuestion": "Calculus genius or good with my hands?",
+          "content": "List the required software (e.g., SolidWorks, Revit) OR the required physical mastery (e.g., TIG welding, wiring schematics, heavy machinery)."
+        }
+      ]
+    },
+    {
+      "title": "The Foundation (Getting In)",
+      "cards": [
+        {
+          "title": "The Execution Plan (Degree vs. Union)",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "Map the entry paths clearly:\\n**Path 1: The University Route:** (e.g., ABET Degree ➔ FE Exam).\\n**Path 2: The Apprenticeship Route:** (e.g., Union IBEW / Trade School ➔ Journeyman)."
+        },
+        {
+          "title": "The Gatekeeper (Licenses & Exams)",
+          "subconsciousQuestion": "What test do I have to pass to matter?",
+          "content": "Brutally honest explanation of the required licenses you cannot fake (e.g., Professional Engineer (PE) exam, Master Plumber license, AWS Welding certs)."
+        },
+        {
+          "title": "Time & Debt Cost (The ROI Hack)",
+          "subconsciousQuestion": "Will I graduate broke?",
+          "content": "Contrast the total cost of an Engineering degree ($80k+ debt) against a Trade apprenticeship ($0 debt, paid to learn). Give exact timeframes so users see the immediate value."
+        }
+      ]
+    },
+    {
+      "title": "The Physical Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life (Site vs. Studio)",
+          "subconsciousQuestion": "Am I waking up at 5:00 AM?",
+          "content": "Explain the exact hours (e.g., 6:00 AM site starts vs. 9:00 AM office starts). Describe a typical day of building or designing, keeping it punchy."
+        },
+        {
+          "title": "The Physical Toll & Safety Risk",
+          "subconsciousQuestion": "Will my body be destroyed by age 50?",
+          "content": "Rating (High/Medium/Low) plus a brutal explanation of the hazards (e.g., blown knees, asbestos, high-voltage risk, or just carpal tunnel from CAD software)."
+        },
+        {
+          "title": "Culture & Job Security",
+          "subconsciousQuestion": "Will I get laid off when the economy crashes?",
+          "content": "Explain the 'Boom/Bust' cycle of construction/manufacturing, the likelihood of seasonal layoffs, and the blunt, thick-skinned culture of job sites."
+        }
+      ]
+    },
+    {
+      "title": "The Master Builder & The Future",
+      "cards": [
+        {
+          "title": "The Master Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "Draw the exact timeline: e.g., **Apprentice ➔ Journeyman ➔ Foreman ➔ Master** OR **EIT ➔ Licensed PE ➔ Principal Engineer**."
+        },
+        {
+          "title": "Solo / Founder Scope (The Golden Ticket)",
+          "subconsciousQuestion": "Can I be my own boss?",
+          "content": "Explain exactly how easy/hard it is to start an independent contracting business or engineering firm with these specific skills."
+        },
+        {
+          "title": "AI Threat Level (The Robot Resistance)",
+          "subconsciousQuestion": "Will robots take my job?",
+          "content": "Honest assessment of automation risk. Highlight if this is a highly 'AI-Proof' physical trade or a software-threatened desk job."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
         } else {
             // ==========================================
             // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
