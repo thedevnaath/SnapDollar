@@ -1,5 +1,14 @@
 {
   "category": "Science & Research",
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
-  "careers": []
+  "careers": [
+    {
+      "id": "biomedical-scientist",
+      "title": "Biomedical Scientist",
+      "icon": "dna",
+      "description": "Biomedical Scientists are the architects of medical innovation, meticulously dissecting diseases at the molecular level to engineer new therapies and diagnostic tools. This career demands relentless intellectual curiosity and an iron will, often trading immediate financial gain for the long game of scientific impact.",
+      "salaryRange": "$55k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    }
+  ]
 }
