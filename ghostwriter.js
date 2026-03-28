@@ -562,6 +562,137 @@ JSON SCHEMA REQUIRED:
     }
   ]
 }`;
+        } else if (currentJob.sector === "science") {
+            // ==========================================
+            // MASTER PROMPT 7.0 (SCIENCE & RESEARCH)
+            // ==========================================
+            console.log("🔬 Loading Science & Research Prompt (Master Prompt 7.0)...");
+            prompt = `
+You are an elite scientific career strategist, biotech VC investor, and SEO expert. Write a highly detailed, deeply researched JSON profile for the career: "${currentJob.title}".
+Sector: "${currentJob.sector}".
+
+CRITICAL INSTRUCTIONS & TONE:
+1. Output ONLY valid JSON. No markdown formatting outside of string values.
+2. The "15-Year-Old" Rule: Explain concepts simply enough for a 15-year-old to instantly grasp, but maintain a brutally honest, financially-grounded tone. Shatter the "mad scientist" illusion. Expose the reality of "Publish or Perish", the massive salary divide between Academia and Industry, and the extreme capital required to start a science business.
+3. Formatting: Use markdown (bolding, bullet points) heavily inside the "content" strings. Keep paragraphs punchy and engaging to prevent mental overload. 
+4. Anticipate the user's unasked anxieties. Give them practical, ruthless advice. Every card MUST have a "title", a "subconsciousQuestion", and "content".
+
+JSON SCHEMA REQUIRED:
+{
+  "id": "format-like-this",
+  "title": "Exact Job Title",
+  "sector": "${currentJob.sector}",
+  "lastUpdated": "${today}",
+  "description": "2-3 punchy sentences summarizing the core research function and the ultimate societal/financial impact.",
+  "seoMetaDescription": "Write a high-converting SEO meta description (under 155 chars) targeting search intent like 'PhD requirements, industry salary, and daily research reality'.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Exact Job Title",
+    "description": "1 paragraph summary for Google bots.",
+    "estimatedSalary": "Provide a realistic USD range highlighting the Academia vs. Industry gap."
+  },
+  "salaryRange": "e.g., $60k (Academia) - $180k+ (Industry)",
+  "roiRating": "High / Medium / Low",
+  "icon": "A relevant Lucide icon name (e.g., flask-conical, dna, atom)",
+  "sections": [
+    {
+      "title": "The Discovery & The Money",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** [High-impact intellectual/societal pro]\\n✅ **Pro:** [Second pro]\\n❌ **Con:** [Brutal con about funding, repetitive tasks, or PhD ceilings]\\n❌ **Con:** [Second con]"
+        },
+        {
+          "title": "Lab Coat vs. Laptop (The Daily Split)",
+          "subconsciousQuestion": "Am I doing cool experiments, or just reading and writing?",
+          "content": "Shatter the illusion. Give a brutal percentage split between actual bench/field-work versus data analysis, reading papers, and writing grant proposals to beg for money."
+        },
+        {
+          "title": "The Financial Reality (Academia vs. Industry)",
+          "subconsciousQuestion": "Will I be broke forever?",
+          "content": "Provide realistic data formatted EXACTLY like this:\\n🏛️ **University / Post-Doc (Low Pay, High Prestige):** $X - $Y\\n🏢 **Corporate R&D / Pharma (High Pay, Lower Freedom):** $X - $Y\\n\\n💡 **The Payoff:** Explain why scientists often 'sell out' to industry to actually build wealth."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Am I built for this?",
+          "content": "Explicitly state who this is for. Emphasize the absurd tolerance for failure required (e.g., 90% of experiments fail) vs. the need for deep, patient curiosity."
+        },
+        {
+          "title": "The 'Invisible' Skills",
+          "subconsciousQuestion": "Is being smart enough?",
+          "content": "Explain that raw intelligence isn't enough. Highlight the absolute necessity of statistical coding (Python/R), academic writing, and public speaking to secure grants."
+        }
+      ]
+    },
+    {
+      "title": "The Pipeline & The Pedigree",
+      "cards": [
+        {
+          "title": "The Execution Plan (The Degree Gauntlet)",
+          "subconsciousQuestion": "What is the exact timeline?",
+          "content": "Map the long haul clearly: e.g., **BS (4 Yrs) ➔ MS (2 Yrs) ➔ PhD (5-7 Yrs) ➔ Post-Doc (2-4 Yrs)**."
+        },
+        {
+          "title": "The Gatekeeper (The PhD Ceiling)",
+          "subconsciousQuestion": "Do I *really* need a Doctorate?",
+          "content": "Brutally explain the ceiling. Without a PhD, are you permanently capped as a 'Lab Tech'? With a PhD, can you become the 'Principal Investigator' (the boss)?"
+        },
+        {
+          "title": "Time & The Opportunity Cost",
+          "subconsciousQuestion": "Will I be 30 years old with no savings?",
+          "content": "Explain the 'Opportunity Cost'. Even if a STEM PhD is fully funded (no debt + small stipend), highlight the reality of losing 6 years of your 20s earning $30k/year while peers compound wealth."
+        }
+      ]
+    },
+    {
+      "title": "The Mental Toll",
+      "cards": [
+        {
+          "title": "A Day in the Life (The Research Grind)",
+          "subconsciousQuestion": "Is it exciting or repetitive?",
+          "content": "Describe a typical day. Highlight the tedious reality of running the same assay 400 times, cleaning bad data, and fighting formatting rules for journal submissions."
+        },
+        {
+          "title": "The 'Publish or Perish' Pressure",
+          "subconsciousQuestion": "What is the main stressor?",
+          "content": "Explain the toxic cycle of academia: if you don't consistently publish papers in high-impact journals, you lose your funding and your job."
+        },
+        {
+          "title": "Culture & Job Security",
+          "subconsciousQuestion": "Is this a stable career?",
+          "content": "Contrast the instability of living 'grant-to-grant' in university labs versus the ruthless but well-funded corporate culture of Big Tech or Pharma."
+        }
+      ]
+    },
+    {
+      "title": "The Endgame & The Future",
+      "cards": [
+        {
+          "title": "The Research Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "Draw the exact timeline: e.g., **PhD Candidate ➔ Post-Doc ➔ Assistant Professor ➔ Tenured Principal Investigator (PI)** OR **Research Scientist ➔ R&D Director**."
+        },
+        {
+          "title": "Solo / Founder Scope (Building the Empire)",
+          "subconsciousQuestion": "Can I build my own empire?",
+          "content": "Give a brutally realistic answer about capital. Explain that unlike a software startup, physical labs (Biotech/DeepTech) require millions in VC funding or university IP spin-offs. Suggest practical paths: securing massive VC, or building a high-cashflow side business (like consulting or SaaS) to fund the hard science."
+        },
+        {
+          "title": "AI Threat Level (The Ultimate Super-Tool)",
+          "subconsciousQuestion": "Will AI do the research for me?",
+          "content": "Honest assessment of automation risk. Explain that AI isn't replacing scientists, it's replacing *bad* scientists. Highlight how AI (like AlphaFold or LLMs) accelerates data modeling."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:** [2 bullet points of ideal scenarios]\\n\\n🔴 **NO if:** [2 bullet points of dealbreakers]"
+        }
+      ]
+    }
+  ]
+}`;
         } else {
             // ==========================================
             // MASTER PROMPT 2.0 (DEFAULT / TECH & DATA)
