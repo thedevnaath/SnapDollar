@@ -1,5 +1,14 @@
 {
   "category": "Healthcare & Medicine",
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
-  "careers": []
+  "careers": [
+    {
+      "id": "anesthesiologist",
+      "title": "Anesthesiologist",
+      "icon": "activity",
+      "description": "Anesthesiologists are the highly skilled physicians responsible for keeping patients safe, comfortable, and pain-free during surgery and other medical procedures. They manage vital signs, pain, and life support, often unseen, yet hold the ultimate control over a patient's physiological stability in their most vulnerable moments. Their expertise dictates survival and recovery, making them critical, high-impact specialists.",
+      "salaryRange": "$300k - $600k+ (Attending)",
+      "roiRating": "High"
+    }
+  ]
 }
