@@ -965,8 +965,12 @@ JSON SCHEMA REQUIRED:
         const result = await model.generateContent(prompt);
         let rawResponse = result.response.text();
 
-        // Clean markdown code blocks from JSON response if present
-        rawResponse = rawResponse.replace(/```json\n/g, '').replace(/```\n/g, '').replace(/```/g, '');
+        // Safety catch: Extract strictly what is between the first { and last }
+        const firstBrace = rawResponse.indexOf('{');
+        const lastBrace = rawResponse.lastIndexOf('}');
+        if (firstBrace !== -1 && lastBrace !== -1) {
+            rawResponse = rawResponse.substring(firstBrace, lastBrace + 1);
+        }
         
         const newCareerData = JSON.parse(rawResponse);
         const newFileName = `${newCareerData.id}.json`;
