@@ -66,6 +66,12 @@
 
         .salary-bar { display: flex; justify-content: space-between; margin-bottom: 1rem; color: var(--text-muted); }
         .salary-bar span:last-child { color: #fff; font-weight: 600; font-family: 'Space Grotesk', sans-serif; }
+        /* Sticky Related Careers */
+        .related-sticky-container { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(5, 5, 5, 0.95); backdrop-filter: blur(10px); border-top: 1px solid rgba(255,255,255,0.05); padding: 1rem 0; z-index: 100; text-align: center; display: none; }
+        .related-buttons-wrapper { display: flex; justify-content: center; gap: 1rem; max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+        .related-btn { flex: 1; max-width: 350px; background: var(--card-bg); border: 1px solid #222; color: var(--text-muted); padding: 0.8rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; font-weight: 500; display: flex; align-items: center; justify-content: space-between; transition: all 0.3s ease; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .related-btn:hover { border-color: var(--neon-emerald); color: var(--text-main); }
+        .container { padding-bottom: 6rem; } /* Adds space so the sticky bar doesn't hide the last card */
     </style>
 </head>
 <body>
