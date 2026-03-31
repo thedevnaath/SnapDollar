@@ -214,7 +214,35 @@
                 document.getElementById('loading-state').style.display = 'none';
                 document.getElementById('dashboard').style.display = 'block';
                 lucide.createIcons();
-
+                // 5. Load Related Careers Randomly
+                try {
+                    const categoryResponse = await fetch(`data/${data.sector}.json`);
+                    if (categoryResponse.ok) {
+                        const categoryData = await categoryResponse.json();
+                        // Filter out the current job
+                        const otherCareers = categoryData.careers.filter(c => c.id !== jobId);
+                        
+                        if (otherCareers.length > 0) {
+                            // Shuffle the array randomly
+                            otherCareers.sort(() => 0.5 - Math.random());
+                            // Pick top 2
+                            const selectedCareers = otherCareers.slice(0, 2);
+                            
+                            const wrapper = document.getElementById('related-buttons-wrapper');
+                            wrapper.innerHTML = selectedCareers.map(c => `
+                                <a href="career.html?id=${c.id}" class="related-btn">
+                                    <span style="overflow: hidden; text-overflow: ellipsis;">${c.title}</span>
+                                    <i data-lucide="arrow-right" style="width: 16px; height: 16px; min-width: 16px;"></i>
+                                </a>
+                            `).join('');
+                            
+                            document.getElementById('related-careers-sticky').style.display = 'block';
+                            lucide.createIcons();
+                        }
+                    }
+                } catch (e) {
+                    console.log("No related careers found or error fetching category.");
+                }
             } catch (error) {
                 console.error("Error fetching data:", error);
                 document.getElementById('loading-state').innerHTML = `
