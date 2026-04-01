@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "bookkeeper",
+      "title": "Bookkeeper",
+      "icon": "receipt-text",
+      "description": "Bookkeepers are the meticulous record-keepers of a company's financial transactions, ensuring every dollar in and out is accurately tracked. While not a path to Wall Street riches, it offers stable employment and a foundational understanding of business finance critical for any venture.",
+      "salaryRange": "$40k - $75k+ (Freelance/Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "staff-accountant",
       "title": "Staff Accountant",
       "icon": "book-open",
