@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "cfo-finance",
+      "title": "Chief Financial Officer (CFO)",
+      "icon": "landmark",
+      "description": "The Chief Financial Officer is the ultimate money boss, overseeing every financial aspect of a company, from cash flow to investments. This role carries immense responsibility for the company's financial health, offering unparalleled strategic influence and the potential for extraordinary wealth through salary, bonuses, and significant equity.",
+      "salaryRange": "$250,000 - $1,000,000+ (Base + Bonus + Equity)",
+      "roiRating": "High"
+    },
+    {
       "id": "venture-capitalist",
       "title": "Venture Capitalist",
       "icon": "trending-up",
