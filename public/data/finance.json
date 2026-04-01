@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "private-equity-associate",
+      "title": "Private Equity Associate",
+      "icon": "trending-up",
+      "description": "A Private Equity Associate is a junior investor who helps buy, grow, and sell companies. This role offers unparalleled financial compensation and a fast track to senior leadership or lucrative exit opportunities in the investment world.",
+      "salaryRange": "$250k - $550k+ (Includes Bonus & Carry Participation)",
+      "roiRating": "High"
+    },
+    {
       "id": "investment-banker",
       "title": "Investment Banker",
       "icon": "landmark",
