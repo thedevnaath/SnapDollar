@@ -1,10 +1,10 @@
 name: Weekly AI Ghostwriter
 
-# This tells the robot to wake up every Sunday at midnight (UTC)
+# This tells the robot to wake up every 5 minutes
 # We also add 'workflow_dispatch' so you can click a button to run it manually anytime.
 on:
-  #schedule:
-  #  - cron: '0 0 * * 0'
+  schedule:
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -43,4 +43,3 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SNAPDOLLAR }}
           channelId: live
           projectId: snapdollar
-
