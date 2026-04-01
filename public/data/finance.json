@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "staff-accountant",
+      "title": "Staff Accountant",
+      "icon": "book-open",
+      "description": "The Staff Accountant is the backbone of a company's financial operations, meticulously recording every dollar in and out to ensure financial statements are accurate and compliant. This foundational role offers a stable career path with clear progression into management or specialized finance functions, providing a solid launchpad for long-term financial security.",
+      "salaryRange": "$55k - $95k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "certified-public-accountant",
       "title": "Certified Public Accountant (CPA)",
       "icon": "scale",
