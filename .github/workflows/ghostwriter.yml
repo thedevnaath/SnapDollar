@@ -1,7 +1,5 @@
 name: Weekly AI Ghostwriter
 
-# This tells the robot to wake up every 5 minutes
-# We also add 'workflow_dispatch' so you can click a button to run it manually anytime.
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -21,7 +19,9 @@ jobs:
           node-version: '24'
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -g firebase-tools
 
       - name: Run Ghostwriter AI
         env:
