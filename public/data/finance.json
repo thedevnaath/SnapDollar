@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "financial-analyst",
+      "title": "Financial Analyst",
+      "icon": "pie-chart",
+      "description": "Financial Analysts are the core engine of Wall Street, dissecting financial data to inform critical investment and strategic decisions. You'll build complex models and forecasts, impacting billions. The payoff is high, but so is the demand for precision and relentless work.",
+      "salaryRange": "$75k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "bookkeeper",
       "title": "Bookkeeper",
       "icon": "receipt-text",
