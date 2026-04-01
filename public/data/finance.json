@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "venture-capitalist",
+      "title": "Venture Capitalist",
+      "icon": "trending-up",
+      "description": "Venture Capitalists (VCs) are financial gatekeepers who invest big money into tiny, unproven startups with massive potential. Your job is to find the next tech giant, fund its growth, and make a fortune when it goes public or gets acquired. High risk, colossal rewards, and unmatched influence in the innovation economy.",
+      "salaryRange": "$150k - $1.5M+ (Includes Base, Bonus, and significant Carry potential)",
+      "roiRating": "High"
+    },
+    {
       "id": "private-equity-associate",
       "title": "Private Equity Associate",
       "icon": "trending-up",
