@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "certified-public-accountant",
+      "title": "Certified Public Accountant (CPA)",
+      "icon": "scale",
+      "description": "The Certified Public Accountant (CPA) is the bedrock of financial integrity, ensuring companies play by the rules and giving investors confidence. It's a grueling path with relentless hours, but offers unmatched job security and a direct pipeline to senior corporate finance leadership, culminating in potential multi-million dollar partnership stakes.",
+      "salaryRange": "$60k - $1M+ (Includes Bonus & Partnership Share)",
+      "roiRating": "High"
+    },
+    {
       "id": "quantitative-analyst-quant",
       "title": "Quantitative Analyst (Quant)",
       "icon": "sigma",
