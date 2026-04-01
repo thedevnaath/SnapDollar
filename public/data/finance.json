@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "investment-banker",
+      "title": "Investment Banker",
+      "icon": "landmark",
+      "description": "Investment Bankers are elite financial advisors who help big companies raise money (like through IPOs) or buy/sell other companies (M&A). It's a hyper-competitive, high-stress career promising immense wealth and unparalleled career doors for those who survive its brutal demands.",
+      "salaryRange": "$150k - $1M+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "financial-analyst",
       "title": "Financial Analyst",
       "icon": "pie-chart",
