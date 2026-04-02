@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "credit-analyst",
+      "title": "Credit Analyst",
+      "icon": "scroll-text",
+      "description": "Credit Analysts are the gatekeepers of financial risk, meticulously evaluating the trustworthiness of borrowers before approving loans. It's a critical role offering solid compensation and deep analytical skill development, shielding banks and institutions from bad bets and ensuring financial stability.",
+      "salaryRange": "$80k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "underwriter-finance",
       "title": "Underwriter",
       "icon": "file-check",
