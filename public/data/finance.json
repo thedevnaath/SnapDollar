@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "underwriter-finance",
+      "title": "Underwriter",
+      "icon": "file-check",
+      "description": "Underwriters are the critical gatekeepers of finance, assessing risk to decide who gets a loan, insurance policy, or credit. They protect their firm from bad bets, ensuring stability and profitability by carefully analyzing financial health and potential liabilities.",
+      "salaryRange": "$70k - $250k+ (Includes Bonus, Highly Varies by Seniority & Sector)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mortgage-broker",
       "title": "Mortgage Broker",
       "icon": "home",
