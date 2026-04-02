@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "insurance-agent",
+      "title": "Insurance Agent",
+      "icon": "shield",
+      "description": "Connects individuals and businesses with essential protection against life's uncertainties, selling policies from health to property. This role offers uncapped commission potential, rewarding those with relentless sales drive and a knack for building trust.",
+      "salaryRange": "$45k - $250k+ (Includes Commission & Residuals)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "claims-adjuster",
       "title": "Claims Adjuster",
       "icon": "gavel",
