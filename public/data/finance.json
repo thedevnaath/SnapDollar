@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "chief-executive-officer-ceo",
+      "title": "Chief Executive Officer (CEO)",
+      "icon": "crown",
+      "description": "The CEO is the ultimate decision-maker, setting the strategic vision and overseeing all operations of a financial institution. This role commands unparalleled influence and, for those who reach the summit, offers some of the highest compensation packages in the global economy, often heavily weighted with equity.",
+      "salaryRange": "$1,000,000 - $50,000,000+ (Includes Equity & Performance Bonuses)",
+      "roiRating": "High"
+    },
+    {
       "id": "cfo-finance",
       "title": "Chief Financial Officer (CFO)",
       "icon": "landmark",
