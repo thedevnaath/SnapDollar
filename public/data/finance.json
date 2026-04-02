@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "wealth-manager",
+      "title": "Wealth Manager",
+      "icon": "hand-coins",
+      "description": "Wealth Managers advise high-net-worth individuals and families on complex financial decisions, ranging from investment strategies to estate planning. This career combines deep financial expertise with strong interpersonal skills, offering significant earning potential for those who excel at client acquisition and retention.",
+      "salaryRange": "$70k - $500k+ (Includes Bonus & Commissions)",
+      "roiRating": "High"
+    },
+    {
       "id": "financial-advisor",
       "title": "Financial Advisor",
       "icon": "trending-up",
