@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "trader",
+      "title": "Trader",
+      "icon": "trending-up",
+      "description": "Traders execute buy and sell orders for financial assets, aiming to profit from market movements. This high-stakes career offers immense financial upside for those who can consistently generate profits and manage risk. It's a relentless pursuit of alpha in volatile markets.",
+      "salaryRange": "$120k - $1M+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "stockbroker-career",
       "title": "Stockbroker",
       "icon": "trending-up",
