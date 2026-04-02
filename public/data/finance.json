@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "management-consultant",
+      "title": "Management Consultant",
+      "icon": "briefcase",
+      "description": "Management Consultants are elite problem-solvers hired by companies to fix tough challenges, identify growth opportunities, and optimize operations. It's a high-impact, high-stress career offering unparalleled learning, significant early-career compensation, and prestigious exit opportunities into corporate leadership or finance.",
+      "salaryRange": "$120k - $600k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "chief-executive-officer-ceo",
       "title": "Chief Executive Officer (CEO)",
       "icon": "crown",
