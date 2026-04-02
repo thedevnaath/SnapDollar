@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "actuary",
+      "title": "Actuary",
+      "icon": "calculator",
+      "description": "Actuaries are elite financial mathematicians who calculate risk and uncertainty for insurance companies, pension funds, and investment firms. They design financial products, price policies, and ensure companies stay solvent by predicting future costs with pinpoint accuracy. This role offers high pay and exceptional stability for those who master complex quantitative challenges.",
+      "salaryRange": "$70k - $500k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "credit-analyst",
       "title": "Credit Analyst",
       "icon": "scroll-text",
