@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "operations-manager",
+      "title": "Operations Manager",
+      "icon": "settings",
+      "description": "Operations Managers are the unsung heroes who keep the complex financial machinery running smoothly. They optimize processes, manage teams, and mitigate risks, ensuring every transaction and service is executed flawlessly. This role offers strong financial stability and a critical, influential position within any financial institution.",
+      "salaryRange": "$90k - $180k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "trader",
       "title": "Trader",
       "icon": "trending-up",
