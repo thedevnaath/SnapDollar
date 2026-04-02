@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "portfolio-manager",
+      "title": "Portfolio Manager",
+      "icon": "pie-chart",
+      "description": "A Portfolio Manager builds and manages investment portfolios for clients, aiming to maximize returns while controlling risk. It's a high-stakes, high-reward role where your decisions directly impact massive amounts of capital and offer substantial financial upside.",
+      "salaryRange": "$200k - $1.5M+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "wealth-manager",
       "title": "Wealth Manager",
       "icon": "hand-coins",
