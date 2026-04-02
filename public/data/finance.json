@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "financial-advisor",
+      "title": "Financial Advisor",
+      "icon": "trending-up",
+      "description": "Financial Advisors guide individuals and families in building, managing, and preserving their wealth. This role combines deep financial expertise with strong interpersonal skills, offering significant earning potential for those who can cultivate lasting client relationships and navigate complex markets.",
+      "salaryRange": "$70k - $500k+ (Includes Bonus & Commissions)",
+      "roiRating": "High"
+    },
+    {
       "id": "insurance-agent",
       "title": "Insurance Agent",
       "icon": "shield",
