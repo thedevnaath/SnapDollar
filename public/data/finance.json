@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "business-analyst-finance",
+      "title": "Business Analyst",
+      "icon": "bar-chart-2",
+      "description": "Business Analysts are the problem-solvers of finance, bridging the gap between business needs and technical solutions. You'll analyze systems, processes, and data to make financial operations more efficient and profitable, laying a robust foundation for strategic growth.",
+      "salaryRange": "$70k - $180k+ (Includes Bonus)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "management-consultant",
       "title": "Management Consultant",
       "icon": "briefcase",
