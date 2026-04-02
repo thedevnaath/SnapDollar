@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "personal-banker",
+      "title": "Personal Banker",
+      "icon": "handshake",
+      "description": "Personal Bankers are the front-line ambassadors of retail banking, guiding individuals through their financial needs. This client-facing sales role focuses on building lasting relationships, offering products from loans to investments, with significant upside tied to sales performance and career progression into wealth management.",
+      "salaryRange": "$50k - $120k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "bank-teller",
       "title": "Bank Teller",
       "icon": "landmark",
