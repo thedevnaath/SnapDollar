@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "general-manager-finance",
+      "title": "General Manager",
+      "icon": "gem",
+      "description": "A General Manager in finance is the CEO of a specific business unit or division, holding ultimate responsibility for its profit and loss (P&L). This is a top-tier leadership role focused on strategy, operations, and growth, offering significant compensation tied directly to performance.",
+      "salaryRange": "$250k - $1M+ (Includes Bonus & Carry)",
+      "roiRating": "High"
+    },
+    {
       "id": "operations-manager",
       "title": "Operations Manager",
       "icon": "settings",
