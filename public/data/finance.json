@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "mortgage-broker",
+      "title": "Mortgage Broker",
+      "icon": "home",
+      "description": "Mortgage Brokers are independent financial experts who connect individuals and businesses seeking loans to buy property with suitable lenders. Your core function is to find the best financing options, negotiate terms, and navigate complex paperwork, ultimately helping clients secure real estate while earning substantial commission.",
+      "salaryRange": "$50k - $500k+ (Purely Commission-Based)",
+      "roiRating": "High (if successful)"
+    },
+    {
       "id": "loan-officer",
       "title": "Loan Officer",
       "icon": "dollar-sign",
