@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "equity-research-analyst",
+      "title": "Equity Research Analyst",
+      "icon": "line-chart",
+      "description": "Equity Research Analysts are the detectives of Wall Street, digging deep into companies to tell investors whether to buy, sell, or hold their stock. They craft detailed reports, build complex financial models, and act as a crucial bridge between corporations and the money managers making big investment decisions. Success here often leads to lucrative opportunities on the buy-side.",
+      "salaryRange": "$150k - $400k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "portfolio-manager",
       "title": "Portfolio Manager",
       "icon": "pie-chart",
