@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "loan-officer",
+      "title": "Loan Officer",
+      "icon": "dollar-sign",
+      "description": "Originates loans for individuals and businesses, acting as the critical link between capital seekers and financial institutions. A highly sales-driven role with uncapped commission potential, directly impacting market liquidity and individual financial futures.",
+      "salaryRange": "$45k - $300k+ (Includes Commission)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "personal-banker",
       "title": "Personal Banker",
       "icon": "handshake",
