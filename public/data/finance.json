@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "bank-teller",
+      "title": "Bank Teller",
+      "icon": "landmark",
+      "description": "The Bank Teller is the frontline face of the retail banking world, handling customer transactions and inquiries. This role offers an accessible entry into the financial sector but provides very limited long-term financial upside or career progression without significant further education and internal mobility.",
+      "salaryRange": "$30,000 - $45,000 (Includes Minimal Bonus)",
+      "roiRating": "Low"
+    },
+    {
       "id": "business-analyst-finance",
       "title": "Business Analyst",
       "icon": "bar-chart-2",
