@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "claims-adjuster",
+      "title": "Claims Adjuster",
+      "icon": "gavel",
+      "description": "Claims Adjusters are financial detectives, investigating insurance claims to determine responsibility and payout amounts. This role offers a stable career path within the insurance sector, with significant financial upside for those who specialize or transition to independent adjusting.",
+      "salaryRange": "$50,000 - $150,000+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "actuary",
       "title": "Actuary",
       "icon": "calculator",
