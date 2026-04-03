@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "recruiter-finance",
+      "title": "Recruiter",
+      "icon": "users",
+      "description": "Recruiters in finance are the dealmakers of human capital, finding elite talent for Wall Street's most demanding firms. It's a high-pressure sales role disguised as HR, offering significant, often uncapped, compensation tied directly to successful placements. You're not just filling seats; you're building teams and careers.",
+      "salaryRange": "$100k - $500k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "human-resources-manager-finance",
       "title": "Human Resources Manager",
       "icon": "handshake",
