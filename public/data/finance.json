@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "forensic-accountant",
+      "title": "Forensic Accountant",
+      "icon": "search",
+      "description": "Forensic Accountants are financial detectives, meticulously investigating financial discrepancies, fraud, and legal disputes. They translate complex financial data into understandable insights for courtrooms and legal teams, with top performers earning significant six-figure salaries.",
+      "salaryRange": "$65k - $400k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "corporate-controller",
       "title": "Corporate Controller",
       "icon": "clipboard-check",
