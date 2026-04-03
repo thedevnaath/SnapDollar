@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "scrum-master",
+      "title": "Scrum Master",
+      "icon": "users",
+      "description": "A Scrum Master in finance is the guardian of efficient project delivery, ensuring high-value software or product development teams operate smoothly and effectively. This role offers strong compensation for those adept at navigating complex financial projects and fostering high-performing teams.",
+      "salaryRange": "$110k - $220k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "project-manager-finance",
       "title": "Project Manager (Finance)",
       "icon": "clipboard-list",
