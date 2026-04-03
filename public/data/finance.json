@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "human-resources-manager-finance",
+      "title": "Human Resources Manager",
+      "icon": "handshake",
+      "description": "Human Resources Managers in finance are the strategic backbone, ensuring a firm's most critical asset—its people—are recruited, developed, and retained effectively. You manage everything from compensation strategy to employee relations, directly impacting talent retention and the firm's operational success. This role offers strong compensation and pivotal influence on workplace culture, though it's a support function, not a direct profit generator.",
+      "salaryRange": "$120k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "procurement-manager",
       "title": "Procurement Manager",
       "icon": "package",
