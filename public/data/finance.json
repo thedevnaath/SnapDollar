@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "accounts-payable-clerk",
+      "title": "Accounts Payable Clerk",
+      "icon": "receipt",
+      "description": "The Accounts Payable Clerk is the meticulous gatekeeper of a company's outgoing funds, ensuring all vendor invoices are accurate and paid on time. This foundational role is crucial for financial health, preventing costly late fees and maintaining critical supplier relationships, though its ultimate financial upside is limited compared to other finance careers.",
+      "salaryRange": "$40,000 - $65,000+ (Includes Small/No Bonus)",
+      "roiRating": "Low"
+    },
+    {
       "id": "payroll-clerk",
       "title": "Payroll Clerk",
       "icon": "calculator",
