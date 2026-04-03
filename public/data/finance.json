@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "financial-planning-analysis-manager",
+      "title": "Financial Planning and Analysis (FP&A) Manager",
+      "icon": "pie-chart",
+      "description": "An FP&A Manager is the financial brain behind a company's strategic decisions, forecasting future performance, managing budgets, and analyzing actual results to maximize profit and efficiency. This role offers strong compensation and a clear path to senior leadership within corporate finance.",
+      "salaryRange": "$120k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "external-auditor",
       "title": "External Auditor",
       "icon": "clipboard-check",
