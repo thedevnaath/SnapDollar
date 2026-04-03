@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "chief-revenue-officer-cro",
+      "title": "Chief Revenue Officer (CRO)",
+      "icon": "trending-up",
+      "description": "The Chief Revenue Officer (CRO) is the ultimate guardian of a company's income, owning all strategies and operations that drive top-line growth across sales, marketing, and customer success. This executive role is for hyper-performers, offering unparalleled influence and the potential for multi-million dollar compensation through base salary, performance bonuses, and equity.",
+      "salaryRange": "$300k - $1.5M+ (Includes Bonus & Equity)",
+      "roiRating": "High"
+    },
+    {
       "id": "business-development-manager-finance",
       "title": "Business Development Manager",
       "icon": "handshake",
