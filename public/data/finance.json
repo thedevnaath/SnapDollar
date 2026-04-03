@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "external-auditor",
+      "title": "External Auditor",
+      "icon": "clipboard-check",
+      "description": "External Auditors are the financial detectives of the business world, meticulously verifying a company's financial statements to ensure they are accurate, fair, and follow strict rules. This role provides an unparalleled understanding of diverse businesses, serving as a critical gateway to high-demand corporate finance and consulting exit opportunities.",
+      "salaryRange": "$60k - $300k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "internal-auditor",
       "title": "Internal Auditor",
       "icon": "landmark",
