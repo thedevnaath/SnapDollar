@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "procurement-manager",
+      "title": "Procurement Manager",
+      "icon": "package",
+      "description": "A Procurement Manager in finance strategically buys everything a financial firm needs—from software to office space. Their core mission is to save money, manage risks, and ensure the company gets the best value, directly impacting profitability.",
+      "salaryRange": "$120k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "purchasing-agent",
       "title": "Purchasing Agent",
       "icon": "shopping-cart",
