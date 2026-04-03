@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "purchasing-agent",
+      "title": "Purchasing Agent",
+      "icon": "shopping-cart",
+      "description": "Purchasing Agents are the unsung heroes who ensure financial institutions acquire the best goods and services at the lowest cost, from Bloomberg terminals to office space. Their strategic sourcing and negotiation directly impact the firm's profitability, making them critical guardians of the bottom line.",
+      "salaryRange": "$60,000 - $150,000+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "logistics-coordinator-finance",
       "title": "Logistics Coordinator",
       "icon": "truck",
