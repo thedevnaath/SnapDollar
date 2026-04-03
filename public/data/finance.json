@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "compensation-benefits-manager",
+      "title": "Compensation and Benefits Manager",
+      "icon": "Wallet",
+      "description": "Designs and manages the complex pay structures, bonuses, and benefits packages crucial for attracting and retaining top talent in finance. This role is highly analytical, ensuring fairness, compliance, and strategic alignment with business goals. Ultimate financial upside is substantial for those who can strategically manage a firm's most significant cost: its people.",
+      "salaryRange": "$120k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "recruiter-finance",
       "title": "Recruiter",
       "icon": "users",
