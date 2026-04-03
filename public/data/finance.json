@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "payroll-clerk",
+      "title": "Payroll Clerk",
+      "icon": "calculator",
+      "description": "The Payroll Clerk ensures every employee is paid accurately and on time, acting as the financial backbone for a company's most critical asset: its people. While not a path to Wall Street riches, it offers consistent employment, predictable hours, and a vital administrative role within any organization's finance or HR department.",
+      "salaryRange": "$40k - $65k (Includes Small Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "tax-advisor",
       "title": "Tax Advisor",
       "icon": "scale",
