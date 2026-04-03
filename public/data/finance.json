@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "corporate-controller",
+      "title": "Corporate Controller",
+      "icon": "clipboard-check",
+      "description": "The Corporate Controller is the chief accounting officer, acting as the 'financial watchdog' of a company. They ensure every dollar is tracked accurately, compliance rules are followed to the letter, and the company's financial story is told truthfully. This role offers a high-impact path to senior financial leadership, often serving as a direct pipeline to the CFO position.",
+      "salaryRange": "$150k - $400k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "chief-operating-officer-coo-finance",
       "title": "Chief Operating Officer (COO)",
       "icon": "landmark",
