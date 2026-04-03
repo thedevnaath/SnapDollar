@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "account-executive-finance",
+      "title": "Account Executive",
+      "icon": "trending-up",
+      "description": "An Account Executive in finance is a high-stakes sales professional responsible for generating revenue by selling complex financial products or services to clients. Success in this role directly translates to substantial performance-based bonuses, making it a potentially lucrative career for relentless, client-focused individuals.",
+      "salaryRange": "$100k - $500k+ (Includes Commission & Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "compensation-benefits-manager",
       "title": "Compensation and Benefits Manager",
       "icon": "Wallet",
