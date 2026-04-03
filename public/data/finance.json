@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "accounts-receivable-clerk",
+      "title": "Accounts Receivable Clerk",
+      "icon": "receipt",
+      "description": "The Accounts Receivable (AR) Clerk is the financial gatekeeper ensuring a company gets paid for its products or services, directly impacting its cash flow and solvency. While not a high-flying Wall Street role, it's a critical operational function that forms the bedrock of business finance.",
+      "salaryRange": "$40,000 - $65,000 (Includes Small Bonus)",
+      "roiRating": "Low"
+    },
+    {
       "id": "accounts-payable-clerk",
       "title": "Accounts Payable Clerk",
       "icon": "receipt",
