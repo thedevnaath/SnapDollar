@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "supply-chain-manager",
+      "title": "Supply Chain Manager",
+      "icon": "package",
+      "description": "Optimize the flow of goods, services, and information to maximize financial efficiency and profitability. This role is about ruthlessly cutting costs, enhancing operational resilience, and strategically managing cash flow across an organization's entire value chain.",
+      "salaryRange": "$100k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "scrum-master",
       "title": "Scrum Master",
       "icon": "users",
