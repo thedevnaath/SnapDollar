@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "logistics-coordinator-finance",
+      "title": "Logistics Coordinator",
+      "icon": "truck",
+      "description": "Logistics Coordinators in finance are the operational backbone, meticulously managing the movement of critical assets—from physical commodities for trading desks to sensitive documents for M&A—ensuring seamless transactions. It's a high-stakes, detail-oriented role vital for financial institutions, offering stable career growth within operations.",
+      "salaryRange": "$60k - $120k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "supply-chain-manager",
       "title": "Supply Chain Manager",
       "icon": "package",
