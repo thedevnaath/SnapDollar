@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "internal-auditor",
+      "title": "Internal Auditor",
+      "icon": "landmark",
+      "description": "Internal Auditors act as the company's independent internal watchdog, ensuring financial reports are accurate, operations are efficient, and risks are managed. This role offers strong job security, a clear career path, and significant internal influence without the 'eat what you kill' pressure of front-office finance.",
+      "salaryRange": "$70k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "billing-clerk",
       "title": "Billing Clerk",
       "icon": "receipt",
