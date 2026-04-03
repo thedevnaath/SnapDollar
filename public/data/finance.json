@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "tax-preparer",
+      "title": "Tax Preparer",
+      "icon": "receipt",
+      "description": "Tax Preparers navigate the complex world of tax law to ensure individuals and businesses accurately file their returns, optimizing deductions and minimizing liabilities. It's a critical role ensuring financial compliance, offering seasonal intensity with direct client impact, and potential for significant income if you can build a strong client base.",
+      "salaryRange": "$35,000 - $120,000+ (Includes Commission/Seasonal Income)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "forensic-accountant",
       "title": "Forensic Accountant",
       "icon": "search",
