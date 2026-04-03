@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "project-manager-finance",
+      "title": "Project Manager (Finance)",
+      "icon": "clipboard-list",
+      "description": "Project Managers in finance orchestrate complex initiatives, ensuring critical projects from new tech implementations to regulatory overhauls are delivered on time and within budget. This role offers strong leadership opportunities and a lucrative career path, especially in high-growth fintech or compliance-heavy environments.",
+      "salaryRange": "$120k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "general-manager-finance",
       "title": "General Manager",
       "icon": "gem",
