@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "real-estate-developer",
+      "title": "Real Estate Developer",
+      "icon": "landmark",
+      "description": "Real Estate Developers acquire land, finance projects, construct buildings, and manage properties to create profitable assets. They are the ultimate project managers, orchestrating complex deals from conception to sale, with significant financial upside.",
+      "salaryRange": "$100k - $1M+ (Includes Bonus & Carry)",
+      "roiRating": "High"
+    },
+    {
       "id": "real-estate-appraiser",
       "title": "Real Estate Appraiser",
       "icon": "landmark",
