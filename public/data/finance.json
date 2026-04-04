@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "loss-control-specialist",
+      "title": "Loss Control Specialist",
+      "icon": "shield-alert",
+      "description": "Loss Control Specialists are the financial detectives of the insurance world, identifying, assessing, and mitigating risks that could lead to massive financial losses for insurance carriers and their clients. Their work directly impacts profitability by preventing costly claims, making them indispensable in the risk management ecosystem.",
+      "salaryRange": "$80k - $160k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "risk-manager",
       "title": "Risk Manager",
       "icon": "shield-alert",
