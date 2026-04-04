@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "real-estate-agent",
+      "title": "Real Estate Agent",
+      "icon": "landmark",
+      "description": "A Real Estate Agent facilitates the buying, selling, or renting of properties, guiding clients through complex transactions. This role demands sharp sales skills, deep market knowledge, and relentless networking, with income potential directly tied to individual performance and market conditions.",
+      "salaryRange": "$40k - $500k+ (Commission Only, Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "loss-control-specialist",
       "title": "Loss Control Specialist",
       "icon": "shield-alert",
