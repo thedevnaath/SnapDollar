@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "commercial-real-estate-broker",
+      "title": "Commercial Real Estate Broker",
+      "icon": "landmark",
+      "description": "Commercial Real Estate Brokers connect buyers, sellers, tenants, and landlords of commercial properties. It's a high-stakes sales role with uncapped commission potential, demanding relentless networking and deal-making skills. The financial upside for top performers is substantial, but requires extreme resilience and a long grind.",
+      "salaryRange": "$50k - $1M+ (Highly Variable, Commission-Driven)",
+      "roiRating": "High"
+    },
+    {
       "id": "real-estate-agent",
       "title": "Real Estate Agent",
       "icon": "landmark",
