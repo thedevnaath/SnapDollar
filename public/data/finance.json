@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "aml-analyst",
+      "title": "Anti-Money Laundering (AML) Analyst",
+      "icon": "shield-check",
+      "description": "An AML Analyst is a financial detective, scrutinizing transactions to unmask illegal money movement by criminals and terrorists. This role offers critical stability and a respectable income, safeguarding global financial systems from illicit activities.",
+      "salaryRange": "$65k - $160k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "compliance-officer",
       "title": "Compliance Officer",
       "icon": "scale",
