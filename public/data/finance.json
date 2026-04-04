@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "real-estate-appraiser",
+      "title": "Real Estate Appraiser",
+      "icon": "landmark",
+      "description": "Real Estate Appraisers are the forensic accountants of property, meticulously valuing assets for sales, loans, and taxes. They provide the critical, unbiased opinion of a property's worth, underpinning trillions in real estate transactions. With a blend of analytical rigor and field expertise, top appraisers command significant incomes.",
+      "salaryRange": "$60k - $180k+ (Includes Fees & Bonuses)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "property-manager-finance",
       "title": "Property Manager",
       "icon": "landmark",
