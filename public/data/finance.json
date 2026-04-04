@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "property-manager-finance",
+      "title": "Property Manager",
+      "icon": "landmark",
+      "description": "Property Managers in finance oversee and optimize the performance of real estate assets for investors. This role focuses on maximizing revenue, minimizing expenses, and ensuring the long-term value and operational efficiency of commercial or large residential portfolios, directly impacting investment returns.",
+      "salaryRange": "$60k - $180k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "commercial-real-estate-broker",
       "title": "Commercial Real Estate Broker",
       "icon": "landmark",
