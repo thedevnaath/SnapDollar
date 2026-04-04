@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "compliance-officer",
+      "title": "Compliance Officer",
+      "icon": "scale",
+      "description": "Compliance Officers are the financial industry's unsung guardians, ensuring firms operate legally and ethically, preventing massive fines and reputational damage. It's a critical role offering stable, substantial compensation for those with a meticulous eye for detail and a strong ethical compass.",
+      "salaryRange": "$100k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "branch-manager-banking",
       "title": "Branch Manager (Banking)",
       "icon": "landmark",
