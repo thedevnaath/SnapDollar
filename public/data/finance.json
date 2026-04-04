@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "administrative-assistant-finance",
+      "title": "Administrative Assistant",
+      "icon": "briefcase",
+      "description": "The Administrative Assistant in finance is the critical operational backbone for high-value executives and teams, ensuring their demanding schedules, complex travel, and crucial communications run flawlessly. This role offers stable, respectable compensation and direct exposure to the world of high finance without the direct P&L pressure of investment roles.",
+      "salaryRange": "$60k - $120k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "executive-assistant-finance",
       "title": "Executive Assistant",
       "icon": "shield",
