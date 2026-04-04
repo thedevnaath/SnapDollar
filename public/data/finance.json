@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "branch-manager-banking",
+      "title": "Branch Manager (Banking)",
+      "icon": "landmark",
+      "description": "Oversees the daily operations of a bank branch, leading a team to drive sales, ensure compliance, and deliver excellent customer service. This role offers significant leadership experience with direct impact on revenue, often with strong performance-based bonuses.",
+      "salaryRange": "$70,000 - $150,000 (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "retirement-planner",
       "title": "Retirement Planner",
       "icon": "piggy-bank",
