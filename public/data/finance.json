@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "trust-officer",
+      "title": "Trust Officer",
+      "icon": "landmark",
+      "description": "A Trust Officer acts as a financial guardian, managing wealth, estates, and legal affairs for clients, ensuring their assets are protected and distributed according to their wishes. This role combines financial acumen with legal understanding and deep client relationships, offering stable careers with significant earning potential.",
+      "salaryRange": "$90k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "treasury-analyst",
       "title": "Treasury Analyst",
       "icon": "landmark",
