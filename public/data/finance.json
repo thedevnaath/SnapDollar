@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "risk-manager",
+      "title": "Risk Manager",
+      "icon": "shield-alert",
+      "description": "Risk Managers are the financial industry's highly paid guardians, identifying, analyzing, and mitigating potential financial threats that could cost their firm billions. You're paid handsomely to prevent catastrophes, protecting capital and ensuring stability in a volatile world. This role offers strong intellectual challenge and a critical position within any financial institution.",
+      "salaryRange": "$120k - $450k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "aml-analyst",
       "title": "Anti-Money Laundering (AML) Analyst",
       "icon": "shield-check",
