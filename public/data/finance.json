@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "escrow-officer",
+      "title": "Escrow Officer",
+      "icon": "landmark",
+      "description": "An Escrow Officer is the trusted, neutral third party in property transactions, ensuring all financial and legal conditions are met before a deal closes. It's a high-responsibility role with a stable career path and good earning potential, crucial for smooth real estate deals.",
+      "salaryRange": "$60k - $150k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "real-estate-developer",
       "title": "Real Estate Developer",
       "icon": "landmark",
