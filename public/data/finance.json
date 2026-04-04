@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "retirement-planner",
+      "title": "Retirement Planner",
+      "icon": "piggy-bank",
+      "description": "Retirement Planners help individuals and families design financial roadmaps for life after work, ensuring they can achieve their desired lifestyle without running out of money. This role combines deep financial analysis with strong client relationships, offering significant income potential as assets under management (AUM) grow.",
+      "salaryRange": "$70k - $500k+ (Includes Bonus/AUM Fees)",
+      "roiRating": "High"
+    },
+    {
       "id": "estate-planner",
       "title": "Estate Planner",
       "icon": "landmark",
