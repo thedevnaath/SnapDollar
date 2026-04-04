@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "budget-analyst",
+      "title": "Budget Analyst",
+      "icon": "file-spreadsheet",
+      "description": "Budget Analysts are the financial guardians of any organization, meticulously planning and monitoring spending to ensure resources are used efficiently. They protect a company's financial health, identify cost savings, and enable strategic growth by optimizing every dollar spent.",
+      "salaryRange": "$65,000 - $130,000+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "financial-planning-analysis-manager",
       "title": "Financial Planning and Analysis (FP&A) Manager",
       "icon": "pie-chart",
