@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "cost-estimator-finance",
+      "title": "Cost Estimator",
+      "icon": "calculator",
+      "description": "Cost Estimators are the financial architects who predict the future price tag of projects, from mega-construction to software development, ensuring companies budget wisely and bid profitably. They turn blueprints and data into cold, hard numbers, directly impacting a firm's financial viability and strategic investments.",
+      "salaryRange": "$70k - $180k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "budget-analyst",
       "title": "Budget Analyst",
       "icon": "file-spreadsheet",
