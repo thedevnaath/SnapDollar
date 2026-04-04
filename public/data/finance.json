@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "executive-assistant-finance",
+      "title": "Executive Assistant",
+      "icon": "shield",
+      "description": "An Executive Assistant in finance is the strategic backbone for senior leadership, managing complex schedules, communications, and operations to ensure top executives operate at peak efficiency. This role offers unparalleled access to decision-makers and the inner workings of high-stakes finance, with compensation that can be substantial for those supporting influential partners.",
+      "salaryRange": "$90k - $180k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "escrow-officer",
       "title": "Escrow Officer",
       "icon": "landmark",
