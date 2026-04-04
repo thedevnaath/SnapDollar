@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "estate-planner",
+      "title": "Estate Planner",
+      "icon": "landmark",
+      "description": "An Estate Planner helps individuals and families manage their wealth and assets for the future, especially after death or incapacitation, ensuring legacies are preserved and taxes minimized. This role offers significant earning potential by blending legal, financial, and interpersonal skills to protect generational wealth.",
+      "salaryRange": "$120k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "trust-officer",
       "title": "Trust Officer",
       "icon": "landmark",
