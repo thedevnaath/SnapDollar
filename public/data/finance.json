@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "brand-manager-finance",
+      "title": "Brand Manager",
+      "icon": "line-chart",
+      "description": "A Brand Manager in finance shapes how customers see a bank, investment firm, or fintech company, making sure its image is strong and trustworthy. You're the architect of public perception, directly influencing client acquisition and the firm's long-term financial health. The ultimate upside is a solid, well-compensated career with significant influence over a company's market position.",
+      "salaryRange": "$90k - $200k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "market-research-analyst",
       "title": "Market Research Analyst",
       "icon": "bar-chart",
