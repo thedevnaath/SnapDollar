@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "e-commerce-manager",
+      "title": "E-commerce Manager",
+      "icon": "shopping-cart",
+      "description": "An E-commerce Manager is the strategic architect and tactical executor of a company's online sales channels, directly responsible for driving revenue, optimizing conversion rates, and maximizing the financial return on digital investments. This role offers significant upside for those who can consistently scale profitable online sales.",
+      "salaryRange": "$150k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "small-business-owner",
       "title": "Small Business Owner",
       "icon": "gem",
