@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "talent-acquisition-specialist",
+      "title": "Talent Acquisition Specialist (Finance)",
+      "icon": "users",
+      "description": "The Talent Acquisition Specialist in finance is the firm's strategic hunter, finding and securing the elite talent (from analysts to Managing Directors) that drives profit and innovation. Your ability to land top-tier candidates directly impacts the firm's bottom line and dictates your own earning potential.",
+      "salaryRange": "$90k - $250k+ (Includes Bonus)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "financial-event-planner",
       "title": "Financial Event Planner",
       "icon": "calendar-check",
