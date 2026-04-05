@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "small-business-owner",
+      "title": "Small Business Owner",
+      "icon": "gem",
+      "description": "Forge your own path by creating, managing, and scaling a venture. This career offers unparalleled autonomy, direct impact, and the potential for life-changing wealth, but demands extreme sacrifice and shoulders all financial risk.",
+      "salaryRange": "$0 - $1,000,000+ (Owner's Draw & Equity Growth Potential)",
+      "roiRating": "High"
+    },
+    {
       "id": "franchise-owner",
       "title": "Franchise Owner",
       "icon": "landmark",
