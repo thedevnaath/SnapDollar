@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "sales-manager-finance",
+      "title": "Sales Manager",
+      "icon": "trending-up",
+      "description": "Lead and motivate high-performing sales teams to drive revenue growth for complex financial products. This role combines strategic leadership with hands-on client engagement, offering significant financial upside tied directly to sales success.",
+      "salaryRange": "$120k - $450k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "key-account-manager-finance",
       "title": "Key Account Manager",
       "icon": "user-check",
