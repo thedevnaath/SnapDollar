@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "business-development-representative-bdr",
+      "title": "Business Development Representative (BDR)",
+      "icon": "phone-call",
+      "description": "BDRs are the frontline soldiers of finance, responsible for finding new clients for investment products, wealth management, or financial technology. It's a high-volume, sales-driven role that builds fundamental skills, offering direct pathways to lucrative senior sales positions and significant commission earnings.",
+      "salaryRange": "$50k - $120k+ (Includes Commission)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "sales-manager-finance",
       "title": "Sales Manager",
       "icon": "trending-up",
