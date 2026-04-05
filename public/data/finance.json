@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "retail-store-manager",
+      "title": "Retail Store Manager",
+      "icon": "store",
+      "description": "A Retail Store Manager is the operational CEO of a physical retail location, directly responsible for its profitability, sales targets, and overall financial health. This role demands a sharp financial mind to manage budgets, inventory, and staff efficiency, translating daily operations into direct P&L impact.",
+      "salaryRange": "$45,000 - $85,000+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "financial-product-merchandiser",
       "title": "Financial Product Merchandiser",
       "icon": "trending-up",
