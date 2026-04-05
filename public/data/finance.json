@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "franchise-owner",
+      "title": "Franchise Owner",
+      "icon": "landmark",
+      "description": "Franchise Owners deploy significant capital to operate a proven business model under an established brand. This role demands sharp financial management, relentless operational oversight, and aggressive growth strategies to generate substantial owner's equity and consistent cash flow. It's entrepreneurship with a strategic safety net.",
+      "salaryRange": "$75k - $500k+ (Owner's Draw/Profit, Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "customer-success-manager-finance",
       "title": "Customer Success Manager",
       "icon": "handshake",
