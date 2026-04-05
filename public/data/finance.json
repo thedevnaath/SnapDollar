@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "corporate-trainer-finance",
+      "title": "Corporate Trainer",
+      "icon": "graduation-cap",
+      "description": "A Corporate Trainer in finance sharpens the skills of an organization's most valuable asset: its people. You develop and deliver critical education—from regulatory compliance to cutting-edge financial product knowledge—ensuring employees are top performers, directly impacting the firm's efficiency and profitability. This role is about human capital optimization, offering competitive pay and a pathway to strategic HR leadership.",
+      "salaryRange": "$90k - $250k+ (Includes Bonus)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "facilities-manager-finance",
       "title": "Facilities Manager",
       "icon": "building",
