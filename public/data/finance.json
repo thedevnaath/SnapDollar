@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "chief-information-officer-cio-finance",
+      "title": "Chief Information Officer (CIO)",
+      "icon": "cpu",
+      "description": "The Chief Information Officer (CIO) leads all technology strategy and operations for a financial institution, ensuring systems are secure, efficient, and drive business growth. This C-suite role commands top-tier compensation for transforming how money moves and is managed in the digital age.",
+      "salaryRange": "$400k - $1.5M+ (Includes Bonus & Equity)",
+      "roiRating": "High"
+    },
+    {
       "id": "operations-analyst",
       "title": "Operations Analyst",
       "icon": "workflow",
