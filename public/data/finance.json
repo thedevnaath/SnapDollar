@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "pricing-analyst-finance",
+      "title": "Pricing Analyst",
+      "icon": "trending-up",
+      "description": "Pricing Analysts are the financial detectives who figure out the sweet spot for a product or service's cost to make the most money. They blend advanced data analysis with market strategy, directly impacting a company's bottom line. This role offers strong career growth and significant earning potential for those who master the numbers game.",
+      "salaryRange": "$70k - $200k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "inventory-analyst",
       "title": "Inventory Analyst",
       "icon": "package",
