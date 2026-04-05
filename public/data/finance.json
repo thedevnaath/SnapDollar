@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "customer-success-manager-finance",
+      "title": "Customer Success Manager",
+      "icon": "handshake",
+      "description": "A Customer Success Manager in finance is the strategic partner ensuring institutional clients or financial SaaS users not only adopt but thrive using the product or service. This role is a critical revenue retention engine, directly impacting churn and identifying expansion opportunities, making it a high-leverage position for those who excel at blending relationship management with business acumen.",
+      "salaryRange": "$90k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "change-management-specialist",
       "title": "Change Management Specialist",
       "icon": "workflow",
