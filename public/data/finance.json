@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "labor-relations-specialist",
+      "title": "Labor Relations Specialist",
+      "icon": "handshake",
+      "description": "A Labor Relations Specialist in finance manages the complex relationship between a financial firm and its employees, focusing on legal compliance, dispute resolution, and contract negotiation. This role is crucial for mitigating reputational and financial risks associated with employee grievances, offering a stable career path with solid compensation, albeit not the 'get rich quick' upside of front-office roles.",
+      "salaryRange": "$90k - $180k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "talent-acquisition-specialist",
       "title": "Talent Acquisition Specialist (Finance)",
       "icon": "users",
