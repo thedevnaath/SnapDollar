@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "product-marketing-manager",
+      "title": "Product Marketing Manager",
+      "icon": "trending-up",
+      "description": "Product Marketing Managers (PMMs) in finance are the strategic storytellers and market experts who launch financial products, ensuring they resonate with the right customers and drive revenue. This role offers significant impact on a company's bottom line and competitive positioning, often leading to lucrative compensation and leadership opportunities.",
+      "salaryRange": "$120k - $300k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "business-development-representative-bdr",
       "title": "Business Development Representative (BDR)",
       "icon": "phone-call",
