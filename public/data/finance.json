@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "operations-analyst",
+      "title": "Operations Analyst",
+      "icon": "workflow",
+      "description": "Operations Analysts are the silent architects ensuring every financial transaction, from a stock trade to a complex derivative, settles flawlessly. They are the critical back-office engine, preventing costly errors and keeping the firm's gears turning smoothly, providing a stable career path with significant impact.",
+      "salaryRange": "$70k - $250k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "quality-assurance-manager-finance",
       "title": "Quality Assurance (QA) Manager",
       "icon": "shield-check",
