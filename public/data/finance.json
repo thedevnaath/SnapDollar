@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "change-management-specialist",
+      "title": "Change Management Specialist",
+      "icon": "workflow",
+      "description": "Guides financial firms through major transitions like mergers, new technology rollouts, or regulatory shifts, ensuring employees adapt smoothly and projects deliver expected value. This strategic role minimizes disruption, maximizes adoption, and directly impacts the bottom line by preserving productivity and realizing investment returns.",
+      "salaryRange": "$100k - $250k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "strategy-consultant",
       "title": "Strategy Consultant",
       "icon": "lightbulb",
