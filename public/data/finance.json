@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "market-research-analyst",
+      "title": "Market Research Analyst",
+      "icon": "bar-chart",
+      "description": "Market Research Analysts in finance are the data detectives, uncovering what makes markets tick and customers buy. They translate complex financial trends into actionable insights, directly influencing investment strategies and product development. This role offers strong career stability and a pathway to strategic positions within the financial industry.",
+      "salaryRange": "$70k - $300k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pricing-analyst-finance",
       "title": "Pricing Analyst",
       "icon": "trending-up",
