@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "strategy-consultant",
+      "title": "Strategy Consultant",
+      "icon": "lightbulb",
+      "description": "Strategy Consultants are elite problem-solvers hired by the world's largest companies to fix their biggest challenges and drive massive growth. You'll analyze complex business issues, craft high-impact solutions, and present your findings to C-suite executives, earning top-tier compensation and unparalleled career optionality.",
+      "salaryRange": "$120k - $800k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "product-marketing-manager",
       "title": "Product Marketing Manager",
       "icon": "trending-up",
