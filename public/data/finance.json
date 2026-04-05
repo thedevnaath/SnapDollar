@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "financial-event-planner",
+      "title": "Financial Event Planner",
+      "icon": "calendar-check",
+      "description": "Orchestrates high-stakes conferences, investor days, and client engagements that fuel financial deals and build firm reputation. It's a demanding role where impeccable execution directly impacts critical business relationships and marketing ROI.",
+      "salaryRange": "$60k - $150k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-relations-pr-manager-finance",
       "title": "Public Relations (PR) Manager",
       "icon": "megaphone",
