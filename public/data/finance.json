@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "facilities-manager-finance",
+      "title": "Facilities Manager",
+      "icon": "building",
+      "description": "A Facilities Manager in finance ensures the physical buildings and critical systems (like power, cooling, and security) of high-stakes financial firms run perfectly 24/7. Your job is to make sure traders can trade, bankers can bank, and everything stays operational, efficient, and secure, ultimately protecting the firm's assets and bottom line.",
+      "salaryRange": "$90k - $200k+ (Includes Bonus)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "labor-relations-specialist",
       "title": "Labor Relations Specialist",
       "icon": "handshake",
