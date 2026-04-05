@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "sales-representative-finance",
+      "title": "Sales Representative",
+      "icon": "trending-up",
+      "description": "Financial Sales Representatives are the lifeblood of revenue in finance, connecting clients with the products and services that move markets and manage wealth. This role offers uncapped earning potential directly tied to your ability to build trust, identify needs, and close deals.",
+      "salaryRange": "$100k - $500k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "customer-service-representative-finance",
       "title": "Customer Service Representative",
       "icon": "message-circle",
