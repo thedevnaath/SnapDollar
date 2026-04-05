@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "public-relations-pr-manager-finance",
+      "title": "Public Relations (PR) Manager",
+      "icon": "megaphone",
+      "description": "A Public Relations Manager in finance shapes and protects the reputation of financial institutions, executives, or products. This role is about strategic communication, managing media perception, and navigating crises to maintain trust and market standing. Succeeding here means wielding significant influence over public perception, directly impacting brand value and, ultimately, the firm's bottom line.",
+      "salaryRange": "$100k - $300k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "brand-manager-finance",
       "title": "Brand Manager",
       "icon": "line-chart",
