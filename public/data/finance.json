@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "inventory-analyst",
+      "title": "Inventory Analyst",
+      "icon": "package",
+      "description": "Inventory Analysts are the unsung financial guardians of a company's physical assets. They meticulously manage stock levels, ensuring optimal cash flow and preventing profit erosion from overstocking or stockouts. This role is a stable, analytical cornerstone in finance, directly impacting a company's bottom line.",
+      "salaryRange": "$60k - $130k+ (Includes Bonus)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "retail-store-manager",
       "title": "Retail Store Manager",
       "icon": "store",
