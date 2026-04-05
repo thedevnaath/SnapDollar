@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "financial-product-merchandiser",
+      "title": "Financial Product Merchandiser",
+      "icon": "trending-up",
+      "description": "A Financial Product Merchandiser is the strategic brain behind a financial institution's offerings, ensuring products like mutual funds, ETFs, or lending solutions are competitive, profitable, and meet market demand. This role is about optimizing the entire lifecycle of a financial product, from conception to market dominance, directly impacting the firm's bottom line and offering significant career upside.",
+      "salaryRange": "$120k - $350k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "e-commerce-manager",
       "title": "E-commerce Manager",
       "icon": "shopping-cart",
