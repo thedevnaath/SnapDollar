@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "key-account-manager-finance",
+      "title": "Key Account Manager",
+      "icon": "user-check",
+      "description": "As a Key Account Manager in finance, you're the trusted advisor and strategic partner to a firm's most important clients. Your mission is to nurture these relationships, deeply understand their financial needs, and drive significant revenue growth by matching them with the right products and services. This role offers high earning potential, directly tied to your ability to retain and expand crucial client portfolios.",
+      "salaryRange": "$150k - $450k+ (Includes Bonus)",
+      "roiRating": "High"
+    },
+    {
       "id": "sales-representative-finance",
       "title": "Sales Representative",
       "icon": "trending-up",
