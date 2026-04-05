@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "quality-assurance-manager-finance",
+      "title": "Quality Assurance (QA) Manager",
+      "icon": "shield-check",
+      "description": "The QA Manager in finance is the guardian of system integrity, ensuring every piece of financial software—from trading platforms to banking apps—works flawlessly and complies with strict regulations. This role prevents costly errors, protects firm reputation, and offers solid financial compensation for meticulous risk mitigation.",
+      "salaryRange": "$120k - $250k+ (Includes Bonus)",
+      "roiRating": "High-Medium"
+    },
+    {
       "id": "corporate-trainer-finance",
       "title": "Corporate Trainer",
       "icon": "graduation-cap",
