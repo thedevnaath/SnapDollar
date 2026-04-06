@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "endocrinologist",
+      "title": "Endocrinologist",
+      "icon": "activity",
+      "description": "An Endocrinologist specializes in the diagnosis and treatment of hormone-related diseases, such as diabetes, thyroid disorders, and adrenal issues. They are critical in managing chronic conditions that profoundly impact a patient's metabolism, growth, and overall bodily function, often preventing severe long-term complications and improving quality of life.",
+      "salaryRange": "$250k - $500k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "radiologist",
       "title": "Radiologist",
       "icon": "radiology",
