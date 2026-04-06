@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "oncologist",
+      "title": "Oncologist",
+      "icon": "flask",
+      "description": "Oncologists are specialist doctors who diagnose, treat, and manage cancer. This career demands scientific rigor, emotional resilience, and the ability to guide patients and their families through some of life's most challenging battles, often requiring intense dedication and carrying immense emotional weight.",
+      "salaryRange": "$250k - $650k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "psychiatrist",
       "title": "Psychiatrist",
       "icon": "brain",
