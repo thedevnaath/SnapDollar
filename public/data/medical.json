@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "family-physician",
+      "title": "Family Physician",
+      "icon": "stethoscope",
+      "description": "Family Physicians are the quarterbacks of healthcare, providing comprehensive, continuous care for individuals and families across all ages, genders, and diseases. They manage a wide spectrum of health issues, from prevention and diagnosis to chronic disease management, profoundly impacting community health and patient longevity.",
+      "salaryRange": "$200k - $300k+ (Attending)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "general-practitioner",
       "title": "General Practitioner",
       "icon": "user",
