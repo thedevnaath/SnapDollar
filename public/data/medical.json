@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "psychiatrist",
+      "title": "Psychiatrist",
+      "icon": "brain",
+      "description": "Psychiatrists are medical doctors who diagnose, treat, and prevent mental, emotional, and behavioral disorders using a combination of medication, psychotherapy, and other medical interventions. They hold the unique position of bridging the gap between mind and body, offering comprehensive care for some of humanity's most debilitating conditions.",
+      "salaryRange": "$250k - $450k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "dermatologist",
       "title": "Dermatologist",
       "icon": "dermatology",
