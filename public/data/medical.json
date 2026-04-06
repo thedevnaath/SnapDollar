@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "nephrologist",
+      "title": "Nephrologist",
+      "icon": "kidney",
+      "description": "Nephrologists are the highly specialized doctors who manage the critical health of your kidneys, the unsung heroes filtering your blood. They tackle everything from chronic kidney disease and hypertension to the life-sustaining complexities of dialysis and kidney transplantation. This isn't just about filtering blood; it's about life or death for patients whose primary filters fail.",
+      "salaryRange": "$250k - $450k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "pulmonologist",
       "title": "Pulmonologist",
       "icon": "lungs",
