@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "radiologist",
+      "title": "Radiologist",
+      "icon": "radiology",
+      "description": "Radiologists are diagnostic detectives, using advanced imaging (X-rays, CTs, MRIs) to identify diseases and injuries without surgery. They provide critical insights that guide patient treatment, impacting nearly every aspect of modern medicine and holding immense responsibility for accurate diagnoses.",
+      "salaryRange": "$400k - $700k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "oncologist",
       "title": "Oncologist",
       "icon": "flask",
