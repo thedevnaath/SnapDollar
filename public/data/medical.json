@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "gastroenterologist",
+      "title": "Gastroenterologist",
+      "icon": "activity",
+      "description": "A Gastroenterologist is a highly specialized medical doctor focused on the digestive system, tackling everything from heartburn to life-threatening cancers. They diagnose and treat conditions of the esophagus, stomach, small intestine, colon, liver, pancreas, and gallbladder, often performing critical endoscopic procedures. This demanding specialty offers significant intellectual challenge and high earning potential, but demands extensive training, meticulous skill, and comfort with the less glamorous aspects of human biology.",
+      "salaryRange": "$350,000 - $650,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "endocrinologist",
       "title": "Endocrinologist",
       "icon": "activity",
