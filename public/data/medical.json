@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "urologist",
+      "title": "Urologist",
+      "icon": "scalpel",
+      "description": "Urologists are surgical specialists who diagnose and treat diseases of the urinary tract in both men and women, and conditions affecting the male reproductive organs. They provide life-altering care, from treating kidney stones to performing complex cancer surgeries, directly impacting patients' quality of life.",
+      "salaryRange": "$350k - $600k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "ophthalmologist",
       "title": "Ophthalmologist",
       "icon": "eye",
