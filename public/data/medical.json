@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "general-surgeon",
+      "title": "General Surgeon",
+      "icon": "scalpel",
+      "description": "General Surgeons are the medical equivalent of highly skilled carpenters and mechanics for the human body, specializing in diagnosing and treating diseases and injuries requiring surgical intervention. They operate on almost any part of the body, from fixing hernias to removing cancerous tumors, literally cutting out problems to save lives. This demanding role comes with immense responsibility, high financial reward, and a grueling path.",
+      "salaryRange": "$300k - $650k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "pediatrician",
       "title": "Pediatrician",
       "icon": "baby",
