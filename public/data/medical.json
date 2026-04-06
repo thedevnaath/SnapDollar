@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "internal-medicine-physician",
+      "title": "Internal Medicine Physician",
+      "icon": "activity",
+      "description": "An Internal Medicine Physician specializes in preventing, diagnosing, and treating diseases in adults, acting as a medical detective and long-term care provider. They manage complex chronic conditions and acute illnesses, often serving as primary care physicians or hospitalists, bearing immense responsibility for patient well-being and systemic healthcare costs.",
+      "salaryRange": "$200k - $450k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "family-physician",
       "title": "Family Physician",
       "icon": "stethoscope",
