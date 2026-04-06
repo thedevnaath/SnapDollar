@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "dermatologist",
+      "title": "Dermatologist",
+      "icon": "dermatology",
+      "description": "Dermatologists are skin, hair, and nail specialists who diagnose and treat conditions ranging from acne to skin cancer. This specialty combines visual diagnostic skill with procedural expertise, offering a unique blend of medicine and surgery. It's a highly competitive, lucrative field with a strong focus on quality of life.",
+      "salaryRange": "$350k - $700k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "cardiologist",
       "title": "Cardiologist",
       "icon": "activity",
