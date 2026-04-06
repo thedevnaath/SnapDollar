@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "ophthalmologist",
+      "title": "Ophthalmologist",
+      "icon": "eye",
+      "description": "Physicians who specialize in comprehensive eye and vision care, performing advanced medical and surgical treatments for eye diseases and conditions. They diagnose and manage everything from glaucoma to cataracts, profoundly impacting patient quality of life by preventing blindness and restoring sight. This highly specialized field often commands high salaries.",
+      "salaryRange": "$250k - $600k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "gastroenterologist",
       "title": "Gastroenterologist",
       "icon": "activity",
