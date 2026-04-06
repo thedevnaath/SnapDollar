@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "pediatrician",
+      "title": "Pediatrician",
+      "icon": "baby",
+      "description": "Pediatricians are the frontline doctors for children, from birth through adolescence, providing comprehensive medical care. They diagnose and treat illnesses, manage chronic conditions, and guide parents on growth, development, and preventative health. This role demands profound empathy, resilience, and excellent communication skills, often involving emotionally taxing situations and a high volume of patient interactions.",
+      "salaryRange": "$200k - $300k+ (Attending)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "internal-medicine-physician",
       "title": "Internal Medicine Physician",
       "icon": "activity",
