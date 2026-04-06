@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "orthopedic-surgeon",
+      "title": "Orthopedic Surgeon",
+      "icon": "bone",
+      "description": "Orthopedic Surgeons are the 'carpenters' of the human body, specializing in diagnosing and treating diseases and injuries of the musculoskeletal system—bones, joints, ligaments, tendons, and muscles. They restore mobility and improve quality of life, earning substantial income after a grueling training path.",
+      "salaryRange": "$350k - $800k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "general-surgeon",
       "title": "General Surgeon",
       "icon": "scalpel",
