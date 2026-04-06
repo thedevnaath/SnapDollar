@@ -1,0 +1,115 @@
+{
+  "id": "general-practitioner",
+  "title": "General Practitioner",
+  "sector": "medical",
+  "lastUpdated": "April 6, 2026",
+  "description": "The frontline diagnostician, General Practitioners are the first point of contact for most health concerns, managing a broad spectrum of acute and chronic conditions to maintain community health and prevent serious illness.",
+  "seoMetaDescription": "General Practitioner salary, residency, burnout, pros/cons. Learn the brutal reality & financial ROI of becoming a GP.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "General Practitioner",
+    "description": "General Practitioners, also known as Family Doctors, are physicians who provide primary care for patients of all ages. They diagnose and treat a wide range of common illnesses and injuries, manage chronic conditions, provide preventive care, and refer patients to specialists when necessary. This role is crucial for the accessibility and continuity of healthcare within a community.",
+    "estimatedSalary": "$200000 - $350000"
+  },
+  "salaryRange": "$200k - $350k+",
+  "roiRating": "Medium",
+  "icon": "user",
+  "sections": [
+    {
+      "title": "The Diagnosis & The Money",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** The closest thing to being a community 'doctor hero', providing essential care and building long-term patient relationships.\n✅ **Pro:** High job security; GPs are always needed, offering a stable career path.\n❌ **Con:** Crushing debt from medical school coupled with relatively modest starting salaries compared to specialists.\n❌ **Con:** Endless charting, insurance battles, and administrative burdens that eat into patient time and personal life."
+        },
+        {
+          "title": "What You Actually Do (Patients vs. Paperwork)",
+          "subconsciousQuestion": "Am I doing surgery, or filling out insurance forms?",
+          "content": "You're the medical detective for *everything*. You'll see patients with coughs, colds, diabetes, high blood pressure, anxiety, broken bones, rashes, and so much more. Expect to spend **30-40% of your time** directly with patients, listening, examining, and explaining. The other **60-70% is a brutal slog of EMR charting**, writing referrals, pre-authorizing medications, dealing with insurance company denials, and fielding calls. It's a constant battle between caring for people and appeasing the administrative beast."
+        },
+        {
+          "title": "The Financial Reality (Training vs. Attending)",
+          "subconsciousQuestion": "When do I actually get rich?",
+          "content": "📉 **During Training (Residency):** Expect to earn **$60,000 - $75,000 per year**. This is for *80-hour weeks* where you're functioning on minimal sleep and massive stress. You're essentially a highly trained, underpaid intern who knows more than most doctors but still has a lot to learn.\n📈 **Fully Licensed (Attending):** Once you're out, you'll likely start around **$200,000 - $250,000 per year**. With experience, in a busy practice or in a rural/underserved area, this can climb to **$300,000 - $350,000+**.\n\n💡 **The Payoff:** Your income is relatively stable and predictable, often based on salary or a mix of salary and productivity (visits or procedures). It's not the mega-millions of a top surgeon, but it's a very comfortable living after years of sacrifice. Partnership in a private practice can significantly boost earnings but also adds business risk and responsibility."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Am I built for this?",
+          "content": "This is for the **High-Adrenaline Extrovert with the Empathy Engine** turned to MAX. You need to be a natural communicator, able to connect with people from all walks of life, from crying children to stoic elderly patients. You must be a **master of rapid-fire decision-making** and comfortable with uncertainty, as you'll be the first one to tackle a host of undifferentiated problems. If you prefer quiet contemplation and deep dives into complex systems, a specialty like Pathology or Radiology might be a better fit. GPs thrive on breadth, not necessarily depth, and thrive on human interaction."
+        },
+        {
+          "title": "Scope of Practice & Autonomy",
+          "subconsciousQuestion": "Who is my boss?",
+          "content": "You hold **ultimate legal authority and liability** for your patients' care. You are the captain of their health ship. While you collaborate with specialists and refer when necessary, you are the primary decision-maker for your patients within your scope. You are not typically supervised by another physician in daily practice, but you are accountable to hospital credentialing bodies, medical boards, and the legal system."
+        }
+      ]
+    },
+    {
+      "title": "The Gauntlet (Getting In)",
+      "cards": [
+        {
+          "title": "The Execution Plan (The Pipeline)",
+          "subconsciousQuestion": "What is the exact timeline?",
+          "content": "**High School Diploma (4 Yrs)** ➔ **Undergraduate Degree (4 Yrs)** (with pre-med coursework) ➔ **Medical School (4 Yrs)** ➔ **Residency (Family Medicine) (3 Yrs)**. \n\n**Total Time Post-High School:** 11 Years until you're a fully licensed GP. No shortcuts."
+        },
+        {
+          "title": "The Filter (Acceptance & Match Rates)",
+          "subconsciousQuestion": "What are the odds I actually make it?",
+          "content": "Medical school acceptance is hyper-competitive, with rates often **below 10%**. Then comes the USMLE exams (which you *must* pass). After med school, you enter 'The Match' for residency. Family Medicine is a popular choice, so while it's not as notoriously difficult to match into as surgical subspecialties, it's still a high-stakes process. There are many applicants, and your board scores, clinical grades, and interviews determine your fate. **Failing to match means you don't become a doctor.**"
+        },
+        {
+          "title": "Time & Massive Debt Cost",
+          "subconsciousQuestion": "Will I owe half a million dollars?",
+          "content": "The cost of medical school alone can range from **$200,000 to $350,000+**. Add in undergraduate costs, and you're looking at a minimum of **$250,000 - $400,000 in student loan debt**. You won't hit your peak earning potential until you're **at least 27-30 years old**, after completing your 3-year residency."
+        }
+      ]
+    },
+    {
+      "title": "The Physical Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "Will I ever sleep?",
+          "content": "Most GPs work in **Clinic Hours (e.g., 8 AM to 5 PM, with a short lunch)**. However, 'clinic hours' are a myth. Expect to arrive early to check messages and start charting, and stay late to finish charting and prep for the next day. You'll see **20-30+ patients a day**, each appointment often rushed (15-20 minutes). You might also have **on-call duties** nights and weekends, meaning you're the designated doctor for a group of patients if they have an urgent issue. Sleep is a luxury."
+        },
+        {
+          "title": "The Trauma & Burnout Risk",
+          "subconsciousQuestion": "Will this destroy my mental health?",
+          "content": "**Rating: High**. The primary daily stressor is the sheer volume of patients and the constant pressure to diagnose and treat accurately with limited time. You're dealing with people's fears, anxieties, and chronic suffering daily. The feeling of never doing *enough* for a patient, combined with administrative headaches, leads to sky-high burnout rates. Seeing patients suffer, die from preventable conditions, or struggle with poverty-related health issues can be emotionally draining."
+        },
+        {
+          "title": "The 'Gross' Factor & Physical Toll",
+          "subconsciousQuestion": "Can my stomach handle this?",
+          "content": "You'll encounter **bodily fluids daily**: blood draws, wound care, diarrhea, vomit, and occasionally more unpleasant surprises. While GPs don't perform invasive surgeries, you're exposed to infectious diseases regularly. The physical toll comes from being on your feet for most of the day, dealing with demanding patients, and the constant mental exertion. It's not the OR, but it's physically and mentally taxing."
+        }
+      ]
+    },
+    {
+      "title": "The Prognosis & The Future",
+      "cards": [
+        {
+          "title": "Private Practice vs. Corporate Hospital",
+          "subconsciousQuestion": "Can I be my own boss?",
+          "content": "Opening a private practice as a GP is **increasingly difficult** due to the administrative overhead, insurance complexities, and the need for significant capital. Many GPs now work for **large hospital systems or corporate healthcare groups** (like One Medical, Centene). This offers more stability and less administrative burden on the doctor but less autonomy. You're trading some freedom for a more predictable, albeit less lucrative, setup."
+        },
+        {
+          "title": "Exit Opportunities (The Non-Clinical Pivot)",
+          "subconsciousQuestion": "If I hate patient care, how do I pay off my loans?",
+          "content": "1.  **Medical Consulting:** Advising insurance companies, pharmaceutical firms, or healthcare technology startups on clinical practice and patient needs.\n2.  **Pharmaceutical Medical Science Liaison (MSL):** Acting as a scientific expert for a drug company, communicating complex data to healthcare professionals.\n3.  **Hospital Administration/Quality Improvement:** Moving into leadership roles focused on optimizing healthcare delivery, patient safety, and operational efficiency."
+        },
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will AI diagnose patients better than me?",
+          "content": "**Safe (Tool)**. AI is a powerful *tool* for GPs. It can assist with diagnosis by analyzing symptoms and medical history, flagging potential issues, and streamlining EMR tasks. However, the human element—empathy, nuanced communication, building trust, and holistic patient understanding—remains crucial and is something AI cannot replicate. AI will augment, not replace, the GP."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:**\n*   You genuinely love connecting with people and helping them navigate their health journey.\n*   You thrive on variety and enjoy managing a wide range of common medical problems.\n\n🔴 **NO if:**\n*   You are highly debt-averse and can't stomach massive loans for a moderate salary.\n*   You envision a career with minimal administrative work and abundant free time."
+        }
+      ]
+    }
+  ]
+}

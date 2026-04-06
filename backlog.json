@@ -1,102 +1,398 @@
 [
-  { "title": "General Practitioner", "sector": "medical" },
-  { "title": "Family Physician", "sector": "medical" },
-  { "title": "Internal Medicine Physician", "sector": "medical" },
-  { "title": "Pediatrician", "sector": "medical" },
-  { "title": "General Surgeon", "sector": "medical" },
-  { "title": "Orthopedic Surgeon", "sector": "medical" },
-  { "title": "Cardiologist", "sector": "medical" },
-  { "title": "Dermatologist", "sector": "medical" },
-  { "title": "Psychiatrist", "sector": "medical" },
-  { "title": "Oncologist", "sector": "medical" },
-  { "title": "Radiologist", "sector": "medical" },
-  { "title": "Endocrinologist", "sector": "medical" },
-  { "title": "Gastroenterologist", "sector": "medical" },
-  { "title": "Ophthalmologist", "sector": "medical" },
-  { "title": "Urologist", "sector": "medical" },
-  { "title": "Pulmonologist", "sector": "medical" },
-  { "title": "Nephrologist", "sector": "medical" },
-  { "title": "Gynecologist", "sector": "medical" },
-  { "title": "Obstetrician", "sector": "medical" },
-  { "title": "Otolaryngologist (ENT)", "sector": "medical" },
-  { "title": "Emergency Medicine Physician", "sector": "medical" },
-  { "title": "Pathologist", "sector": "medical" },
-  { "title": "Neurologist", "sector": "medical" },
-  { "title": "Rheumatologist", "sector": "medical" },
-  { "title": "Allergist", "sector": "medical" },
-  { "title": "Plastic Surgeon", "sector": "medical" },
-  { "title": "Geriatrician", "sector": "medical" },
-  { "title": "Registered Nurse (RN)", "sector": "medical" },
-  { "title": "Licensed Practical Nurse (LPN)", "sector": "medical" },
-  { "title": "Nurse Practitioner (NP)", "sector": "medical" },
-  { "title": "Certified Nursing Assistant (CNA)", "sector": "medical" },
-  { "title": "Certified Registered Nurse Anesthetist (CRNA)", "sector": "medical" },
-  { "title": "Clinical Nurse Specialist (CNS)", "sector": "medical" },
-  { "title": "Certified Nurse Midwife", "sector": "medical" },
-  { "title": "ER Nurse", "sector": "medical" },
-  { "title": "ICU Nurse", "sector": "medical" },
-  { "title": "Pediatric Nurse", "sector": "medical" },
-  { "title": "Oncology Nurse", "sector": "medical" },
-  { "title": "Psychiatric Nurse", "sector": "medical" },
-  { "title": "Surgical Nurse", "sector": "medical" },
-  { "title": "Neonatal Nurse", "sector": "medical" },
-  { "title": "Labor and Delivery Nurse", "sector": "medical" },
-  { "title": "Dialysis Nurse", "sector": "medical" },
-  { "title": "Home Health Nurse", "sector": "medical" },
-  { "title": "Travel Nurse", "sector": "medical" },
-  { "title": "Dentist", "sector": "medical" },
-  { "title": "Dental Hygienist", "sector": "medical" },
-  { "title": "Dental Assistant", "sector": "medical" },
-  { "title": "Orthodontist", "sector": "medical" },
-  { "title": "Oral and Maxillofacial Surgeon", "sector": "medical" },
-  { "title": "Endodontist", "sector": "medical" },
-  { "title": "Periodontist", "sector": "medical" },
-  { "title": "Pharmacist", "sector": "medical" },
-  { "title": "Pharmacy Technician", "sector": "medical" },
-  { "title": "Physical Therapist", "sector": "medical" },
-  { "title": "Physical Therapist Assistant", "sector": "medical" },
-  { "title": "Occupational Therapist", "sector": "medical" },
-  { "title": "Occupational Therapy Assistant", "sector": "medical" },
-  { "title": "Speech-Language Pathologist", "sector": "medical" },
-  { "title": "Respiratory Therapist", "sector": "medical" },
-  { "title": "Radiation Therapist", "sector": "medical" },
-  { "title": "Massage Therapist", "sector": "medical" },
-  { "title": "Optometrist", "sector": "medical" },
-  { "title": "Optician", "sector": "medical" },
-  { "title": "Clinical Psychologist", "sector": "medical" },
-  { "title": "Licensed Professional Counselor", "sector": "medical" },
-  { "title": "Marriage and Family Therapist", "sector": "medical" },
-  { "title": "Clinical Social Worker", "sector": "medical" },
-  { "title": "Substance Abuse Counselor", "sector": "medical" },
-  { "title": "Radiologic Technologist", "sector": "medical" },
-  { "title": "MRI Technologist", "sector": "medical" },
-  { "title": "Diagnostic Medical Sonographer", "sector": "medical" },
-  { "title": "Cardiovascular Technologist", "sector": "medical" },
-  { "title": "Phlebotomist", "sector": "medical" },
-  { "title": "Medical Laboratory Scientist", "sector": "medical" },
-  { "title": "Medical Laboratory Technician", "sector": "medical" },
-  { "title": "Surgical Technologist", "sector": "medical" },
-  { "title": "EKG Technician", "sector": "medical" },
-  { "title": "Nuclear Medicine Technologist", "sector": "medical" },
-  { "title": "Medical Assistant", "sector": "medical" },
-  { "title": "Health Information Technician", "sector": "medical" },
-  { "title": "Medical Biller", "sector": "medical" },
-  { "title": "Medical Coder", "sector": "medical" },
-  { "title": "Medical Transcriptionist", "sector": "medical" },
-  { "title": "Healthcare Administrator", "sector": "medical" },
-  { "title": "Medical Secretary", "sector": "medical" },
-  { "title": "Clinical Research Coordinator", "sector": "medical" },
-  { "title": "Paramedic", "sector": "medical" },
-  { "title": "Emergency Medical Technician (EMT)", "sector": "medical" },
-  { "title": "Registered Dietitian", "sector": "medical" },
-  { "title": "Nutritionist", "sector": "medical" },
-  { "title": "Chiropractor", "sector": "medical" },
-  { "title": "Podiatrist", "sector": "medical" },
-  { "title": "Audiologist", "sector": "medical" },
-  { "title": "Athletic Trainer", "sector": "medical" },
-  { "title": "Genetic Counselor", "sector": "medical" },
-  { "title": "Perfusionist", "sector": "medical" },
-  { "title": "Prosthetist", "sector": "medical" },
-  { "title": "Orthotist", "sector": "medical" },
-  { "title": "Patient Care Technician", "sector": "medical" }
+  {
+    "title": "Family Physician",
+    "sector": "medical"
+  },
+  {
+    "title": "Internal Medicine Physician",
+    "sector": "medical"
+  },
+  {
+    "title": "Pediatrician",
+    "sector": "medical"
+  },
+  {
+    "title": "General Surgeon",
+    "sector": "medical"
+  },
+  {
+    "title": "Orthopedic Surgeon",
+    "sector": "medical"
+  },
+  {
+    "title": "Cardiologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Dermatologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Psychiatrist",
+    "sector": "medical"
+  },
+  {
+    "title": "Oncologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Radiologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Endocrinologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Gastroenterologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Ophthalmologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Urologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Pulmonologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Nephrologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Gynecologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Obstetrician",
+    "sector": "medical"
+  },
+  {
+    "title": "Otolaryngologist (ENT)",
+    "sector": "medical"
+  },
+  {
+    "title": "Emergency Medicine Physician",
+    "sector": "medical"
+  },
+  {
+    "title": "Pathologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Neurologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Rheumatologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Allergist",
+    "sector": "medical"
+  },
+  {
+    "title": "Plastic Surgeon",
+    "sector": "medical"
+  },
+  {
+    "title": "Geriatrician",
+    "sector": "medical"
+  },
+  {
+    "title": "Registered Nurse (RN)",
+    "sector": "medical"
+  },
+  {
+    "title": "Licensed Practical Nurse (LPN)",
+    "sector": "medical"
+  },
+  {
+    "title": "Nurse Practitioner (NP)",
+    "sector": "medical"
+  },
+  {
+    "title": "Certified Nursing Assistant (CNA)",
+    "sector": "medical"
+  },
+  {
+    "title": "Certified Registered Nurse Anesthetist (CRNA)",
+    "sector": "medical"
+  },
+  {
+    "title": "Clinical Nurse Specialist (CNS)",
+    "sector": "medical"
+  },
+  {
+    "title": "Certified Nurse Midwife",
+    "sector": "medical"
+  },
+  {
+    "title": "ER Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "ICU Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Pediatric Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Oncology Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Psychiatric Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Surgical Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Neonatal Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Labor and Delivery Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Dialysis Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Home Health Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Travel Nurse",
+    "sector": "medical"
+  },
+  {
+    "title": "Dentist",
+    "sector": "medical"
+  },
+  {
+    "title": "Dental Hygienist",
+    "sector": "medical"
+  },
+  {
+    "title": "Dental Assistant",
+    "sector": "medical"
+  },
+  {
+    "title": "Orthodontist",
+    "sector": "medical"
+  },
+  {
+    "title": "Oral and Maxillofacial Surgeon",
+    "sector": "medical"
+  },
+  {
+    "title": "Endodontist",
+    "sector": "medical"
+  },
+  {
+    "title": "Periodontist",
+    "sector": "medical"
+  },
+  {
+    "title": "Pharmacist",
+    "sector": "medical"
+  },
+  {
+    "title": "Pharmacy Technician",
+    "sector": "medical"
+  },
+  {
+    "title": "Physical Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Physical Therapist Assistant",
+    "sector": "medical"
+  },
+  {
+    "title": "Occupational Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Occupational Therapy Assistant",
+    "sector": "medical"
+  },
+  {
+    "title": "Speech-Language Pathologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Respiratory Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Radiation Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Massage Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Optometrist",
+    "sector": "medical"
+  },
+  {
+    "title": "Optician",
+    "sector": "medical"
+  },
+  {
+    "title": "Clinical Psychologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Licensed Professional Counselor",
+    "sector": "medical"
+  },
+  {
+    "title": "Marriage and Family Therapist",
+    "sector": "medical"
+  },
+  {
+    "title": "Clinical Social Worker",
+    "sector": "medical"
+  },
+  {
+    "title": "Substance Abuse Counselor",
+    "sector": "medical"
+  },
+  {
+    "title": "Radiologic Technologist",
+    "sector": "medical"
+  },
+  {
+    "title": "MRI Technologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Diagnostic Medical Sonographer",
+    "sector": "medical"
+  },
+  {
+    "title": "Cardiovascular Technologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Phlebotomist",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Laboratory Scientist",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Laboratory Technician",
+    "sector": "medical"
+  },
+  {
+    "title": "Surgical Technologist",
+    "sector": "medical"
+  },
+  {
+    "title": "EKG Technician",
+    "sector": "medical"
+  },
+  {
+    "title": "Nuclear Medicine Technologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Assistant",
+    "sector": "medical"
+  },
+  {
+    "title": "Health Information Technician",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Biller",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Coder",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Transcriptionist",
+    "sector": "medical"
+  },
+  {
+    "title": "Healthcare Administrator",
+    "sector": "medical"
+  },
+  {
+    "title": "Medical Secretary",
+    "sector": "medical"
+  },
+  {
+    "title": "Clinical Research Coordinator",
+    "sector": "medical"
+  },
+  {
+    "title": "Paramedic",
+    "sector": "medical"
+  },
+  {
+    "title": "Emergency Medical Technician (EMT)",
+    "sector": "medical"
+  },
+  {
+    "title": "Registered Dietitian",
+    "sector": "medical"
+  },
+  {
+    "title": "Nutritionist",
+    "sector": "medical"
+  },
+  {
+    "title": "Chiropractor",
+    "sector": "medical"
+  },
+  {
+    "title": "Podiatrist",
+    "sector": "medical"
+  },
+  {
+    "title": "Audiologist",
+    "sector": "medical"
+  },
+  {
+    "title": "Athletic Trainer",
+    "sector": "medical"
+  },
+  {
+    "title": "Genetic Counselor",
+    "sector": "medical"
+  },
+  {
+    "title": "Perfusionist",
+    "sector": "medical"
+  },
+  {
+    "title": "Prosthetist",
+    "sector": "medical"
+  },
+  {
+    "title": "Orthotist",
+    "sector": "medical"
+  },
+  {
+    "title": "Patient Care Technician",
+    "sector": "medical"
+  }
 ]

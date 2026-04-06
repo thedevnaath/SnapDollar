@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "general-practitioner",
+      "title": "General Practitioner",
+      "icon": "user",
+      "description": "The frontline diagnostician, General Practitioners are the first point of contact for most health concerns, managing a broad spectrum of acute and chronic conditions to maintain community health and prevent serious illness.",
+      "salaryRange": "$200k - $350k+",
+      "roiRating": "Medium"
+    },
+    {
       "id": "anesthesiologist",
       "title": "Anesthesiologist",
       "icon": "activity",
