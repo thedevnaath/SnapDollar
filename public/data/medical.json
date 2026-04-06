@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "pulmonologist",
+      "title": "Pulmonologist",
+      "icon": "lungs",
+      "description": "Pulmonologists are lung specialists, diagnosing and treating critical and chronic respiratory conditions from asthma to lung cancer. They often work in intensive care, making life-and-death decisions for critically ill patients. This career offers profound impact but demands grueling training and immense emotional resilience.",
+      "salaryRange": "$300k - $550k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "urologist",
       "title": "Urologist",
       "icon": "scalpel",
