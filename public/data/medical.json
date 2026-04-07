@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "otolaryngologist-ent",
+      "title": "Otolaryngologist (ENT)",
+      "icon": "ear",
+      "description": "An Otolaryngologist, or ENT, is a surgeon specializing in diseases of the ear, nose, and throat, including related structures of the head and neck. They tackle complex issues from hearing loss and sinus infections to head and neck cancers, offering both medical and surgical solutions. This career combines intricate surgical skill with daily patient interaction, demanding precision and resilience.",
+      "salaryRange": "$300k - $700k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "obstetrician",
       "title": "Obstetrician",
       "icon": "baby",
