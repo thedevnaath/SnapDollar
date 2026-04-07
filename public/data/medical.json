@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "pathologist",
+      "title": "Pathologist",
+      "icon": "microscope",
+      "description": "Pathologists are the 'doctors' doctors,' diagnosing diseases by expertly examining tissues, organs, and bodily fluids under a microscope. They are critical to guiding patient treatment plans, performing autopsies, and rarely interact directly with patients, focusing instead on definitive lab-based diagnoses that impact clinical decisions.",
+      "salaryRange": "$250,000 - $500,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "emergency-medicine-physician",
       "title": "Emergency Medicine Physician",
       "icon": "activity",
