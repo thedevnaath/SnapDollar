@@ -148,7 +148,34 @@
                 if (!response.ok) throw new Error("Database not found");
                 
                 const data = await response.json();
+                // 🚨 ADVANCED SEO INJECTION 🚨
+                document.title = `${data.title} - Real Salary, Burnout & Hidden Truths | SnapDollar`;
+                
+                let metaDesc = document.querySelector('meta[name="description"]');
+                if (!metaDesc) {
+                    metaDesc = document.createElement('meta');
+                    metaDesc.name = "description";
+                    document.head.appendChild(metaDesc);
+                }
+                metaDesc.content = `Thinking about becoming a ${data.title}? Discover the brutal truth about salaries, student debt, burnout rates, and what the day-to-day is actually like.`;
 
+                // Inject Google Rich Snippets (JSON-LD Schema)
+                const schema = {
+                    "@context": "https://schema.org/",
+                    "@type": "Occupation",
+                    "name": data.title,
+                    "description": `Brutally honest career breakdown for ${data.title}.`,
+                    "estimatedSalary": {
+                        "@type": "MonetaryAmountDistribution",
+                        "currency": "USD",
+                        "name": `${data.title} Salary Range`
+                    }
+                };
+                const scriptTag = document.createElement('script');
+                scriptTag.type = 'application/ld+json';
+                scriptTag.text = JSON.stringify(schema);
+                document.head.appendChild(scriptTag);
+                // 🚨 END SEO INJECTION 🚨
                 // 1. Inject the Visible Header Data
                 document.title = `SnapDollar | ${data.title}`;
                 document.getElementById('job-title').innerText = data.title;
