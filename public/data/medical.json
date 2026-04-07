@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "clinical-nurse-specialist-cns",
+      "title": "Clinical Nurse Specialist (CNS)",
+      "icon": "award",
+      "description": "Clinical Nurse Specialists are expert clinicians who drive evidence-based practice and improve patient outcomes across specific populations or care settings. They elevate nursing care quality, optimize systems, and lead educational initiatives, ultimately enhancing patient safety and hospital efficiency without directly managing their own patient panel.",
+      "salaryRange": "$90,000 - $140,000 (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "crna-certified-registered-nurse-anesthetist",
       "title": "Certified Registered Nurse Anesthetist (CRNA)",
       "icon": "syringe",
