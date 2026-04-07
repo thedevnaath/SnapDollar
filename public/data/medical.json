@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "geriatrician",
+      "title": "Geriatrician",
+      "icon": "user-check",
+      "description": "Geriatricians are specialized physicians dedicated to the complex healthcare needs of older adults, focusing on maintaining function, quality of life, and managing multiple chronic conditions. They are crucial navigators of age-related diseases, polypharmacy, and intricate social support systems, ensuring comprehensive and compassionate care for our most vulnerable population.",
+      "salaryRange": "$200k - $350k+ (Attending)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "plastic-surgeon",
       "title": "Plastic Surgeon",
       "icon": "scalpel",
