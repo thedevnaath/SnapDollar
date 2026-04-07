@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "gynecologist",
+      "title": "Gynecologist",
+      "icon": "heartpulse",
+      "description": "Gynecologists are physicians specializing in women's reproductive health, performing everything from routine exams and preventative care to complex surgeries. They navigate highly sensitive patient issues, deliver life-changing diagnoses, and face significant medicolegal risk. This demanding field offers profound impact but requires unwavering dedication.",
+      "salaryRange": "$250k - $600k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "nephrologist",
       "title": "Nephrologist",
       "icon": "kidney",
