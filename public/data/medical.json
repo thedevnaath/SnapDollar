@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "nurse-practitioner-np",
+      "title": "Nurse Practitioner (NP)",
+      "icon": "cross",
+      "description": "Nurse Practitioners (NPs) are advanced practice registered nurses who provide comprehensive primary and specialty healthcare, diagnosing illnesses, prescribing medications, and managing treatment plans. They function with significant autonomy, often serving as a patient's main healthcare provider, but carry substantial clinical and legal responsibility.",
+      "salaryRange": "$95k - $160k+ (Fully Licensed)",
+      "roiRating": "High"
+    },
+    {
       "id": "licensed-practical-nurse",
       "title": "Licensed Practical Nurse (LPN)",
       "icon": "user-check",
