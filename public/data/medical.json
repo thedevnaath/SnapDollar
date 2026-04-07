@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "allergist",
+      "title": "Allergist",
+      "icon": "syringe",
+      "description": "An Allergist, also known as an Allergist/Immunologist, specializes in diagnosing and treating immune system disorders like allergies, asthma, and autoimmune diseases. They help patients manage chronic conditions to significantly improve their quality of life, often through long-term relationships and personalized treatment plans.",
+      "salaryRange": "$250k - $500k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "rheumatologist",
       "title": "Rheumatologist",
       "icon": "bone",
