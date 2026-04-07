@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "rheumatologist",
+      "title": "Rheumatologist",
+      "icon": "bone",
+      "description": "A Rheumatologist is a specialized physician who diagnoses and treats complex autoimmune diseases and musculoskeletal conditions. They manage chronic pain and inflammation, helping patients improve their quality of life by taming their body's misdirected immune system. This field demands exceptional diagnostic prowess and long-term patient commitment.",
+      "salaryRange": "$250k - $450k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "neurologist",
       "title": "Neurologist",
       "icon": "brain",
