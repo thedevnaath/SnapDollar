@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "plastic-surgeon",
+      "title": "Plastic Surgeon",
+      "icon": "scalpel",
+      "description": "Plastic surgeons reshape, restore, and enhance the human body, blending surgical skill with an artist's eye. They tackle complex reconstructive cases like trauma and congenital defects, alongside aesthetic procedures to improve appearance. This career offers profound patient impact and significant financial rewards, demanding immense dedication and precision.",
+      "salaryRange": "$350,000 - $700,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "allergist",
       "title": "Allergist",
       "icon": "syringe",
