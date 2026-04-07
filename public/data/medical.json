@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "cna",
+      "title": "Certified Nursing Assistant (CNA)",
+      "icon": "clipboardList",
+      "description": "Certified Nursing Assistants (CNAs) are the backbone of direct patient care, providing essential daily support under the supervision of nurses. They ensure patient comfort, hygiene, and mobility, significantly impacting quality of life for those in need. While critical to healthcare operations, this role typically offers modest financial compensation.",
+      "salaryRange": "$30k - $45k",
+      "roiRating": "Low"
+    },
+    {
       "id": "nurse-practitioner-np",
       "title": "Nurse Practitioner (NP)",
       "icon": "cross",
