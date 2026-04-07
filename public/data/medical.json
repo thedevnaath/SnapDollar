@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "neurologist",
+      "title": "Neurologist",
+      "icon": "brain",
+      "description": "Neurologists are medical detectives of the brain and nervous system, diagnosing and treating complex conditions ranging from stroke to Alzheimer's. They are the frontline defense against diseases that threaten a patient's most vital functions and quality of life. This field offers profound intellectual challenge and high earning potential, but demands immense dedication through a grueling training pipeline.",
+      "salaryRange": "$250k - $600k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "pathologist",
       "title": "Pathologist",
       "icon": "microscope",
