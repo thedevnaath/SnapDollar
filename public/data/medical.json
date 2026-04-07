@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "certified-nurse-midwife",
+      "title": "Certified Nurse Midwife",
+      "icon": "baby",
+      "description": "Certified Nurse Midwives (CNMs) are advanced practice registered nurses providing comprehensive women's healthcare, specializing in pregnancy, childbirth, and postpartum care. They focus on wellness, prevention, and empowering birthing individuals, often managing low-risk pregnancies independently. This role combines profound patient connection with significant medical responsibility.",
+      "salaryRange": "$90k - $150k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "clinical-nurse-specialist-cns",
       "title": "Clinical Nurse Specialist (CNS)",
       "icon": "award",
