@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "obstetrician",
+      "title": "Obstetrician",
+      "icon": "baby",
+      "description": "Obstetricians are highly specialized physicians dedicated to overseeing pregnancy, childbirth, and the immediate post-delivery period. They manage complex medical conditions during gestation, perform deliveries including C-sections, and navigate the high-stakes journey of bringing new life into the world. It's a demanding role with profound patient impact and significant financial reward.",
+      "salaryRange": "$250,000 - $550,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "gynecologist",
       "title": "Gynecologist",
       "icon": "heartpulse",
