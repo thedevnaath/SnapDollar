@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "registered-nurse-rn",
+      "title": "Registered Nurse (RN)",
+      "icon": "activity",
+      "description": "Registered Nurses are the backbone of patient care, directly monitoring, educating, and advocating for individuals across various healthcare settings. They serve as critical liaisons between patients, families, and physicians, ensuring comprehensive care coordination and impacting patient outcomes significantly.",
+      "salaryRange": "$70k - $120k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "geriatrician",
       "title": "Geriatrician",
       "icon": "user-check",
