@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "licensed-practical-nurse",
+      "title": "Licensed Practical Nurse (LPN)",
+      "icon": "user-check",
+      "description": "LPNs are the boots on the ground, providing essential direct patient care under the supervision of Registered Nurses or physicians. They ensure patient comfort, administer medications, and perform vital tasks that keep healthcare facilities running smoothly and efficiently. This role offers a faster entry into the medical field with less debt, focusing on hands-on patient interaction.",
+      "salaryRange": "$45,000 - $65,000 (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "registered-nurse-rn",
       "title": "Registered Nurse (RN)",
       "icon": "activity",
