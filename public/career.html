@@ -36,6 +36,11 @@
                 z-index: 1000;
                 background: rgba(5, 5, 5, 0.85); /* Semi-transparent dark background */
                 backdrop-filter: blur(12px); /* The Apple-style glass effect */
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                background: rgba(5, 5, 5, 0.85); /* Semi-transparent dark background */
+                backdrop-filter: blur(12px); /* The Apple-style glass effect */
                 }
         .brand-container { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
         .custom-logo { height: 36px; width: auto; border-radius: 8px; }
@@ -173,8 +178,8 @@
                     "name": data.title,
                     "description": `Brutally honest career breakdown for ${data.title}.`,
                     "estimatedSalary": {
-                        "@type": "MonetaryAmountDistribution",
-                        "currency": "USD",
+                        "@type": "MonetaryAmountDist ribution",
+                          "currency": "USD",
                         "name": `${data.title} Salary Range`
                     }
                 };
