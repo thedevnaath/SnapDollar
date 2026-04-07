@@ -46,6 +46,11 @@
             padding: 1.5rem 2rem;
             display: flex;
             justify-content: flex-start; /* 'flex-start' keeps it on the left. Change to 'flex-end' to move it to the right! */
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(5, 5, 5, 0.85); /* Semi-transparent dark background */
+            backdrop-filter: blur(12px); /* The Apple-style glass effect */
         }
         .brand-container {
             display: flex;
