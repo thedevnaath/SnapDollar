@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "crna-certified-registered-nurse-anesthetist",
+      "title": "Certified Registered Nurse Anesthetist (CRNA)",
+      "icon": "syringe",
+      "description": "CRNAs are highly skilled advanced practice registered nurses who administer anesthesia and provide pain management during surgical, obstetric, and trauma procedures. They are vital to patient safety and comfort, managing complex physiological responses and life-sustaining functions in critical moments. This career offers exceptional earning potential and significant autonomy.",
+      "salaryRange": "$180,000 - $300,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "cna",
       "title": "Certified Nursing Assistant (CNA)",
       "icon": "clipboardList",
