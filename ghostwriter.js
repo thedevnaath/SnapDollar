@@ -1004,7 +1004,37 @@ JSON SCHEMA REQUIRED:
         // 7. Update the Backlog (Save the deletion)
         fs.writeFileSync(BACKLOG_PATH, JSON.stringify(backlog, null, 2));
         console.log("🗑️ Removed career from backlog. Operation Complete.");
-
+        // 🚨 AUTO-GENERATE SEO SITEMAP 🚨
+        console.log("🗺️ Generating fresh sitemap.xml for Google Search...");
+        const SITEMAP_PATH = path.join(__dirname, 'public', 'sitemap.xml');
+        const DOMAIN = "https://snapdollar.web.app";
+        const dateToday = new Date().toISOString().split('T')[0];
+        
+        let sitemapXML = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+        sitemapXML += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+        
+        // Add Homepage & Category mapping
+        sitemapXML += `  <url>\n    <loc>${DOMAIN}/</loc>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+        
+        const categories = ['tech', 'finance', 'medical', 'engineer', 'science', 'creative', 'publicservice'];
+        for (const cat of categories) {
+            const catPath = path.join(DATA_DIR, `${cat}.json`);
+            if (fs.existsSync(catPath)) {
+                const catData = JSON.parse(fs.readFileSync(catPath, 'utf-8'));
+                for (const career of catData.careers) {
+                    sitemapXML += `  <url>\n`;
+                    sitemapXML += `    <loc>${DOMAIN}/career.html?id=${career.id}</loc>\n`;
+                    sitemapXML += `    <lastmod>${dateToday}</lastmod>\n`;
+                    sitemapXML += `    <changefreq>weekly</changefreq>\n`;
+                    sitemapXML += `    <priority>0.8</priority>\n`;
+                    sitemapXML += `  </url>\n`;
+                }
+            }
+        }
+        sitemapXML += `</urlset>`;
+        fs.writeFileSync(SITEMAP_PATH, sitemapXML);
+        console.log("✅ Sitemap.xml updated successfully!");
+        // 🚨 END SITEMAP GENERATOR 🚨
     } catch (error) {
         console.error("❌ Error running Ghostwriter:", error);
         process.exit(1);
