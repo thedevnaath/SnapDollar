@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "SnapDollar-AI"
           git config --global user.email "ai@snapdollar.com"
-          git add public/data/ backlog.json
+          git add public/data/ backlog.json public/sitemap.xml
           git commit -m "🤖 AI automatically added a new career database" || echo "No changes to commit"
           git push origin HEAD:main
           
