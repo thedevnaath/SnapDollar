@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "neonatal-nurse",
+      "title": "Neonatal Nurse",
+      "icon": "baby",
+      "description": "Neonatal Nurses provide specialized care to critically ill or premature infants. This role demands unwavering precision, emotional resilience, and the ability to make rapid, life-saving decisions for the most fragile of patients. Your ultimate impact is on the survival and long-term health of newborns, often under incredibly stressful circumstances for both the infant and their families.",
+      "salaryRange": "$75k - $130k+ (Experienced RN)",
+      "roiRating": "High"
+    },
+    {
       "id": "surgical-nurse",
       "title": "Surgical Nurse",
       "icon": "activity",
