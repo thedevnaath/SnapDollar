@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "er-nurse",
+      "title": "ER Nurse",
+      "icon": "activity",
+      "description": "ER Nurses are the frontline guardians of emergency departments, providing rapid assessment and life-saving care to patients in critical and urgent conditions. They manage a constant flow of diverse emergencies, from trauma to cardiac events, making split-second decisions that directly impact patient outcomes and hospital efficiency.",
+      "salaryRange": "$70k - $120k+ (Experienced)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "certified-nurse-midwife",
       "title": "Certified Nurse Midwife",
       "icon": "baby",
