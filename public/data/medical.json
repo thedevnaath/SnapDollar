@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "psychiatric-nurse",
+      "title": "Psychiatric Nurse",
+      "icon": "brain",
+      "description": "Psychiatric Nurses provide essential mental healthcare, from crisis intervention to long-term therapy and medication management, supporting patients with complex psychological conditions. This career demands immense emotional resilience and the ability to navigate profound human suffering, offering deep, often life-saving, impact.",
+      "salaryRange": "$75,000 - $160,000+ (Psychiatric RN to PMHNP)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "oncology-nurse",
       "title": "Oncology Nurse",
       "icon": "heartpulse",
