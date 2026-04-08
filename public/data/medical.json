@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "pediatric-nurse",
+      "title": "Pediatric Nurse",
+      "icon": "heartPulse",
+      "description": "Pediatric Nurses are the frontline caregivers for children, from newborns to teenagers, managing their acute and chronic illnesses. They blend medical expertise with profound empathy, providing direct patient care, educating families, and navigating the emotional complexities of childhood health. It's a role where compassion meets critical medical intervention daily.",
+      "salaryRange": "$70,000 - $110,000+ (Experienced RN)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "icu-nurse",
       "title": "ICU Nurse",
       "icon": "activity",
