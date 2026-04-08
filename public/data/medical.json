@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "icu-nurse",
+      "title": "ICU Nurse",
+      "icon": "activity",
+      "description": "ICU Nurses are the frontline guardians in the most critical moments of life, providing advanced, minute-to-minute care to patients teetering between life and death. This demanding role requires unparalleled clinical skill, emotional resilience, and the ability to make rapid, accurate decisions under immense pressure, directly impacting patient survival and recovery.",
+      "salaryRange": "$70k - $120k+ (Experienced, with differentials)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "er-nurse",
       "title": "ER Nurse",
       "icon": "activity",
