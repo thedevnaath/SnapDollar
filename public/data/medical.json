@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "labor-and-delivery-nurse",
+      "title": "Labor and Delivery Nurse",
+      "icon": "heartPulse",
+      "description": "Labor and Delivery (L&D) Nurses are the frontline caregivers for pregnant individuals and their newborns, from admission through birth and immediate postpartum recovery. They manage the intense, unpredictable journey of childbirth, impacting not only the immediate health outcomes but also the foundational experience of new families.",
+      "salaryRange": "$70k - $120k+ (Experienced RN)",
+      "roiRating": "High"
+    },
+    {
       "id": "neonatal-nurse",
       "title": "Neonatal Nurse",
       "icon": "baby",
