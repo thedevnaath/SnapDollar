@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "surgical-nurse",
+      "title": "Surgical Nurse",
+      "icon": "activity",
+      "description": "Surgical Nurses, also known as Perioperative Nurses, are the backbone of any operating room (OR), meticulously preparing patients, assisting surgeons during complex procedures, and ensuring safe post-operative recovery. They are critical to preventing errors, managing sterile environments, and ensuring patient safety, directly impacting surgical outcomes and hospital efficiency.",
+      "salaryRange": "$70,000 - $120,000+ (Experienced RN)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "psychiatric-nurse",
       "title": "Psychiatric Nurse",
       "icon": "brain",
