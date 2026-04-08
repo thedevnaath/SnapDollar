@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "oncology-nurse",
+      "title": "Oncology Nurse",
+      "icon": "heartpulse",
+      "description": "Oncology Nurses are the frontline warriors against cancer, providing vital care, administering treatments, and offering unwavering support to patients and their families. This role demands profound empathy, meticulous skill, and extreme resilience in the face of life-altering diagnoses and demanding patient needs.",
+      "salaryRange": "$70k - $120k+ (Experienced RN)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pediatric-nurse",
       "title": "Pediatric Nurse",
       "icon": "heartPulse",
