@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "dialysis-nurse",
+      "title": "Dialysis Nurse",
+      "icon": "droplet",
+      "description": "Dialysis Nurses provide life-sustaining treatment for patients with kidney failure, operating complex dialysis machines and managing critical patient care. This specialized role demands precision, compassion, and resilience, directly impacting the quality of life for a vulnerable population.",
+      "salaryRange": "$70k - $100k+ (Experienced RN)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "labor-and-delivery-nurse",
       "title": "Labor and Delivery Nurse",
       "icon": "heartPulse",
