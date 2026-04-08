@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "home-health-nurse",
+      "title": "Home Health Nurse",
+      "icon": "home",
+      "description": "Home Health Nurses bring hospital-level care directly into patients' homes, managing complex medical needs outside a clinical setting. They provide crucial support for recovery, chronic disease management, and end-of-life care, significantly impacting patient comfort, independence, and healthcare costs by preventing hospital readmissions.",
+      "salaryRange": "$65,000 - $100,000+ (Licensed RN)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "dialysis-nurse",
       "title": "Dialysis Nurse",
       "icon": "droplet",
