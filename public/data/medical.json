@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "dental-assistant",
+      "title": "Dental Assistant",
+      "icon": "tooth",
+      "description": "Dental Assistants are the critical right hand to dentists, ensuring smooth clinic operations, patient comfort, and chairside procedural support. They manage sterilization, prepare treatment rooms, and assist during procedures, directly impacting patient experience and practice efficiency.",
+      "salaryRange": "$38k - $55k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "dental-hygienist",
       "title": "Dental Hygienist",
       "icon": "dental",
