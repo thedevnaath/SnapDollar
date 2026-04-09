@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "dentist",
+      "title": "Dentist",
+      "icon": "tooth",
+      "description": "Dentists are primary oral healthcare providers, diagnosing and treating conditions affecting teeth, gums, and mouth. They prevent disease, restore function and aesthetics, and significantly impact patients' overall health and quality of life. This career demands immense precision, significant financial investment, and offers substantial autonomy and earning potential.",
+      "salaryRange": "$160k - $400k+ (Attending, General); $250k - $700k+ (Specialist)",
+      "roiRating": "High"
+    },
+    {
       "id": "travel-nurse",
       "title": "Travel Nurse",
       "icon": "globe",
