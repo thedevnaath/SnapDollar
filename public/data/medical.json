@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "oral-maxillofacial-surgeon",
+      "title": "Oral and Maxillofacial Surgeon",
+      "icon": "scalpel",
+      "description": "An Oral and Maxillofacial Surgeon (OMFS) is a highly specialized dental and/or medical professional who diagnoses and treats diseases, injuries, and defects involving the hard and soft tissues of the mouth, jaws, face, and neck. They perform complex surgical procedures, from wisdom tooth extractions and dental implants to facial trauma reconstruction and cancer removal, significantly impacting patient aesthetics and function.",
+      "salaryRange": "$300k - $700k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "orthodontist",
       "title": "Orthodontist",
       "icon": "tooth",
