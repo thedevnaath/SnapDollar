@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "dental-hygienist",
+      "title": "Dental Hygienist",
+      "icon": "dental",
+      "description": "Dental Hygienists are critical oral health providers focused on preventive care. They clean teeth, examine for diseases, and educate patients, directly impacting long-term dental health and preventing costly future treatments. This career offers a direct path to patient care with a stable outlook.",
+      "salaryRange": "$70,000 - $95,000 (Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "dentist",
       "title": "Dentist",
       "icon": "tooth",
