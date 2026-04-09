@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "orthodontist",
+      "title": "Orthodontist",
+      "icon": "tooth",
+      "description": "Orthodontists are specialized dentists who diagnose, prevent, and treat dental and facial irregularities. They focus on aligning teeth and jaws to improve oral health, function, and aesthetics. This career offers a path to significant financial reward through meticulous patient care and specialized procedural expertise.",
+      "salaryRange": "$250,000 - $600,000+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "dental-assistant",
       "title": "Dental Assistant",
       "icon": "tooth",
