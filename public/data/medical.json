@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "travel-nurse",
+      "title": "Travel Nurse",
+      "icon": "globe",
+      "description": "Travel Nurses are highly skilled Registered Nurses who take on short-term contracts (typically 8-26 weeks) in hospitals and clinics across the country, filling critical staffing gaps. This role demands rapid adaptation, clinical excellence, and a strong sense of independence, offering substantial financial compensation for its demanding, nomadic lifestyle.",
+      "salaryRange": "$100k - $200k+ (Fully Licensed)",
+      "roiRating": "High"
+    },
+    {
       "id": "home-health-nurse",
       "title": "Home Health Nurse",
       "icon": "home",
