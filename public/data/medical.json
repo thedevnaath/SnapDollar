@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "periodontist",
+      "title": "Periodontist",
+      "icon": "tooth",
+      "description": "Periodontists are highly specialized dentists who diagnose and treat diseases affecting the gums and supporting structures of the teeth, including surgical placement of dental implants. They are crucial for preventing tooth loss and restoring foundational oral health. This lucrative, detail-oriented specialty combines surgical precision with a deep understanding of inflammation and bone regeneration.",
+      "salaryRange": "$200k - $600k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "endodontist",
       "title": "Endodontist",
       "icon": "dental",
