@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "endodontist",
+      "title": "Endodontist",
+      "icon": "dental",
+      "description": "An Endodontist is a dental specialist who saves teeth by treating the infection and damage inside them, primarily performing root canals. They are the 'root canal experts' who tackle complex cases that general dentists often refer, ensuring patients keep their natural teeth rather than losing them.",
+      "salaryRange": "$300k - $650k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "oral-maxillofacial-surgeon",
       "title": "Oral and Maxillofacial Surgeon",
       "icon": "scalpel",
