@@ -173,7 +173,7 @@
                     "name": data.title,
                     "description": `Brutally honest career breakdown for ${data.title}.`,
                     "estimatedSalary": {
-                        "@type": "MonetaryAmountDist ribution",
+                        "@type": "MonetaryAmountDistribution",
                           "currency": "USD",
                         "name": `${data.title} Salary Range`
                     }
@@ -184,7 +184,7 @@
                 document.head.appendChild(scriptTag);
                 // 🚨 END SEO INJECTION 🚨
                 // 1. Inject the Visible Header Data
-                document.title = `SnapDollar | ${data.title}`;
+                
                 document.getElementById('job-title').innerText = data.title;
                 document.getElementById('job-overview').innerText = data.description;
                 document.getElementById('last-updated').innerText = data.lastUpdated || "Recently Updated";
