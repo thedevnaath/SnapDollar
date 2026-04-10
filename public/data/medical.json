@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "pharmacist",
+      "title": "Pharmacist",
+      "icon": "pills",
+      "description": "Pharmacists are medication experts, responsible for dispensing prescriptions, verifying drug safety, and counseling patients on proper use. They are critical gatekeepers, preventing medication errors and ensuring effective treatment while navigating complex insurance and regulatory landscapes.",
+      "salaryRange": "$115k - $160k+ (Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "periodontist",
       "title": "Periodontist",
       "icon": "tooth",
