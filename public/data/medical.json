@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "physical-therapist",
+      "title": "Physical Therapist",
+      "icon": "activity",
+      "description": "Physical Therapists are movement experts who diagnose and treat individuals with medical problems or other health-related conditions, illnesses, or injuries that limit their abilities to move and perform functional activities. They use evidence-based techniques to restore function, reduce pain, and prevent disability, directly impacting a patient's independence and quality of life.",
+      "salaryRange": "$70k - $120k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pharmacy-technician",
       "title": "Pharmacy Technician",
       "icon": "pill",
