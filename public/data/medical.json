@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "physical-therapist-assistant",
+      "title": "Physical Therapist Assistant",
+      "icon": "activity",
+      "description": "Physical Therapist Assistants (PTAs) are the hands-on heroes who guide patients through their recovery, executing prescribed exercise programs and therapeutic interventions to restore movement and function. They directly impact patient quality of life, working under a Physical Therapist's supervision to help people regain their independence after injury or illness.",
+      "salaryRange": "$45,000 - $70,000+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "physical-therapist",
       "title": "Physical Therapist",
       "icon": "activity",
