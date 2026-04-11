@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "occupational-therapist",
+      "title": "Occupational Therapist",
+      "icon": "activity",
+      "description": "Occupational Therapists (OTs) are rehabilitation specialists who help patients across the lifespan achieve independence in all aspects of their lives. They focus on adapting environments and tasks to enable individuals to perform meaningful daily activities, from basic self-care to complex work functions. Their ultimate goal is to restore function, prevent disability, and maximize quality of life through therapeutic interventions.",
+      "salaryRange": "$75k - $120k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "physical-therapist-assistant",
       "title": "Physical Therapist Assistant",
       "icon": "activity",
