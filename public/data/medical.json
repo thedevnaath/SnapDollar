@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "optician",
+      "title": "Optician",
+      "icon": "glasses",
+      "description": "Opticians are the hands-on specialists who translate eye prescriptions into actual vision solutions. They precisely measure, fit, and dispense eyeglasses and contact lenses, ensuring patients achieve optimal sight and comfort. This role is crucial for daily quality of life, directly impacting how clearly people see the world.",
+      "salaryRange": "$40k - $70k+",
+      "roiRating": "Medium"
+    },
+    {
       "id": "optometrist",
       "title": "Optometrist",
       "icon": "eye",
