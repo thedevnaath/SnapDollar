@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "optometrist",
+      "title": "Optometrist",
+      "icon": "eye",
+      "description": "Optometrists are primary eye care providers, diagnosing and treating conditions like nearsightedness, farsightedness, and eye diseases. They prescribe glasses, contact lenses, and certain medications, acting as the first point of contact for most vision-related issues. They ensure patients maintain healthy sight, impacting daily quality of life.",
+      "salaryRange": "$120k - $200k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "massage-therapist",
       "title": "Massage Therapist",
       "icon": "massage",
