@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "massage-therapist",
+      "title": "Massage Therapist",
+      "icon": "massage",
+      "description": "Massage Therapists utilize therapeutic touch and manual techniques to manipulate soft tissues, alleviating pain, reducing stress, and promoting physical rehabilitation and overall wellness. They are vital in holistic patient care, often complementing traditional medical treatments to improve patient outcomes and quality of life.",
+      "salaryRange": "$30k - $70k+ (Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "radiation-therapist",
       "title": "Radiation Therapist",
       "icon": "radiation",
