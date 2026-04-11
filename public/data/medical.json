@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "nuclear-medicine-technologist",
+      "title": "Nuclear Medicine Technologist",
+      "icon": "atom",
+      "description": "Nuclear Medicine Technologists are the highly specialized professionals who prepare and administer radioactive drugs (radiopharmaceuticals) to patients for diagnostic imaging and therapeutic purposes. They operate sophisticated cameras that detect radiation emitted from the patient's body, creating images that reveal organ function and disease processes. This role is critical for diagnosing conditions like cancer, heart disease, and thyroid disorders, directly impacting patient treatment plans and outcomes.",
+      "salaryRange": "$70,000 - $110,000",
+      "roiRating": "Medium"
+    },
+    {
       "id": "ekg-technician",
       "title": "EKG Technician",
       "icon": "activity",
