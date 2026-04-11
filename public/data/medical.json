@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "clinical-psychologist",
+      "title": "Clinical Psychologist",
+      "icon": "brain",
+      "description": "Clinical psychologists diagnose and treat mental, emotional, and behavioral disorders through psychotherapy, psychological testing, and research. They work to alleviate distress, improve functioning, and promote overall well-being in individuals across the lifespan, often playing a critical role in long-term mental health stability without prescribing medication.",
+      "salaryRange": "$75k - $180k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "optician",
       "title": "Optician",
       "icon": "glasses",
