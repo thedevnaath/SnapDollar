@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "radiation-therapist",
+      "title": "Radiation Therapist",
+      "icon": "radiation",
+      "description": "Radiation Therapists are highly specialized medical professionals who administer radiation treatments to cancer patients, precisely targeting tumors while minimizing harm to healthy tissue. They operate complex machinery and provide compassionate support, directly impacting patient prognosis and quality of life through life-saving interventions.",
+      "salaryRange": "$75,000 - $125,000 (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "respiratory-therapist",
       "title": "Respiratory Therapist",
       "icon": "lungs",
