@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "occupational-therapy-assistant",
+      "title": "Occupational Therapy Assistant",
+      "icon": "activity",
+      "description": "Occupational Therapy Assistants (OTAs) empower patients to regain crucial daily living skills after injury or illness, working under the supervision of Occupational Therapists. They bridge the gap between patient struggle and independence, directly impacting quality of life without the extensive medical debt of a physician.",
+      "salaryRange": "$45,000 - $75,000 (Post-Licensure)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "occupational-therapist",
       "title": "Occupational Therapist",
       "icon": "activity",
