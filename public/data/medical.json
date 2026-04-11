@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "clinical-social-worker",
+      "title": "Clinical Social Worker",
+      "icon": "hand-heart",
+      "description": "Clinical Social Workers are vital healthcare navigators, providing emotional support, crisis intervention, and resource connection to patients and families grappling with illness and trauma. They bridge the gap between medical needs and social realities, ensuring holistic patient care while managing complex administrative and advocacy tasks.",
+      "salaryRange": "$55,000 - $95,000+ (Licensed LCSW)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "marriage-family-therapist",
       "title": "Marriage and Family Therapist",
       "icon": "users",
