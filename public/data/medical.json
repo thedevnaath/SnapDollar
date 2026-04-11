@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "speech-language-pathologist",
+      "title": "Speech-Language Pathologist",
+      "icon": "Mic",
+      "description": "Speech-Language Pathologists (SLPs) diagnose and treat communication and swallowing disorders across the lifespan, from infants to the elderly. They improve patients' ability to speak, understand, read, write, and safely eat, profoundly impacting daily function and quality of life. It's a critical role in rehabilitation and development.",
+      "salaryRange": "$75,000 - $120,000+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "occupational-therapy-assistant",
       "title": "Occupational Therapy Assistant",
       "icon": "activity",
