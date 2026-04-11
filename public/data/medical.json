@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "phlebotomist",
+      "title": "Phlebotomist",
+      "icon": "droplet",
+      "description": "A Phlebotomist is a highly skilled medical professional responsible for safely and accurately drawing blood samples from patients for diagnostic testing, transfusions, and research. This role is foundational to patient care, directly impacting diagnosis and treatment pathways, and serves as a vital entry point into the healthcare system.",
+      "salaryRange": "$30,000 - $50,000 (Hourly Wage)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cardiovascular-technologist",
       "title": "Cardiovascular Technologist",
       "icon": "activity",
