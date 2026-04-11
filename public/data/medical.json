@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "substance-abuse-counselor",
+      "title": "Substance Abuse Counselor",
+      "icon": "handshake",
+      "description": "These professionals diagnose, treat, and provide support for individuals struggling with substance use disorders. They are on the front lines, helping patients navigate the brutal realities of addiction and build sustainable recovery.",
+      "salaryRange": "$40k - $90k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "clinical-social-worker",
       "title": "Clinical Social Worker",
       "icon": "hand-heart",
