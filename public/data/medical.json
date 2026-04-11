@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "mri-technologist",
+      "title": "MRI Technologist",
+      "icon": "magnet",
+      "description": "MRI Technologists are the highly skilled professionals operating powerful Magnetic Resonance Imaging scanners. They produce detailed cross-sectional images of the body's internal structures, crucial for diagnosing a vast array of medical conditions without using ionizing radiation. This role combines advanced technology with direct patient care, demanding precision and strong communication.",
+      "salaryRange": "$60k - $95k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "radiologic-technologist",
       "title": "Radiologic Technologist",
       "icon": "activity",
