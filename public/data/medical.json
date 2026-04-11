@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "surgical-technologist",
+      "title": "Surgical Technologist",
+      "icon": "scalpel",
+      "description": "Surgical Technologists are the unsung heroes of the operating room, meticulously preparing and maintaining the sterile field while assisting surgeons and nurses during surgical procedures. They ensure patient safety and surgical efficiency through precision and unwavering vigilance, directly impacting the outcome of life-altering operations.",
+      "salaryRange": "$45k - $70k (Certified Surgical Technologist)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "medical-laboratory-technician",
       "title": "Medical Laboratory Technician",
       "icon": "microscope",
