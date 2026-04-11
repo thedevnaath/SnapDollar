@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "respiratory-therapist",
+      "title": "Respiratory Therapist",
+      "icon": "lungs",
+      "description": "Respiratory Therapists are the experts in breathing, often working on the front lines in ICUs, ERs, and neonatology. They manage life support machines, deliver critical respiratory treatments, and stabilize patients in respiratory distress. Your work directly impacts whether a patient breathes another day, making it a high-stakes, hands-on role in acute care.",
+      "salaryRange": "$55k - $95k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "speech-language-pathologist",
       "title": "Speech-Language Pathologist",
       "icon": "Mic",
