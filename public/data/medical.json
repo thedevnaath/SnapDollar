@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "cardiovascular-technologist",
+      "title": "Cardiovascular Technologist",
+      "icon": "activity",
+      "description": "Cardiovascular Technologists are frontline diagnosticians, operating specialized equipment to image the heart and blood vessels. They provide critical data that physicians use to diagnose and treat cardiac and vascular diseases, directly impacting patient outcomes and saving lives.",
+      "salaryRange": "$60k - $100k (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "diagnostic-medical-sonographer",
       "title": "Diagnostic Medical Sonographer",
       "icon": "scan",
