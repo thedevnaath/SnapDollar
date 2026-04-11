@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "diagnostic-medical-sonographer",
+      "title": "Diagnostic Medical Sonographer",
+      "icon": "scan",
+      "description": "Diagnostic Medical Sonographers are the skilled technicians who use high-frequency sound waves (ultrasound) to create images of the inside of the body. They play a critical role in diagnosing conditions from pregnancies to heart disease without invasive surgery, guiding patient care and informing physician decisions.",
+      "salaryRange": "$70,000 - $110,000+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mri-technologist",
       "title": "MRI Technologist",
       "icon": "magnet",
