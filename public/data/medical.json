@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "radiologic-technologist",
+      "title": "Radiologic Technologist",
+      "icon": "activity",
+      "description": "Radiologic Technologists operate complex imaging equipment like X-rays, CTs, and MRIs to capture detailed internal images of the body. They are crucial diagnostic partners, providing physicians with the visual evidence needed to identify injuries, diseases, and conditions, directly impacting patient treatment plans and outcomes.",
+      "salaryRange": "$55k - $95k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "substance-abuse-counselor",
       "title": "Substance Abuse Counselor",
       "icon": "handshake",
