@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "marriage-family-therapist",
+      "title": "Marriage and Family Therapist",
+      "icon": "users",
+      "description": "Marriage and Family Therapists (MFTs) are licensed mental health professionals who specialize in diagnosing and treating mental and emotional disorders within the context of marriage, couples, and family systems. They help individuals, couples, and families navigate complex relationships, fostering healthier communication and resilience. While not performing physical procedures, their work profoundly impacts the mental health and stability of their clients, often preventing crises and reducing societal strain.",
+      "salaryRange": "$55,000 - $120,000+ (Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "licensed-professional-counselor",
       "title": "Licensed Professional Counselor",
       "icon": "brain",
