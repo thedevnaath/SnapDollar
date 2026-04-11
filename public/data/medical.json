@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-laboratory-scientist",
+      "title": "Medical Laboratory Scientist",
+      "icon": "microscope",
+      "description": "Medical Laboratory Scientists (MLS) are the unsung heroes of healthcare, analyzing blood, tissue, and body fluids to provide critical diagnostic data. Their work, often behind the scenes, directly impacts 70% of all medical decisions, making them indispensable for patient diagnosis, treatment, and public health surveillance. This career offers a stable, intellectually stimulating path with significant responsibility.",
+      "salaryRange": "$60k - $110k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "phlebotomist",
       "title": "Phlebotomist",
       "icon": "droplet",
