@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "ekg-technician",
+      "title": "EKG Technician",
+      "icon": "activity",
+      "description": "EKG Technicians are frontline diagnostic support, performing electrocardiograms to record the heart's electrical activity. They provide vital data that physicians use to diagnose and monitor cardiac conditions, directly impacting patient care and guiding treatment decisions.",
+      "salaryRange": "$35k - $65k+ (Experienced)",
+      "roiRating": "Low"
+    },
+    {
       "id": "surgical-technologist",
       "title": "Surgical Technologist",
       "icon": "scalpel",
