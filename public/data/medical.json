@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-laboratory-technician",
+      "title": "Medical Laboratory Technician",
+      "icon": "microscope",
+      "description": "Medical Laboratory Technicians (MLTs) are crucial detectives behind the scenes, analyzing blood, tissue, and other bodily fluids to uncover disease and infection. They provide critical data that guides nearly all diagnostic and treatment decisions, impacting patient outcomes from the shadows of the lab.",
+      "salaryRange": "$40,000 - $70,000 (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "medical-laboratory-scientist",
       "title": "Medical Laboratory Scientist",
       "icon": "microscope",
