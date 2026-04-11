@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "licensed-professional-counselor",
+      "title": "Licensed Professional Counselor",
+      "icon": "brain",
+      "description": "Licensed Professional Counselors (LPCs) provide critical mental health diagnosis, treatment, and ongoing therapeutic support for individuals, couples, and families facing emotional and psychological challenges. They are frontline workers in the burgeoning mental health crisis, aiming to improve patient well-being and functionality, often reducing the burden on more acute psychiatric services.",
+      "salaryRange": "$45k - $110k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "clinical-psychologist",
       "title": "Clinical Psychologist",
       "icon": "brain",
