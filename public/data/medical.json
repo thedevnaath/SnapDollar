@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "emt-profile",
+      "title": "Emergency Medical Technician (EMT)",
+      "icon": "ambulance",
+      "description": "Emergency Medical Technicians (EMTs) are the frontline heroes of pre-hospital care, providing immediate medical assistance and critical transport for patients in crisis. They stabilize life-threatening conditions outside the hospital, bridging the gap until definitive care can be reached. This essential role demands quick thinking, physical stamina, and immense empathy under extreme pressure.",
+      "salaryRange": "$35k - $55k (Entry-Level to Experienced)",
+      "roiRating": "Low"
+    },
+    {
       "id": "paramedic-career",
       "title": "Paramedic",
       "icon": "ambulance",
