@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-assistant",
+      "title": "Medical Assistant",
+      "icon": "userPlus",
+      "description": "Medical Assistants are the essential frontline support staff in nearly every clinic, managing both clinical and administrative tasks. They ensure patient flow, support physicians and nurses, and keep the medical office running smoothly. Their efficiency directly impacts clinic productivity and patient experience, serving as the backbone of outpatient care.",
+      "salaryRange": "$35k - $55k (Experienced MA)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "nuclear-medicine-technologist",
       "title": "Nuclear Medicine Technologist",
       "icon": "atom",
