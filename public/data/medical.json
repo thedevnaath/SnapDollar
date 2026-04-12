@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-biller",
+      "title": "Medical Biller",
+      "icon": "receipt",
+      "description": "The Medical Biller is the financial backbone of any healthcare practice, translating patient care into billable services. They ensure healthcare providers get paid, navigating the complex maze of insurance companies and patient financial responsibility.",
+      "salaryRange": "$35k - $70k+ (Experienced/Specialized)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "health-information-technician",
       "title": "Health Information Technician",
       "icon": "clipboard-signature",
