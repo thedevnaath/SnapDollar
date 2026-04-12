@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "paramedic-career",
+      "title": "Paramedic",
+      "icon": "ambulance",
+      "description": "Paramedics are frontline emergency medical professionals, rapidly assessing and stabilizing critically ill or injured patients outside of the hospital setting. They perform advanced medical interventions under immense pressure, making life-or-death decisions that directly impact patient survival and long-term outcomes, often sacrificing personal well-being for public service.",
+      "salaryRange": "$40,000 - $80,000+ (Experienced)",
+      "roiRating": "Low"
+    },
+    {
       "id": "clinical-research-coordinator",
       "title": "Clinical Research Coordinator",
       "icon": "flask_conical",
