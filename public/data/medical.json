@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "genetic-counselor",
+      "title": "Genetic Counselor",
+      "icon": "dna",
+      "description": "Genetic counselors help people understand complex genetic conditions, interpret intricate test results, and make informed decisions about their health and reproductive choices. They translate cutting-edge science into actionable advice, empowering families facing inherited risks, rare diseases, or cancer predispositions.",
+      "salaryRange": "$80k - $130k (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "athletic-trainer",
       "title": "Athletic Trainer",
       "icon": "activity",
