@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "athletic-trainer",
+      "title": "Athletic Trainer",
+      "icon": "activity",
+      "description": "Athletic Trainers (ATs) are highly skilled healthcare professionals who specialize in the prevention, diagnosis, treatment, and rehabilitation of injuries and medical conditions in athletes and active individuals. They serve as immediate responders for acute injuries on the field and manage comprehensive care, impacting patient recovery and return to activity while navigating complex insurance and reporting demands.",
+      "salaryRange": "$40k - $120k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "audiologist",
       "title": "Audiologist",
       "icon": "sound",
