@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "audiologist",
+      "title": "Audiologist",
+      "icon": "sound",
+      "description": "Audiologists are highly specialized healthcare professionals who diagnose, treat, and manage hearing and balance disorders. They improve patient quality of life by restoring communication and preventing falls, impacting both personal well-being and economic productivity.",
+      "salaryRange": "$75k - $130k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "podiatrist-medical",
       "title": "Podiatrist",
       "icon": "footprints",
