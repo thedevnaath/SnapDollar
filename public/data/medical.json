@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "orthotist",
+      "title": "Orthotist",
+      "icon": "activity",
+      "description": "Orthotists are specialized healthcare professionals who design, fabricate, and fit custom braces and supports (orthoses) to help patients with musculoskeletal and neurological conditions regain mobility, reduce pain, and prevent further injury. They blend engineering, anatomy, and patient care to physically improve lives.",
+      "salaryRange": "$55k - $130k+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "prosthetist-career-profile",
       "title": "Prosthetist",
       "icon": "activity",
