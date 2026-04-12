@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "health-information-technician",
+      "title": "Health Information Technician",
+      "icon": "clipboard-signature",
+      "description": "Health Information Technicians (HITs) are the unsung data heroes of healthcare, ensuring patient medical records are accurate, complete, and confidential. They expertly translate medical services into codes for billing, research, and public health, directly impacting hospital revenue and the security of sensitive patient information.",
+      "salaryRange": "$40k - $80k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "medical-assistant",
       "title": "Medical Assistant",
       "icon": "userPlus",
