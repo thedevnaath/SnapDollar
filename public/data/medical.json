@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "patient-care-technician",
+      "title": "Patient Care Technician",
+      "icon": "user-round-plus",
+      "description": "Patient Care Technicians (PCTs) are the frontline support staff in hospitals and clinics, providing direct, hands-on care to patients under the supervision of nurses. This role is crucial for patient comfort and safety, serving as a vital entry point into the medical field.",
+      "salaryRange": "$30k - $50k+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "orthotist",
       "title": "Orthotist",
       "icon": "activity",
