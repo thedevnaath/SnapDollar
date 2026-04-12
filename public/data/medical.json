@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "nutritionist",
+      "title": "Nutritionist",
+      "icon": "carrot",
+      "description": "Nutritionists, specifically Registered Dietitian Nutritionists (RDNs), are medical professionals who provide evidence-based medical nutrition therapy to prevent and manage diseases. They translate complex scientific dietary information into practical, personalized plans, profoundly impacting patient health outcomes and reducing long-term healthcare costs.",
+      "salaryRange": "$55k - $120k+ (RDN)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "registered-dietitian",
       "title": "Registered Dietitian (RD/RDN)",
       "icon": "activity",
