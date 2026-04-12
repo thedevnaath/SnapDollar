@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "podiatrist-medical",
+      "title": "Podiatrist",
+      "icon": "footprints",
+      "description": "Podiatrists are independent medical specialists focused on diagnosing and treating conditions of the foot, ankle, and related structures of the leg. They handle everything from simple nail care to complex reconstructive foot surgery, directly impacting patient mobility and quality of life.",
+      "salaryRange": "$180k - $400k+ (Attending)",
+      "roiRating": "High"
+    },
+    {
       "id": "chiropractor",
       "title": "Chiropractor",
       "icon": "hand",
