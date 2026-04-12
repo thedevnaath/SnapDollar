@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-coder",
+      "title": "Medical Coder",
+      "icon": "clipboardList",
+      "description": "Medical Coders are the unsung financial backbone of healthcare. They translate every doctor's visit, surgery, and lab test into universal alphanumeric codes, ensuring healthcare providers get paid and patient records are accurate. This administrative role is crucial for hospital solvency and data integrity.",
+      "salaryRange": "$35k - $75k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "medical-biller",
       "title": "Medical Biller",
       "icon": "receipt",
