@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-transcriptionist",
+      "title": "Medical Transcriptionist",
+      "icon": "type",
+      "description": "Medical Transcriptionists convert audio recordings of medical professionals into accurate written reports, ensuring patient records are precise and complete. This role is foundational for billing, legal documentation, and continuity of patient care, primarily operating behind the scenes.",
+      "salaryRange": "$30k - $55k (Fully Licensed)",
+      "roiRating": "Low"
+    },
+    {
       "id": "medical-coder",
       "title": "Medical Coder",
       "icon": "clipboardList",
