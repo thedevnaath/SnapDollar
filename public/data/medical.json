@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "chiropractor",
+      "title": "Chiropractor",
+      "icon": "hand",
+      "description": "Chiropractors are healthcare professionals focused on diagnosing and treating neuromusculoskeletal disorders, primarily through manual adjustment and manipulation of the spine. They aim to improve patient function, reduce pain, and support the body's natural healing capabilities without drugs or surgery, empowering individuals to take control of their physical well-being.",
+      "salaryRange": "$70,000 - $180,000+ (Owner-Practitioner)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "nutritionist",
       "title": "Nutritionist",
       "icon": "carrot",
