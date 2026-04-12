@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "perfusionist",
+      "title": "Perfusionist",
+      "icon": "heart-pulse",
+      "description": "Perfusionists are the life support specialists of the operating room, managing heart-lung machines and other vital circulatory support devices during complex surgeries. They maintain a patient's physiological state when their heart or lungs are temporarily stopped, directly impacting patient survival and recovery.",
+      "salaryRange": "$130k - $250k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "genetic-counselor",
       "title": "Genetic Counselor",
       "icon": "dna",
