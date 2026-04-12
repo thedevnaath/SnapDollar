@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "healthcare-administrator",
+      "title": "Healthcare Administrator",
+      "icon": "building",
+      "description": "Healthcare Administrators are the strategic architects and operational backbone of medical facilities, from small clinics to vast hospital networks. They manage the finances, staff, and daily operations, ensuring quality patient care delivery, regulatory compliance, and organizational efficiency. Their decisions directly impact patient experience, staff well-being, and the financial health of the institution.",
+      "salaryRange": "$90k - $200k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "medical-transcriptionist",
       "title": "Medical Transcriptionist",
       "icon": "type",
