@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "medical-secretary",
+      "title": "Medical Secretary",
+      "icon": "clipboard",
+      "description": "Medical Secretaries are the backbone of healthcare administration, managing patient flow, records, and communications. They ensure clinics and hospitals run smoothly, directly impacting patient satisfaction and the financial health of the practice through efficient operations.",
+      "salaryRange": "$30,000 - $55,000+ (Experienced)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "healthcare-administrator",
       "title": "Healthcare Administrator",
       "icon": "building",
