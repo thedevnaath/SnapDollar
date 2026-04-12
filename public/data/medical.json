@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "registered-dietitian",
+      "title": "Registered Dietitian (RD/RDN)",
+      "icon": "activity",
+      "description": "Registered Dietitians are the frontline experts in evidence-based medical nutrition therapy, translating complex science into practical, life-saving dietary interventions. They directly impact patient outcomes by preventing and managing chronic diseases, playing a crucial role in reducing healthcare costs and improving quality of life.",
+      "salaryRange": "$60,000 - $95,000+ (Fully Licensed)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "emt-profile",
       "title": "Emergency Medical Technician (EMT)",
       "icon": "ambulance",
