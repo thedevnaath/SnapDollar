@@ -3,6 +3,14 @@
   "description": "High-impact roles in patient care, biotech research, and digital health innovation.",
   "careers": [
     {
+      "id": "clinical-research-coordinator",
+      "title": "Clinical Research Coordinator",
+      "icon": "flask_conical",
+      "description": "Clinical Research Coordinators (CRCs) are the meticulously organized backbone of clinical trials, ensuring every step of a study is conducted safely, ethically, and precisely according to protocol. They don't diagnose or treat patients, but they are critical in advancing medical science by managing the research process from patient enrollment to data submission.",
+      "salaryRange": "$45k - $95k+ (Experienced)",
+      "roiRating": "High"
+    },
+    {
       "id": "medical-secretary",
       "title": "Medical Secretary",
       "icon": "clipboard",
