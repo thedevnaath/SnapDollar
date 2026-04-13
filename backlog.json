@@ -1,52 +1,198 @@
 [
-  { "title": "Graphic Designer", "sector": "creative" },
-  { "title": "Creative Director", "sector": "creative" },
-  { "title": "UX Designer", "sector": "creative" },
-  { "title": "UI Designer", "sector": "creative" },
-  { "title": "Product Designer", "sector": "creative" },
-  { "title": "Industrial Designer", "sector": "creative" },
-  { "title": "Interior Designer", "sector": "creative" },
-  { "title": "Fashion Designer", "sector": "creative" },
-  { "title": "Motion Graphics Designer", "sector": "creative" },
-  { "title": "Illustrator", "sector": "creative" },
-  { "title": "Animator", "sector": "creative" },
-  { "title": "Copywriter", "sector": "creative" },
-  { "title": "Content Writer", "sector": "creative" },
-  { "title": "Technical Writer", "sector": "creative" },
-  { "title": "Journalist", "sector": "creative" },
-  { "title": "Editor", "sector": "creative" },
-  { "title": "Editor-in-Chief", "sector": "creative" },
-  { "title": "Screenwriter", "sector": "creative" },
-  { "title": "Grant Writer", "sector": "creative" },
-  { "title": "Novelist", "sector": "creative" },
-  { "title": "Film Director", "sector": "creative" },
-  { "title": "Video Producer", "sector": "creative" },
-  { "title": "Videographer", "sector": "creative" },
-  { "title": "Video Editor", "sector": "creative" },
-  { "title": "Cinematographer", "sector": "creative" },
-  { "title": "Camera Operator", "sector": "creative" },
-  { "title": "Sound Engineer", "sector": "creative" },
-  { "title": "Production Assistant", "sector": "creative" },
-  { "title": "Gaffer", "sector": "creative" },
-  { "title": "Foley Artist", "sector": "creative" },
-  { "title": "Social Media Manager", "sector": "creative" },
-  { "title": "Social Media Coordinator", "sector": "creative" },
-  { "title": "Digital Marketing Manager", "sector": "creative" },
-  { "title": "SEO Specialist", "sector": "creative" },
-  { "title": "Public Relations Specialist", "sector": "creative" },
-  { "title": "Public Relations Manager", "sector": "creative" },
-  { "title": "Media Planner", "sector": "creative" },
-  { "title": "Media Buyer", "sector": "creative" },
-  { "title": "Influencer Manager", "sector": "creative" },
-  { "title": "Content Strategist", "sector": "creative" },
-  { "title": "Photographer", "sector": "creative" },
-  { "title": "Photojournalist", "sector": "creative" },
-  { "title": "Commercial Photographer", "sector": "creative" },
-  { "title": "Music Producer", "sector": "creative" },
-  { "title": "Audio Editor", "sector": "creative" },
-  { "title": "Broadcast Technician", "sector": "creative" },
-  { "title": "Radio Host", "sector": "creative" },
-  { "title": "Podcaster", "sector": "creative" },
-  { "title": "Makeup Artist", "sector": "creative" },
-  { "title": "Set Designer", "sector": "creative" }
+  {
+    "title": "Creative Director",
+    "sector": "creative"
+  },
+  {
+    "title": "UX Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "UI Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Product Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Industrial Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Interior Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Fashion Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Motion Graphics Designer",
+    "sector": "creative"
+  },
+  {
+    "title": "Illustrator",
+    "sector": "creative"
+  },
+  {
+    "title": "Animator",
+    "sector": "creative"
+  },
+  {
+    "title": "Copywriter",
+    "sector": "creative"
+  },
+  {
+    "title": "Content Writer",
+    "sector": "creative"
+  },
+  {
+    "title": "Technical Writer",
+    "sector": "creative"
+  },
+  {
+    "title": "Journalist",
+    "sector": "creative"
+  },
+  {
+    "title": "Editor",
+    "sector": "creative"
+  },
+  {
+    "title": "Editor-in-Chief",
+    "sector": "creative"
+  },
+  {
+    "title": "Screenwriter",
+    "sector": "creative"
+  },
+  {
+    "title": "Grant Writer",
+    "sector": "creative"
+  },
+  {
+    "title": "Novelist",
+    "sector": "creative"
+  },
+  {
+    "title": "Film Director",
+    "sector": "creative"
+  },
+  {
+    "title": "Video Producer",
+    "sector": "creative"
+  },
+  {
+    "title": "Videographer",
+    "sector": "creative"
+  },
+  {
+    "title": "Video Editor",
+    "sector": "creative"
+  },
+  {
+    "title": "Cinematographer",
+    "sector": "creative"
+  },
+  {
+    "title": "Camera Operator",
+    "sector": "creative"
+  },
+  {
+    "title": "Sound Engineer",
+    "sector": "creative"
+  },
+  {
+    "title": "Production Assistant",
+    "sector": "creative"
+  },
+  {
+    "title": "Gaffer",
+    "sector": "creative"
+  },
+  {
+    "title": "Foley Artist",
+    "sector": "creative"
+  },
+  {
+    "title": "Social Media Manager",
+    "sector": "creative"
+  },
+  {
+    "title": "Social Media Coordinator",
+    "sector": "creative"
+  },
+  {
+    "title": "Digital Marketing Manager",
+    "sector": "creative"
+  },
+  {
+    "title": "SEO Specialist",
+    "sector": "creative"
+  },
+  {
+    "title": "Public Relations Specialist",
+    "sector": "creative"
+  },
+  {
+    "title": "Public Relations Manager",
+    "sector": "creative"
+  },
+  {
+    "title": "Media Planner",
+    "sector": "creative"
+  },
+  {
+    "title": "Media Buyer",
+    "sector": "creative"
+  },
+  {
+    "title": "Influencer Manager",
+    "sector": "creative"
+  },
+  {
+    "title": "Content Strategist",
+    "sector": "creative"
+  },
+  {
+    "title": "Photographer",
+    "sector": "creative"
+  },
+  {
+    "title": "Photojournalist",
+    "sector": "creative"
+  },
+  {
+    "title": "Commercial Photographer",
+    "sector": "creative"
+  },
+  {
+    "title": "Music Producer",
+    "sector": "creative"
+  },
+  {
+    "title": "Audio Editor",
+    "sector": "creative"
+  },
+  {
+    "title": "Broadcast Technician",
+    "sector": "creative"
+  },
+  {
+    "title": "Radio Host",
+    "sector": "creative"
+  },
+  {
+    "title": "Podcaster",
+    "sector": "creative"
+  },
+  {
+    "title": "Makeup Artist",
+    "sector": "creative"
+  },
+  {
+    "title": "Set Designer",
+    "sector": "creative"
+  }
 ]

@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "graphic-designer",
+      "title": "Graphic Designer",
+      "icon": "pen-tool",
+      "description": "Graphic Designers are visual problem-solvers, crafting compelling visual narratives for brands, products, and ideas. They translate complex messages into intuitive, aesthetic designs that capture attention and drive action. The ultimate commercial upside lies in their ability to build brand equity and directly influence consumer behavior, making them indispensable to businesses that understand the power of visual communication.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "art-director",
       "title": "Art Director",
       "icon": "palette",
