@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "creative-director",
+      "title": "Creative Director",
+      "icon": "target",
+      "description": "A Creative Director leads the vision for groundbreaking campaigns and brand experiences, transforming raw ideas into powerful market-ready strategies. This role isn't just about art; it's about driving commercial success through innovative leadership and meticulous execution.",
+      "salaryRange": "$90k - $250k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "graphic-designer",
       "title": "Graphic Designer",
       "icon": "pen-tool",
