@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "ui-designer",
+      "title": "UI Designer",
+      "icon": "layout-dashboard",
+      "description": "UI Designers craft the visual look and feel of apps, websites, and software, focusing on how users interact with digital products. Their work directly impacts user satisfaction, brand perception, and ultimately, a company's bottom line through intuitive and aesthetically pleasing interfaces.",
+      "salaryRange": "$60k - $160k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "ux-designer",
       "title": "UX Designer",
       "icon": "layout-dashboard",
