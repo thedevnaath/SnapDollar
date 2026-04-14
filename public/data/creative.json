@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "fashion-designer",
+      "title": "Fashion Designer",
+      "icon": "shirt",
+      "description": "Fashion Designers conceptualize and create apparel, accessories, or footwear, blending artistic vision with market trends. This role demands both extreme creativity and a sharp business mind to produce sellable, desirable products that define personal and cultural style, driving significant commercial upside for brands or independent labels.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "interior-designer",
       "title": "Interior Designer",
       "icon": "palette",
