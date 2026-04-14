@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "ux-designer",
+      "title": "UX Designer",
+      "icon": "layout-dashboard",
+      "description": "UX Designers are the architects of digital experiences, ensuring websites and apps are intuitive, efficient, and enjoyable for users. They blend psychology, design, and technology to solve real-world problems, directly impacting user satisfaction and a company's bottom line.",
+      "salaryRange": "$70k - $180k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "creative-director",
       "title": "Creative Director",
       "icon": "target",
