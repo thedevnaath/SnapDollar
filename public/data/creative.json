@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "product-designer",
+      "title": "Product Designer",
+      "icon": "layout-dashboard",
+      "description": "Product Designers bridge user needs with business goals, crafting digital experiences that are not just beautiful, but deeply functional and profitable. They are the architects of apps, websites, and software, ensuring every click and interaction serves a purpose and drives commercial success.",
+      "salaryRange": "$75k - $180k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "ui-designer",
       "title": "UI Designer",
       "icon": "layout-dashboard",
