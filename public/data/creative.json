@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "interior-designer",
+      "title": "Interior Designer",
+      "icon": "palette",
+      "description": "Transforms spaces into functional, safe, and aesthetically pleasing environments, blending artistic vision with technical know-how. This role is a direct intersection of creative expression and tangible business results, directly impacting client satisfaction and property value.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "industrial-designer",
       "title": "Industrial Designer",
       "icon": "cube",
