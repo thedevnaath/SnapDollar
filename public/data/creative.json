@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "industrial-designer",
+      "title": "Industrial Designer",
+      "icon": "cube",
+      "description": "Industrial Designers are the unsung heroes who shape nearly every physical product you interact with daily. They blend art, engineering, and user psychology to create products that are beautiful, functional, and desirable. The ultimate commercial upside is creating market-defining products that drive sales and build brand loyalty.",
+      "salaryRange": "$60k - $180k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "product-designer",
       "title": "Product Designer",
       "icon": "layout-dashboard",
