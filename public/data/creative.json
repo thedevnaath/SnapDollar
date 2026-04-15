@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "illustrator",
+      "title": "Illustrator",
+      "icon": "palette",
+      "description": "Illustrators bring concepts, stories, and brands to life through original visual art. This career demands not just artistic talent, but also keen business acumen to navigate a highly competitive, gig-driven market where AI is rapidly reshaping the landscape. Your art becomes a commercial problem-solving tool.",
+      "salaryRange": "$35k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "motion-graphics-designer",
       "title": "Motion Graphics Designer",
       "icon": "monitor-play",
