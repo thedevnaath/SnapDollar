@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "content-writer",
+      "title": "Content Writer",
+      "icon": "type",
+      "description": "A Content Writer crafts compelling, engaging, and SEO-optimized written material across various platforms to meet specific business objectives. This role blends creativity with commercial strategy, transforming complex ideas into clear, persuasive narratives that drive action.",
+      "salaryRange": "$45,000 - $150,000+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "copywriter-creative",
       "title": "Copywriter",
       "icon": "pencil",
