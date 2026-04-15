@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "grant-writer",
+      "title": "Grant Writer",
+      "icon": "file-text",
+      "description": "Grant Writers are wordsmiths who craft compelling narratives and strategic proposals to secure crucial funding for non-profits, research institutions, and creative projects. They are the silent architects behind the scenes, transforming vision into actionable, funded reality, merging persuasive storytelling with meticulous detail.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "screenwriter",
       "title": "Screenwriter",
       "icon": "pen-tool",
