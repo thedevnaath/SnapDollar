@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "animator-career",
+      "title": "Animator",
+      "icon": "monitor-play",
+      "description": "Animators are visual storytellers who bring characters, objects, and worlds to life through motion. This role is a demanding blend of artistic vision and technical prowess, critical for film, gaming, advertising, and interactive experiences.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "illustrator",
       "title": "Illustrator",
       "icon": "palette",
