@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "journalist-career-profile",
+      "title": "Journalist",
+      "icon": "newspaper",
+      "description": "Journalists uncover, investigate, and present facts and stories to inform the public, acting as crucial watchdogs of society. The ultimate commercial upside lies in building influence, breaking impactful stories, and shaping public discourse, often for significant personal and societal gain.",
+      "salaryRange": "$35k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "technical-writer",
       "title": "Technical Writer",
       "icon": "file-text",
