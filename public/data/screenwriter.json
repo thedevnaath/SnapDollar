@@ -1,0 +1,115 @@
+{
+  "id": "screenwriter",
+  "title": "Screenwriter",
+  "sector": "creative",
+  "lastUpdated": "April 15, 2026",
+  "description": "Screenwriters craft the blueprints for films, TV shows, and video games. They're the architects of narrative, dialogue, and character, shaping the stories that captivate audiences. Success means a unique blend of artistic vision and commercial understanding to sell their words to studios and producers.",
+  "seoMetaDescription": "Screenwriter career guide: explore salary, portfolio requirements, AI risks, and how to break into the highly competitive film & TV industry.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Screenwriter",
+    "description": "A Screenwriter is a professional responsible for creating the written script that forms the foundation of movies, television programs, video games, and other media. This role involves developing story concepts, crafting dialogue, designing character arcs, and structuring narratives to deliver compelling visual and auditory experiences. Screenwriters often work on a freelance basis, selling 'spec' scripts or being hired for 'assignments' to develop specific projects for studios and production companies. The industry is highly competitive, requiring immense talent, resilience, and business acumen.",
+    "estimatedSalary": "$0 - $1,000,000+ (Highly Variable, WGA minimums apply for union work)"
+  },
+  "salaryRange": "$0 - $1,000,000+ (Highly Variable)",
+  "roiRating": "Low",
+  "icon": "pen-tool",
+  "sections": [
+    {
+      "title": "The Canvas & The Cash",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** Incredible creative fulfillment; the power to shape stories that impact millions.\n✅ **Pro:** Potential for significant financial rewards and recognition if a project is successful.\n❌ **Con:** Extreme competition, constant subjective rejection, and notoriously unstable income (the 'starving artist' trope is real).\n❌ **Con:** Your creative work is rarely your own; be prepared for endless rewrites based on studio notes and executive demands."
+        },
+        {
+          "title": "Art vs. Admin (The Daily Split)",
+          "subconsciousQuestion": "Am I just creating all day, or dealing with annoying clients?",
+          "content": "Being a screenwriter is a solitary craft but a collaborative business. Here’s a realistic breakdown:\n\n*   **40% Writing the First Draft:** This is your core creative time – outlining, drafting scenes, developing characters, getting the story down.\n*   **30% Rewriting & Revising:** The *real* work. Incorporating notes from producers, directors, showrunners, and studio executives. This can be an endless, soul-crushing cycle of iteration.\n*   **20% Pitching & Networking:** Taking meetings, selling your ideas (and yourself), attending industry events, building connections. If you don't sell, you don't write.\n*   **10% Research & Admin:** Fact-checking, WGA paperwork, understanding contracts, market research for new ideas."
+        },
+        {
+          "title": "The Financial Reality (Stable vs. Hustle)",
+          "subconsciousQuestion": "Will I be a starving artist?",
+          "content": "This role epitomizes the 'feast-or-famine' gig economy.\n\n🏢 **In-House / Studio (Stable - Staff Writer):** $70,000 - $250,000+ (Based on WGA minimums, scale, and experience, but still contract-based per season/project).\n🚀 **Freelance / Creator (Variable - Spec Sales, Assignments):** $0 - $1,000,000+ (A single spec script sale can be huge, but most writers earn nothing for years, or earn modest project fees). Most writers struggle for a very long time.\n\n💡 **The Payoff:** Top earners become showrunners with multi-million dollar overall deals, or established feature writers who consistently get high-paying assignments. For the vast majority, simply making a consistent living is the goal. Success often means owning your intellectual property (IP) or creating a hit series."
+        },
+        {
+          "title": "The Personality Match",
+          "subconsciousQuestion": "Do I have thick enough skin for this?",
+          "content": "**Fragile Artist or Commercial Problem-Solver?** This job is definitively for the latter. You must possess an unshakeable belief in your story combined with extreme humility and adaptability. You will face brutal, subjective feedback constantly. Your script, your baby, will be torn apart, rewritten, and reshaped by others. You need to be a **collaborator**, not just a solitary artist. Resilience, patience, and a high tolerance for ambiguity are non-negotiable."
+        },
+        {
+          "title": "The 'Invisible' Skills",
+          "subconsciousQuestion": "What matters besides my raw talent?",
+          "content": "Raw writing talent is only the entry ticket; it's not enough to win the game. These business skills are critical:\n\n*   **Networking:** Who you know often matters as much as what you write. Getting your script read by the right person is paramount.\n*   **Pitching:** You must sell your story's concept, its characters, and its commercial viability, often in a high-stakes room.\n*   **Collaboration & Communication:** Working effectively with directors, producers, actors, and other writers. Your words are part of a larger machine.\n*   **Resilience & Grind:** The industry is a marathon of rejection. You must bounce back from 'no' constantly and keep writing.\n*   **Business Acumen:** Understanding contracts, intellectual property, union rules (WGA), and how the industry actually makes money."
+        }
+      ]
+    },
+    {
+      "title": "The Portfolio & The Pedigree",
+      "cards": [
+        {
+          "title": "The Execution Plan (The 3 Playbooks)",
+          "subconsciousQuestion": "How do I actually get hired?",
+          "content": "**Path 1: The Formal/Studio Route:**\n*   **Education:** BFA/MFA in Screenwriting from a reputable film school.\n*   **Entry:** Internships, assistant roles (e.g., showrunner's assistant, agency assistant).\n*   **Progression:** Leveraging connections from school/internships to get reads, get staffed in a writer's room, and eventually join the WGA (Writers Guild of America).\n\n**Path 2: The Freelance Hustle (Spec Writer):**\n*   **Self-Study:** Learn the craft through books, online courses, endless script analysis.\n*   **Output:** Write multiple 'spec scripts' (scripts written on speculation, without a buyer).\n*   **Strategy:** Enter reputable screenwriting contests (Nicholl Fellowship, Austin Film Festival), participate in fellowships/labs, cold-query agents/managers, build a strong portfolio of diverse samples.\n\n**Path 3: The Creator Route:**\n*   **DIY Production:** Write and produce your own short films, web series, or proof-of-concept trailers.\n*   **Audience Build:** Use social media (YouTube, TikTok) to gain traction and prove concept/audience interest.\n*   **Leverage:** Use your produced work as a calling card to attract producers, agents, or even fund larger projects."
+        },
+        {
+          "title": "The True Gatekeeper (Portfolio vs. Paper)",
+          "subconsciousQuestion": "Do I *really* need a degree?",
+          "content": "Your **portfolio (your scripts)** is the undisputed gatekeeper. A degree from a prestigious film school can provide valuable networking and foundational training, but it is **not** a prerequisite. Many successful screenwriters are self-taught or came from entirely different fields. No one in Hollywood asks about your GPA; they ask, 'What have you written?' or 'Do you have anything for X genre?' A killer spec script will always trump an expensive degree."
+        },
+        {
+          "title": "Time & Debt Cost (The 'Art School' ROI)",
+          "subconsciousQuestion": "Should I go $100k into debt for this?",
+          "content": "Spending $100k+ on a film school degree for screenwriting has a **low financial ROI** for most. While the networking opportunities and structured learning can be beneficial, the cost versus the highly uncertain initial income is a brutal calculation. You can learn the craft for free (or cheap) through books, online courses, and relentless writing practice. Instead of debt, invest your time and minimal resources into writing, entering contests, and building a network organically. The money saved could fund your 'starving artist' phase."
+        }
+      ]
+    },
+    {
+      "title": "The Mental Toll",
+      "cards": [
+        {
+          "title": "A Day in the Life (The Creative Grind)",
+          "subconsciousQuestion": "Is it glamorous or just exhausting?",
+          "content": "It's rarely glamorous and often exhausting. Your day is a blend of intense focus and frustrating interruptions:\n\n*   **Morning:** Solo writing session (2-4 hours). Coffee, staring at a blank page, breakthroughs, frustrations. This is where the magic (or the misery) happens.\n*   **Mid-day:** Meetings with agents, producers, fellow writers, or development executives. Pitching new ideas or getting notes on existing projects. The constant 'selling' of yourself and your vision.\n*   **Afternoon:** More writing, often incorporating notes received in the morning. This is 'the client feedback loop of doom' – creatively draining as you try to reconcile your vision with others'.\n*   **Evening:** Networking events, reading scripts from other writers, or simply trying to recharge your creative batteries. The grind never truly stops."
+        },
+        {
+          "title": "Burnout & 'The Passion Tax'",
+          "subconsciousQuestion": "Will this job make me hate my hobby?",
+          "content": "Absolutely. The 'Passion Tax' is endemic in creative fields like screenwriting. Because you ostensibly 'love' telling stories, companies (and even yourself) can rationalize working for less pay, longer hours, and enduring more criticism. Turning your passion into a commodity for others can quickly extinguish the joy. You'll be forced to write to specific market demands, genre tropes, and executive whims, often sacrificing your original vision. Burnout is rampant due to the relentless pressure, constant rejection, and the emotional investment required for every project."
+        },
+        {
+          "title": "Culture & Job Security",
+          "subconsciousQuestion": "Will I get fired if the client budget dries up?",
+          "content": "Job security is a phantom in this industry. It's almost entirely a project-based, contract gig economy. \n\n*   **Writer's Rooms:** You're hired for a season, and when it's over, you're looking for the next job. Teams are assembled and disassembled constantly.\n*   **Feature Writing:** You're hired to write a specific script. Once the draft is delivered (and often after endless rewrites), your contract concludes.\n*   **Industry Volatility:** Strikes (like the WGA strike), streaming service budget cuts, or a studio losing a major investor can instantly halt productions and leave thousands of writers jobless overnight. There is no 'safe' creative job here."
+        }
+      ]
+    },
+    {
+      "title": "The Endgame & The Future",
+      "cards": [
+        {
+          "title": "The Creative Ladder",
+          "subconsciousQuestion": "Where will I be in 10 years?",
+          "content": "The typical progression (especially in TV) moves from 'doer' to 'director' of other writers:\n\n*   **Staff Writer ➔ Story Editor ➔ Executive Story Editor ➔ Co-Producer ➔ Producer ➔ Supervising Producer ➔ Co-Executive Producer ➔ Executive Producer/Showrunner.**\n\nFor feature writers, it's less about titles and more about consistently selling scripts, getting high-profile assignments, building a unique voice, and potentially gaining 'first-look deals' with studios or developing your own IP into a franchise."
+        },
+        {
+          "title": "Solo / Founder Scope (Building the Agency)",
+          "subconsciousQuestion": "Can I build my own empire?",
+          "content": "A pure screenwriter rarely 'builds an agency' in the traditional sense. Instead, the career often evolves into becoming a **Showrunner** (the lead creative and business head of a TV series, running the writer's room) or a **Writer-Producer-Director** (creating and shepherding your own projects from script to screen). The 'empire' for a screenwriter typically means owning your own intellectual property (IP), establishing a production company to develop your own material, and having creative control over your work."
+        },
+        {
+          "title": "AI Threat Level (The Generative Tsunami)",
+          "subconsciousQuestion": "Will Midjourney and Sora steal my job?",
+          "content": "🔴 **EXTREMELY HIGH.** Generative AI (like ChatGPT, Claude, and future story-generation platforms) poses an existential threat to many aspects of screenwriting, especially for junior writers or formulaic content. AI can already:\n\n*   Generate outlines, loglines, synopses, and character bios.\n*   Draft dialogue, scene descriptions, and even full first drafts based on prompts.\n*   Instantly adapt stories to different genres, tones, or audience demographics.\n\n**The Future:** Screenwriters will need to adapt rapidly. The job will shift from 'drafting' to 'AI Prompt Engineer,' 'AI Story Editor,' or 'AI Creative Director.' Your value will be in your unique voice, your ability to craft complex emotional narratives beyond AI's current capabilities, and your skill in guiding AI tools to produce specific, nuanced creative output. Writers who cling to traditional methods without integrating AI will be left behind."
+        },
+        {
+          "title": "The Honest Verdict",
+          "subconsciousQuestion": "Will I regret choosing this?",
+          "content": "🟢 **Should YOU choose this? YES if:**\n*   You possess an undeniable, obsessive drive to tell stories and are willing to sacrifice stability for creative expression.\n*   You thrive on collaboration, constant feedback, and have an iron will to overcome rejection and extreme competition.\n\n🔴 **NO if:**\n*   You are sensitive to criticism, require a stable income, or expect your 'art' to be produced exactly as you envision it without commercial interference.\n*   You are easily discouraged by long odds, isolation, or the thought of your creative output being heavily influenced (or generated) by AI in the near future."
+        }
+      ]
+    }
+  ]
+}

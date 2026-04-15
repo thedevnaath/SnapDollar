@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "screenwriter",
+      "title": "Screenwriter",
+      "icon": "pen-tool",
+      "description": "Screenwriters craft the blueprints for films, TV shows, and video games. They're the architects of narrative, dialogue, and character, shaping the stories that captivate audiences. Success means a unique blend of artistic vision and commercial understanding to sell their words to studios and producers.",
+      "salaryRange": "$0 - $1,000,000+ (Highly Variable)",
+      "roiRating": "Low"
+    },
+    {
       "id": "editor-in-chief",
       "title": "Editor-in-Chief",
       "icon": "book-open",
