@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "motion-graphics-designer",
+      "title": "Motion Graphics Designer",
+      "icon": "monitor-play",
+      "description": "Motion Graphics Designers are visual storytellers who use animation, visual effects, and sound to bring static images and concepts to life. They transform complex ideas into engaging, digestible visual experiences, driving commercial goals from advertising to user interface design. This role demands both artistic flair and razor-sharp technical precision.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "fashion-designer",
       "title": "Fashion Designer",
       "icon": "shirt",
