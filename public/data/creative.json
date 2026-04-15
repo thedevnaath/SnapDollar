@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "copywriter-creative",
+      "title": "Copywriter",
+      "icon": "pencil",
+      "description": "Copywriters are the wordsmiths of commerce, crafting compelling text that sells products, builds brands, and drives action. It's a high-impact role where persuasive language directly translates into revenue for businesses.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "animator-career",
       "title": "Animator",
       "icon": "monitor-play",
