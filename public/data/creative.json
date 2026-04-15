@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "editor",
+      "title": "Editor",
+      "icon": "file-edit",
+      "description": "Editors are the unsung architects of compelling narratives, meticulously refining written content from raw ideas into polished, impactful pieces. They ensure clarity, coherence, and commercial resonance, making complex information accessible and persuasive for target audiences.",
+      "salaryRange": "$45k - $120k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "journalist-career-profile",
       "title": "Journalist",
       "icon": "newspaper",
