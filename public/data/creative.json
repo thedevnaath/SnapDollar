@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "technical-writer",
+      "title": "Technical Writer",
+      "icon": "file-text",
+      "description": "Technical Writers are the unsung heroes who translate complex technical jargon into clear, concise, and user-friendly documentation. You're not just writing; you're building bridges of understanding between advanced technology and its users, ensuring products are not just functional but also understandable and accessible.",
+      "salaryRange": "$60k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "content-writer",
       "title": "Content Writer",
       "icon": "type",
