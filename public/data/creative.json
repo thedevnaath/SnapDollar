@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "editor-in-chief",
+      "title": "Editor-in-Chief",
+      "icon": "book-open",
+      "description": "The Editor-in-Chief (EIC) is the ultimate guardian of a publication's voice, vision, and journalistic integrity. They lead content strategy, manage editorial teams, and shape narratives that resonate with audiences, directly impacting brand reputation and commercial success.",
+      "salaryRange": "$80k - $250k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "editor",
       "title": "Editor",
       "icon": "file-edit",
