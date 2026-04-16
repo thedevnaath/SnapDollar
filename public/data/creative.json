@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "novelist-creative",
+      "title": "Novelist",
+      "icon": "book-open-text",
+      "description": "Novelists craft compelling narratives and characters, weaving words into immersive worlds. Their ultimate commercial upside lies in captivating mass audiences, securing lucrative book deals, and building an enduring author brand that can transcend traditional publishing into multimedia franchises.",
+      "salaryRange": "$0 - $1,000,000+ (Highly Variable)",
+      "roiRating": "Low"
+    },
+    {
       "id": "grant-writer",
       "title": "Grant Writer",
       "icon": "file-text",
