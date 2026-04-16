@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "video-editor",
+      "title": "Video Editor",
+      "icon": "monitor-play",
+      "description": "Video Editors are the unsung storytellers, crafting raw footage into compelling narratives that captivate audiences and achieve commercial goals. They bring vision to life, transforming disjointed clips into polished, impactful content across film, TV, advertising, and digital media.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "videographer",
       "title": "Videographer",
       "icon": "video",
