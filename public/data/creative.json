@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "videographer",
+      "title": "Videographer",
+      "icon": "video",
+      "description": "A videographer captures and crafts compelling visual stories, from corporate promos to music videos. This role merges artistic vision with technical precision, offering substantial commercial upside for those who can consistently deliver high-quality, impactful content.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "video-producer",
       "title": "Video Producer",
       "icon": "monitor-play",
