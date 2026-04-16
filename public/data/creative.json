@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "film-director",
+      "title": "Film Director",
+      "icon": "camera",
+      "description": "A Film Director is the ultimate visionary and project manager, translating scripts into compelling visual stories for cinema, television, or commercials. They oversee every creative aspect, from casting to final edit, driving a complex production to deliver a cohesive, impactful narrative that resonates with audiences and clients alike.",
+      "salaryRange": "$40k - $1M+ (Highly Variable)",
+      "roiRating": "High (if successful, but extremely risky)"
+    },
+    {
       "id": "novelist-creative",
       "title": "Novelist",
       "icon": "book-open-text",
