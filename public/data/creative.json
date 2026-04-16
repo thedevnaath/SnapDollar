@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "video-producer",
+      "title": "Video Producer",
+      "icon": "monitor-play",
+      "description": "The Video Producer is the architect of visual stories, transforming raw concepts into compelling, polished videos. They orchestrate every moving piece—from scripting to final edit—ensuring projects align with client vision and commercial goals. This role marries creative execution with ruthless project management for maximum impact.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "film-director",
       "title": "Film Director",
       "icon": "camera",
