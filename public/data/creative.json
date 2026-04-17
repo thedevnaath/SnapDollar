@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "foley-artist",
+      "title": "Foley Artist",
+      "icon": "audio-lines",
+      "description": "A Foley Artist is a specialized sound effects technician who records and synchronizes ambient and character sounds in real-time to moving picture, enhancing the immersive quality of film, TV, and games. This role bridges practical performance art with technical audio production, turning everyday objects into believable sonic landscapes that define a viewer's experience.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "gaffer-creative",
       "title": "Gaffer",
       "icon": "lightbulb",
