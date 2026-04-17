@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "gaffer-creative",
+      "title": "Gaffer",
+      "icon": "lightbulb",
+      "description": "The Gaffer is the chief lighting technician on a film or video set, responsible for executing the Director of Photography's (DP) vision for lighting. They translate artistic concepts into technical setups, ensuring every scene is lit to evoke specific emotions and enhance storytelling. This role demands both creative problem-solving and rigorous technical expertise to achieve commercial-grade visual impact.",
+      "salaryRange": "$45k - $180k+ (Highly Variable Freelance)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "production-assistant",
       "title": "Production Assistant",
       "icon": "camera",
