@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "camera-operator",
+      "title": "Camera Operator",
+      "icon": "camera",
+      "description": "A Camera Operator is the eyes of a film, TV show, or live event, responsible for capturing dynamic, visually compelling footage. This role merges technical expertise with an artistic eye, transforming a director's vision into tangible moving images. The ultimate commercial upside lies in high-demand specialization and the ability to contribute to major productions, commanding significant day rates.",
+      "salaryRange": "$45,000 - $150,000+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cinematographer",
       "title": "Cinematographer",
       "icon": "camera",
