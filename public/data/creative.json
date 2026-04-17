@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "cinematographer",
+      "title": "Cinematographer",
+      "icon": "camera",
+      "description": "The Cinematographer (DP) is the chief visual artist on a film or video production, responsible for bringing the director's vision to life through light, camera, and composition. They craft the mood, atmosphere, and visual narrative, making them indispensable for any high-impact visual storytelling.",
+      "salaryRange": "$30k - $300k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "video-editor",
       "title": "Video Editor",
       "icon": "monitor-play",
