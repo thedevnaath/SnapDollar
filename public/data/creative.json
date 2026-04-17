@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "sound-engineer",
+      "title": "Sound Engineer",
+      "icon": "headphones",
+      "description": "Sound Engineers are the architects of auditory experiences, shaping raw audio into polished, impactful sonic landscapes for music, film, games, and broadcast. This role blends artistic sensitivity with rigorous technical expertise to deliver a product that profoundly influences perception and emotion.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "camera-operator",
       "title": "Camera Operator",
       "icon": "camera",
