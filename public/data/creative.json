@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "production-assistant",
+      "title": "Production Assistant",
+      "icon": "camera",
+      "description": "The Production Assistant (PA) is the indispensable backbone of any film, TV, commercial, or event set, ensuring every logistical detail runs smoothly. This role is a demanding, high-octane immersion into the real-world mechanics of production, offering unparalleled learning and networking opportunities for those aiming for higher creative or management roles.",
+      "salaryRange": "$150 - $300/day (Highly Variable, Project-Based)",
+      "roiRating": "Low (Initially) / Medium (Long-term potential)"
+    },
+    {
       "id": "sound-engineer",
       "title": "Sound Engineer",
       "icon": "headphones",
