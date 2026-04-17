@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "social-media-manager",
+      "title": "Social Media Manager",
+      "icon": "share-2",
+      "description": "A Social Media Manager acts as a brand's digital voice, orchestrating content across platforms to build community, drive engagement, and generate measurable business results. It's a strategic blend of creative storytelling and data-driven marketing, directly impacting brand visibility and sales.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "foley-artist",
       "title": "Foley Artist",
       "icon": "audio-lines",
