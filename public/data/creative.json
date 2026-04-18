@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "audio-editor",
+      "title": "Audio Editor",
+      "icon": "headphones",
+      "description": "An Audio Editor sculpts raw sound into polished, immersive auditory experiences for diverse media. They are the invisible architects behind podcasts, films, and games, ensuring every sound element elevates the narrative. The commercial upside is delivering high-quality audio that drives engagement and directly impacts content's commercial success.",
+      "salaryRange": "$40k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "music-producer",
       "title": "Music Producer",
       "icon": "music-2",
