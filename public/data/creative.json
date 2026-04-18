@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "commercial-photographer",
+      "title": "Commercial Photographer",
+      "icon": "camera",
+      "description": "Commercial Photographers are visual problem-solvers, crafting compelling imagery that sells products, services, or concepts for businesses. This role demands a blend of artistic vision, technical mastery, and ruthless business acumen to deliver impactful visuals that drive commercial success.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "photojournalist",
       "title": "Photojournalist",
       "icon": "camera",
