@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "set-designer",
+      "title": "Set Designer",
+      "icon": "layout-dashboard",
+      "description": "Set Designers are the master architects of cinematic worlds, theatrical stages, and immersive experiences. They transform abstract concepts into tangible, functional environments that tell stories and captivate audiences. This role blends artistic vision with ruthless practicality, demanding extreme problem-solving under tight budgets and tighter deadlines.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "makeup-artist",
       "title": "Makeup Artist",
       "icon": "palette",
