@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "public-relations-specialist",
+      "title": "Public Relations Specialist",
+      "icon": "megaphone",
+      "description": "Public Relations Specialists are master storytellers and strategic communicators, expertly crafting narratives to shape public perception and protect reputations. They blend persuasive writing with media savvy to turn obscurity into buzz, or crisis into calm, directly impacting a brand's value and market position.",
+      "salaryRange": "$55k - $150k+ (Highly Variable)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "seo-specialist-creative",
       "title": "SEO Specialist",
       "icon": "line-chart",
