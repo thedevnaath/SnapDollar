@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "public-relations-manager",
+      "title": "Public Relations Manager",
+      "icon": "megaphone",
+      "description": "A Public Relations Manager is the strategic storyteller and reputation guardian for brands, individuals, or organizations. They craft compelling narratives, manage media relationships, and steer public perception, turning complex ideas into digestible, positive messages. This role demands sharp communication skills and a strategic mind to navigate the constant flux of public opinion and media landscapes.",
+      "salaryRange": "$60,000 - $150,000+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-relations-specialist",
       "title": "Public Relations Specialist",
       "icon": "megaphone",
