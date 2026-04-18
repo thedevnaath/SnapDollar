@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "media-planner-career",
+      "title": "Media Planner",
+      "icon": "target",
+      "description": "Media Planners are the strategic architects behind advertising campaigns, deciding where, when, and how ads reach their target audience. They blend rigorous data analysis with market insights to maximize campaign impact and ensure creative messages resonate with the right people.",
+      "salaryRange": "$55k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-relations-manager",
       "title": "Public Relations Manager",
       "icon": "megaphone",
