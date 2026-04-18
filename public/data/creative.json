@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "influencer-manager",
+      "title": "Influencer Manager",
+      "icon": "users-round",
+      "description": "Influencer Managers are the strategic architects behind social media marketing, connecting brands with powerful online voices. They scout talent, negotiate deals, and oversee campaigns, translating digital buzz into tangible business growth. This role demands sharp negotiation, trend-spotting, and masterful project management.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "media-buyer",
       "title": "Media Buyer",
       "icon": "line-chart",
