@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "content-strategist",
+      "title": "Content Strategist",
+      "icon": "clipboard-list",
+      "description": "Content Strategists are the architects of a brand's voice, planning every piece of content from blog posts to videos to social media campaigns. Their ultimate goal is to connect with audiences and drive tangible business results like sales or sign-ups, proving creativity can be a powerful revenue engine.",
+      "salaryRange": "$60k - $180k+ (Highly Variable)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "influencer-manager",
       "title": "Influencer Manager",
       "icon": "users-round",
