@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "social-media-coordinator",
+      "title": "Social Media Coordinator",
+      "icon": "share-2",
+      "description": "Craft and deploy digital narratives that build brand presence and drive engagement across social platforms. This role fuses creative content creation with strategic audience growth, directly impacting a brand's visibility and bottom line.",
+      "salaryRange": "$30k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "social-media-manager",
       "title": "Social Media Manager",
       "icon": "share-2",
