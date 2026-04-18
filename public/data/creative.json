@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "makeup-artist",
+      "title": "Makeup Artist",
+      "icon": "palette",
+      "description": "A Makeup Artist transforms faces for film, fashion, events, or everyday beauty, translating creative visions into tangible results. It's a high-impact role blending artistic skill with client psychology and rigorous sanitation. Success means mastering both your brush and your business.",
+      "salaryRange": "$30k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "podcaster",
       "title": "Podcaster",
       "icon": "mic",
