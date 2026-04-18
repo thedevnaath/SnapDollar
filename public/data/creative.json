@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "photojournalist",
+      "title": "Photojournalist",
+      "icon": "camera",
+      "description": "Photojournalists are visual storytellers who capture and document current events, social issues, and human experiences through photography. They turn fleeting moments into critical visual records that inform, provoke thought, and often shape public discourse. Their commercial value lies in providing compelling, authentic imagery to news outlets, agencies, and increasingly, direct audiences hungry for truth.",
+      "salaryRange": "$25k - $120k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "photographer",
       "title": "Photographer",
       "icon": "camera",
