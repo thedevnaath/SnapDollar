@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "broadcast-technician",
+      "title": "Broadcast Technician",
+      "icon": "monitor-play",
+      "description": "The Broadcast Technician is the unsung hero ensuring every live show, news report, and recorded segment looks and sounds flawless. They're the highly skilled operators behind the scenes, making sure the intricate dance of audio, video, and transmission equipment performs without a hitch, turning raw signals into polished media for millions.",
+      "salaryRange": "$40k - $100k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "audio-editor",
       "title": "Audio Editor",
       "icon": "headphones",
