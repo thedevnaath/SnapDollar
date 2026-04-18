@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "digital-marketing-manager",
+      "title": "Digital Marketing Manager",
+      "icon": "megaphone",
+      "description": "Orchestrate compelling online campaigns to drive brand awareness, customer engagement, and ultimately, sales. This role demands a blend of strategic creativity and ruthless data analysis, translating artistic vision into measurable commercial success.",
+      "salaryRange": "$60k - $150k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "social-media-coordinator",
       "title": "Social Media Coordinator",
       "icon": "share-2",
