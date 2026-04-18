@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "seo-specialist-creative",
+      "title": "SEO Specialist",
+      "icon": "line-chart",
+      "description": "An SEO Specialist optimizes digital content and websites to rank higher on search engines. This role blends creative content strategy with ruthless data analysis, directly driving business visibility and revenue.",
+      "salaryRange": "$55k - $200k+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "digital-marketing-manager",
       "title": "Digital Marketing Manager",
       "icon": "megaphone",
