@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "radio-host",
+      "title": "Radio Host",
+      "icon": "radio",
+      "description": "Radio Hosts are the captivating voices that curate audio experiences, connecting with listeners through music, talk, and interviews. This role demands raw charisma, razor-sharp wit, and an innate ability to entertain, all while commercially driving audience engagement and advertiser value.",
+      "salaryRange": "$30k - $150k+ (Highly Variable & Performance-Based)",
+      "roiRating": "Low"
+    },
+    {
       "id": "broadcast-technician",
       "title": "Broadcast Technician",
       "icon": "monitor-play",
