@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "podcaster",
+      "title": "Podcaster",
+      "icon": "mic",
+      "description": "Crafts compelling audio narratives and discussions, transforming niche interests into engaging, marketable content. This role fuses storytelling with media production and sharp business acumen to build direct, monetized audience connections.",
+      "salaryRange": "$15k - $500k+ (Extremely Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "radio-host",
       "title": "Radio Host",
       "icon": "radio",
