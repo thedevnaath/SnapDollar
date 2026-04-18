@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "media-buyer",
+      "title": "Media Buyer",
+      "icon": "line-chart",
+      "description": "Media Buyers are the strategic masterminds who decide *where* and *how* ad budgets are spent to reach specific audiences and drive measurable results. It's less about creating ads, more about optimizing their placement for maximum commercial impact and ROI. Your job is to make companies rich by spending their money wisely.",
+      "salaryRange": "$50k - $120k+ (Stable) to $70k - $250k+ (Variable/High-Performing Freelance)",
+      "roiRating": "High"
+    },
+    {
       "id": "media-planner-career",
       "title": "Media Planner",
       "icon": "target",
