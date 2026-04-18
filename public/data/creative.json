@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "music-producer",
+      "title": "Music Producer",
+      "icon": "music-2",
+      "description": "A Music Producer shapes the sonic identity of a song, guiding artists from initial concept to a polished master. This role marries artistic vision with technical expertise and business acumen to create commercially viable and emotionally resonant music. It's about turning raw talent into marketable sound.",
+      "salaryRange": "$40k - $250k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "commercial-photographer",
       "title": "Commercial Photographer",
       "icon": "camera",
