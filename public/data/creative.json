@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "photographer",
+      "title": "Photographer",
+      "icon": "camera",
+      "description": "Photographers are visual storytellers, capturing moments, products, and people to evoke emotion or sell a vision. Their ultimate commercial upside lies in consistently delivering high-quality, impactful imagery that resonates with target audiences, driving brand engagement and sales.",
+      "salaryRange": "$35k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "content-strategist",
       "title": "Content Strategist",
       "icon": "clipboard-list",
