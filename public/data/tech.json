@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "front-end-developer",
+      "title": "Front-End Developer",
+      "icon": "code",
+      "description": "Front-End Developers build everything you see and interact with on websites and apps. They turn designs into functional, user-friendly experiences. Think buttons, menus, and how pages load smoothly.",
+      "salaryRange": "$85k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "software-engineer",
       "title": "Software Engineer",
       "icon": "code",
