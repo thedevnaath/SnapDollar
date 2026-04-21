@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "biologist-career-profile",
+      "title": "Biologist",
+      "icon": "dna",
+      "description": "Biologists unravel the mysteries of life, from microscopic cells to entire ecosystems, aiming to develop new medicines, improve agriculture, or understand environmental challenges. Their discoveries drive innovation, but the path is rigorous, often requiring extensive education and securing competitive funding.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "chemist-career-profile",
       "title": "Chemist",
       "icon": "flask-conical",
