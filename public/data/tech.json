@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "software-engineer",
+      "title": "Software Engineer",
+      "icon": "code",
+      "description": "Software Engineers design, build, and maintain the computer programs and systems that power our digital world. They solve complex problems using code, making sure apps, websites, and infrastructure work smoothly and efficiently. It's a high-impact role shaping technology's future.",
+      "salaryRange": "$90k - $200k",
+      "roiRating": "High"
+    },
+    {
       "id": "cloud-security-architect",
       "title": "Cloud Security Architect",
       "icon": "shieldCheck",
