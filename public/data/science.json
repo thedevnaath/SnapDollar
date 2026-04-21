@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "chemist-career-profile",
+      "title": "Chemist",
+      "icon": "flask-conical",
+      "description": "Chemists are the architects of the molecular world, designing, synthesizing, and analyzing substances to understand their properties and create new materials. This foundational science underpins industries from pharmaceuticals to materials science, driving innovation and substantial economic impact.",
+      "salaryRange": "$55k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "biomedical-scientist",
       "title": "Biomedical Scientist",
       "icon": "dna",
