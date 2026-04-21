@@ -1,1 +1,151 @@
-[]
+[
+  { "title": "Software Engineer", "sector": "tech" },
+  { "title": "Mechanical Engineer", "sector": "engineer" },
+  { "title": "Chemist", "sector": "science" },
+  { "title": "Police Officer", "sector": "publicservice" },
+  
+  { "title": "Front-End Developer", "sector": "tech" },
+  { "title": "Civil Engineer", "sector": "engineer" },
+  { "title": "Biologist", "sector": "science" },
+  { "title": "Firefighter", "sector": "publicservice" },
+  
+  { "title": "Back-End Developer", "sector": "tech" },
+  { "title": "Electrical Engineer", "sector": "engineer" },
+  { "title": "Physicist", "sector": "science" },
+  { "title": "911 Dispatcher", "sector": "publicservice" },
+  
+  { "title": "Full-Stack Developer", "sector": "tech" },
+  { "title": "Chemical Engineer", "sector": "engineer" },
+  { "title": "Astronomer", "sector": "science" },
+  { "title": "High School Teacher", "sector": "publicservice" },
+  
+  { "title": "Data Scientist", "sector": "tech" },
+  { "title": "Aerospace Engineer", "sector": "engineer" },
+  { "title": "Geologist", "sector": "science" },
+  { "title": "Elementary School Teacher", "sector": "publicservice" },
+  
+  { "title": "Data Analyst", "sector": "tech" },
+  { "title": "Industrial Engineer", "sector": "engineer" },
+  { "title": "Meteorologist", "sector": "science" },
+  { "title": "Special Education Teacher", "sector": "publicservice" },
+  
+  { "title": "Data Engineer", "sector": "tech" },
+  { "title": "Biomedical Engineer", "sector": "engineer" },
+  { "title": "Oceanographer", "sector": "science" },
+  { "title": "School Principal", "sector": "publicservice" },
+  
+  { "title": "DevOps Engineer", "sector": "tech" },
+  { "title": "Environmental Engineer", "sector": "engineer" },
+  { "title": "Botanist", "sector": "science" },
+  { "title": "Urban Planner", "sector": "publicservice" },
+  
+  { "title": "Cybersecurity Analyst", "sector": "tech" },
+  { "title": "Structural Engineer", "sector": "engineer" },
+  { "title": "Zoologist", "sector": "science" },
+  { "title": "Postal Worker", "sector": "publicservice" },
+  
+  { "title": "Systems Administrator", "sector": "tech" },
+  { "title": "Materials Engineer", "sector": "engineer" },
+  { "title": "Microbiologist", "sector": "science" },
+  { "title": "Public Librarian", "sector": "publicservice" },
+  
+  { "title": "Network Engineer", "sector": "tech" },
+  { "title": "Petroleum Engineer", "sector": "engineer" },
+  { "title": "Ecologist", "sector": "science" },
+  { "title": "Park Ranger", "sector": "publicservice" },
+  
+  { "title": "Database Administrator", "sector": "tech" },
+  { "title": "Nuclear Engineer", "sector": "engineer" },
+  { "title": "Environmental Scientist", "sector": "science" },
+  { "title": "Judge", "sector": "publicservice" },
+  
+  { "title": "IT Support Specialist", "sector": "tech" },
+  { "title": "Automotive Engineer", "sector": "engineer" },
+  { "title": "Forensic Scientist", "sector": "science" },
+  { "title": "District Attorney", "sector": "publicservice" },
+  
+  { "title": "Cloud Engineer", "sector": "tech" },
+  { "title": "Manufacturing Engineer", "sector": "engineer" },
+  { "title": "Toxicologist", "sector": "science" },
+  { "title": "Public Defender", "sector": "publicservice" },
+  
+  { "title": "Machine Learning Engineer", "sector": "tech" },
+  { "title": "Marine Engineer", "sector": "engineer" },
+  { "title": "Pharmacologist", "sector": "science" },
+  { "title": "Probation Officer", "sector": "publicservice" },
+  
+  { "title": "Mobile App Developer", "sector": "tech" },
+  { "title": "Robotics Engineer", "sector": "engineer" },
+  { "title": "Biochemist", "sector": "science" },
+  { "title": "Correctional Officer", "sector": "publicservice" },
+  
+  { "title": "Game Developer", "sector": "tech" },
+  { "title": "Geological Engineer", "sector": "engineer" },
+  { "title": "Biophysicist", "sector": "science" },
+  { "title": "Border Patrol Agent", "sector": "publicservice" },
+  
+  { "title": "Site Reliability Engineer", "sector": "tech" },
+  { "title": "Mining Engineer", "sector": "engineer" },
+  { "title": "Epidemiologist", "sector": "science" },
+  { "title": "Customs Officer", "sector": "publicservice" },
+  
+  { "title": "Quality Assurance Tester", "sector": "tech" },
+  { "title": "Acoustics Engineer", "sector": "engineer" },
+  { "title": "Hydrologist", "sector": "science" },
+  { "title": "TSA Agent", "sector": "publicservice" },
+  
+  { "title": "Software Architect", "sector": "tech" },
+  { "title": "Agricultural Engineer", "sector": "engineer" },
+  { "title": "Seismologist", "sector": "science" },
+  { "title": "Air Traffic Controller", "sector": "publicservice" },
+  
+  { "title": "AI Researcher", "sector": "tech" },
+  { "title": "Mechatronics Engineer", "sector": "engineer" },
+  { "title": "Paleontologist", "sector": "science" },
+  { "title": "Foreign Service Officer", "sector": "publicservice" },
+  
+  { "title": "Blockchain Developer", "sector": "tech" },
+  { "title": "HVAC Engineer", "sector": "engineer" },
+  { "title": "Food Scientist", "sector": "science" },
+  { "title": "Intelligence Analyst", "sector": "publicservice" },
+  
+  { "title": "IT Project Manager", "sector": "tech" },
+  { "title": "Reliability Engineer", "sector": "engineer" },
+  { "title": "Agricultural Scientist", "sector": "science" },
+  { "title": "Policy Analyst", "sector": "publicservice" },
+  
+  { "title": "Computer Systems Analyst", "sector": "tech" },
+  { "title": "Process Engineer", "sector": "engineer" },
+  { "title": "Neuroscientist", "sector": "science" },
+  { "title": "Elected Official", "sector": "publicservice" },
+  
+  { "title": "Penetration Tester", "sector": "tech" },
+  { "title": "Safety Engineer", "sector": "engineer" },
+  { "title": "Virologist", "sector": "science" },
+  { "title": "Sanitation Worker", "sector": "publicservice" },
+  
+  { "title": "Hardware Engineer", "sector": "tech" },
+  { "title": "Systems Engineer", "sector": "engineer" },
+  { "title": "Immunology Scientist", "sector": "science" },
+  { "title": "Emergency Management Director", "sector": "publicservice" },
+  
+  { "title": "Webmaster", "sector": "tech" },
+  { "title": "Geotechnical Engineer", "sector": "engineer" },
+  { "title": "Material Scientist", "sector": "science" },
+  { "title": "Social Services Director", "sector": "publicservice" },
+  
+  { "title": "Information Security Manager", "sector": "tech" },
+  { "title": "Photonics Engineer", "sector": "engineer" },
+  { "title": "Climatologist", "sector": "science" },
+  { "title": "Child Protective Services Caseworker", "sector": "publicservice" },
+  
+  { "title": "Application Support Analyst", "sector": "tech" },
+  { "title": "Project Engineer", "sector": "engineer" },
+  { "title": "Conservation Scientist", "sector": "science" },
+  { "title": "Public Health Administrator", "sector": "publicservice" },
+  
+  { "title": "ERP Consultant", "sector": "tech" },
+  { "title": "Quality Engineer", "sector": "engineer" },
+  { "title": "Volcanologist", "sector": "science" },
+  { "title": "Transit Operator", "sector": "publicservice" }
+]
