@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "police-officer",
+      "title": "Police Officer",
+      "icon": "shield",
+      "description": "Enforcing laws and maintaining order sounds like high-stakes drama, but the daily reality for a Police Officer is a blend of community interaction, bureaucratic paperwork, and confronting human suffering. It’s a career built on public service, offering stability and impact, but rarely significant personal wealth or the TV show glamour.",
+      "salaryRange": "$50k - $90k (Public Service)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "corporate-lawyer-m-and-a",
       "title": "Corporate Lawyer (M&A)",
       "icon": "building-2",
