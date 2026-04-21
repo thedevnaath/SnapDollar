@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "firefighter",
+      "title": "Firefighter",
+      "icon": "fire-extinguisher",
+      "description": "Firefighters are frontline emergency responders, tasked with protecting life, property, and the environment from fires and other hazards. This role demands extreme physical and mental resilience in a high-stakes, public-facing environment, offering immense societal impact but a stable, rather than lucrative, financial trajectory.",
+      "salaryRange": "$50k (Entry Public) - $90k+ (Senior/Specialized Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "police-officer",
       "title": "Police Officer",
       "icon": "shield",
