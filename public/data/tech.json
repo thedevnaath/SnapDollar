@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "back-end-developer",
+      "title": "Back-End Developer",
+      "icon": "database",
+      "description": "Back-End Developers build the 'engine room' of websites and apps, handling data, logic, and servers behind the scenes. They ensure everything runs smoothly, securely, and efficiently. Without them, your favorite online services wouldn't exist.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "front-end-developer",
       "title": "Front-End Developer",
       "icon": "code",
