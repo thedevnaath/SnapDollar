@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "civil-engineer",
+      "title": "Civil Engineer",
+      "icon": "building",
+      "description": "Civil Engineers design, build, and maintain the world around us, from roads and bridges to water systems and buildings. They ensure our infrastructure is safe, efficient, and sustainable, laying the groundwork for how cities function daily. This role blends technical skill with real-world impact, shaping communities.",
+      "salaryRange": "$75k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "mechanical-engineer",
       "title": "Mechanical Engineer",
       "icon": "gear",
