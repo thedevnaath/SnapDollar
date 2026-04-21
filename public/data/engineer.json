@@ -1,5 +1,14 @@
 {
   "category": "Engineering & Trades",
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
-  "careers": []
+  "careers": [
+    {
+      "id": "mechanical-engineer",
+      "title": "Mechanical Engineer",
+      "icon": "gear",
+      "description": "Mechanical Engineers design, build, and test everything that moves, from tiny robots to massive airplanes. They use science and math to create practical solutions for everyday problems, making sure machines work efficiently and safely.",
+      "salaryRange": "$75k - $130k",
+      "roiRating": "High"
+    }
+  ]
 }
