@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "911-dispatcher",
+      "title": "911 Dispatcher",
+      "icon": "phone-call",
+      "description": "The unseen lifeline in emergencies, 911 dispatchers are the critical first point of contact, coordinating urgent responses. This role offers profound societal impact and job stability, but demands extreme resilience for modest public sector compensation.",
+      "salaryRange": "$38k (Public) - $65k (Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "firefighter",
       "title": "Firefighter",
       "icon": "fire-extinguisher",
