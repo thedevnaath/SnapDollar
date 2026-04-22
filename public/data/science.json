@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "astronomer",
+      "title": "Astronomer",
+      "icon": "telescope",
+      "description": "Astronomers probe the universe's biggest questions, from black holes to exoplanets. This career is less about looking through telescopes and more about coding, complex data analysis, and crafting compelling research proposals to secure funding. The ultimate impact is expanding humanity's understanding of our place in the cosmos.",
+      "salaryRange": "$55k (Academia Post-Doc) - $200k+ (Industry Data Science/AI)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "physicist-career",
       "title": "Physicist",
       "icon": "atom",
