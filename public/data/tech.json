@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "full-stack-developer",
+      "title": "Full-Stack Developer",
+      "icon": "code",
+      "description": "Full-Stack Developers are the architects and builders of the digital world, crafting everything you see (frontend) and all the logic behind it (backend). They build complete web applications, from the buttons you click to the databases storing your information. This role demands continuous learning and offers significant financial reward.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "back-end-developer",
       "title": "Back-End Developer",
       "icon": "database",
