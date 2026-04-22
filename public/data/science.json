@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "physicist-career",
+      "title": "Physicist",
+      "icon": "atom",
+      "description": "Physicists unravel the fundamental laws of the universe, from subatomic particles to the cosmos. Their deep theoretical and experimental work forms the bedrock for all technology, but the path demands extreme intellectual rigor and often sacrifices immediate financial gain for profound discovery.",
+      "salaryRange": "$60k (Academia Post-Doc) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "biologist-career-profile",
       "title": "Biologist",
       "icon": "dna",
