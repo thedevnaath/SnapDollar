@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "chemical-engineer",
+      "title": "Chemical Engineer",
+      "icon": "flask-conical",
+      "description": "Chemical engineers design and manage the processes that turn raw materials into everyday products like fuel, plastics, and medicines. They optimize production, ensure safety, and cut costs in massive industrial operations.",
+      "salaryRange": "$75k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "electrical-engineer",
       "title": "Electrical Engineer",
       "icon": "cpu",
