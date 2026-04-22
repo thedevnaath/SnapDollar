@@ -1,0 +1,115 @@
+{
+  "id": "electrical-engineer",
+  "title": "Electrical Engineer",
+  "sector": "engineer",
+  "lastUpdated": "April 22, 2026",
+  "description": "Electrical Engineers design, develop, and test everything that uses electricity, from tiny microchips in your phone to massive power grids powering cities. They ensure electrical systems are safe, efficient, and reliable, literally powering the modern world.",
+  "seoMetaDescription": "Become an Electrical Engineer: discover salary expectations, essential skills, career paths, and daily life. Learn how to design the future of technology and power.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Electrical Engineer",
+    "description": "Electrical Engineers are specialists who design, develop, and supervise the manufacturing of electrical equipment, systems, and components. Their work spans across various industries, including telecommunications, aerospace, power generation, and consumer electronics, ensuring the safe and efficient operation of electrical technologies. This role demands strong problem-solving skills, a deep understanding of physics and mathematics, and continuous learning to adapt to new technologies.",
+    "estimatedSalary": "$75,000 - $150,000"
+  },
+  "salaryRange": "$75k - $150k",
+  "roiRating": "High",
+  "icon": "cpu",
+  "sections": [
+    {
+      "title": "The Basics",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** High demand across diverse industries (tech, automotive, energy).\n✅ **Pro:** Directly impacts real-world products and infrastructure, very tangible work.\n❌ **Con:** Requires deep technical knowledge and continuous learning to stay relevant.\n❌ **Con:** Projects can be complex, involve long hours, and require intense problem-solving."
+        },
+        {
+          "title": "What You Actually Do",
+          "subconsciousQuestion": "Will I understand this job?",
+          "content": "As an Electrical Engineer, you're basically the architect and builder for anything that uses electricity. You'll spend your time **designing circuits** for phones, computers, or even power grids. You **develop new technologies** like advanced batteries or faster chips. Then, you **test these designs** to make sure they work perfectly and safely, often using computer simulations before building physical prototypes. You also **fix problems** with existing electrical systems and work with manufacturing teams to bring your designs to life. It’s all about making sure power flows where it needs to go, efficiently and reliably."
+        },
+        {
+          "title": "Salary Insights",
+          "subconsciousQuestion": "Will I be rich?",
+          "content": "🇺🇸 USA: $75,000 – $150,000 (Experienced can hit $200k+)\n🇩🇪 Germany: €55,000 – €95,000\n🇬🇧 UK: £40,000 – £80,000\n🌍 Remote: $80,000 – $130,000 (Limited opportunities for remote, typically hybrid)\n\n📈 **Growth:** Medium - The demand for skilled Electrical Engineers remains strong, especially in areas like renewable energy, automation, and advanced electronics. While not 'hyper-growth' like some software roles, it's a stable field with consistent need for innovation."
+        },
+        {
+          "title": "Core Tech Stack & Skills",
+          "subconsciousQuestion": "What exact tools do I need to learn?",
+          "content": "*   **Circuit Design Software (CAD):** Altium Designer, Eagle, PSpice\n*   **Simulation Tools:** MATLAB/Simulink, LTSpice\n*   **Programming Languages:** Python (for automation/data), C/C++ (for embedded systems)\n*   **Test Equipment:** Oscilloscopes, Multimeters, Spectrum Analyzers\n*   **Physics & Math:** Deep understanding of electromagnetism, circuit theory, calculus"
+        },
+        {
+          "title": "Equity & Perks",
+          "subconsciousQuestion": "Do I get company stock or just a salary?",
+          "content": "Many larger tech and manufacturing companies offer **Restricted Stock Units (RSUs)**, giving you a stake in the company's future value. Performance-based **bonuses** are common, especially in roles tied to product success or project completion. Smaller firms might offer **profit-sharing**. Typical perks include good health benefits, paid time off, and sometimes tuition reimbursement for advanced degrees. Stock options are less common than for software roles but exist in innovative startups."
+        }
+      ]
+    },
+    {
+      "title": "Getting In",
+      "cards": [
+        {
+          "title": "The Execution Plan",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "**Path 1: The Traditional Route**\nEarn a **Bachelor's degree in Electrical Engineering (BSEE)**. During college, focus on **internships** at companies like Intel, Siemens, Tesla, or local utilities. Your first job will likely be an 'Entry-Level Electrical Engineer' or 'Associate Hardware Engineer' role, where you'll get hands-on experience under senior engineers.\n\n**Path 2: The Hacker Route**\nThis path is harder for Electrical Engineering due to the need for expensive equipment. Focus on **self-study through online courses** (e.g., Coursera, MIT OpenCourseWare) in circuit design, embedded systems, and power electronics. Build a strong **portfolio of personal projects** using microcontrollers (Arduino, Raspberry Pi) and custom circuit boards. Network heavily and look for hardware startups willing to take a chance on proven project skills over a formal degree.\n\n**Path 3: The Pivot Route**\nIf you have a degree in a related field like Physics, Computer Science, or Mechanical Engineering, you can pivot by taking specialized **master's courses** or **professional certifications** in specific EE areas (e.g., power systems, signal processing). Leverage any existing coding or analytical skills and apply for roles where that overlap is valuable, like 'Embedded Software Engineer' or 'Test Engineer' for electrical systems."
+        },
+        {
+          "title": "Time & Money Cost",
+          "subconsciousQuestion": "How much debt and time will this take?",
+          "content": "A Bachelor's degree is almost always required. This typically costs **$40,000 - $200,000+** depending on whether you choose an in-state public university or a private institution. The time cost is usually **4 years** of full-time study. Expect to put in significant effort, as engineering degrees are rigorous."
+        },
+        {
+          "title": "Barrier to Entry",
+          "subconsciousQuestion": "Is it impossible for a junior to get hired?",
+          "content": "The barrier to entry is **Medium-High**. While junior roles exist, companies expect strong foundational knowledge from your degree and practical experience from internships or projects. Interviews often involve technical questions on circuit theory, electromagnetism, and problem-solving scenarios. There isn't as much 'junior market saturation' as in some software fields, but competition for the best entry-level roles can be tough. Having hands-on lab experience is critical."
+        }
+      ]
+    },
+    {
+      "title": "The Daily Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "What is hour-by-hour reality?",
+          "content": "Your Tuesday might start at **9:00 AM** with a team stand-up, discussing project progress and blocking issues. **9:30 AM - 12:00 PM** is focused design work in a CAD program, refining a circuit board layout or simulating a new power converter. You grab lunch, then at **1:00 PM - 2:00 PM** you might be in the lab, testing a prototype with an oscilloscope, debugging signal integrity issues. **2:00 PM - 3:00 PM** involves collaborating with a mechanical engineer to ensure your electronics fit properly in a new device. **3:00 PM - 5:00 PM** is back to your desk for documentation, writing test plans, or researching new components. The day usually ends around **5:30 PM**, unless a critical deadline requires staying longer.\n\n**Meetings:** Medium\n**Travel:** Low (occasional for testing/client sites)\n**Coding:** Medium (for simulations, embedded systems)\n**Hands-on Work:** High\n**Documentation:** High"
+        },
+        {
+          "title": "Stress & Burnout Risk",
+          "subconsciousQuestion": "Will this job destroy my mental health?",
+          "content": "Stress & Burnout Risk: **Medium-High**. The main stressor is the **responsibility for critical systems** and tight deadlines. A single design flaw can lead to expensive product recalls or even safety hazards. Debugging complex electrical issues can be frustrating and time-consuming. You're often balancing innovation with strict regulatory compliance and budget constraints. The work is intellectually demanding, requiring sustained focus and problem-solving under pressure."
+        },
+        {
+          "title": "Remote Flexibility",
+          "subconsciousQuestion": "Can I work from a laptop in Bali?",
+          "content": "Remote Flexibility: **Low to Medium-Hybrid**. For roles involving hands-on prototyping, testing, or working with specialized lab equipment, you'll need to be **strictly on-site**. Design and simulation work can be done **hybrid** (a few days in office, a few remote). Fully **remote opportunities are rare** unless your role is heavily focused on software for embedded systems or very high-level system architecture that doesn't require physical interaction with hardware. Don't expect to work from Bali unless you're a very senior consultant."
+        }
+      ]
+    },
+    {
+      "title": "The Future",
+      "cards": [
+        {
+          "title": "10-Year Demand",
+          "subconsciousQuestion": "Is this industry dying?",
+          "content": "10-Year Demand: **Growing Steadily**. The need for Electrical Engineers is strong and expected to grow. Why? Because the world keeps getting more electrified and automated. Think about electric vehicles, renewable energy systems (solar, wind), smart home devices, advanced medical devices, and even space exploration – all rely heavily on electrical engineering. It's a foundational role for many future technologies, ensuring the field remains robust."
+        },
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will ChatGPT take my job in 5 years?",
+          "content": "AI Threat Level: **Low**. AI will likely become a powerful assistant, automating routine tasks like generating initial circuit layouts, optimizing component selection, or running quick simulations. However, the core of electrical engineering – innovative problem-solving, understanding complex system interactions, hands-on debugging, and critical decision-making for safety and performance – requires human judgment. AI enhances productivity but won't replace the creative, practical engineer in the foreseeable future."
+        },
+        {
+          "title": "Pivot Options",
+          "subconsciousQuestion": "If I hate this, what else can I do?",
+          "content": "*   **Software Engineer (Embedded Systems):** Your experience with hardware and C/C++ makes you a prime candidate for writing software that interacts directly with hardware.\n*   **Project Manager:** Your understanding of technical challenges and project lifecycles is invaluable for leading engineering teams.\n*   **Patent Attorney/Agent:** Your technical expertise is highly sought after by law firms dealing with intellectual property in electronics and technology."
+        },
+        {
+          "title": "Solo / Founder Scope",
+          "subconsciousQuestion": "Can I quit and be my own boss?",
+          "content": "Solo / Founder Scope: **Medium**. It's certainly possible to become your own boss, but it's more challenging than in pure software. You could: \n*   **Start a Consulting Firm:** Offer specialized design, testing, or regulatory compliance services to smaller companies. \n*   **Develop a Hardware Product:** This requires significant capital for prototyping, manufacturing, and marketing, but it's a direct application of your skills. \n*   **Freelance:** Take on specific design tasks (e.g., PCB layout) for clients, but this often requires a significant network and specialized niche."
+        }
+      ]
+    }
+  ]
+}

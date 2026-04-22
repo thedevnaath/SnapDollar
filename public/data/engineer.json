@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "electrical-engineer",
+      "title": "Electrical Engineer",
+      "icon": "cpu",
+      "description": "Electrical Engineers design, develop, and test everything that uses electricity, from tiny microchips in your phone to massive power grids powering cities. They ensure electrical systems are safe, efficient, and reliable, literally powering the modern world.",
+      "salaryRange": "$75k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "civil-engineer",
       "title": "Civil Engineer",
       "icon": "building",
