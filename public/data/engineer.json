@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "industrial-engineer",
+      "title": "Industrial Engineer",
+      "icon": "factory",
+      "description": "Industrial Engineers are the ultimate problem-solvers, designing efficient systems and workflows to slash waste, boost productivity, and save organizations millions. They find smarter ways to make things, deliver services, and manage resources, making every process run like a well-oiled machine.",
+      "salaryRange": "$75k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "aerospace-engineer",
       "title": "Aerospace Engineer",
       "icon": "rocket",
