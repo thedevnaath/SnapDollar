@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "geologist-career-profile",
+      "title": "Geologist",
+      "icon": "earth",
+      "description": "Geologists are Earth detectives, deciphering the planet's past, present, and future. They study rocks, minerals, water, and landforms to discover vital resources, predict natural hazards, and protect our environment. Their work underpins everything from urban planning to energy supply and climate change mitigation.",
+      "salaryRange": "$50k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "astronomer",
       "title": "Astronomer",
       "icon": "telescope",
