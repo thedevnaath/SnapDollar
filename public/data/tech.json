@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "icon": "bar-chart-2",
+      "description": "Data Scientists are like super-detectives for companies. They use complex math and powerful computers to find hidden patterns in huge piles of information, helping businesses make smarter decisions and predict what might happen next. It's about turning raw numbers into clear, actionable strategies.",
+      "salaryRange": "$120k - $200k",
+      "roiRating": "High"
+    },
+    {
       "id": "full-stack-developer",
       "title": "Full-Stack Developer",
       "icon": "code",
