@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "high-school-teacher",
+      "title": "High School Teacher",
+      "icon": "book-open",
+      "description": "High School Teachers shape the future by educating adolescents. This role offers profound societal impact and stable government benefits, but comes with often modest pay, significant emotional labor, and constant navigation of administrative bureaucracy and parent politics.",
+      "salaryRange": "$45k (Entry) - $90k+ (Experienced, Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "911-dispatcher",
       "title": "911 Dispatcher",
       "icon": "phone-call",
