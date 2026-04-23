@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "aerospace-engineer",
+      "title": "Aerospace Engineer",
+      "icon": "rocket",
+      "description": "Aerospace Engineers design, build, and test aircraft and spacecraft, from commercial jets to rockets. They tackle complex problems to ensure these incredible machines fly safely and efficiently. It's a high-stakes job pushing the boundaries of what's possible in air and space.",
+      "salaryRange": "$85k - $185k",
+      "roiRating": "High"
+    },
+    {
       "id": "chemical-engineer",
       "title": "Chemical Engineer",
       "icon": "flask-conical",
