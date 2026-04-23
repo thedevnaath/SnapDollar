@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "data-analyst",
+      "title": "Data Analyst",
+      "icon": "bar-chart",
+      "description": "Data Analysts are the storytellers of the numbers world. They collect, clean, and interpret complex datasets to help businesses make smart decisions. It's a critical role that translates raw information into actionable insights.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "High"
+    },
+    {
       "id": "data-scientist",
       "title": "Data Scientist",
       "icon": "bar-chart-2",
