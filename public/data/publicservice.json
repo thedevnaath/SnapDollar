@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "elementary-school-teacher",
+      "title": "Elementary School Teacher",
+      "icon": "school",
+      "description": "Elementary school teachers shape the foundational minds of a nation, delivering essential knowledge and social skills to young children. While profoundly impactful, this career exists firmly in the public service sector, meaning consistent but often modest pay, high emotional demands, and the constant battle with educational bureaucracy.",
+      "salaryRange": "$45k - $75k (Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "high-school-teacher",
       "title": "High School Teacher",
       "icon": "book-open",
