@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "meteorologist",
+      "title": "Meteorologist",
+      "icon": "cloud-lightning",
+      "description": "Meteorologists decode the Earth's atmosphere, predicting weather patterns from daily forecasts to catastrophic storms. Their work underpins critical decisions in agriculture, logistics, energy, and public safety, directly impacting billions in global economies and saving lives.",
+      "salaryRange": "$55k (Academia/Entry) - $140k+ (Industry/Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "geologist-career-profile",
       "title": "Geologist",
       "icon": "earth",
