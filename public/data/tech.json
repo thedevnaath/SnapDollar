@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "data-engineer",
+      "title": "Data Engineer",
+      "icon": "database",
+      "description": "Data Engineers are the architects and builders of the data world. They construct robust systems to collect, process, and store vast amounts of information, ensuring it's clean and ready for analysis. Without them, valuable data would remain a chaotic mess, unusable for business decisions or AI models.",
+      "salaryRange": "$110k - $190k",
+      "roiRating": "High"
+    },
+    {
       "id": "data-analyst",
       "title": "Data Analyst",
       "icon": "bar-chart",
