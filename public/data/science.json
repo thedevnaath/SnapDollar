@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "oceanographer",
+      "title": "Oceanographer",
+      "icon": "waves",
+      "description": "Oceanographers are scientific detectives of the seas, unraveling the mysteries of marine life, ocean currents, and climate change's impact on our planet. They provide critical data for climate modeling, sustainable resource management, and understanding Earth's most vital ecosystem.",
+      "salaryRange": "$50k (Academia) - $150k+ (Industry/Government)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "meteorologist",
       "title": "Meteorologist",
       "icon": "cloud-lightning",
