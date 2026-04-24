@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "icon": "cloud",
+      "description": "DevOps Engineers build and maintain the automated systems that allow software to be built, tested, and released quickly and reliably. They bridge the gap between development and operations teams, ensuring smooth, efficient, and stable software delivery.",
+      "salaryRange": "$110k - $170k",
+      "roiRating": "High"
+    },
+    {
       "id": "data-engineer",
       "title": "Data Engineer",
       "icon": "database",
