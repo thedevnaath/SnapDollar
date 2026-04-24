@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "botanist",
+      "title": "Botanist",
+      "icon": "leaf",
+      "description": "Botanists are the plant scientists, researching everything from individual plant cells to vast ecosystems. They unravel the mysteries of plant life to innovate in agriculture, discover new medicines, and protect our planet's biodiversity, aiming for sustainable solutions and profitable applications.",
+      "salaryRange": "$45k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "oceanographer",
       "title": "Oceanographer",
       "icon": "waves",
