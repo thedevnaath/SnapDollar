@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "school-principal",
+      "title": "School Principal",
+      "icon": "graduation-cap",
+      "description": "School Principals are the front-line leaders of educational institutions, tasked with balancing academic achievement, student well-being, staff management, and strict policy adherence. This role offers profound societal impact and job stability within the public sector, but demands immense resilience against bureaucratic hurdles and relentless daily demands for moderate compensation.",
+      "salaryRange": "$70k (Public) - $130k+ (Public, highly experienced/large district)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "special-education-teacher",
       "title": "Special Education Teacher",
       "icon": "graduation-cap",
