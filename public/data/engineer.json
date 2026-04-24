@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "biomedical-engineer",
+      "title": "Biomedical Engineer",
+      "icon": "dna",
+      "description": "Biomedical engineers design and build life-saving medical devices, diagnostic tools, and new therapies. They combine engineering principles with biology and medicine to solve complex healthcare problems. This role directly impacts patient outcomes and medical advancements.",
+      "salaryRange": "$75k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "industrial-engineer",
       "title": "Industrial Engineer",
       "icon": "factory",
