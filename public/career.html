@@ -349,7 +349,83 @@
                 alert("Link copied to clipboard!");
             }
         });
+     <script>
+        // 🚨 NATIVE FRONTEND SEARCH ENGINE 🚨
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            const suggestionsBox = document.getElementById('searchSuggestions');
+            if (!searchInput || !suggestionsBox) return;
 
+            let masterIndex = [];
+            let isLoaded = false;
+
+            // 1. Fetch and merge all categories into memory instantly
+            async function buildSearchIndex() {
+                const categories = ['tech', 'finance', 'medical', 'engineer', 'science', 'creative', 'publicservice'];
+                try {
+                    // Fire 7 requests simultaneously (Lightning fast on Firebase HTTP/2)
+                    const promises = categories.map(cat => fetch(`/data/${cat}.json`).then(res => res.ok ? res.json() : null));
+                    const results = await Promise.all(promises);
+                    
+                    // Merge all arrays
+                    results.forEach(data => {
+                        if (data && data.careers) {
+                            masterIndex = masterIndex.concat(data.careers.map(c => ({ id: c.id, title: c.title })));
+                        }
+                    });
+                    isLoaded = true;
+                } catch (err) {
+                    console.error("Failed to build search index", err);
+                }
+            }
+
+            buildSearchIndex();
+
+            // 2. Listen to user keystrokes
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                suggestionsBox.innerHTML = ''; // Clear previous
+                
+                if (query.length === 0 || !isLoaded) {
+                    suggestionsBox.classList.remove('active');
+                    return;
+                }
+
+                // Escape regex to prevent crashes
+                const safeQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                
+                // 3. Match if query is at the START of ANY word (e.g., "Rep" finds "Sales Rep")
+                const regex = new RegExp(`\\b${safeQuery}`, 'i');
+                const matches = masterIndex.filter(career => regex.test(career.title)).slice(0, 6);
+
+                // 4. Render Dropdown
+                if (matches.length > 0) {
+                    matches.forEach(match => {
+                        const div = document.createElement('div');
+                        div.className = 'suggestion-item';
+                        
+                        // Bold the exact letters they typed
+                        const highlightRegex = new RegExp(`\\b(${safeQuery})`, 'gi');
+                        const highlightedTitle = match.title.replace(highlightRegex, '<span class="suggestion-highlight">$1</span>');
+                        
+                        div.innerHTML = `🔍 &nbsp; ${highlightedTitle}`;
+                        div.onclick = () => window.location.href = `/career.html?id=${match.id}`;
+                        suggestionsBox.appendChild(div);
+                    });
+                    suggestionsBox.classList.add('active');
+                } else {
+                    suggestionsBox.classList.remove('active');
+                }
+            });
+
+            // 5. Hide when clicking somewhere else
+            document.addEventListener('click', (e) => {
+                if (!searchInput.contains(e.target) && !suggestionsBox.contains(e.target)) {
+                    suggestionsBox.classList.remove('active');
+                }
+            });
+        });
+    </script>
     </script>
 </body>
 </html>
