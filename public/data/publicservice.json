@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "special-education-teacher",
+      "title": "Special Education Teacher",
+      "icon": "graduation-cap",
+      "description": "Special Education Teachers are the frontline advocates and educators for students with diverse learning needs. This career offers immense societal impact and stable, government-backed employment, but demands relentless emotional labor for a salary that rarely reflects the profound dedication required.",
+      "salaryRange": "$45k - $80k (Public Service, Avg. 10 yrs exp)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "elementary-school-teacher",
       "title": "Elementary School Teacher",
       "icon": "school",
