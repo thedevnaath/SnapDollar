@@ -178,11 +178,18 @@
 
      <nav class="navbar">
         <a href="index.html" class="brand-container">
-            <img src="logo.png" alt="SnapDollar Logo" class="custom-logo">
+            <img src="logo.png" alt="SnapDollar Logo" class="custom-logo" />
             <div class="logo">Snap<span>Dollar</span></div>
         </a>
+
+        <div style="position: relative; width: 100%; max-width: 400px; margin: 0 1rem;">
+            <input type="text" id="searchInput" placeholder="Search a career..." autocomplete="off" style="padding: 0.7rem 1.5rem; border-radius: 25px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.6); color: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 0.95rem; outline: none; transition: border-color 0.3s ease;">
+            
+            <div id="searchSuggestions" class="suggestions-box"></div>
+        </div>
+
         <button id="share-btn" class="back-btn" style="background: none; border: none; font-size: 1rem; cursor: pointer; padding: 0; font-family: inherit;">
-            <i data-lucide="share-2" style="width: 18px;"></i> Share
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="share-2" aria-hidden="true" style="width: 18px;" class="lucide lucide-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg> Share
         </button>
     </nav>
 
