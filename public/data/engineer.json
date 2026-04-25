@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "manufacturing-engineer",
+      "title": "Manufacturing Engineer",
+      "icon": "factory",
+      "description": "Manufacturing Engineers are the silent heroes of production, making sure products are built efficiently, reliably, and cheaply. They design factory layouts, optimize processes, and troubleshoot machines to ensure smooth operation from start to finish. It's about turning raw materials into finished goods with maximum precision and minimal waste.",
+      "salaryRange": "$75k - $130k",
+      "roiRating": "High"
+    },
+    {
       "id": "automotive-engineer",
       "title": "Automotive Engineer",
       "icon": "car",
