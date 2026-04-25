@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "materials-engineer",
+      "title": "Materials Engineer",
+      "icon": "flask-conical",
+      "description": "Materials Engineers design, test, and develop new materials or improve existing ones for specific uses, from making aircraft lighter to creating stronger medical implants. They are essential for almost every physical product we use, ensuring performance, safety, and cost-effectiveness.",
+      "salaryRange": "$75k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "structural-engineer",
       "title": "Structural Engineer",
       "icon": "building",
