@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "petroleum-engineer",
+      "title": "Petroleum Engineer",
+      "icon": "oil-barrel",
+      "description": "Petroleum Engineers find and extract oil and natural gas from the Earth, designing safe and efficient methods. They ensure energy resources are retrieved profitably, minimizing environmental impact while maximizing production. This critical role directly fuels global economies.",
+      "salaryRange": "$120k - $250k",
+      "roiRating": "High"
+    },
+    {
       "id": "materials-engineer",
       "title": "Materials Engineer",
       "icon": "flask-conical",
