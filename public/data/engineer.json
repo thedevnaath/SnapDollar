@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "structural-engineer",
+      "title": "Structural Engineer",
+      "icon": "building",
+      "description": "Structural Engineers design the 'bones' of buildings, bridges, and other structures to ensure they stand strong and safely. They calculate loads, choose materials, and make sure everything can withstand weather, earthquakes, and time. Their work is critical for public safety and the longevity of our built world.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "environmental-engineer",
       "title": "Environmental Engineer",
       "icon": "droplet",
