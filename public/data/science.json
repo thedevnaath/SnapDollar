@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "ecologist",
+      "title": "Ecologist",
+      "icon": "leaf",
+      "description": "Ecologists study the intricate relationships between living organisms and their environments, deciphering patterns from microbial communities to global ecosystems. They analyze complex data to forecast environmental shifts, guide conservation, and inform policy. It's a critical field addressing planetary crises, but the path is often financially arduous and highly competitive.",
+      "salaryRange": "$50k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "microbiologist",
       "title": "Microbiologist",
       "icon": "microscope",
