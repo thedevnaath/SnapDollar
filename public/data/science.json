@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "zoologist-career",
+      "title": "Zoologist",
+      "icon": "paw-print",
+      "description": "Zoologists are scientists who study animals and their interactions with ecosystems. They conduct fieldwork, analyze data, and publish findings to advance our understanding of biology, aid conservation efforts, and inform environmental policy. The ultimate impact spans from protecting endangered species to developing new medicines, though the financial payoff is highly varied.",
+      "salaryRange": "$45k (Academia) - $130k+ (Industry/Government)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "botanist",
       "title": "Botanist",
       "icon": "leaf",
