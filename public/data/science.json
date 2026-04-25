@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "microbiologist",
+      "title": "Microbiologist",
+      "icon": "microscope",
+      "description": "Microbiologists explore the unseen world of bacteria, viruses, fungi, and other microbes. Their work underpins everything from disease prevention and drug discovery to agricultural innovation and environmental cleanup, driving critical advancements with massive societal and financial impact.",
+      "salaryRange": "$50k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "zoologist-career",
       "title": "Zoologist",
       "icon": "paw-print",
