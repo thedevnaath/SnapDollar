@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "district-attorney",
+      "title": "District Attorney",
+      "icon": "shield",
+      "description": "The District Attorney is the chief prosecutor for a government jurisdiction, tasked with upholding the law, seeking justice for victims, and maintaining public safety. This role offers profound societal impact and stable government employment, but comes with immense pressure, political scrutiny, and significantly lower compensation compared to private corporate legal careers.",
+      "salaryRange": "$55k (Entry Asst. DA) - $300k+ (Major City DA)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "judge",
       "title": "Judge",
       "icon": "scale",
