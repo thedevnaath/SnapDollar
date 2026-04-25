@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "park-ranger",
+      "title": "Park Ranger",
+      "icon": "compass",
+      "description": "Park Rangers are the frontline guardians of our natural and cultural heritage, enforcing regulations and assisting visitors. This career offers profound satisfaction for nature lovers and public servants, but don't expect a private sector paycheck—it's stable government work, not a path to wealth.",
+      "salaryRange": "$35k (Public) - $70k (Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-librarian",
       "title": "Public Librarian",
       "icon": "library",
