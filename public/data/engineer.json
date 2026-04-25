@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "automotive-engineer",
+      "title": "Automotive Engineer",
+      "icon": "car",
+      "description": "Automotive Engineers design, develop, and test vehicles and their systems. They are the brains behind everything from engine performance to safety features and the latest electric vehicle technology. This role merges mechanical, electrical, and software engineering to bring cars to life.",
+      "salaryRange": "$70k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "nuclear-engineer",
       "title": "Nuclear Engineer",
       "icon": "atom",
