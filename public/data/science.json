@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "environmental-scientist",
+      "title": "Environmental Scientist",
+      "icon": "earth",
+      "description": "Environmental Scientists are the planet's data detectives, using rigorous scientific methods to understand, mitigate, and prevent environmental problems. They translate complex ecological data into actionable insights for policymakers, industry, and communities, striving for a sustainable future amidst human impact.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "ecologist",
       "title": "Ecologist",
       "icon": "leaf",
