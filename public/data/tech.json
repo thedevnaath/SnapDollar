@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "icon": "shield-check",
+      "description": "Cybersecurity Analysts are digital guardians, protecting computer systems and data from hackers and threats. They monitor for suspicious activity, respond to attacks, and build stronger defenses. It's a high-stakes job securing our digital world.",
+      "salaryRange": "$90k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "devops-engineer",
       "title": "DevOps Engineer",
       "icon": "cloud",
