@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "cloud-engineer",
+      "title": "Cloud Engineer",
+      "icon": "cloud",
+      "description": "Cloud Engineers build, manage, and secure the digital infrastructure that powers websites, apps, and services online. They use powerful remote computers (the 'cloud') to ensure everything runs smoothly, securely, and efficiently. It's like being the architect and builder of a massive digital city.",
+      "salaryRange": "$100k - $180k",
+      "roiRating": "High"
+    },
+    {
       "id": "it-support-specialist",
       "title": "IT Support Specialist",
       "icon": "life-buoy",
