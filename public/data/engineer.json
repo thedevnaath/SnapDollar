@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "nuclear-engineer",
+      "title": "Nuclear Engineer",
+      "icon": "atom",
+      "description": "Nuclear Engineers design, operate, and maintain nuclear power plants, medical devices, and defense systems. They ensure safety and efficiency when working with radiation and nuclear materials. It's a highly specialized and impactful field that demands precision.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "petroleum-engineer",
       "title": "Petroleum Engineer",
       "icon": "oil-barrel",
