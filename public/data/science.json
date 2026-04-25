@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "toxicologist",
+      "title": "Toxicologist",
+      "icon": "flask-conical",
+      "description": "Toxicologists are the scientific detectives who study how chemicals, drugs, and environmental substances affect living organisms. Their critical work ensures drug safety, protects the environment, and informs public health policies, directly influencing product approvals and regulatory standards globally. They prevent potential harm before it ever happens.",
+      "salaryRange": "$55k (Academia) - $200k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "forensic-scientist",
       "title": "Forensic Scientist",
       "icon": "microscope",
