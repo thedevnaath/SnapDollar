@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "forensic-scientist",
+      "title": "Forensic Scientist",
+      "icon": "microscope",
+      "description": "Forensic Scientists unlock secrets from crime scenes and evidence, using cutting-edge science to piece together what happened. They are the silent detectives, turning microscopic clues into concrete facts that can determine guilt or innocence and bring justice.",
+      "salaryRange": "$55k (Entry-Level Lab Tech) - $150k+ (Senior Federal Agency / Private Expert Witness)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "environmental-scientist",
       "title": "Environmental Scientist",
       "icon": "earth",
