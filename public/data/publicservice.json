@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "postal-worker",
+      "title": "Postal Worker",
+      "icon": "mail",
+      "description": "The Postal Worker is the backbone of a nation's communication infrastructure, ensuring letters and packages reach their destinations. This role offers unparalleled job security and benefits within the public service, but requires physical endurance, attention to detail, and an acceptance of modest pay compared to high-flying private sector careers.",
+      "salaryRange": "$40k - $65k (Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "urban-planner",
       "title": "Urban Planner",
       "icon": "building-2",
