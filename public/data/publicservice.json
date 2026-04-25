@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "urban-planner",
+      "title": "Urban Planner",
+      "icon": "building-2",
+      "description": "Urban Planners shape the physical and social fabric of cities and regions, guiding development, land use, and infrastructure through policy. It's a career of profound societal impact, yet often mired in bureaucratic molasses and political compromise, offering stable but rarely exorbitant public sector pay.",
+      "salaryRange": "$60k (Public) - $180k+ (Private Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "school-principal",
       "title": "School Principal",
       "icon": "graduation-cap",
