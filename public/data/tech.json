@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "network-engineer",
+      "title": "Network Engineer",
+      "icon": "router",
+      "description": "Network Engineers build and maintain the digital highways that allow data to travel, ensuring all computers and devices can talk to each other reliably and securely. They are the architects of the internet's backbone within companies, making sure your emails send and your websites load fast.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "systems-administrator",
       "title": "Systems Administrator",
       "icon": "server",
