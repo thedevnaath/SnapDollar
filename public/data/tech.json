@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "it-support-specialist",
+      "title": "IT Support Specialist",
+      "icon": "life-buoy",
+      "description": "An IT Support Specialist is the hero who fixes tech problems for everyone in a company. They ensure computers, networks, and software work smoothly, helping people stay productive. This role is a vital entry point into the tech industry.",
+      "salaryRange": "$45k - $75k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "database-administrator",
       "title": "Database Administrator",
       "icon": "database",
