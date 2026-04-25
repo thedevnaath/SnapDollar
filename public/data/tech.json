@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "systems-administrator",
+      "title": "Systems Administrator",
+      "icon": "server",
+      "description": "Systems Administrators are the backbone of any organization's tech, ensuring all computers, servers, and networks run smoothly and securely. They fix problems, manage user access, and keep the digital lights on. It's a critical role that demands sharp troubleshooting and proactive maintenance.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cybersecurity-analyst",
       "title": "Cybersecurity Analyst",
       "icon": "shield-check",
