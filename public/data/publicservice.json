@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "judge",
+      "title": "Judge",
+      "icon": "scale",
+      "description": "The ultimate arbiter of justice, a Judge sits at the pinnacle of a country's legal system, interpreting laws and making life-altering decisions. This isn't a 'Law & Order' fantasy; it's a career demanding immense intellectual rigor, ethical fortitude, and a willingness to trade peak private-sector earnings for stability, respect, and profound public service.",
+      "salaryRange": "$150k (Entry-Level State/District) - $350k+ (Federal/Supreme)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "park-ranger",
       "title": "Park Ranger",
       "icon": "compass",
