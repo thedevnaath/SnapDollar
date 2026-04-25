@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "public-librarian",
+      "title": "Public Librarian",
+      "icon": "library",
+      "description": "Public librarians are the frontline information officers and community builders, bridging knowledge gaps for diverse populations. While deeply rewarding, this path offers unwavering stability and benefits, but with a modest salary that rarely allows for significant personal wealth accumulation.",
+      "salaryRange": "$55k (Public) - $110k+ (Specialized Corporate Info)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "postal-worker",
       "title": "Postal Worker",
       "icon": "mail",
