@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "database-administrator",
+      "title": "Database Administrator",
+      "icon": "database",
+      "description": "Database Administrators (DBAs) are the guardians of a company's data, ensuring it's always available, secure, and performing optimally. They manage the software that stores critical business information, making sure everything runs smoothly 24/7. This role is crucial for any business that relies on digital information.",
+      "salaryRange": "$90k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "network-engineer",
       "title": "Network Engineer",
       "icon": "router",
