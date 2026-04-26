@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "public-defender",
+      "title": "Public Defender",
+      "icon": "scale",
+      "description": "Public Defenders are the backbone of the constitutional right to counsel, ensuring even the most vulnerable individuals facing criminal charges have legal representation. This role demands immense dedication to justice, often requiring professionals to navigate overwhelming caseloads and systemic injustices on a modest government salary, shattering any 'Law & Order' fantasy of glamorous legal battles.",
+      "salaryRange": "$55k (Public) - $120k (Senior Public Defender)",
+      "roiRating": "Low"
+    },
+    {
       "id": "district-attorney",
       "title": "District Attorney",
       "icon": "shield",
