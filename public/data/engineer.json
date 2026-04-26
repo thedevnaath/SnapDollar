@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "marine-engineer",
+      "title": "Marine Engineer",
+      "icon": "ship",
+      "description": "Marine Engineers are the technical backbone of the maritime world, designing, building, and maintaining the complex machinery that powers ships and offshore platforms. They ensure vessels run safely and efficiently, often working in challenging environments far from shore. This role demands a blend of mechanical expertise, problem-solving under pressure, and strict adherence to international safety standards.",
+      "salaryRange": "$90k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "manufacturing-engineer",
       "title": "Manufacturing Engineer",
       "icon": "factory",
