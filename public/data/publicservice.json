@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "customs-officer",
+      "title": "Customs Officer",
+      "icon": "shield",
+      "description": "Customs Officers are the vigilant gatekeepers of national borders, tasked with enforcing trade laws, preventing smuggling, and ensuring economic and national security. While offering profound job stability and a robust pension, this career offers modest pay, starkly contrasting with the immense wealth found in top-tier private sector compliance or legal roles.",
+      "salaryRange": "$50k (Public) - $95k (Senior Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "border-patrol-agent",
       "title": "Border Patrol Agent",
       "icon": "shield",
