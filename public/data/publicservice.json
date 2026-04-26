@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "correctional-officer",
+      "title": "Correctional Officer",
+      "icon": "shield",
+      "description": "Correctional Officers are the frontline guardians of order and security within correctional facilities. This role demands unwavering vigilance, physical and emotional resilience, and an ability to maintain strict discipline in high-stress environments. While offering unparalleled job security and robust government benefits, the career comes with significant psychological and physical tolls, far removed from any 'justice system' fantasy.",
+      "salaryRange": "$40k - $80k (Public, Stable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "probation-officer",
       "title": "Probation Officer",
       "icon": "shield",
