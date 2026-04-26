@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "geological-engineer",
+      "title": "Geological Engineer",
+      "icon": "layers",
+      "description": "Geological Engineers solve big problems by understanding the Earth. They design and manage projects like mines, dams, and foundations, ensuring they are safe, stable, and don't harm the environment. Their work blends geology with practical engineering.",
+      "salaryRange": "$85k - $135k",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "robotics-engineer",
       "title": "Robotics Engineer",
       "icon": "robot",
