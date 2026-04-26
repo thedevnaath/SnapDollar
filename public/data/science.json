@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "hydrologist-career-profile",
+      "title": "Hydrologist",
+      "icon": "droplet",
+      "description": "Hydrologists are the master detectives of water, unraveling its mysteries from rivers to underground aquifers. They're critical for managing water resources, predicting floods and droughts, and protecting our planet's most vital fluid from pollution, directly impacting public health, agriculture, and industrial sustainability.",
+      "salaryRange": "$55k (Academia/Gov) - $150k+ (Industry/Senior Consultant)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "epidemiologist",
       "title": "Epidemiologist",
       "icon": "line-chart",
