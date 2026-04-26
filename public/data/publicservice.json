@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "tsa-agent-profile",
+      "title": "TSA Agent",
+      "icon": "shield",
+      "description": "Serve as a frontline defender of national transportation security, enforcing strict protocols at airports and other transit hubs. This role offers critical public service and robust government benefits, but demands extreme patience and resilience amidst highly repetitive tasks and frequent public confrontation.",
+      "salaryRange": "$38k (Public) - $55k (Public)",
+      "roiRating": "Low"
+    },
+    {
       "id": "customs-officer",
       "title": "Customs Officer",
       "icon": "shield",
