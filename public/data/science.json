@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "biophysicist-career",
+      "title": "Biophysicist",
+      "icon": "dna",
+      "description": "Biophysicists unravel life's fundamental mechanisms by applying the laws of physics. They probe everything from protein folding to cellular mechanics, driving breakthroughs in medicine, biotechnology, and material science. Their work bridges the microscopic world to practical applications, often with significant financial implications.",
+      "salaryRange": "$65k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "biochemist",
       "title": "Biochemist",
       "icon": "dna",
