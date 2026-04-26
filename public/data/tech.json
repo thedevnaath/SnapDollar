@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "game-developer-tech",
+      "title": "Game Developer",
+      "icon": "gamepad",
+      "description": "Game Developers build the digital worlds and experiences people love to play. They write the code that makes characters move, rules work, and graphics appear, turning creative visions into interactive realities. It's a demanding role blending technical skill with artistic understanding.",
+      "salaryRange": "$70k - $150k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mobile-app-developer",
       "title": "Mobile App Developer",
       "icon": "smartphone",
