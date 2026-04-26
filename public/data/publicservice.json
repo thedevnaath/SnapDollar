@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "border-patrol-agent",
+      "title": "Border Patrol Agent",
+      "icon": "shield",
+      "description": "A Border Patrol Agent enforces a nation's border security laws, preventing illegal entry and apprehending those who violate sovereignty. This is a demanding, high-stress public service role offering robust stability and pension benefits, but with significantly lower pay than the private sector, often involving moral complexities.",
+      "salaryRange": "$55k (Public) - $120k+ (Public - Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "correctional-officer",
       "title": "Correctional Officer",
       "icon": "shield",
