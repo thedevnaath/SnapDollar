@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "pharmacologist-career-profile",
+      "title": "Pharmacologist",
+      "icon": "flask-conical",
+      "description": "Pharmacologists are scientific detectives who study how drugs interact with living systems, from single cells to entire organisms. Their work is the backbone of drug discovery, ensuring new medicines are effective, safe, and ultimately profitable for pharmaceutical companies.",
+      "salaryRange": "$55k (Academia, entry) - $200k+ (Industry, senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "toxicologist",
       "title": "Toxicologist",
       "icon": "flask-conical",
