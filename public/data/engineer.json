@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "acoustics-engineer",
+      "title": "Acoustics Engineer",
+      "icon": "volume-2",
+      "description": "Acoustics Engineers are problem-solvers who control sound. They design environments and products to sound good, reduce unwanted noise, or measure sound for safety and quality. Their work makes everything from concert halls to quiet electric cars possible.",
+      "salaryRange": "$75k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "mining-engineer",
       "title": "Mining Engineer",
       "icon": "hard-hat",
