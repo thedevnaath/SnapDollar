@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "site-reliability-engineer",
+      "title": "Site Reliability Engineer",
+      "icon": "settings",
+      "description": "Site Reliability Engineers (SREs) are the unsung heroes who ensure that software systems are always up, fast, and working perfectly. They combine software engineering with operations to prevent outages and build robust, automated systems. Their work directly impacts a company's bottom line by keeping services online.",
+      "salaryRange": "$120k - $200k",
+      "roiRating": "High"
+    },
+    {
       "id": "game-developer-tech",
       "title": "Game Developer",
       "icon": "gamepad",
