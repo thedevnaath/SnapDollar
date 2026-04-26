@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "quality-assurance-tester",
+      "title": "Quality Assurance Tester",
+      "icon": "bug",
+      "description": "Quality Assurance Testers find and report software bugs before customers ever see them. They are the frontline defenders of product quality, ensuring everything works as intended. This role is a stable entry point into the tech world, focusing on detail and problem-solving.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "site-reliability-engineer",
       "title": "Site Reliability Engineer",
       "icon": "settings",
