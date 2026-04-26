@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "epidemiologist",
+      "title": "Epidemiologist",
+      "icon": "line-chart",
+      "description": "Epidemiologists are the real-life medical detectives, meticulously investigating disease patterns, causes, and control methods. They translate complex data into actionable insights, profoundly impacting public health policy and pharmaceutical development globally.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "biophysicist-career",
       "title": "Biophysicist",
       "icon": "dna",
