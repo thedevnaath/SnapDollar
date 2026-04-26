@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "probation-officer",
+      "title": "Probation Officer",
+      "icon": "shield",
+      "description": "Probation Officers are frontline guardians of public safety and rehabilitative justice, balancing enforcement with support for individuals under court supervision. This is a deeply impactful public service role, but one defined by modest pay, high caseloads, and the relentless grind of bureaucracy.",
+      "salaryRange": "$45k - $80k (Public Sector)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-defender",
       "title": "Public Defender",
       "icon": "scale",
