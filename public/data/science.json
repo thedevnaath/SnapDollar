@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "biochemist",
+      "title": "Biochemist",
+      "icon": "dna",
+      "description": "Biochemists unravel the fundamental chemical processes of life. From discovering new drugs to understanding disease mechanisms, their research can lead to groundbreaking therapies and diagnostics, impacting billions of lives and generating massive economic value for the biotech and pharmaceutical industries.",
+      "salaryRange": "$50k (Academia Post-Doc) - $250k+ (Industry Sr. Director)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pharmacologist-career-profile",
       "title": "Pharmacologist",
       "icon": "flask-conical",
