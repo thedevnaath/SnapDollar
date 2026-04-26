@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "mining-engineer",
+      "title": "Mining Engineer",
+      "icon": "hard-hat",
+      "description": "Mining Engineers design, plan, and manage the safe and efficient extraction of minerals and resources from the Earth. They blend advanced science with practical problem-solving to ensure maximum output while minimizing environmental impact and protecting workers. It's a critical role at the intersection of geology, engineering, and economics.",
+      "salaryRange": "$80k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "geological-engineer",
       "title": "Geological Engineer",
       "icon": "layers",
