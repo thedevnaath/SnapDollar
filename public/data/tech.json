@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "machine-learning-engineer",
+      "title": "Machine Learning Engineer",
+      "icon": "brain",
+      "description": "Machine Learning Engineers build and deploy the 'brains' behind AI. They create systems that learn from data, allowing computers to make predictions or decisions, from recommendation engines to self-driving cars. It's a high-impact role blending coding, math, and data.",
+      "salaryRange": "$130k - $220k",
+      "roiRating": "High"
+    },
+    {
       "id": "cloud-engineer",
       "title": "Cloud Engineer",
       "icon": "cloud",
