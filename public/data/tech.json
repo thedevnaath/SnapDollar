@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "mobile-app-developer",
+      "title": "Mobile App Developer",
+      "icon": "smartphone",
+      "description": "Mobile App Developers build the software you use on your iPhone and Android devices. They write the code, fix the bugs, and ensure apps run smoothly. It's a role with high demand, requiring constant learning and sharp problem-solving skills.",
+      "salaryRange": "$90k - $170k",
+      "roiRating": "High"
+    },
+    {
       "id": "machine-learning-engineer",
       "title": "Machine Learning Engineer",
       "icon": "brain",
