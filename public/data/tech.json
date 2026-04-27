@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "software-architect",
+      "title": "Software Architect",
+      "icon": "network",
+      "description": "Software Architects design the fundamental blueprint of complex software systems, ensuring they are scalable, secure, and performant. They choose the right technologies and guide development teams to build products that stand the test of time and meet business goals. This is a high-level strategic role, less about coding and more about vision and structure.",
+      "salaryRange": "$160k - $280k",
+      "roiRating": "High"
+    },
+    {
       "id": "quality-assurance-tester",
       "title": "Quality Assurance Tester",
       "icon": "bug",
