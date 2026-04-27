@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "agricultural-engineer",
+      "title": "Agricultural Engineer",
+      "icon": "tractor",
+      "description": "Agricultural Engineers combine engineering smarts with farming needs. They design machinery, irrigation systems, and structures to make farming more efficient and sustainable, helping feed the world. Their work directly impacts food production, environmental health, and the global economy.",
+      "salaryRange": "$70k - $140k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "acoustics-engineer",
       "title": "Acoustics Engineer",
       "icon": "volume-2",
