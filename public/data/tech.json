@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "ai-researcher",
+      "title": "AI Researcher",
+      "icon": "brain",
+      "description": "AI Researchers build the future of artificial intelligence. They invent new algorithms, train complex models, and publish groundbreaking findings that push technology forward. This role is highly academic, technically demanding, and offers significant financial and intellectual rewards.",
+      "salaryRange": "$150k - $350k",
+      "roiRating": "High"
+    },
+    {
       "id": "software-architect",
       "title": "Software Architect",
       "icon": "network",
