@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "paleontologist",
+      "title": "Paleontologist",
+      "icon": "bone",
+      "description": "Paleontologists are the detectives of deep time, meticulously studying ancient life through fossils to reconstruct Earth's past. Their work informs our understanding of evolution, past climates, and biodiversity, providing critical context for future environmental challenges.",
+      "salaryRange": "$45k (Academia) - $120k+ (Applied/Consulting)",
+      "roiRating": "Low"
+    },
+    {
       "id": "seismologist",
       "title": "Seismologist",
       "icon": "waves",
