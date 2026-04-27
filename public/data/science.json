@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "seismologist",
+      "title": "Seismologist",
+      "icon": "waves",
+      "description": "Seismologists are Earth's detectives, decoding tremors and seismic waves to understand its fiery heart, predict natural disasters, and locate hidden resources. They combine challenging fieldwork with advanced computational models, transforming raw data into critical insights for safety and industry.",
+      "salaryRange": "$65k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "hydrologist-career-profile",
       "title": "Hydrologist",
       "icon": "droplet",
