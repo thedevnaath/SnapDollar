@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "foreign-service-officer",
+      "title": "Foreign Service Officer",
+      "icon": "globe",
+      "description": "These are the boots on the ground of international relations, representing their nation's interests abroad. Forget the Hollywood glamour; this role is a demanding blend of diplomacy, consular services, intelligence gathering, and relentless bureaucracy, often in challenging and isolated environments. Your reward is global impact and a stable, albeit rarely opulent, government career.",
+      "salaryRange": "$60k (Public) - $180k+ (Public, Senior Rank/Allowances)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "air-traffic-controller",
       "title": "Air Traffic Controller",
       "icon": "plane",
