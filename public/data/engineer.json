@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "mechatronics-engineer",
+      "title": "Mechatronics Engineer",
+      "icon": "robot",
+      "description": "Mechatronics engineers build 'smart machines' by blending mechanical parts with electronics and computer brains. They design everything from factory robots to self-driving cars, making systems work automatically and efficiently.",
+      "salaryRange": "$85k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "agricultural-engineer",
       "title": "Agricultural Engineer",
       "icon": "tractor",
