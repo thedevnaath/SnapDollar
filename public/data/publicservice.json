@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "air-traffic-controller",
+      "title": "Air Traffic Controller",
+      "icon": "plane",
+      "description": "Air Traffic Controllers are the silent guardians of the skies, directing thousands of aircraft daily to ensure safety and efficiency. This incredibly high-stress, high-responsibility public service role offers substantial federal salaries and benefits but demands unwavering focus and a unique personality profile.",
+      "salaryRange": "$70k (Entry/Training) - $180k+ (Experienced, High-Traffic)",
+      "roiRating": "High"
+    },
+    {
       "id": "tsa-agent-profile",
       "title": "TSA Agent",
       "icon": "shield",
