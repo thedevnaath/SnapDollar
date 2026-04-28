@@ -57,7 +57,8 @@
         .navbar {
             padding: 1.5rem 2rem;
             display: flex;
-            justify-content: flex-start; /* 'flex-start' keeps it on the left. Change to 'flex-end' to move it to the right! */
+            justify-content: space-between; /* Ensures logo and share button are spaced properly */
+            align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -84,6 +85,9 @@
         .logo span {
             color: var(--neon-emerald);
         }
+
+        .back-btn { color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-weight: 500; transition: color 0.3s; cursor: pointer; }
+        .back-btn:hover { color: var(--neon-emerald); }
 
         /* Hero Section */
         .hero { 
@@ -187,6 +191,7 @@
             font-size: 1.2rem; 
             font-weight: 500;
         }
+
         /* 🚨 AUTOCOMPLETE SEARCH DROPDOWN 🚨 */
         .suggestions-box {
             position: absolute;
@@ -202,6 +207,7 @@
             z-index: 9999;
             display: none; /* Hidden by default */
             box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            text-align: left; /* Overrides the center alignment from the hero section */
         }
         .suggestions-box.active {
             display: block;
@@ -226,21 +232,26 @@
 </head>
 <body>
 
-     <nav class="navbar">
+    <nav class="navbar">
         <a href="index.html" class="brand-container">
             <img src="logo.png" alt="SnapDollar Logo" class="custom-logo" />
             <div class="logo">Snap<span>Dollar</span></div>
         </a>
-    </nav>
 
+        <button id="share-btn" class="back-btn" style="background: none; border: none; font-size: 1rem; cursor: pointer; padding: 0; font-family: inherit;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="share-2" aria-hidden="true" style="width: 18px;" class="lucide lucide-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg> Share
+        </button>
+    </nav>
 
     <div class="hero">
         <h1>Map your success.</h1>
         <p>Explore every career path, discover high-ROI opportunities, and design your future.</p>
         
         <div class="search-container">
-            <input type="text" id="job-search" placeholder="Search for 'Investment Banker'...">
+            <input type="text" id="searchInput" autocomplete="off" placeholder="Search for 'Investment Banker'...">
             <i data-lucide="search" class="search-icon"></i>
+            
+            <div id="searchSuggestions" class="suggestions-box"></div>
         </div>
     </div>
 
@@ -290,67 +301,10 @@
     </div>
 
     <script>
+        // Initialize icons
         lucide.createIcons();
-    </script>
-    <script>
-        const searchInput = document.getElementById('job-search');
-        const careers = [
-            "Software Engineer",
-            "Investment Banker",
-            "Machine Learning Engineer",
-            "Creative Director",
-            "Cardiothoracic Surgeon",
-            "Corporate Lawyer",
-            "Product Manager"
-        ];
-        
-        let careerIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
 
-        function typeEffect() {
-            const currentCareer = careers[careerIndex];
-
-            if (isDeleting) {
-                // Delete characters
-                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
-                charIndex--;
-            } else {
-                // Type characters
-                searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
-                charIndex++;
-            }
-
-            // Speed logic: typing is slower than deleting
-            let typingSpeed = isDeleting ? 40 : 100;
-
-            if (!isDeleting && charIndex === currentCareer.length) {
-                // Pause when the word is fully typed
-                typingSpeed = 2000; 
-                isDeleting = true;
-            } else if (isDeleting && charIndex === 0) {
-                // Move to the next word when fully deleted
-                isDeleting = false;
-                careerIndex = (careerIndex + 1) % careers.length;
-                typingSpeed = 500; // Pause before starting the next word
-            }
-
-            setTimeout(typeEffect, typingSpeed);
-        }
-
-        // Wait 1 second after the page loads, then start the animation
-        setTimeout(typeEffect, 1000);
-        // --- NEW SEARCH LOGIC ---
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                // Convert typed text (e.g., "Software Engineer") to URL format ("software-engineer")
-                const query = this.value.trim().toLowerCase().replace(/\s+/g, '-');
-                if (query) {
-                    window.location.href = `career.html?id=${query}`;
-                }
-            }
-        });
-                // --- NATIVE SHARE LOGIC ---
+        // --- NATIVE SHARE LOGIC ---
         document.getElementById('share-btn').addEventListener('click', async () => {
             if (navigator.share) {
                 try {
@@ -367,24 +321,67 @@
                 alert("Link copied to clipboard!");
             }
         });
-    <script>
-        // 🚨 BULLETPROOF FRONTEND SEARCH ENGINE 🚨
+
+        // --- TYPEWRITER EFFECT LOGIC ---
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            const careers = [
+                "Software Engineer",
+                "Investment Banker",
+                "Machine Learning Engineer",
+                "Creative Director",
+                "Cardiothoracic Surgeon",
+                "Corporate Lawyer",
+                "Product Manager"
+            ];
+            
+            let careerIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function typeEffect() {
+                // Stop the animation if the user starts typing
+                if (document.activeElement === searchInput || searchInput.value.length > 0) return;
+
+                const currentCareer = careers[careerIndex];
+
+                if (isDeleting) {
+                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
+                    charIndex--;
+                } else {
+                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
+                    charIndex++;
+                }
+
+                let typingSpeed = isDeleting ? 40 : 100;
+
+                if (!isDeleting && charIndex === currentCareer.length) {
+                    typingSpeed = 2000; 
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    careerIndex = (careerIndex + 1) % careers.length;
+                    typingSpeed = 500; 
+                }
+
+                setTimeout(typeEffect, typingSpeed);
+            }
+
+            setTimeout(typeEffect, 1000);
+        }
+
+        // --- BULLETPROOF FRONTEND SEARCH ENGINE ---
         document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.getElementById('searchInput');
             const suggestionsBox = document.getElementById('searchSuggestions');
             
-            // If this page doesn't have a search bar (like the new index.html nav), silently exit without crashing!
             if (!searchInput || !suggestionsBox) return;
 
             let masterIndex = [];
             let isLoaded = false;
 
             async function buildSearchIndex() {
-                // Wrapped in a try/catch so if a JSON file is missing, the site doesn't break
                 try {
                     const categories = ['tech', 'finance', 'medical', 'engineer', 'science', 'creative', 'publicservice'];
-                    
-                    // We use 'data/filename' (relative path) to ensure Firebase finds it perfectly
                     const promises = categories.map(cat => fetch(`data/${cat}.json`).then(res => res.ok ? res.json() : null).catch(() => null));
                     const results = await Promise.all(promises);
                     
@@ -395,7 +392,7 @@
                     });
                     isLoaded = true;
                 } catch (err) {
-                    console.warn("Search index warning:", err); // Logs a warning, but DOES NOT crash the page
+                    console.warn("Search index warning:", err);
                 }
             }
 
@@ -439,7 +436,7 @@
             });
         });
     </script>
-    </script>
+
     <footer style="margin-top: 4rem; padding: 2rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.85rem; line-height: 1.6;">
         <p>
             <strong>SnapDollar</strong> is a modern career explorer engineered to bring total transparency to your professional future. 
@@ -448,7 +445,6 @@
         </p>
         <p style="margin-top: 1rem; opacity: 0.5;">© 2026 SnapDollar. All rights reserved.</p>
     </footer>
-
 
 </body>
 </html>
