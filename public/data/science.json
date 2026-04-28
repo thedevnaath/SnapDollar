@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "food-scientist",
+      "title": "Food Scientist",
+      "icon": "carrot",
+      "description": "Food Scientists are the architects behind everything you eat. They use chemistry, biology, and engineering to develop new products, ensure food safety, and optimize flavor and texture. This career combines rigorous scientific principles with the practical demands of the global food industry.",
+      "salaryRange": "$55k (Academia/Government) - $180k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "paleontologist",
       "title": "Paleontologist",
       "icon": "bone",
