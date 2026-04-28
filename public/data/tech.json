@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "blockchain-developer",
+      "title": "Blockchain Developer",
+      "icon": "code",
+      "description": "Blockchain Developers build the secure, decentralized systems that power cryptocurrencies, digital assets, and cutting-edge applications. They write smart contracts and create new ways for data and value to be exchanged without central control, pushing the boundaries of what's possible in tech and finance.",
+      "salaryRange": "$120k - $200k",
+      "roiRating": "High"
+    },
+    {
       "id": "ai-researcher",
       "title": "AI Researcher",
       "icon": "brain",
