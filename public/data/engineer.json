@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "reliability-engineer",
+      "title": "Reliability Engineer",
+      "icon": "settings",
+      "description": "Reliability Engineers ensure critical systems and equipment run smoothly without breaking down. They are detectives finding why things fail and architects designing solutions to prevent future problems. Their goal is to maximize uptime and save companies millions by avoiding costly outages.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "hvac-engineer",
       "title": "HVAC Engineer",
       "icon": "fan",
