@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "computer-systems-analyst",
+      "title": "Computer Systems Analyst",
+      "icon": "cpu",
+      "description": "Computer Systems Analysts are the 'translators' between business problems and tech solutions. They figure out what a company needs to run better, then design and improve the computer systems to make it happen, bridging the gap between non-technical staff and IT developers.",
+      "salaryRange": "$90k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "it-project-manager",
       "title": "IT Project Manager",
       "icon": "clipboard-list",
