@@ -75,6 +75,43 @@
         .category-header h1 { font-size: 3rem; margin-bottom: 1rem; letter-spacing: -1px; }
         .category-header p { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto; }
 
+        /* Universal Search Bar (Ported from Homepage) */
+        .search-container { 
+            margin: 3rem auto 0 auto; 
+            max-width: 600px; 
+            position: relative;
+        }
+        input[type="text"] { 
+            width: 100%; 
+            padding: 1.2rem 1.5rem 1.2rem 3.5rem; 
+            border-radius: 12px; 
+            border: 1px solid #222; 
+            background: var(--card-bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem; 
+            outline: none; 
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus {
+            border-color: var(--neon-emerald);
+            box-shadow: 0 0 25px var(--emerald-glow);
+        }
+        .search-icon {
+            position: absolute;
+            left: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            width: 20px;
+            height: 20px;
+            transition: color 0.3s ease;
+        }
+        input[type="text"]:focus + .search-icon {
+            color: var(--neon-emerald);
+        }
+
         /* Job Cards Grid */
         .grid { 
             display: grid; 
@@ -138,6 +175,7 @@
         }
         .badge-salary { background: rgba(0, 255, 136, 0.1); color: var(--neon-emerald); border: 1px solid rgba(0, 255, 136, 0.2); }
         .badge-roi { background: rgba(255, 255, 255, 0.05); color: #fff; border: 1px solid rgba(255, 255, 255, 0.1); }
+        
         /* 🚨 AUTOCOMPLETE SEARCH DROPDOWN 🚨 */
         .suggestions-box {
             position: absolute;
@@ -153,6 +191,7 @@
             z-index: 9999;
             display: none; /* Hidden by default */
             box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            text-align: left; /* Overrides the center alignment from the header */
         }
         .suggestions-box.active {
             display: block;
@@ -183,13 +222,8 @@
             <div class="logo">Snap<span>Dollar</span></div>
         </a>
 
-        <div style="position: relative; width: 100%; max-width: 400px; margin: 0 1rem;">
-            <input type="text" id="searchInput" placeholder="Search a career..." autocomplete="off" style="padding: 0.7rem 1.5rem; border-radius: 25px; border: 1px solid rgba(255,255,255,0.15); background: rgba(0,0,0,0.6); color: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 0.95rem; outline: none;">
-            <div id="searchSuggestions" class="suggestions-box"></div>
-        </div>
-
         <button id="share-btn" class="back-btn" style="background: none; border: none; font-size: 1rem; cursor: pointer; padding: 0; font-family: inherit; color: var(--text-muted);">
-            Share
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="share-2" aria-hidden="true" style="width: 18px;" class="lucide lucide-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg> Share
         </button>
     </nav>
 
@@ -197,6 +231,12 @@
     <div class="category-header">
         <h1 id="page-title">Loading...</h1>
         <p id="page-desc">Fetching the best careers in the universe.</p>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" autocomplete="off" placeholder="Search a career...">
+            <i data-lucide="search" class="search-icon"></i>
+            <div id="searchSuggestions" class="suggestions-box"></div>
+        </div>
     </div>
 
     <div class="grid" id="jobs-container">
@@ -265,7 +305,8 @@
 
         // Run the function the second the page loads
         loadCareers();
-                // --- NATIVE SHARE LOGIC ---
+        
+        // --- NATIVE SHARE LOGIC ---
         document.getElementById('share-btn').addEventListener('click', async () => {
             const categoryName = document.getElementById('page-title').innerText;
             if (navigator.share) {
@@ -283,8 +324,8 @@
                 alert("Link copied to clipboard!");
             }
         });
-    <script>
-        // 🚨 NATIVE FRONTEND SEARCH ENGINE 🚨
+
+        // 🚨 BULLETPROOF FRONTEND SEARCH ENGINE 🚨
         document.addEventListener('DOMContentLoaded', () => {
             const searchInput = document.getElementById('searchInput');
             const suggestionsBox = document.getElementById('searchSuggestions');
@@ -295,10 +336,10 @@
 
             // 1. Fetch and merge all categories into memory instantly
             async function buildSearchIndex() {
-                const categories = ['tech', 'finance', 'medical', 'engineer', 'science', 'creative', 'publicservice'];
                 try {
-                    // Fire 7 requests simultaneously (Lightning fast on Firebase HTTP/2)
-                    const promises = categories.map(cat => fetch(`/data/${cat}.json`).then(res => res.ok ? res.json() : null));
+                    const categories = ['tech', 'finance', 'medical', 'engineer', 'science', 'creative', 'publicservice'];
+                    // We use relative path to ensure Firebase finds it perfectly
+                    const promises = categories.map(cat => fetch(`data/${cat}.json`).then(res => res.ok ? res.json() : null).catch(() => null));
                     const results = await Promise.all(promises);
                     
                     // Merge all arrays
@@ -309,7 +350,7 @@
                     });
                     isLoaded = true;
                 } catch (err) {
-                    console.error("Failed to build search index", err);
+                    console.warn("Search index warning:", err); // Logs a warning without crashing
                 }
             }
 
@@ -343,7 +384,7 @@
                         const highlightedTitle = match.title.replace(highlightRegex, '<span class="suggestion-highlight">$1</span>');
                         
                         div.innerHTML = `🔍 &nbsp; ${highlightedTitle}`;
-                        div.onclick = () => window.location.href = `/career.html?id=${match.id}`;
+                        div.onclick = () => window.location.href = `career.html?id=${match.id}`;
                         suggestionsBox.appendChild(div);
                     });
                     suggestionsBox.classList.add('active');
@@ -359,7 +400,6 @@
                 }
             });
         });
-    </script>
     </script>
 </body>
 </html>
