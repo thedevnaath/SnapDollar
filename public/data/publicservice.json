@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "intelligence-analyst",
+      "title": "Intelligence Analyst",
+      "icon": "shield",
+      "description": "The shadowy backbone of national security, Intelligence Analysts sift through vast oceans of data to protect their country. This role offers profound purpose and ironclad stability, but often at the cost of public recognition and the dizzying wealth found in the private sector.",
+      "salaryRange": "$60k (Public Entry) - $150k+ (Public Senior/Supervisory)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "foreign-service-officer",
       "title": "Foreign Service Officer",
       "icon": "globe",
