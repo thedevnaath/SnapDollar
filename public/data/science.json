@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "agricultural-scientist",
+      "title": "Agricultural Scientist",
+      "icon": "wheat",
+      "description": "Agricultural scientists are the biological and data engineers of our food systems. They research everything from soil health and crop genetics to pest management and sustainable farming practices, aiming to feed a growing planet efficiently. Their work directly impacts global food security, climate resilience, and the economic viability of agriculture.",
+      "salaryRange": "$55k (Academia) - $180k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "food-scientist",
       "title": "Food Scientist",
       "icon": "carrot",
