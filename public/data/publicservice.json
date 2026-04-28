@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "policy-analyst-publicservice",
+      "title": "Policy Analyst",
+      "icon": "building-2",
+      "description": "Policy Analysts are the architects of government action, meticulously researching and evaluating policies that shape nations. This role offers profound societal impact and rock-solid stability, but at a fraction of the private sector's earning potential, forcing a stark choice between purpose and prosperity.",
+      "salaryRange": "$60k (Public) - $180k+ (Private Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "intelligence-analyst",
       "title": "Intelligence Analyst",
       "icon": "shield",
