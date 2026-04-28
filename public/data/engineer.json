@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "hvac-engineer",
+      "title": "HVAC Engineer",
+      "icon": "fan",
+      "description": "HVAC Engineers design and optimize the heating, ventilation, and air conditioning systems that make buildings comfortable and energy-efficient. They blend mechanical engineering principles with practical application to ensure healthy indoor environments. It's a critical role in all types of modern construction and existing building upgrades.",
+      "salaryRange": "$75k - $130k",
+      "roiRating": "High"
+    },
+    {
       "id": "mechatronics-engineer",
       "title": "Mechatronics Engineer",
       "icon": "robot",
