@@ -1,0 +1,115 @@
+{
+  "id": "it-project-manager",
+  "title": "IT Project Manager",
+  "sector": "tech",
+  "lastUpdated": "April 28, 2026",
+  "description": "IT Project Managers organize and lead technology projects from start to finish. They ensure software, hardware, or new systems are built on time, within budget, and actually work. It's about bringing complex tech ideas to life efficiently and effectively.",
+  "seoMetaDescription": "Master IT Project Management: discover salary, requirements, and daily life. Learn the skills needed to lead tech projects, manage teams, and boost your career ROI.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "IT Project Manager",
+    "description": "An IT Project Manager is responsible for planning, executing, and closing technology projects. This includes coordinating teams, managing budgets, setting timelines, and ensuring that all project goals align with business objectives. They act as the bridge between technical teams and stakeholders, ensuring clear communication and successful delivery of IT initiatives.",
+    "estimatedSalary": "$100,000 - $180,000"
+  },
+  "salaryRange": "$100k - $180k",
+  "roiRating": "High",
+  "icon": "clipboard-list",
+  "sections": [
+    {
+      "title": "The Basics",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** High demand for skilled leadership in complex tech projects.\n✅ **Pro:** Strong earning potential and clear career progression.\n❌ **Con:** High stress due to constant deadlines, budget pressures, and managing diverse personalities.\n❌ **Con:** Requires continuous learning in a rapidly changing technology landscape."
+        },
+        {
+          "title": "What You Actually Do",
+          "subconsciousQuestion": "Will I understand this job?",
+          "content": "Imagine a big concert with musicians, sound engineers, lighting experts, and a stage crew. An IT Project Manager is like the conductor and the main organizer rolled into one. You don't play an instrument, but you make sure everyone knows their part, stays on schedule, and has what they need to deliver a flawless show. In the tech world, this means you:\n\n*   **Plan:** Figure out what needs to be built (a new app, a faster network), who will build it, how long it will take, and how much it will cost.\n*   **Execute:** Get the tech team started, assigning tasks and making sure they have the right tools and information.\n*   **Monitor:** Watch progress like a hawk, checking if things are going off track, dealing with problems quickly.\n*   **Communicate:** Keep everyone — from the engineers doing the coding to the CEO paying the bills — updated on how things are going.\n*   **Solve Problems:** When things inevitably break or go wrong, you find solutions to keep the project moving.\n*   **Close:** Make sure the project is finished, tested, and delivered successfully."
+        },
+        {
+          "title": "Salary Insights",
+          "subconsciousQuestion": "Will I be rich?",
+          "content": "🇺🇸 USA: $100,000 – $180,000\n🇩🇪 Germany: €60,000 – €100,000\n🇬🇧 UK: £55,000 – £95,000\n🌍 Remote: $95,000 – $160,000\n\n📈 **Growth:** Fast - As businesses rely more on technology and digital transformation, the need for skilled leaders to manage these complex projects grows rapidly. This role is crucial for company success."
+        },
+        {
+          "title": "Core Tech Stack & Skills",
+          "subconsciousQuestion": "What exact tools do I need to learn?",
+          "content": "*   **Project Management Software:** Jira, Asana, Monday.com, Trello (for tracking tasks and progress).\n*   **Methodologies:** Agile (Scrum, Kanban) and Waterfall (different ways of organizing project work).\n*   **Communication & Collaboration Tools:** Slack, Microsoft Teams, Zoom.\n*   **Risk & Budget Management:** Understanding how to identify risks and track project spending.\n*   **Soft Skills:** Leadership, negotiation, problem-solving, stakeholder management, technical fluency (understanding tech concepts, not necessarily coding)."
+        },
+        {
+          "title": "Equity & Perks",
+          "subconsciousQuestion": "Do I get company stock or just a salary?",
+          "content": "Beyond a competitive base salary, many IT Project Manager roles, especially at larger tech companies, include performance-based bonuses, which can be a significant part of your total compensation. Restricted Stock Units (RSUs) or stock options are also common, tying your financial success to the company's performance. You can also expect standard benefits like health insurance, paid time off, and a 401(k) or similar retirement plan."
+        }
+      ]
+    },
+    {
+      "title": "Getting In",
+      "cards": [
+        {
+          "title": "The Execution Plan",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "**Path 1: The Traditional Route**\nGet a Bachelor's degree in Computer Science, Information Technology, Business Administration, or a related field. Aim for internships in project coordinator or business analyst roles. Your first full-time job could be a Project Coordinator, Scrum Master, or Junior Project Manager, where you gain hands-on experience before leading bigger projects. Consider certifications like PMP (Project Management Professional) or CSM (Certified ScrumMaster).\n\n**Path 2: The Hacker Route**\nStart in a technical role like a software developer, QA engineer, or IT support specialist. While working, volunteer for small project tasks, organize team efforts, and take ownership of initiatives. Self-study project management methodologies (Agile, Scrum) and get certified (CSM is faster than PMP). Leverage your technical credibility to transition internally into a Project Manager role.\n\n**Path 3: The Pivot Route**\nIf you have project management experience in other industries (e.g., construction, marketing, operations), focus on learning the unique aspects of IT. Take online courses in IT fundamentals, software development lifecycles, and cloud computing. Network aggressively within the tech sector. Highlight your existing project leadership skills and show how you've successfully adapted to new domains. Start with smaller tech projects on a freelance basis or target companies willing to train."
+        },
+        {
+          "title": "Time & Money Cost",
+          "subconsciousQuestion": "How much debt and time will this take?",
+          "content": "The **time cost** can range from **4 to 7 years**. This includes a 4-year bachelor's degree (if traditional) and 1-3 years gaining experience in supporting roles. For the hacker or pivot route, it might be 2-5 years of focused learning and internal transitioning.\n\nThe **money cost** varies wildly. A traditional degree can be **$40,000 - $200,000+**. Certifications like PMP or CSM typically cost **$1,000 - $2,500** (including exam fees and preparation courses). The 'hacker' route is far cheaper, mainly involving certification costs and self-study materials."
+        },
+        {
+          "title": "Barrier to Entry",
+          "subconsciousQuestion": "Is it impossible for a junior to get hired?",
+          "content": "The barrier to entry for an IT Project Manager can be **medium to high**. Most companies look for proven experience in leading projects, not just knowing the theory. It's often tough to land a pure 'junior' PM role without prior experience in some capacity (e.g., as a project coordinator, business analyst, or even a tech lead who managed teams). Interviews typically involve multiple rounds, focusing on behavioral questions, situational problem-solving, and your understanding of project management methodologies. While not impossible, juniors often need to start in supporting roles to build the necessary track record."
+        }
+      ]
+    },
+    {
+      "title": "The Daily Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "What is hour-by-hour reality?",
+          "content": "**8:30 AM:** Start by checking emails, project dashboards (Jira/Asana), and preparing for daily stand-ups. You'll review any blockers reported overnight and prioritize urgent actions.\n\n**9:00 AM:** Facilitate daily stand-up meetings with your development team(s) to discuss progress, plan for the day, and identify any immediate issues. This is quick and focused.\n\n**10:00 AM:** Attend a stakeholder meeting with business leaders to provide updates on project status, discuss budget adherence, and gather feedback on progress. This requires clear, non-technical communication.\n\n**11:30 AM:** Dive into problem-solving. A critical server might be down, or a team member is struggling with a task. You're unblocking, coordinating with IT support, and escalating issues as needed.\n\n**1:00 PM:** Lunch break (if you're lucky!).\n\n**2:00 PM:** Work on project documentation: updating risk logs, refining project plans, or preparing for upcoming sprint planning sessions. You might also be reviewing budget forecasts.\n\n**3:30 PM:** One-on-one check-ins with individual team members to ensure they're on track, address concerns, and provide guidance.\n\n**4:30 PM:** Strategic planning session for the next phase of the project, focusing on resource allocation, potential new risks, and defining key performance indicators.\n\n**5:30 PM:** Wrap up the day by reviewing your own task list, preparing for tomorrow, and sending out any critical communications. Often, you're mentally juggling multiple threads.\n\n**Metrics for this role:**\n*   **Meetings:** High\n*   **Travel:** Low (mostly remote/hybrid, but occasional site visits for critical phases)\n*   **Problem-solving:** High\n*   **Deadlines:** Constant\n*   **Communication:** Very High"
+        },
+        {
+          "title": "Stress & Burnout Risk",
+          "subconsciousQuestion": "Will this job destroy my mental health?",
+          "content": "Stress & Burnout Risk: **High**. The IT Project Manager role is inherently stressful. You are constantly juggling competing priorities, managing demanding stakeholders, dealing with technical complexities, and being ultimately responsible for project success or failure. You're often the first point of contact when things go wrong, and you're expected to find solutions under pressure. This can lead to long hours, mental fatigue, and a high risk of burnout if you don't develop strong coping mechanisms and boundaries. You're a human shield, taking the heat from all sides."
+        },
+        {
+          "title": "Remote Flexibility",
+          "subconsciousQuestion": "Can I work from a laptop in Bali?",
+          "content": "Remote Flexibility: **High**. Many IT Project Manager roles offer significant remote or hybrid flexibility. The nature of the work, heavily reliant on communication, documentation, and digital tools (Jira, Slack, Zoom), makes it highly adaptable to a remote setup. While some companies may prefer or require occasional on-site presence for critical meetings or team-building, a fully remote 'work from Bali' scenario is very plausible, especially with companies operating globally or those with a strong remote-first culture."
+        }
+      ]
+    },
+    {
+      "title": "The Future",
+      "cards": [
+        {
+          "title": "10-Year Demand",
+          "subconsciousQuestion": "Is this industry dying?",
+          "content": "10-Year Demand: **Strong Growth**. The demand for IT Project Managers is expected to remain robust and even increase over the next decade. As every industry becomes more digitized and reliant on complex technology solutions, companies will continue to need skilled individuals to plan, execute, and deliver these initiatives successfully. New technologies like AI, IoT, and blockchain will create even more complex projects needing expert management."
+        },
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will ChatGPT take my job in 5 years?",
+          "content": "AI Threat Level: **Low-Medium**. While AI can automate many administrative tasks (like scheduling meetings, generating reports, basic data analysis for risk assessment), it is unlikely to fully replace the IT Project Manager role. The core of this job involves complex human interaction, negotiation, conflict resolution, motivating diverse teams, and making nuanced judgment calls based on imperfect information. These are areas where AI is still far from matching human capabilities. AI will likely become a powerful assistant, making the PM more efficient, but not replacing the strategic and leadership aspects."
+        },
+        {
+          "title": "Pivot Options",
+          "subconsciousQuestion": "If I hate this, what else can I do?",
+          "content": "*   **Program Manager:** Manage multiple, related projects under a larger strategic initiative.\n*   **Product Manager:** Focus on defining *what* product to build, based on market needs and business goals, rather than just *how* to build it.\n*   **IT Consultant:** Advise companies on best practices for project execution, technology adoption, and process improvement.\n*   **Operations Manager:** Oversee the daily operations and efficiency of an organization or department, often leveraging project management skills for process optimization."
+        },
+        {
+          "title": "Solo / Founder Scope",
+          "subconsciousQuestion": "Can I quit and be my own boss?",
+          "content": "Solo / Founder Scope: **Good**. Experienced IT Project Managers have a strong path to becoming their own boss. You can work as an independent consultant, offering your expertise to startups, small businesses, or larger corporations on a contract basis. Many companies need fractional project management support without wanting a full-time hire. You could also start a project management agency, hiring and deploying other PMs to clients, or even leverage your experience to launch your own tech product or service, having seen firsthand what it takes to build one."
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "it-project-manager",
+      "title": "IT Project Manager",
+      "icon": "clipboard-list",
+      "description": "IT Project Managers organize and lead technology projects from start to finish. They ensure software, hardware, or new systems are built on time, within budget, and actually work. It's about bringing complex tech ideas to life efficiently and effectively.",
+      "salaryRange": "$100k - $180k",
+      "roiRating": "High"
+    },
+    {
       "id": "blockchain-developer",
       "title": "Blockchain Developer",
       "icon": "code",
