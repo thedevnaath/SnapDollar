@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "penetration-tester",
+      "title": "Penetration Tester",
+      "icon": "bug",
+      "description": "Penetration Testers are ethical hackers paid to find security weaknesses in computer systems, networks, and applications before real attackers do. They simulate cyberattacks to help companies fix vulnerabilities, ensuring data and systems remain secure. It's a high-stakes, high-skill role critical to modern digital defense.",
+      "salaryRange": "$90k - $160k",
+      "roiRating": "High"
+    },
+    {
       "id": "computer-systems-analyst",
       "title": "Computer Systems Analyst",
       "icon": "cpu",
