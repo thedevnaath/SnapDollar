@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "process-engineer",
+      "title": "Process Engineer",
+      "icon": "factory",
+      "description": "Process Engineers are the efficiency masters of factories and plants. They design, optimize, and troubleshoot complex industrial processes to make products faster, cheaper, and safer. Their work directly impacts a company's bottom line and environmental footprint.",
+      "salaryRange": "$80k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "reliability-engineer",
       "title": "Reliability Engineer",
       "icon": "settings",
