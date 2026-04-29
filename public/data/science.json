@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "neuroscientist",
+      "title": "Neuroscientist",
+      "icon": "brain",
+      "description": "Neuroscientists unravel the brain's complexities, from individual neurons to complex behaviors. Their research aims to cure neurological diseases, enhance cognitive function, and deepen our understanding of consciousness, driving breakthroughs worth billions.",
+      "salaryRange": "$50k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "agricultural-scientist",
       "title": "Agricultural Scientist",
       "icon": "wheat",
