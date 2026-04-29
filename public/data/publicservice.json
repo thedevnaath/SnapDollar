@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "elected-official",
+      "title": "Elected Official",
+      "icon": "building-2",
+      "description": "This role is the ultimate intersection of power, policy, and public will, demanding relentless political strategy and an iron will. While offering direct societal impact, it is characterized by immense public scrutiny, constant fundraising, and profound personal sacrifice.",
+      "salaryRange": "$0 (Local/Volunteer) - $250k+ (National)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "policy-analyst-publicservice",
       "title": "Policy Analyst",
       "icon": "building-2",
