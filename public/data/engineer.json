@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "safety-engineer",
+      "title": "Safety Engineer",
+      "icon": "hard-hat",
+      "description": "Safety Engineers are the unsung heroes who stop bad things from happening. They design workplaces, equipment, and procedures to prevent accidents, injuries, and even environmental damage. Their job is to make sure everyone goes home safe at the end of the day, ensuring companies follow strict rules and best practices.",
+      "salaryRange": "$80k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "process-engineer",
       "title": "Process Engineer",
       "icon": "factory",
