@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "virologist",
+      "title": "Virologist",
+      "icon": "virus",
+      "description": "Virologists are scientific detectives who study viruses—tiny invaders that cause diseases from the common cold to global pandemics. They unravel viral mechanisms, develop vaccines, and design antiviral drugs, aiming to protect global health and unlock new biotechnological frontiers. It's a high-stakes field with massive societal impact, but demands extreme patience, intellectual rigor, and relentless grant-seeking.",
+      "salaryRange": "$55k (Academia Post-Doc) - $200k+ (Industry R&D Director)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "neuroscientist",
       "title": "Neuroscientist",
       "icon": "brain",
