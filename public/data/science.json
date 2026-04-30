@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "immunology-scientist",
+      "title": "Immunology Scientist",
+      "icon": "dna",
+      "description": "An Immunology Scientist is a highly trained specialist researching the complex defense mechanisms of the human body. They work to understand how our immune system fights disease, develops new therapies for cancers and autoimmune disorders, and invents vaccines. This high-stakes work has profound societal impact and massive financial implications in the biotech and pharmaceutical sectors.",
+      "salaryRange": "$55k (Academia Post-Doc) - $200k+ (Industry Sr. Scientist)",
+      "roiRating": "High"
+    },
+    {
       "id": "virologist",
       "title": "Virologist",
       "icon": "virus",
