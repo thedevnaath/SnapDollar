@@ -303,7 +303,65 @@
     <script>
         // Initialize icons
         lucide.createIcons();
+        // --- TYPEWRITER EFFECT LOGIC ---
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            const careers = [
+                "Software Engineer",
+                "Investment Banker",
+                "Machine Learning Engineer",
+                "Creative Director",
+                "Cardiothoracic Surgeon",
+                "Corporate Lawyer",
+                "Product Manager"
+            ];
+            
+            let careerIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingTimeout;
 
+            function typeEffect() {
+                // Stop the animation and set a default if the user clicks in to type
+                if (document.activeElement === searchInput || searchInput.value.length > 0) {
+                    searchInput.placeholder = "Search a career...";
+                    return;
+                }
+
+                const currentCareer = careers[careerIndex];
+
+                if (isDeleting) {
+                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
+                    charIndex--;
+                } else {
+                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
+                    charIndex++;
+                }
+
+                let typingSpeed = isDeleting ? 40 : 100;
+
+                if (!isDeleting && charIndex === currentCareer.length) {
+                    typingSpeed = 2000; // Pause at the end of the word
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    careerIndex = (careerIndex + 1) % careers.length;
+                    typingSpeed = 500; // Pause before typing the next word
+                }
+
+                typingTimeout = setTimeout(typeEffect, typingSpeed);
+            }
+
+            // Restart animation if user clears the input and clicks away
+            searchInput.addEventListener('blur', () => {
+                if (searchInput.value.length === 0) {
+                    clearTimeout(typingTimeout);
+                    typeEffect();
+                }
+            });
+
+            setTimeout(typeEffect, 1000);
+        }
         // --- NATIVE SHARE LOGIC ---
         document.getElementById('share-btn').addEventListener('click', async () => {
             if (navigator.share) {
