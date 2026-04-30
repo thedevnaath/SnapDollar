@@ -244,6 +244,16 @@
     </nav>
 
     <div class="hero">
+        
+        <!-- NEW BADGE: EXACTLY HERE -->
+        <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+            <div style="background: rgba(0, 255, 136, 0.1); border: 1px solid rgba(0, 255, 136, 0.2); color: var(--neon-emerald); padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 0.4rem;">
+                <i data-lucide="database" style="width: 14px; height: 14px;"></i> 
+                <span id="career-count">300+</span> Careers & Adding
+            </div>
+        </div>
+        <!-- END NEW BADGE -->
+
         <h1>Map your success.</h1>
         <p>Explore every career path, discover high-ROI opportunities, and design your future.</p>
         
@@ -303,65 +313,7 @@
     <script>
         // Initialize icons
         lucide.createIcons();
-        // --- TYPEWRITER EFFECT LOGIC ---
-        const searchInput = document.getElementById('searchInput');
-        if (searchInput) {
-            const careers = [
-                "Software Engineer",
-                "Investment Banker",
-                "Machine Learning Engineer",
-                "Creative Director",
-                "Cardiothoracic Surgeon",
-                "Corporate Lawyer",
-                "Product Manager"
-            ];
-            
-            let careerIndex = 0;
-            let charIndex = 0;
-            let isDeleting = false;
-            let typingTimeout;
 
-            function typeEffect() {
-                // Stop the animation and set a default if the user clicks in to type
-                if (document.activeElement === searchInput || searchInput.value.length > 0) {
-                    searchInput.placeholder = "Search a career...";
-                    return;
-                }
-
-                const currentCareer = careers[careerIndex];
-
-                if (isDeleting) {
-                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex - 1)}'...`;
-                    charIndex--;
-                } else {
-                    searchInput.placeholder = `Search '${currentCareer.substring(0, charIndex + 1)}'...`;
-                    charIndex++;
-                }
-
-                let typingSpeed = isDeleting ? 40 : 100;
-
-                if (!isDeleting && charIndex === currentCareer.length) {
-                    typingSpeed = 2000; // Pause at the end of the word
-                    isDeleting = true;
-                } else if (isDeleting && charIndex === 0) {
-                    isDeleting = false;
-                    careerIndex = (careerIndex + 1) % careers.length;
-                    typingSpeed = 500; // Pause before typing the next word
-                }
-
-                typingTimeout = setTimeout(typeEffect, typingSpeed);
-            }
-
-            // Restart animation if user clears the input and clicks away
-            searchInput.addEventListener('blur', () => {
-                if (searchInput.value.length === 0) {
-                    clearTimeout(typingTimeout);
-                    typeEffect();
-                }
-            });
-
-            setTimeout(typeEffect, 1000);
-        }
         // --- NATIVE SHARE LOGIC ---
         document.getElementById('share-btn').addEventListener('click', async () => {
             if (navigator.share) {
@@ -396,10 +348,14 @@
             let careerIndex = 0;
             let charIndex = 0;
             let isDeleting = false;
+            let typingTimeout;
 
             function typeEffect() {
-                // Stop the animation if the user starts typing
-                if (document.activeElement === searchInput || searchInput.value.length > 0) return;
+                // Stop the animation if user clicks in
+                if (document.activeElement === searchInput || searchInput.value.length > 0) {
+                    searchInput.placeholder = "Search a career...";
+                    return;
+                }
 
                 const currentCareer = careers[careerIndex];
 
@@ -422,8 +378,16 @@
                     typingSpeed = 500; 
                 }
 
-                setTimeout(typeEffect, typingSpeed);
+                typingTimeout = setTimeout(typeEffect, typingSpeed);
             }
+
+            // Restart animation if user clears the input
+            searchInput.addEventListener('blur', () => {
+                if (searchInput.value.length === 0) {
+                    clearTimeout(typingTimeout);
+                    typeEffect();
+                }
+            });
 
             setTimeout(typeEffect, 1000);
         }
@@ -449,6 +413,14 @@
                         }
                     });
                     isLoaded = true;
+
+                    // 🚨 DYNAMIC BADGE UPDATER 🚨
+                    // This counts the exact number of careers loaded and updates the badge!
+                    const countBadge = document.getElementById('career-count');
+                    if (countBadge && masterIndex.length > 0) {
+                        countBadge.innerText = masterIndex.length;
+                    }
+
                 } catch (err) {
                     console.warn("Search index warning:", err);
                 }
