@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "systems-engineer",
+      "title": "Systems Engineer",
+      "icon": "settings",
+      "description": "Systems Engineers are the architects of complex technology. They design, integrate, and manage the backbone infrastructure of organizations, ensuring hardware, software, and networks work together seamlessly. This role is critical for the stability and performance of virtually all modern tech operations.",
+      "salaryRange": "$90k - $170k",
+      "roiRating": "High"
+    },
+    {
       "id": "safety-engineer",
       "title": "Safety Engineer",
       "icon": "hard-hat",
