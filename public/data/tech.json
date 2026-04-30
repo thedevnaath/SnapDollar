@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "hardware-engineer",
+      "title": "Hardware Engineer",
+      "icon": "cpu",
+      "description": "Hardware Engineers design, develop, and test physical computer components and systems. They build the actual 'guts' of devices, from microchips to entire servers, ensuring they work efficiently and reliably. This role is crucial for creating the physical foundation of all technology we use daily.",
+      "salaryRange": "$95k - $170k",
+      "roiRating": "High"
+    },
+    {
       "id": "penetration-tester",
       "title": "Penetration Tester",
       "icon": "bug",
