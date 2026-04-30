@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "sanitation-worker",
+      "title": "Sanitation Worker",
+      "icon": "truck",
+      "description": "The Sanitation Worker is the backbone of urban public health, ensuring the removal and proper disposal of community waste. This is a physically demanding, essential public service role offering high job security and robust benefits, but often overlooked in societal recognition.",
+      "salaryRange": "$40k - $75k+ (Public Sector with strong benefits/pension)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "elected-official",
       "title": "Elected Official",
       "icon": "building-2",
