@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "child-protective-services-caseworker",
+      "title": "Child Protective Services Caseworker",
+      "icon": "shield",
+      "description": "This role is the front line of child welfare, making life-or-death decisions and navigating complex family dynamics. It's a grueling public service career marked by high burnout, low pay, and immense emotional strain, offering no pathway to private sector wealth.",
+      "salaryRange": "$45k - $70k (Public) - N/A (Private)",
+      "roiRating": "Low"
+    },
+    {
       "id": "social-services-director",
       "title": "Social Services Director",
       "icon": "handshake",
