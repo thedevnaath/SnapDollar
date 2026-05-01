@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "project-engineer",
+      "title": "Project Engineer",
+      "icon": "settings",
+      "description": "Project Engineers are the glue that holds technical projects together. They oversee the entire lifecycle of an engineering project, from initial idea to final delivery, ensuring everything runs smoothly, on time, and within budget. It's a role that combines technical know-how with strong leadership and communication.",
+      "salaryRange": "$85k - $140k",
+      "roiRating": "High"
+    },
+    {
       "id": "photonics-engineer",
       "title": "Photonics Engineer",
       "icon": "lightbulb",
