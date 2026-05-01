@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "emergency-management-director",
+      "title": "Emergency Management Director",
+      "icon": "shield",
+      "description": "This role is the unsung hero orchestrating society's response to crises, from natural disasters to public health emergencies. It's a high-impact public service career offering immense satisfaction, but be prepared for soul-crushing bureaucracy, intense pressure during real-world catastrophes, and a stable but modest government salary.",
+      "salaryRange": "$60k (Public) - $250k+ (Private Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "sanitation-worker",
       "title": "Sanitation Worker",
       "icon": "truck",
