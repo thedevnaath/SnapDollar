@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "material-scientist",
+      "title": "Material Scientist",
+      "icon": "atom",
+      "description": "Material Scientists are the architects of the physical world, designing and discovering new materials with unique properties to solve critical problems, from faster microchips to lighter aircraft and advanced biomedical devices. This field underpins nearly every technological advance, demanding immense scientific rigor to create tangible, real-world value.",
+      "salaryRange": "$45k (Academia) - $180k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "immunology-scientist",
       "title": "Immunology Scientist",
       "icon": "dna",
