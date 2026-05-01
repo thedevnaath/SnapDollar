@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "information-security-manager",
+      "title": "Information Security Manager",
+      "icon": "shield-check",
+      "description": "Information Security Managers protect an organization's digital assets from cyber threats and ensure compliance with strict data protection laws. They lead teams, develop security strategies, and manage incident responses to keep data safe and operations running smoothly.",
+      "salaryRange": "$130k - $200k",
+      "roiRating": "High"
+    },
+    {
       "id": "webmaster",
       "title": "Webmaster",
       "icon": "globe",
