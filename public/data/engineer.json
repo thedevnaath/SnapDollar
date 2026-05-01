@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "photonics-engineer",
+      "title": "Photonics Engineer",
+      "icon": "lightbulb",
+      "description": "Photonics Engineers are the wizards of light, designing devices and systems that use light for everything from faster internet to medical diagnostics. They solve complex problems by harnessing photons, ensuring cutting-edge technology works in the real world.",
+      "salaryRange": "$90k - $170k",
+      "roiRating": "High"
+    },
+    {
       "id": "geotechnical-engineer",
       "title": "Geotechnical Engineer",
       "icon": "hard-hat",
