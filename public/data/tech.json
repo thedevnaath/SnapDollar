@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "webmaster",
+      "title": "Webmaster",
+      "icon": "globe",
+      "description": "A Webmaster is the guardian of a website, ensuring it runs smoothly, securely, and effectively. They handle everything from content updates and technical maintenance to SEO optimization, making sure the site is always live, fast, and user-friendly for visitors.",
+      "salaryRange": "$50k - $90k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "hardware-engineer",
       "title": "Hardware Engineer",
       "icon": "cpu",
