@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "climatologist",
+      "title": "Climatologist",
+      "icon": "cloudy",
+      "description": "Climatologists are the Earth's diagnosticians, meticulously analyzing complex climate data, building predictive models, and deciphering our planet's past, present, and future climate. Their work is critical for informing environmental policy, disaster preparedness, and sustainable economic strategies, aiming to mitigate the financial and human costs of a changing world.",
+      "salaryRange": "$60k (Academia Post-Doc) - $180k+ (Industry/Government Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "material-scientist",
       "title": "Material Scientist",
       "icon": "atom",
