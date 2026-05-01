@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "geotechnical-engineer",
+      "title": "Geotechnical Engineer",
+      "icon": "hard-hat",
+      "description": "Geotechnical engineers are crucial construction guardians, ensuring buildings, roads, and bridges stand strong by understanding the ground beneath them. They analyze soil and rock to prevent costly failures and ensure public safety. It's a high-responsibility role combining fieldwork with complex engineering calculations.",
+      "salaryRange": "$70k - $150k",
+      "roiRating": "High"
+    },
+    {
       "id": "systems-engineer",
       "title": "Systems Engineer",
       "icon": "settings",
