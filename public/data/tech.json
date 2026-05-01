@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "application-support-analyst",
+      "title": "Application Support Analyst",
+      "icon": "life-buoy",
+      "description": "Application Support Analysts are the frontline problem-solvers for software, ensuring everything runs smoothly for users. They diagnose issues, prevent disruptions, and act as the crucial link between users and development teams. It's a stable, in-demand role vital for any tech-driven business.",
+      "salaryRange": "$60k - $100k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "information-security-manager",
       "title": "Information Security Manager",
       "icon": "shield-check",
