@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "social-services-director",
+      "title": "Social Services Director",
+      "icon": "handshake",
+      "description": "Oversees vital community programs, navigating complex regulations to provide essential support to vulnerable populations. Expect a career defined by profound human impact, relentless systemic challenges, and a salary grounded in public sector realities.",
+      "salaryRange": "$70k (Public) - $180k+ (Large Non-Profit)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "emergency-management-director",
       "title": "Emergency Management Director",
       "icon": "shield",
