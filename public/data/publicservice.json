@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "public-health-administrator",
+      "title": "Public Health Administrator",
+      "icon": "shield",
+      "description": "These professionals are the backbone of community health, designing and managing programs that protect entire populations. While deeply impactful, the role often involves navigating layers of bureaucracy, budget constraints, and political pressures for a stable, but rarely wealthy, career.",
+      "salaryRange": "$60k (Entry Public) - $150k+ (Senior Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "child-protective-services-caseworker",
       "title": "Child Protective Services Caseworker",
       "icon": "shield",
