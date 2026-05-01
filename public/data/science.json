@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "conservation-scientist",
+      "title": "Conservation Scientist",
+      "icon": "tree-pine",
+      "description": "Conservation Scientists are the data-driven strategists protecting Earth's biodiversity. They research ecosystems, species, and human impacts to develop evidence-based policies and management plans, fighting for a sustainable future amidst environmental collapse.",
+      "salaryRange": "$45k (Academia) - $150k+ (Government/Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "climatologist",
       "title": "Climatologist",
       "icon": "cloudy",
