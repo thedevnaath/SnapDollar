@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "transit-operator",
+      "title": "Transit Operator",
+      "icon": "bus",
+      "description": "The backbone of urban mobility, a Transit Operator gets people where they need to go, driving buses, trains, or subways. This role offers rock-solid job security and benefits, but don't expect a corner office or massive wealth; it's a grind of schedules, public interaction, and constant vigilance.",
+      "salaryRange": "$45k - $80k (Public/Unionized)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "public-health-administrator",
       "title": "Public Health Administrator",
       "icon": "shield",
