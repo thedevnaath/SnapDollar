@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "volcanologist",
+      "title": "Volcanologist",
+      "icon": "mountain-fire",
+      "description": "Volcanologists are elite Earth scientists who study volcanoes, their formation, eruptions, and associated hazards. Their critical work aims to predict dangerous events, understand planetary processes, and ultimately protect human lives and infrastructure.",
+      "salaryRange": "$45k (Post-doc) - $150k+ (Senior Gov/Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "conservation-scientist",
       "title": "Conservation Scientist",
       "icon": "tree-pine",
