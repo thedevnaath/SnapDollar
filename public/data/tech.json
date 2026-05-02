@@ -3,6 +3,14 @@
   "description": "The architects of the digital age. High growth, massive scalability, and top-tier compensation.",
   "careers": [
     {
+      "id": "erp-consultant",
+      "title": "ERP Consultant",
+      "icon": "database",
+      "description": "ERP Consultants are system architects for businesses. They implement, customize, and optimize large software systems that manage all parts of a company, from finance to supply chain. Their work helps businesses run more efficiently, saving money and streamlining operations.",
+      "salaryRange": "$100k - $180k",
+      "roiRating": "High"
+    },
+    {
       "id": "application-support-analyst",
       "title": "Application Support Analyst",
       "icon": "life-buoy",
