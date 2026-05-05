@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cosmologist",
+      "title": "Cosmologist",
+      "icon": "atom",
+      "description": "A Cosmologist investigates the origin, evolution, and ultimate fate of the universe using advanced physics, mathematics, and computational modeling. This is a field driven purely by fundamental human curiosity, with minimal direct financial impact, existing almost exclusively within academia or research institutions.",
+      "salaryRange": "$60k (Academia) - $250k+ (Adjacent Industry/Tech Pivot)",
+      "roiRating": "Low"
+    },
+    {
       "id": "astrophysicist",
       "title": "Astrophysicist",
       "icon": "galaxy",
