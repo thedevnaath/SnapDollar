@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "astrobiologist",
+      "title": "Astrobiologist",
+      "icon": "telescope",
+      "description": "Astrobiologists investigate the origins, evolution, distribution, and future of life in the universe. This highly interdisciplinary field seeks to answer humanity's deepest questions about life beyond Earth, blending biology, geology, chemistry, and astronomy to search for habitable environments and biosignatures across the cosmos.",
+      "salaryRange": "$65k (Academia) - $190k+ (Government/Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "cosmologist",
       "title": "Cosmologist",
       "icon": "atom",
