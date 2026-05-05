@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "planetologist",
+      "title": "Planetologist",
+      "icon": "telescope",
+      "description": "Planetologists are scientists who study planets, moons, and other celestial bodies to understand their formation, evolution, and potential for life. This career blends advanced physics, geology, and astronomy to unravel cosmic mysteries, contributing to space exploration and resource identification.",
+      "salaryRange": "$65k (Academia) - $200k+ (Industry/Government)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "astrobiologist",
       "title": "Astrobiologist",
       "icon": "telescope",
