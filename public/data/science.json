@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "geomorphologist",
+      "title": "Geomorphologist",
+      "icon": "mountain",
+      "description": "Geomorphologists are the Earth's diagnosticians, studying the dynamic forces that shape its surface, from mountains to riverbeds. They analyze erosion, tectonics, and climate impacts to predict natural hazards, manage resources, and inform critical infrastructure projects. Their work provides the foundational understanding for sustainable land use and environmental protection.",
+      "salaryRange": "$60k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "planetologist",
       "title": "Planetologist",
       "icon": "telescope",
