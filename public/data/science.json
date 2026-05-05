@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "astrophysicist",
+      "title": "Astrophysicist",
+      "icon": "galaxy",
+      "description": "Astrophysicists decode the universe's biggest mysteries, from black holes to the Big Bang, using advanced math, physics, and computational tools. This isn't just stargazing; it's a brutal grind of data analysis, grant writing, and theoretical modeling, often culminating in low-paying academic roles or more lucrative, but less 'pure,' industry positions.",
+      "salaryRange": "$60k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "volcanologist",
       "title": "Volcanologist",
       "icon": "mountain-fire",
