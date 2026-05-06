@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "atmospheric-scientist",
+      "title": "Atmospheric Scientist",
+      "icon": "cloud-drizzle",
+      "description": "Atmospheric Scientists are the climate detectives and weather prophets, using advanced math, physics, and computational models to understand Earth's air systems. Their research impacts everything from daily weather forecasts to critical long-term climate change predictions, informing policy and protecting economies from extreme events.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pedologist",
       "title": "Pedologist",
       "icon": "earth",
