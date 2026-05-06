@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "speleologist",
+      "title": "Speleologist",
+      "icon": "compass",
+      "description": "Speleologists are dedicated scientists who explore and study caves and karst systems. They blend geology, biology, and hydrology to uncover Earth's secrets, from ancient climates and unique ecosystems to vital groundwater sources. Their work provides critical data for environmental conservation and resource management, but it's a niche field with unique challenges.",
+      "salaryRange": "$40k (Academia) - $120k+ (Industry/Gov)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "petrologist",
       "title": "Petrologist",
       "icon": "rock",
