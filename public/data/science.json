@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "limnologist",
+      "title": "Limnologist",
+      "icon": "droplet",
+      "description": "Limnologists are freshwater detectives, studying the biology, chemistry, and physics of lakes, rivers, and wetlands. They are critical for understanding water quality, ecosystem health, and how climate change impacts our most vital resource. Their work directly informs conservation and sustainable resource management.",
+      "salaryRange": "$45k (Academia, Post-Doc) - $150k+ (Industry, Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "speleologist",
       "title": "Speleologist",
       "icon": "compass",
