@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "pedologist",
+      "title": "Pedologist",
+      "icon": "earth",
+      "description": "Pedologists are soil scientists, the experts on Earth's vital skin. They research soil formation, classification, and properties to understand its crucial role in agriculture, environmental health, and climate regulation. This career offers direct impact on global food security and environmental sustainability.",
+      "salaryRange": "$55k (Academia) - $140k+ (Industry/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "limnologist",
       "title": "Limnologist",
       "icon": "droplet",
