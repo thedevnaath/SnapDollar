@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "mineralogist",
+      "title": "Mineralogist",
+      "icon": "gem",
+      "description": "Mineralogists are scientific detectives who study the Earth's solid materials – minerals. They analyze their composition, structure, and formation to understand our planet's history, discover new resources, or engineer advanced materials. This role often involves detailed lab analysis and data interpretation, far less glamorous than imagined.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "glaciologist",
       "title": "Glaciologist",
       "icon": "cloud-snow",
