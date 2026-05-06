@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "aerobiologist",
+      "title": "Aerobiologist",
+      "icon": "cloud",
+      "description": "Aerobiologists are scientific detectives, analyzing tiny biological particles like pollen, spores, and viruses floating in the air. They predict allergy seasons, track disease outbreaks, and monitor environmental health, making crucial contributions to public health and climate change adaptation.",
+      "salaryRange": "$50k (Academia) - $160k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "atmospheric-scientist",
       "title": "Atmospheric Scientist",
       "icon": "cloud-drizzle",
