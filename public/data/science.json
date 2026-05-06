@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "petrologist",
+      "title": "Petrologist",
+      "icon": "rock",
+      "description": "Petrologists are the 'rock detectives' of the Earth, unraveling the origin, composition, and evolution of rocks to understand our planet's deep history. Their work is critical for discovering valuable mineral resources, assessing geological hazards, and advancing our knowledge of planetary science.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mineralogist",
       "title": "Mineralogist",
       "icon": "gem",
