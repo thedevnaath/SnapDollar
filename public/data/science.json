@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "glaciologist",
+      "title": "Glaciologist",
+      "icon": "cloud-snow",
+      "description": "Glaciologists study ice in all its forms – glaciers, ice sheets, and permafrost – to understand Earth's climate history and predict future environmental changes. This isn't just about pretty ice; it's high-stakes work impacting sea level rise, water resources, and global climate models. Your research directly informs policy and prepares society for drastic environmental shifts.",
+      "salaryRange": "$50k (Post-Doc/Academia) - $130k+ (Govt/Senior Consultant)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "geomorphologist",
       "title": "Geomorphologist",
       "icon": "mountain",
