@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "genomics-researcher",
+      "title": "Genomics Researcher",
+      "icon": "dna",
+      "description": "Genomics Researchers decode the blueprint of life—DNA and RNA—to understand disease, develop new therapies, and engineer biological systems. This career offers profound intellectual challenges but demands extreme patience, relentless problem-solving, and a high tolerance for failure in a competitive, funding-driven landscape.",
+      "salaryRange": "$50k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "geneticist",
       "title": "Geneticist",
       "icon": "dna",
