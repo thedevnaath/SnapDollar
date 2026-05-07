@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "dendrochronologist",
+      "title": "Dendrochronologist",
+      "icon": "tree-deciduous",
+      "description": "Dendrochronologists are scientific detectives who decode Earth's history by studying tree rings. They uncover past climates, date archaeological sites, and track environmental changes, turning centuries-old wood into crucial data for understanding our planet.",
+      "salaryRange": "$45k (Academia) - $130k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "aerobiologist",
       "title": "Aerobiologist",
       "icon": "cloud",
