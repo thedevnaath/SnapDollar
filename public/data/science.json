@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "herpetologist",
+      "title": "Herpetologist",
+      "icon": "bug",
+      "description": "Herpetologists are specialized biologists who study reptiles and amphibians. Their work ranges from crucial ecological fieldwork to intricate genetic analysis, impacting everything from conservation efforts to biomedical research and disease ecology. This isn't just about catching frogs; it's a relentless pursuit of knowledge in a niche, often underfunded, scientific discipline.",
+      "salaryRange": "$40k (Academia) - $120k+ (Non-Profit/Gov/Consulting)",
+      "roiRating": "Low"
+    },
+    {
       "id": "transcriptomics-researcher",
       "title": "Transcriptomics Researcher",
       "icon": "dna",
