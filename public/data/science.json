@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "proteomics-scientist",
+      "title": "Proteomics Scientist",
+      "icon": "flask-conical",
+      "description": "Proteomics Scientists decode the universe of proteins, the tiny workhorses inside every living thing. They use advanced tech to understand protein functions, spot disease markers, and develop life-saving drugs. This role is crucial for breakthroughs in medicine and biotechnology.",
+      "salaryRange": "$50k (Academia) - $200k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "genomics-researcher",
       "title": "Genomics Researcher",
       "icon": "dna",
