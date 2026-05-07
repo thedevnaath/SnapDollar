@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "geneticist",
+      "title": "Geneticist",
+      "icon": "dna",
+      "description": "Geneticists unravel the secrets of DNA, studying heredity, gene function, and how variations impact health and disease. Their work underpins everything from personalized medicine to agricultural innovation, ultimately driving multi-billion dollar industries.",
+      "salaryRange": "$55k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "dendrochronologist",
       "title": "Dendrochronologist",
       "icon": "tree-deciduous",
