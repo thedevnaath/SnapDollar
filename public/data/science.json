@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "transcriptomics-researcher",
+      "title": "Transcriptomics Researcher",
+      "icon": "dna",
+      "description": "Unravel the secret language of life by studying RNA molecules, which are the 'recipes' for making proteins. Transcriptomics researchers decipher these genetic instructions to understand disease, develop new drugs, and unlock fundamental biological mysteries, often working at the cutting edge of personalized medicine and biotechnology.",
+      "salaryRange": "$50k (Academia Post-Doc) - $200k+ (Industry Sr. Scientist)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "proteomics-scientist",
       "title": "Proteomics Scientist",
       "icon": "flask-conical",
