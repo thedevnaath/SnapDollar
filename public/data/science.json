@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "nematologist-career-profile",
+      "title": "Nematologist",
+      "icon": "microscope",
+      "description": "Nematologists are scientific detectives, studying tiny, often unseen worms (nematodes) that can devastate crops, cause human diseases, or be beneficial to ecosystems. Their work is critical for global food security, public health, and environmental balance, impacting billions of dollars in agriculture and healthcare.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "helminthologist",
       "title": "Helminthologist",
       "icon": "bug",
