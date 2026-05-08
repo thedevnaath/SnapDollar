@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "lepidopterist",
+      "title": "Lepidopterist",
+      "icon": "bug",
+      "description": "Lepidopterists are specialized zoologists who study butterflies and moths. Their work is crucial for understanding biodiversity, monitoring ecosystem health, and developing conservation strategies, often impacting agriculture and climate change research.",
+      "salaryRange": "$45k (Academia) - $95k+ (Government/NGO)",
+      "roiRating": "Low"
+    },
+    {
       "id": "dipterologist",
       "title": "Dipterologist",
       "icon": "bug",
