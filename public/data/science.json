@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "ichthyologist-profile",
+      "title": "Ichthyologist",
+      "icon": "fish",
+      "description": "Ichthyologists are specialized scientists who study fish—from their biology and behavior to their habitats and conservation needs. They identify new species, analyze ecosystems, and apply their knowledge to solve real-world problems in aquaculture, fisheries management, and environmental protection. It's about uncovering the secrets of the aquatic world, often with direct impact on human food security and biodiversity.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "ornithologist",
       "title": "Ornithologist",
       "icon": "bird",
