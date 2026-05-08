@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "mammalogist",
+      "title": "Mammalogist",
+      "icon": "paw-print",
+      "description": "Mammalogists are dedicated scientists who study mammals, from tiny shrews to massive whales, to understand their biology, behavior, ecology, and conservation needs. Their research provides critical insights to protect species, manage ecosystems, and understand the intricate web of life on Earth.",
+      "salaryRange": "$45k (Academia Post-Doc) - $150k+ (Senior Gov/NGO)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "ichthyologist-profile",
       "title": "Ichthyologist",
       "icon": "fish",
