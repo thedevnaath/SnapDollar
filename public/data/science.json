@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "helminthologist",
+      "title": "Helminthologist",
+      "icon": "bug",
+      "description": "Helminthologists are specialized scientists who study parasitic worms (helminths), uncovering their complex life cycles, how they cause diseases in humans, animals, and plants, and developing strategies for their control and eradication. This critical work impacts global health, food security, and veterinary medicine, often leading to new drug discoveries and public health interventions.",
+      "salaryRange": "$55k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "malacologist",
       "title": "Malacologist",
       "icon": "shell",
