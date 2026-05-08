@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "malacologist",
+      "title": "Malacologist",
+      "icon": "shell",
+      "description": "Malacologists are specialized zoologists who study mollusks—snails, slugs, clams, octopuses, and more. Their work spans ecology, evolution, conservation, and even medical applications, impacting public health and environmental sustainability.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "arachnologist-career",
       "title": "Arachnologist",
       "icon": "spider",
