@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "arachnologist-career",
+      "title": "Arachnologist",
+      "icon": "spider",
+      "description": "Arachnologists study spiders, scorpions, mites, and ticks, uncovering their biology, behavior, and ecological roles. Their work ranges from discovering new species to exploring venom for pharmaceuticals and designing better pest controls, ultimately impacting human health and conservation.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "entomologist",
       "title": "Entomologist",
       "icon": "bug",
