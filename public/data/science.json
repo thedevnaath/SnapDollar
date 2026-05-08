@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "dipterologist",
+      "title": "Dipterologist",
+      "icon": "bug",
+      "description": "Dipterologists are specialized entomologists who study 'true flies' (Diptera) like mosquitoes, fruit flies, and house flies. Their research is vital for understanding disease transmission, managing agricultural pests, and ensuring public health. This niche field blends meticulous fieldwork with advanced lab analysis and computational biology.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "myrmecologist",
       "title": "Myrmecologist",
       "icon": "bug",
