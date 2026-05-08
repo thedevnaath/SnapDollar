@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "coleopterist",
+      "title": "Coleopterist",
+      "icon": "bug",
+      "description": "A Coleopterist is a scientist specializing in the study of beetles (Coleoptera), the most diverse order of insects. They identify new species, map their distribution, and research their ecology and evolution, impacting everything from pest control to global biodiversity conservation.",
+      "salaryRange": "$45k (Academia) - $120k+ (Industry/Government)",
+      "roiRating": "Low"
+    },
+    {
       "id": "apiologist-science",
       "title": "Apiologist",
       "icon": "bug",
