@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "ornithologist",
+      "title": "Ornithologist",
+      "icon": "bird",
+      "description": "Ornithologists are scientists who dedicate their careers to studying birds, their behaviors, ecosystems, and conservation needs. Their research provides critical insights into biodiversity, climate change impacts, and guides strategies to protect species and their habitats, offering deep ecological value.",
+      "salaryRange": "$40k (Academia, Post-Doc) - $120k+ (Government/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "herpetologist",
       "title": "Herpetologist",
       "icon": "bug",
