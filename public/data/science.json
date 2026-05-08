@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "myrmecologist",
+      "title": "Myrmecologist",
+      "icon": "bug",
+      "description": "Myrmecologists are specialized entomologists who study ants, their behavior, ecology, and social structures. Their research impacts pest control, biodiversity conservation, and even inspires robotic design, but it's a niche field with tight funding and often limited career progression.",
+      "salaryRange": "$45k (Academia) - $110k+ (Government/Applied Research)",
+      "roiRating": "Low"
+    },
+    {
       "id": "carcinologist",
       "title": "Carcinologist",
       "icon": "crab",
