@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "apiologist-science",
+      "title": "Apiologist",
+      "icon": "bug",
+      "description": "Apiologists are the bee whisperers of the scientific world, meticulously studying honey bees and wild pollinators to understand their biology, behavior, and crucial ecological role. Their research directly impacts global food security and environmental health, often battling diseases, pesticides, and habitat loss to protect these vital insects.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "lepidopterist",
       "title": "Lepidopterist",
       "icon": "bug",
