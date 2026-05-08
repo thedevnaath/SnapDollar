@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "carcinologist",
+      "title": "Carcinologist",
+      "icon": "crab",
+      "description": "Carcinologists are the crustacean experts, diving deep into the lives of crabs, lobsters, and shrimp. They unravel the mysteries of these vital creatures, from their complex ecosystems to their role in the food chain and human industry, often working to protect marine environments and ensure sustainable fisheries.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "nematologist-career-profile",
       "title": "Nematologist",
       "icon": "microscope",
