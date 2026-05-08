@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "entomologist",
+      "title": "Entomologist",
+      "icon": "bug",
+      "description": "Entomologists are scientific detectives specializing in insects, dissecting their complex worlds from pest control to pollination. They research insect biology, behavior, and ecology to solve critical problems in agriculture, public health, and conservation, directly impacting global food security and disease prevention.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mammalogist",
       "title": "Mammalogist",
       "icon": "paw-print",
