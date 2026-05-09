@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "viticulturist",
+      "title": "Viticulturist",
+      "icon": "grape",
+      "description": "A Viticulturist is a vineyard scientist. They apply deep scientific understanding of soil, climate, genetics, and plant physiology to cultivate grapevines, optimizing for quality, yield, and disease resistance. Their ultimate goal is to produce the best possible grapes for winemaking, directly impacting the profitability and reputation of vineyards worldwide.",
+      "salaryRange": "$50k (Entry/Academia) - $150k+ (Industry/Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "olericulturist-science",
       "title": "Olericulturist",
       "icon": "leaf",
