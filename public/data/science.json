@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "floriculturist",
+      "title": "Floriculturist",
+      "icon": "flower",
+      "description": "A Floriculturist applies plant science to cultivate and improve flowering plants for commercial, aesthetic, or research purposes. They blend botany, genetics, and environmental science to breed new varieties, optimize growth, and combat plant diseases. Their work ultimately impacts everything from the cut flower industry to urban green spaces.",
+      "salaryRange": "$45k (Academia) - $130k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "viticulturist",
       "title": "Viticulturist",
       "icon": "grape",
