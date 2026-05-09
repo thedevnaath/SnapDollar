@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "pteridologist",
+      "title": "Pteridologist",
+      "icon": "leaf",
+      "description": "Pteridologists are botanical scientists specializing in ferns and fern allies. They identify, classify, study evolution, and understand the ecology of these ancient plants. Their work contributes to biodiversity conservation, drug discovery, and climate change research, often operating in academic, museum, or government settings.",
+      "salaryRange": "$45k (Academia) - $100k+ (Niche Gov/Museum)",
+      "roiRating": "Low"
+    },
+    {
       "id": "lichenologist",
       "title": "Lichenologist",
       "icon": "leaf",
