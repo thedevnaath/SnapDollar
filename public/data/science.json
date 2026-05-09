@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "embryologist-career-guide",
+      "title": "Embryologist",
+      "icon": "microscope",
+      "description": "Embryologists are highly skilled scientists manipulating eggs, sperm, and embryos in a lab, primarily for In Vitro Fertilization (IVF). They are critical for creating life and advancing reproductive medicine, facing high-stakes decisions with profound societal impact.",
+      "salaryRange": "$50k (Academia/Entry Clinical) - $200k+ (Senior Industry/Director)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "orthopterist-science",
       "title": "Orthopterist",
       "icon": "bug",
