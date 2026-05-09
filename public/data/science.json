@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "orthopterist-science",
+      "title": "Orthopterist",
+      "icon": "bug",
+      "description": "Orthopterists are specialized entomologists who deeply study Orthoptera: crickets, grasshoppers, and katydids. Their research spans taxonomy, ecology, behavior, and conservation, unraveling these insects' critical roles in ecosystems and their impact on agriculture.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry/Consulting)",
+      "roiRating": "Low"
+    },
+    {
       "id": "coleopterist",
       "title": "Coleopterist",
       "icon": "bug",
