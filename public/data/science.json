@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "agronomist",
+      "title": "Agronomist",
+      "icon": "plant",
+      "description": "Agronomists are scientific detectives for agriculture, optimizing crop yields, soil health, and sustainable farming practices. They bridge cutting-edge research with practical field application, ensuring global food security and environmental stewardship.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "plant-pathologist",
       "title": "Plant Pathologist",
       "icon": "leaf",
