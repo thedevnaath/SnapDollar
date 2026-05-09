@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "ethologist-career-profile",
+      "title": "Ethologist",
+      "icon": "paw-print",
+      "description": "Ethologists are scientists who study animal behavior, often in their natural habitats, to understand why animals do what they do. They decipher complex social structures, communication, migration, and foraging strategies, providing crucial insights for conservation, animal welfare, and even human psychology. Their ultimate impact ranges from protecting endangered species to improving livestock management.",
+      "salaryRange": "$45k (Academia Post-Doc) - $150k+ (Niche Industry / Senior Applied Scientist)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "embryologist-career-guide",
       "title": "Embryologist",
       "icon": "microscope",
