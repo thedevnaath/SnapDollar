@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "bryologist-career-profile",
+      "title": "Bryologist",
+      "icon": "leaf",
+      "description": "Bryologists study bryophytes—mosses, liverworts, and hornworts—essential, ancient land plants. Their work reveals critical ecological roles, impacts biodiversity, and holds potential for novel biochemical discoveries, often in the face of environmental change.",
+      "salaryRange": "$45k (Academia) - $120k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "phycologist",
       "title": "Phycologist",
       "icon": "leaf",
