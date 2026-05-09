@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "phylogenetist",
+      "title": "Phylogenetist",
+      "icon": "tree-deciduous",
+      "description": "Phylogenetists are evolutionary detectives. They build the 'family trees' of life – tracking genes, species, and diseases to understand their deep evolutionary history and interconnectedness. This deeply computational role helps us understand everything from viral outbreaks to drug resistance, revealing the fundamental blueprints of biology.",
+      "salaryRange": "$60k (Academia Post-Doc) - $180k+ (Industry Senior Scientist)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "ethologist-career-profile",
       "title": "Ethologist",
       "icon": "paw-print",
