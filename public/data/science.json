@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "phycologist",
+      "title": "Phycologist",
+      "icon": "leaf",
+      "description": "Phycologists are specialized biologists who study algae, from microscopic single-celled organisms to massive seaweeds. Their work spans environmental health, sustainable biofuels, nutraceuticals, and innovative biomedical applications, impacting everything from the air we breathe to the food we eat.",
+      "salaryRange": "$50k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "systematist",
       "title": "Systematist",
       "icon": "dna",
