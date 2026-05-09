@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "silviculturist",
+      "title": "Silviculturist",
+      "icon": "tree-deciduous",
+      "description": "Silviculturists are forest scientists who manage the health, growth, and composition of forests using ecological principles. They ensure forests are productive, resilient, and sustainable for timber, wildlife, and environmental services. This critical role balances economic needs with long-term ecological well-being.",
+      "salaryRange": "$55k (Government/Academia) - $120k+ (Private Industry/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "floriculturist",
       "title": "Floriculturist",
       "icon": "flower",
