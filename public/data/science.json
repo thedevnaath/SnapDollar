@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "palynologist",
+      "title": "Palynologist",
+      "icon": "microscope",
+      "description": "Palynologists are microscopic detectives, studying ancient pollen and spores to reconstruct past climates, environments, and human activity. Their work influences environmental conservation, oil and gas exploration, and even forensic investigations.",
+      "salaryRange": "$45k (Academia) - $120k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pteridologist",
       "title": "Pteridologist",
       "icon": "leaf",
