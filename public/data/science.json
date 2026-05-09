@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "lichenologist",
+      "title": "Lichenologist",
+      "icon": "leaf",
+      "description": "Lichenologists study lichens—fascinating, composite organisms of fungi and algae. They uncover vital environmental health data and search for unique natural products, acting as ecological detectives with a microscope and a backpack.",
+      "salaryRange": "$45k (Academia) - $130k+ (Niche Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "bryologist-career-profile",
       "title": "Bryologist",
       "icon": "leaf",
