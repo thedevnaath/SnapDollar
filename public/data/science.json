@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "systematist",
+      "title": "Systematist",
+      "icon": "dna",
+      "description": "Systematists are the ultimate biological detectives, classifying and organizing Earth's staggering biodiversity. They unravel evolutionary relationships, discover new species, and build the foundational map of life crucial for conservation, drug discovery, and agricultural innovation. This isn't just about naming bugs; it's about understanding the complex web of existence and its financial implications.",
+      "salaryRange": "$50k (Academia) - $160k+ (Industry - related roles)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "taxonomist-profile",
       "title": "Taxonomist",
       "icon": "leaf",
