@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "plant-pathologist",
+      "title": "Plant Pathologist",
+      "icon": "leaf",
+      "description": "Plant Pathologists are the guardians of our food supply, tirelessly working to identify, understand, and combat diseases that threaten crops. Their research protects agricultural yields, prevents economic devastation, and ensures global food security.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "palynologist",
       "title": "Palynologist",
       "icon": "microscope",
