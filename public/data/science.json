@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "pomologist",
+      "title": "Pomologist",
+      "icon": "apple",
+      "description": "Pomologists are specialized plant scientists who study fruit and fruit trees, focusing on genetics, cultivation, disease, and post-harvest quality. Their work is critical for improving fruit yields, quality, and disease resistance, ultimately feeding the world more efficiently.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "agronomist",
       "title": "Agronomist",
       "icon": "plant",
