@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "taxonomist-profile",
+      "title": "Taxonomist",
+      "icon": "leaf",
+      "description": "Taxonomists are the meticulous detectives of the biological world, identifying, naming, and classifying every form of life on Earth. Their work underpins biodiversity conservation, drug discovery, and our fundamental understanding of life's intricate web. They translate nature's chaos into actionable, organized data.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "phylogenetist",
       "title": "Phylogenetist",
       "icon": "tree-deciduous",
