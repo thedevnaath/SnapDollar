@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "olericulturist-science",
+      "title": "Olericulturist",
+      "icon": "leaf",
+      "description": "An Olericulturist is a plant scientist focused on the cultivation, genetics, and sustainable production of vegetables. They conduct research to improve crop yield, disease resistance, and nutritional value, ensuring global food security and efficient agricultural practices.",
+      "salaryRange": "$55k (Academia) - $140k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pomologist",
       "title": "Pomologist",
       "icon": "apple",
