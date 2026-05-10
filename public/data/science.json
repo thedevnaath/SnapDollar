@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "quantum-chemist",
+      "title": "Quantum Chemist",
+      "icon": "atom",
+      "description": "Quantum chemists use advanced mathematics, physics, and computer science to simulate the behavior of atoms and molecules. They predict properties of materials and reactions, driving innovation in drug discovery, energy storage, and materials science—all from behind a computer screen.",
+      "salaryRange": "$60k (Academia Post-doc) - $250k+ (Industry Sr. Scientist)",
+      "roiRating": "High"
+    },
+    {
       "id": "theoretical-chemist",
       "title": "Theoretical Chemist",
       "icon": "atom",
