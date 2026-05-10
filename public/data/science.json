@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cosmochemist",
+      "title": "Cosmochemist",
+      "icon": "telescope",
+      "description": "Cosmochemists are cosmic detectives, analyzing rocks from space (like meteorites and lunar samples) to unlock the universe's oldest secrets. They determine the origins of planets, stars, and life itself, translating ancient cosmic dust into scientific breakthroughs and even commercial insights for asteroid mining.",
+      "salaryRange": "$60k (Academia) - $200k+ (Government/Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "geochemist",
       "title": "Geochemist",
       "icon": "flask-conical",
