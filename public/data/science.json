@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "marine-biologist",
+      "title": "Marine Biologist",
+      "icon": "fish",
+      "description": "Marine Biologists unravel the mysteries of ocean ecosystems, from microscopic plankton to colossal whales, to understand life's adaptations and the impacts of environmental change. Their research underpins conservation strategies, informs sustainable resource management, and drives biotechnological innovations with real-world financial and ecological consequences.",
+      "salaryRange": "$45k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "arboriculturist",
       "title": "Arboriculturist",
       "icon": "tree-deciduous",
