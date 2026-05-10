@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "computational-chemist",
+      "title": "Computational Chemist",
+      "icon": "atom",
+      "description": "Computational Chemists are the molecular architects of the digital age, using powerful computers and algorithms to model chemical reactions, predict molecular behavior, and design new materials or drugs. They accelerate scientific discovery by simulating experiments that would take years and billions in a physical lab, generating massive value for pharmaceutical and materials science industries.",
+      "salaryRange": "$60k (Academia) - $250k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "quantum-chemist",
       "title": "Quantum Chemist",
       "icon": "atom",
