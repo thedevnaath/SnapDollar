@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "physical-chemist",
+      "title": "Physical Chemist",
+      "icon": "atom",
+      "description": "Physical Chemists investigate the fundamental laws governing matter and energy to understand chemical systems. They are the architects of new materials, the navigators of quantum realms, and the key to unlocking breakthroughs from drug discovery to renewable energy.",
+      "salaryRange": "$45k (Academia) - $200k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "organic-chemist",
       "title": "Organic Chemist",
       "icon": "flask-conical",
