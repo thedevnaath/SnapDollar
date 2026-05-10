@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "teuthologist",
+      "title": "Teuthologist",
+      "icon": "ship",
+      "description": "A Teuthologist studies cephalopods like squids, octopuses, and cuttlefish, exploring their complex biology, behavior, and crucial roles in marine ecosystems. This niche field drives our understanding of ocean biodiversity and the impacts of environmental change, but often struggles with highly competitive funding.",
+      "salaryRange": "$45k (Academia Post-Doc) - $120k+ (Niche Industry/Senior Academic)",
+      "roiRating": "Low"
+    },
+    {
       "id": "cetologist",
       "title": "Cetologist",
       "icon": "whale",
