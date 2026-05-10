@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "electrochemist",
+      "title": "Electrochemist",
+      "icon": "flask-conical",
+      "description": "Electrochemists unlock the power of electrons at interfaces, driving innovation in energy storage, sustainable fuels, and advanced sensors. They are the hidden architects behind the next generation of batteries, fuel cells, and corrosion-resistant materials, translating fundamental science into world-changing technologies.",
+      "salaryRange": "$50k (Academia Post-Doc) - $200k+ (Industry Sr. Scientist)",
+      "roiRating": "High"
+    },
+    {
       "id": "computational-chemist",
       "title": "Computational Chemist",
       "icon": "atom",
