@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "analytical-chemist",
+      "title": "Analytical Chemist",
+      "icon": "flask-conical",
+      "description": "Analytical chemists are the scientific detectives who identify and quantify chemicals, ensuring everything from medicine to water is safe and pure. They're the unsung heroes behind product quality, public safety, and groundbreaking research, applying high-tech instruments to solve complex chemical puzzles.",
+      "salaryRange": "$50k (Academia Post-Doc) - $250k+ (Industry Sr. Director)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "teuthologist",
       "title": "Teuthologist",
       "icon": "ship",
