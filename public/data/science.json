@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "organic-chemist",
+      "title": "Organic Chemist",
+      "icon": "flask-conical",
+      "description": "Organic chemists are molecular architects, designing and synthesizing new carbon-based compounds. Their work underpins drug discovery, material science, and agrochemicals, creating the building blocks for modern technology and medicine.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "inorganic-chemist",
       "title": "Inorganic Chemist",
       "icon": "atom",
