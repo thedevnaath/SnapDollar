@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "geochemist",
+      "title": "Geochemist",
+      "icon": "flask-conical",
+      "description": "Geochemists are Earth's chemical detectives, analyzing rocks, water, and soil to uncover secrets about our planet's past, present, and future. They are critical for understanding climate change, locating vital resources, and tackling environmental pollution, blending rigorous lab work with extensive fieldwork.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "electrochemist",
       "title": "Electrochemist",
       "icon": "flask-conical",
