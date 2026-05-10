@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "arboriculturist",
+      "title": "Arboriculturist",
+      "icon": "tree-deciduous",
+      "description": "Arboriculturists are expert 'tree doctors' and scientists. They diagnose tree health, manage populations, and advise on how trees interact with urban environments, ensuring our green spaces thrive for ecological and human well-being. Their work is critical for sustainable urban planning and environmental resilience.",
+      "salaryRange": "$45k (Academia/Entry) - $120k+ (Consulting/Senior Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "silviculturist",
       "title": "Silviculturist",
       "icon": "tree-deciduous",
