@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "theoretical-chemist",
+      "title": "Theoretical Chemist",
+      "icon": "atom",
+      "description": "A Theoretical Chemist uses advanced math, physics, and computational tools to predict how atoms and molecules behave, designing new materials or understanding reactions without ever touching a lab bench. Their insights drive drug discovery, materials science, and energy research, often saving millions in costly experiments. This role is a deep dive into the 'why' and 'how' of chemistry through computation.",
+      "salaryRange": "$60k (Academia Post-doc) - $200k+ (Industry Senior Scientist)",
+      "roiRating": "High"
+    },
+    {
       "id": "physical-chemist",
       "title": "Physical Chemist",
       "icon": "atom",
