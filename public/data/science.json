@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "astrochemist",
+      "title": "Astrochemist",
+      "icon": "telescope",
+      "description": "Astrochemists decode the chemical fingerprint of the universe, studying how molecules form and react in space – from distant galaxies to our own solar system. They unravel the cosmic origins of matter, potentially discovering new molecules and contributing to the search for life beyond Earth.",
+      "salaryRange": "$55k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cosmochemist",
       "title": "Cosmochemist",
       "icon": "telescope",
