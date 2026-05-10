@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "neurochemist",
+      "title": "Neurochemist",
+      "icon": "brain",
+      "description": "Neurochemists unravel the intricate chemical processes within the brain, focusing on neurotransmitters, hormones, and drugs that impact cognition, mood, and behavior. Their work is critical for understanding neurological and psychiatric disorders, leading to the development of new diagnostic tools and therapeutic interventions.",
+      "salaryRange": "$50k (Academia Post-doc) - $180k+ (Industry Senior Scientist)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "astrochemist",
       "title": "Astrochemist",
       "icon": "telescope",
