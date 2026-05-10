@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "inorganic-chemist",
+      "title": "Inorganic Chemist",
+      "icon": "atom",
+      "description": "Inorganic chemists are the architects of the molecular world, synthesizing novel compounds from non-carbon elements. They unlock new materials, catalysts, and energy solutions, fundamentally shaping modern technology and addressing global challenges.",
+      "salaryRange": "$55k (Academia) - $220k+ (Industry)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "analytical-chemist",
       "title": "Analytical Chemist",
       "icon": "flask-conical",
