@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cetologist",
+      "title": "Cetologist",
+      "icon": "whale",
+      "description": "Cetologists are marine biologists who dedicate their careers to studying whales, dolphins, and porpoises. They analyze their behavior, ecology, and physiology to inform critical conservation efforts and understand the health of our oceans. It's a blend of challenging field work and intensive data analysis.",
+      "salaryRange": "$45k (Academia/Entry) - $120k+ (Senior Gov/NGO)",
+      "roiRating": "Low"
+    },
+    {
       "id": "marine-biologist",
       "title": "Marine Biologist",
       "icon": "fish",
