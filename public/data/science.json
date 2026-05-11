@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "polymer-chemist",
+      "title": "Polymer Chemist",
+      "icon": "flask-conical",
+      "description": "Polymer Chemists design, synthesize, and characterize new plastic materials, rubbers, and advanced composites. Their work impacts everything from medical devices and aerospace to daily packaging and electronics, often leading to lucrative patents and industry-changing products.",
+      "salaryRange": "$65k (Academia) - $190k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "synthetic-chemist",
       "title": "Synthetic Chemist",
       "icon": "flask-conical",
