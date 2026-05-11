@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "synthetic-chemist",
+      "title": "Synthetic Chemist",
+      "icon": "flask-conical",
+      "description": "Synthetic Chemists are the architects of the molecular world, designing and building new molecules with specific properties from simpler ones. Their work is the bedrock for innovations in pharmaceuticals, materials science, and energy, directly translating into new drugs, stronger plastics, or more efficient batteries that drive multi-billion dollar industries.",
+      "salaryRange": "$45k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "surface-chemist",
       "title": "Surface Chemist",
       "icon": "layers-3",
