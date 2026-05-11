@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "quantum-physicist",
+      "title": "Quantum Physicist",
+      "icon": "atom",
+      "description": "Quantum Physicists delve into the fundamental nature of reality at the subatomic level, exploring phenomena that defy classical understanding. Their breakthroughs power the next generation of technologies, from quantum computing and secure communication to advanced materials, promising revolutionary societal and financial impact.",
+      "salaryRange": "$55k (Academia) - $280k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "solid-state-chemist",
       "title": "Solid-state Chemist",
       "icon": "atom",
