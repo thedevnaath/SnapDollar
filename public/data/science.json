@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "radiochemist",
+      "title": "Radiochemist",
+      "icon": "radioactive",
+      "description": "Radiochemists are the unsung heroes manipulating radioactive elements to develop life-saving diagnostics, treatments, and cutting-edge energy solutions. This niche field demands extreme precision, an ironclad understanding of radiation safety, and the intellectual rigor to innovate where few dare to tread. Your work directly impacts nuclear medicine, environmental monitoring, and next-gen power sources.",
+      "salaryRange": "$60k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "neurochemist",
       "title": "Neurochemist",
       "icon": "brain",
