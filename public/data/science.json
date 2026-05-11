@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "supramolecular-chemist",
+      "title": "Supramolecular Chemist",
+      "icon": "atom",
+      "description": "Supramolecular chemists design and build complex molecular architectures from smaller units, focusing on non-covalent interactions. They're like microscopic Lego masters, assembling functional 'machines' for drug delivery, sensors, and advanced materials. This niche field demands extreme precision, patience, and a deep understanding of molecular forces, with high financial rewards often found in specialized industry roles.",
+      "salaryRange": "$50k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "sonochemist-career",
       "title": "Sonochemist",
       "icon": "flask-conical",
