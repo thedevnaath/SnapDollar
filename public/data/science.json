@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "sonochemist-career",
+      "title": "Sonochemist",
+      "icon": "flask-conical",
+      "description": "A Sonochemist explores how sound waves (specifically ultrasound) can drive and enhance chemical reactions, synthesize novel materials, and purify substances. This niche field sits at the intersection of chemistry, physics, and engineering, leveraging mechanical energy to create unique chemical outcomes.",
+      "salaryRange": "$50k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "radiochemist",
       "title": "Radiochemist",
       "icon": "radioactive",
