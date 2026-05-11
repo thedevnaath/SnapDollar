@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "phytochemist",
+      "title": "Phytochemist",
+      "icon": "leaf",
+      "description": "Phytochemists are scientific detectives, unraveling the chemical secrets hidden within plants. They isolate, identify, and analyze the unique compounds that give plants their medicinal, aromatic, or toxic properties, seeking to harness them for drugs, agriculture, or industrial applications. This career bridges botany and chemistry, pushing the boundaries of natural product discovery for tangible societal impact.",
+      "salaryRange": "$55k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "polymer-chemist",
       "title": "Polymer Chemist",
       "icon": "flask-conical",
