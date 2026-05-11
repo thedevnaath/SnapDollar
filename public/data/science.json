@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "solid-state-chemist",
+      "title": "Solid-state Chemist",
+      "icon": "atom",
+      "description": "Solid-state chemists are the architects of the material world, designing and synthesizing novel materials with specific properties. Their work underpins everything from cutting-edge batteries and semiconductors to next-gen solar cells, driving massive technological and economic growth.",
+      "salaryRange": "$55k (Academia Post-doc) - $200k+ (Industry Senior)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "phytochemist",
       "title": "Phytochemist",
       "icon": "leaf",
