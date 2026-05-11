@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "surface-chemist",
+      "title": "Surface Chemist",
+      "icon": "layers-3",
+      "description": "Surface chemists explore the intricate dance of molecules at interfaces—where solids meet liquids, gases, or other solids. They engineer materials with specific properties, from designing drug delivery systems to optimizing catalytic converters, impacting virtually every advanced technology.",
+      "salaryRange": "$55k (Academia) - $220k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "supramolecular-chemist",
       "title": "Supramolecular Chemist",
       "icon": "atom",
