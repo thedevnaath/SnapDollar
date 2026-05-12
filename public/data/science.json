@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "laser-physicist-science-career",
+      "title": "Laser Physicist",
+      "icon": "atom",
+      "description": "Laser Physicists engineer and manipulate light, from designing ultra-precise medical tools to powering global communication networks. This demanding field offers intellectual rigor but demands immense patience and a readiness to transition from academic theory to high-stakes industrial applications.",
+      "salaryRange": "$70k (Academia Post-Doc) - $220k+ (Industry R&D)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "optical-physicist",
       "title": "Optical Physicist",
       "icon": "lightbulb",
