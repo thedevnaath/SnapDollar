@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "condensed-matter-physicist",
+      "title": "Condensed Matter Physicist",
+      "icon": "atom",
+      "description": "Condensed Matter Physicists are the architects of the material world, probing the quantum mysteries that dictate how matter behaves. They explore everything from superconductors to exotic magnets, laying the groundwork for the next generation of electronics, energy solutions, and quantum computing. This isn't just theory; it's about fundamentally understanding and manipulating the stuff our future is built from.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "nuclear-physicist",
       "title": "Nuclear Physicist",
       "icon": "atom",
