@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "acoustical-physicist",
+      "title": "Acoustical Physicist",
+      "icon": "waveform",
+      "description": "Acoustical Physicists study the fundamental properties of sound and vibration, from ultrasound waves in medical imaging to noise control in aerospace. They design systems to manipulate, generate, or detect sound, solving critical problems in fields ranging from defense to environmental science.",
+      "salaryRange": "$55k (Academia) - $190k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "fluid-dynamicist-career-profile",
       "title": "Fluid Dynamicist",
       "icon": "gauge",
