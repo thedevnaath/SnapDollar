@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "plasma-physicist",
+      "title": "Plasma Physicist",
+      "icon": "bolt",
+      "description": "Plasma Physicists delve into the fourth state of matter, unlocking secrets from the heart of stars to the future of clean energy. This career is a brutal intellectual marathon, requiring profound theoretical understanding and computational mastery to design the next generation of fusion reactors or navigate space weather.",
+      "salaryRange": "$65k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "laser-physicist-science-career",
       "title": "Laser Physicist",
       "icon": "atom",
