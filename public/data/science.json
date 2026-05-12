@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "particle-physicist",
+      "title": "Particle Physicist",
+      "icon": "atom",
+      "description": "Particle physicists explore the fundamental building blocks of the universe and the forces that govern them, often through massive experiments like the Large Hadron Collider. Their work, though abstract, can yield technological spin-offs critical for medical imaging, computing, and a deeper understanding of reality.",
+      "salaryRange": "$50k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "quantum-physicist",
       "title": "Quantum Physicist",
       "icon": "atom",
