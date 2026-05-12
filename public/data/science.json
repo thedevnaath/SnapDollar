@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "optical-physicist",
+      "title": "Optical Physicist",
+      "icon": "lightbulb",
+      "description": "Optical Physicists design, build, and study systems that manipulate light. Their work drives innovation in everything from medical imaging and high-speed internet to advanced manufacturing, fundamentally shaping the future of technology and human capabilities.",
+      "salaryRange": "$70k (Academia) - $250k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "condensed-matter-physicist",
       "title": "Condensed Matter Physicist",
       "icon": "atom",
