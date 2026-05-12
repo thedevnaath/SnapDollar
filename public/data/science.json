@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "nuclear-physicist",
+      "title": "Nuclear Physicist",
+      "icon": "atom",
+      "description": "Nuclear physicists delve into the very heart of matter, exploring the atomic nucleus to understand fundamental forces and unlock applications from energy generation to medical diagnostics. This isn't just theory; their work underpins multi-billion dollar industries, but it demands extreme intellectual rigor and patience.",
+      "salaryRange": "$50k (Academia) - $250k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "particle-physicist",
       "title": "Particle Physicist",
       "icon": "atom",
