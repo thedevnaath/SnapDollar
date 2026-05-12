@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cryogenicist-career",
+      "title": "Cryogenicist",
+      "icon": "snowflake",
+      "description": "Cryogenicists are the masters of extreme cold, designing and working with ultra-low temperatures to unlock scientific breakthroughs. They build the tech to freeze everything from human cells to rocket fuel, enabling advances in medicine, space exploration, and quantum computing.",
+      "salaryRange": "$80k (Academia) - $200k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "acoustical-physicist",
       "title": "Acoustical Physicist",
       "icon": "waveform",
