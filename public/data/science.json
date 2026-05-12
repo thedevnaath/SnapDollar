@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "fluid-dynamicist-career-profile",
+      "title": "Fluid Dynamicist",
+      "icon": "gauge",
+      "description": "Fluid Dynamicists apply advanced math and physics to understand how liquids and gases move, from blood flow in arteries to air over a jet wing. They use powerful computers to model complex systems, optimizing everything from weather prediction to designing more efficient engines, directly impacting industries reliant on flow mechanics.",
+      "salaryRange": "$65k (Academia) - $190k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "plasma-physicist",
       "title": "Plasma Physicist",
       "icon": "bolt",
