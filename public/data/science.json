@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "anatomist-career-profile",
+      "title": "Anatomist",
+      "icon": "bones",
+      "description": "An Anatomist is a scientist dedicated to understanding the intricate structures of living organisms, from the visible organs to microscopic cells. They are critical for medical education, surgical innovation, and advancing our fundamental biological understanding, often working with human cadavers to map the body's complexities.",
+      "salaryRange": "$55k (Academia Post-Doc) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cryptographer",
       "title": "Cryptographer",
       "icon": "lock",
