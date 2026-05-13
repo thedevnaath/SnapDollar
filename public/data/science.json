@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "physiologist",
+      "title": "Physiologist",
+      "icon": "heart-pulse",
+      "description": "Physiologists unravel the mysteries of how living things work, from the molecular level to whole organisms. They research body functions, disease mechanisms, and develop treatments, blending rigorous scientific inquiry with practical applications in health and medicine.",
+      "salaryRange": "$65k (Academia) - $200k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "anatomist-career-profile",
       "title": "Anatomist",
       "icon": "bones",
