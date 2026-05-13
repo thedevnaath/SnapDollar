@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "ergonomist",
+      "title": "Ergonomist",
+      "icon": "user-check",
+      "description": "Ergonomists are applied scientists and engineers who design workplaces, products, and systems to fit human capabilities and limitations. Their ultimate goal is to optimize human well-being and system performance, reducing injuries while boosting efficiency.",
+      "salaryRange": "$65k (Academia) - $140k+ (Industry/Consulting)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "kinesiologist-career",
       "title": "Kinesiologist",
       "icon": "walking",
