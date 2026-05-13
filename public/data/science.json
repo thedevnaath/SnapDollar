@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "kinesiologist-career",
+      "title": "Kinesiologist",
+      "icon": "walking",
+      "description": "Kinesiologists are scientists who deeply study human movement, its underlying mechanisms, and its profound impact on health, performance, and injury rehabilitation. They apply rigorous scientific principles to optimize physical function, boost athletic capabilities, and enhance overall well-being, translating complex biomechanical and physiological data into actionable insights.",
+      "salaryRange": "$50k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cytologist",
       "title": "Cytologist",
       "icon": "microscope",
