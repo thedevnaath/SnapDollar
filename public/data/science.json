@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cytologist",
+      "title": "Cytologist",
+      "icon": "microscope",
+      "description": "Cytologists are specialized scientists who analyze cells under a microscope to detect abnormalities like cancer and infectious diseases. They provide crucial diagnostic insights that guide patient treatment, operating at the frontline of disease detection and personalized medicine. It's a high-stakes job where precision means lives.",
+      "salaryRange": "$60k (Clinical entry) - $180k+ (Industry R&D)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "histologist",
       "title": "Histologist",
       "icon": "microscope",
