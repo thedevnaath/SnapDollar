@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "applied-mathematician",
+      "title": "Applied Mathematician",
+      "icon": "calculator",
+      "description": "Applied mathematicians are the architects of the modern world, translating complex real-world problems into elegant mathematical models. They use advanced algorithms, simulations, and data analysis to solve critical challenges in everything from drug discovery and climate modeling to financial markets and artificial intelligence.",
+      "salaryRange": "$60k (Academia) - $250k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "statistician",
       "title": "Statistician",
       "icon": "bar-chart-2",
