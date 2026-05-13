@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "cryptographer",
+      "title": "Cryptographer",
+      "icon": "lock",
+      "description": "Cryptographers are the digital fort builders, designing unbreakable codes and secure communication systems. They protect everything from your online banking to national secrets, making sure data stays private and tamper-proof in an increasingly connected world. Their work is the bedrock of trust in the digital economy and the foundation of cybersecurity.",
+      "salaryRange": "$70k (Academia) - $350k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "applied-mathematician",
       "title": "Applied Mathematician",
       "icon": "calculator",
