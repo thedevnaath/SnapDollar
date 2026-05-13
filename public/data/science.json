@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "metrologist-career-profile",
+      "title": "Metrologist",
+      "icon": "gauge",
+      "description": "Metrologists are the unsung heroes of precision, ensuring that every measurement, from a nanometer-scale chip feature to a rocket's thrust, is perfectly accurate. Their work is critical for scientific integrity, manufacturing quality, and global trade, directly impacting product safety and innovation.",
+      "salaryRange": "$60k (Entry/Academia) - $180k+ (Senior Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "rheologist",
       "title": "Rheologist",
       "icon": "beaker",
