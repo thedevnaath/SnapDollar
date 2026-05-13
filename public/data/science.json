@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "statistician",
+      "title": "Statistician",
+      "icon": "bar-chart-2",
+      "description": "Statisticians are the ultimate data detectives, transforming raw numbers into critical insights across every industry. They build models, find patterns, and predict future outcomes, essentially making sense of the universe's inherent messiness to drive impactful decisions in medicine, finance, and tech.",
+      "salaryRange": "$65k (Academia) - $220k+ (Industry)",
+      "roiRating": "High"
+    },
+    {
       "id": "metrologist-career-profile",
       "title": "Metrologist",
       "icon": "gauge",
