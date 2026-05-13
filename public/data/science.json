@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "rheologist",
+      "title": "Rheologist",
+      "icon": "beaker",
+      "description": "A Rheologist studies how materials flow and deform under stress. This deep understanding is crucial for designing everything from high-performance paints to pharmaceutical gels, directly impacting product quality and manufacturing efficiency across countless industries.",
+      "salaryRange": "$60k (Academia) - $180k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "cryogenicist-career",
       "title": "Cryogenicist",
       "icon": "snowflake",
