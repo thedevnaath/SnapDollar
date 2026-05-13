@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "histologist",
+      "title": "Histologist",
+      "icon": "microscope",
+      "description": "Histologists are meticulous tissue detectives, preparing ultra-thin slices of organs and tumors for microscopic examination. Their precise work is crucial for diagnosing cancer, understanding infections, and accelerating drug discovery. They provide the visual evidence that underpins critical medical breakthroughs and research.",
+      "salaryRange": "$50k (Clinical HT) - $150k+ (Industry Research Lead)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "physiologist",
       "title": "Physiologist",
       "icon": "heart-pulse",
