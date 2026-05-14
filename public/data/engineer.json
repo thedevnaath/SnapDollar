@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "plumber",
+      "title": "Plumber",
+      "icon": "wrench",
+      "description": "Plumbers install, repair, and maintain critical water, drainage, and gas systems in homes and buildings. This essential trade ensures our daily lives run smoothly, tackling everything from leaky faucets to complex pipe installations. It's a hands-on career with direct impact and high demand.",
+      "salaryRange": "$45k - $100k",
+      "roiRating": "High"
+    },
+    {
       "id": "electrician",
       "title": "Electrician",
       "icon": "bolt",
