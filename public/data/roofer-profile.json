@@ -1,0 +1,115 @@
+{
+  "id": "roofer-profile",
+  "title": "Roofer",
+  "sector": "engineer",
+  "lastUpdated": "May 14, 2026",
+  "description": "Roofers are essential construction professionals who install, repair, and maintain roofs on buildings. This demanding role requires significant physical stamina, technical skill, and strict adherence to safety protocols to ensure structural integrity and weather protection.",
+  "seoMetaDescription": "Roofer salary, requirements, and lifestyle insights. Explore demand, daily reality, and career growth for this vital construction trade.",
+  "seoSchema": {
+    "@context": "https://schema.org",
+    "@type": "Occupation",
+    "name": "Roofer",
+    "description": "A Roofer specializes in the installation, repair, and replacement of roofing systems on various structures. This occupation demands a practical understanding of materials, structural integrity, weatherproofing techniques, and rigorous safety standards, drawing on principles often associated with practical engineering in construction.",
+    "estimatedSalary": "$40,000 - $75,000"
+  },
+  "salaryRange": "$40k - $75k",
+  "roiRating": "Medium",
+  "icon": "hard-hat",
+  "sections": [
+    {
+      "title": "The Basics",
+      "cards": [
+        {
+          "title": "The TL;DR (Pros & Cons)",
+          "subconsciousQuestion": "Should I even read this?",
+          "content": "✅ **Pro:** High demand for skilled labor means consistent work.\n✅ **Pro:** Good earning potential for experienced professionals and business owners.\n❌ **Con:** Physically demanding and dangerous work, often in extreme weather.\n❌ **Con:** Income can be seasonal or inconsistent due to weather and project availability."
+        },
+        {
+          "title": "What You Actually Do",
+          "subconsciousQuestion": "Will I understand this job?",
+          "content": "As a Roofer, your core job is to build, fix, or replace the top layer of a building that keeps out rain and snow. You spend your days on roofs, often high up, dealing with different materials like asphalt shingles, metal panels, or rubber sheets for flat roofs. This involves removing old damaged roofs, preparing the surface underneath, measuring and cutting new materials precisely, and attaching them securely. You need to understand how water flows and how to seal everything perfectly to prevent leaks. It's not just brute strength; it's about careful planning, problem-solving, and using specialized tools safely, ensuring the roof protects the building for decades."
+        },
+        {
+          "title": "Salary Insights",
+          "subconsciousQuestion": "Will I be rich?",
+          "content": "🇺🇸 USA: $40,000 – $75,000 (Experienced crew leaders can earn $80,000+)\n🇩🇪 Germany: €30,000 – €50,000 (As a 'Dachdecker')\n🇬🇧 UK: £25,000 – £45,000\n🌍 Remote: Not applicable for hands-on roofing work.\n\n📈 **Growth:** Medium - The demand for roofers is steady. Buildings always need roofs, and they need to be maintained or replaced every 15-30 years. Population growth and aging infrastructure ensure consistent demand, though growth isn't explosive."
+        },
+        {
+          "title": "Core Tech Stack & Skills",
+          "subconsciousQuestion": "What exact tools do I need to learn?",
+          "content": "To excel as a Roofer, you need mastery of: \n*   **Hand Tools:** Hammers, utility knives, pry bars, measuring tapes.\n*   **Power Tools:** Nail guns (pneumatic or cordless), circular saws (for decking), power washers.\n*   **Safety Equipment:** Fall protection harnesses, ropes, hard hats, work boots, eye protection.\n*   **Material Knowledge:** Understanding different roofing materials (asphalt, metal, tile, EPDM, TPO) and their specific installation techniques.\n*   **Ladder & Scaffolding Use:** Safe setup, climbing, and working at heights."
+        },
+        {
+          "title": "Equity & Perks",
+          "subconsciousQuestion": "Do I get company stock or just a salary?",
+          "content": "For most roofers, company stock (RSUs) is not a common perk. The vast majority work for small to medium-sized construction companies or are self-employed. Compensation typically comes as an hourly wage or a fixed price per project. Some established companies might offer modest bonuses based on project completion, safety records, or company profitability. Retirement plans (like 401ks in the USA) might be available through larger employers, but profit-sharing is rare outside of owning your own business."
+        }
+      ]
+    },
+    {
+      "title": "Getting In",
+      "cards": [
+        {
+          "title": "The Execution Plan",
+          "subconsciousQuestion": "What exactly should I do tomorrow?",
+          "content": "**Path 1: The Traditional Route**\nEnroll in a vocational school or trade apprenticeship program for roofing or general construction. This typically involves 2-4 years of on-the-job training combined with classroom instruction. You'll start as an apprentice, learn from experienced roofers, and eventually become a journeyman. You may earn certifications like OSHA 10 or 30 for safety, which are highly valued.\n\n**Path 2: The Hacker Route**\nStart as a general labor helper for a roofing or construction company. Offer to do the toughest, dirtiest jobs like tearing off old roofs and hauling materials. Show up early, work hard, and express a keen interest in learning. Many experienced roofers started this way, learning on the job without formal schooling. Look for smaller, independent contractors who are more willing to train eager newcomers.\n\n**Path 3: The Pivot Route**\nIf you have experience in other physically demanding trades (e.g., general laborer, landscaper, concrete worker), leverage your work ethic and understanding of construction sites. Focus on skills like operating heavy equipment, using hand tools, and adhering to safety protocols. Highlight your ability to work outdoors in various conditions. Many roofers transition from other construction sub-trades."
+        },
+        {
+          "title": "Time & Money Cost",
+          "subconsciousQuestion": "How much debt and time will this take?",
+          "content": "The **money cost** for becoming a roofer is relatively low. Vocational programs or apprenticeships can range from **$500 to $5,000** for tuition and materials, but many apprenticeships are paid training. Some companies will even cover training costs. Your main investment will be good quality work clothes and basic tools (many are provided by the employer initially).\n\nThe **time cost** to become a skilled roofer typically ranges from **1 to 4 years**. You can start as an entry-level laborer in a few weeks, but becoming a proficient, independent roofer who can lead a crew takes several years of hands-on experience and continuous learning."
+        },
+        {
+          "title": "Barrier to Entry",
+          "subconsciousQuestion": "Is it impossible for a junior to get hired?",
+          "content": "The barrier to entry for a junior roofer (often called a 'helper' or 'laborer') is **low**. Companies are often looking for strong, reliable individuals willing to learn. The main 'interview' is often a demonstration of physical capability, a willingness to work hard, and a good attitude. However, the barrier to becoming a *skilled* roofer who can lead projects is **medium**. This requires years of experience, safety knowledge, and precision. The current market for entry-level positions is generally robust, especially during peak construction seasons, due to the physically demanding nature of the work and a consistent shortage of skilled tradespeople."
+        }
+      ]
+    },
+    {
+      "title": "The Daily Reality",
+      "cards": [
+        {
+          "title": "A Day in the Life",
+          "subconsciousQuestion": "What is hour-by-hour reality?",
+          "content": "A typical Tuesday starts early, often before sunrise. You might grab coffee on the way to the shop to load trucks with materials and tools. By 7:00 AM, you're at the job site, usually after a drive. The crew conducts a quick safety briefing, then gets straight to work. If it's a replacement job, the morning involves the dirty, intense work of **tearing off** the old roof, carefully tossing debris into a dumpster. You'll likely skip a formal lunch, grabbing a quick bite while working. The afternoon shifts to **installing** the new roof – laying underlayment, meticulously placing shingles or panels, cutting materials, and sealing edges. This requires precision and teamwork. As the day wraps up around 4:00-5:00 PM, the focus is on a thorough **cleanup** of the site, ensuring no nails or debris are left behind. Then, it's back to the shop to unload and prepare for the next day.\n\n**Meetings:** Low\n**Travel:** High (to and from job sites)\n**Physical Exertion:** Very High\n**Mental Fatigue:** Medium (problem-solving, safety vigilance)\n**Collaboration:** High (team-based work)"
+        },
+        {
+          "title": "Stress & Burnout Risk",
+          "subconsciousQuestion": "Will this job destroy my mental health?",
+          "content": "The stress and burnout risk for a Roofer is **High**. The primary daily stressor is the **physical toll and inherent danger**. You're constantly lifting heavy materials, bending, kneeling, and working at heights, often on steep, slippery surfaces. The risk of falls, cuts, and heatstroke (or frostbite) is ever-present. Add to this the pressure of deadlines, working in extreme weather conditions (scorching sun, freezing cold), and dealing with demanding clients or unexpected structural issues. This constant physical and mental vigilance can lead to significant physical wear and tear, chronic pain, and mental fatigue over time."
+        },
+        {
+          "title": "Remote Flexibility",
+          "subconsciousQuestion": "Can I work from a laptop in Bali?",
+          "content": "This role is **strictly on-site**. Roofing is a hands-on, physical job that requires your presence at the construction site. There is no remote flexibility for the core work of installing or repairing roofs. Project management or administrative tasks for a roofing company *could* theoretically be done remotely, but these are distinct roles and represent a very small fraction of the overall roofing workforce."
+        }
+      ]
+    },
+    {
+      "title": "The Future",
+      "cards": [
+        {
+          "title": "10-Year Demand",
+          "subconsciousQuestion": "Is this industry dying?",
+          "content": "The demand for roofers over the next 10 years is expected to be **steady to slightly above average**. This industry is far from dying. Buildings constantly require new roofs, maintenance, and repairs due to aging, weather damage, and new construction. While innovations in materials and installation techniques occur, the fundamental need for skilled human labor to physically install and maintain these systems remains. Expect consistent job opportunities, especially for those with diverse material experience and strong safety records."
+        },
+        {
+          "title": "AI Threat Level",
+          "subconsciousQuestion": "Will ChatGPT take my job in 5 years?",
+          "content": "The AI threat level for a Roofer is **Very Low**. Roofing is a highly physical, hands-on trade that requires navigating unpredictable environments (sloping roofs, variable weather, unique building structures). While AI and robotics might assist with planning, material delivery, or even some repetitive tasks in the distant future, the core work of assessing damage, physically removing old materials, and precisely installing new ones in diverse conditions is not something current AI or robots can effectively replicate. Human judgment, dexterity, and adaptability are irreplaceable in this role for the foreseeable future."
+        },
+        {
+          "title": "Pivot Options",
+          "subconsciousQuestion": "If I hate this, what else can I do?",
+          "content": "If you decide roofing isn't for you, your hands-on construction experience offers several pivot options:\n*   **General Contractor:** Leverage your understanding of building structures and project management to oversee entire construction projects.\n*   **Building Inspector:** Use your knowledge of structural integrity and building codes to inspect properties for compliance and safety.\n*   **Sales Representative (Building Materials):** Your deep understanding of roofing products, their installation, and customer needs makes you an ideal candidate to sell roofing or general construction materials to contractors and homeowners."
+        },
+        {
+          "title": "Solo / Founder Scope",
+          "subconsciousQuestion": "Can I quit and be my own boss?",
+          "content": "The solo and founder scope for a Roofer is **High**. Many experienced roofers successfully transition into owning their own roofing companies. This career path offers a clear trajectory from apprentice to journeyman to independent contractor. You can start small, handling repairs and smaller residential projects, and gradually grow by hiring crews and taking on larger commercial contracts. The capital required to start (tools, a truck, insurance, basic marketing) is manageable compared to many other businesses, making it a highly accessible route for entrepreneurial individuals with strong trade skills and a good reputation."
+        }
+      ]
+    }
+  ]
+}

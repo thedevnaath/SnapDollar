@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "roofer-profile",
+      "title": "Roofer",
+      "icon": "hard-hat",
+      "description": "Roofers are essential construction professionals who install, repair, and maintain roofs on buildings. This demanding role requires significant physical stamina, technical skill, and strict adherence to safety protocols to ensure structural integrity and weather protection.",
+      "salaryRange": "$40k - $75k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "carpenter-profile",
       "title": "Carpenter",
       "icon": "hammer",
