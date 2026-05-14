@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "brickmason-career-profile",
+      "title": "Brickmason",
+      "icon": "hammer",
+      "description": "Brickmasons are skilled craftspeople who build and repair structures using bricks, concrete blocks, and stone. They interpret blueprints and apply engineering principles to ensure structural integrity, durability, and aesthetic appeal of buildings, making them key to lasting construction.",
+      "salaryRange": "$50k - $100k",
+      "roiRating": "High"
+    },
+    {
       "id": "roofer-profile",
       "title": "Roofer",
       "icon": "hard-hat",
