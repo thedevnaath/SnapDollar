@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "serologist-career-profile",
+      "title": "Serologist",
+      "icon": "blood",
+      "description": "Serologists are immune system detectives, meticulously analyzing blood serum to identify antibodies and antigens. They play a critical role in diagnosing diseases, ensuring safe blood transfusions, and developing life-saving vaccines. Their work directly impacts public health, making them essential players in both clinical diagnostics and groundbreaking immunological research.",
+      "salaryRange": "$55k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "biogerontologist",
       "title": "Biogerontologist",
       "icon": "dna",
