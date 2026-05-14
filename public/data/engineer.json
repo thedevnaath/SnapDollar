@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "carpenter-profile",
+      "title": "Carpenter",
+      "icon": "hammer",
+      "description": "Carpenters are skilled builders who construct, install, and repair structures and fixtures using wood and other materials. They are the backbone of construction, turning architectural blueprints into tangible buildings and spaces. This career requires precision, strength, and a deep understanding of structural integrity.",
+      "salaryRange": "$45k - $85k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "plumber",
       "title": "Plumber",
       "icon": "wrench",
