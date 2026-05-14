@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "pharmacognosist",
+      "title": "Pharmacognosist",
+      "icon": "leaf",
+      "description": "Pharmacognosists are scientific treasure hunters, sifting through nature's pharmacy – plants, fungi, marine life – to unearth new compounds with medical potential. They isolate, characterize, and test these natural products, paving the way for groundbreaking drugs that could cure diseases. It's a blend of ancient wisdom and cutting-edge analytical chemistry, all aimed at turning botanical curiosities into pharmaceutical gold.",
+      "salaryRange": "$50k (Academia) - $150k+ (Industry)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "teratologist",
       "title": "Teratologist",
       "icon": "dna",
