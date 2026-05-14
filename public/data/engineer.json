@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "commercial-pilot",
+      "title": "Commercial Pilot",
+      "icon": "plane",
+      "description": "Commercial Pilots are highly trained professionals responsible for safely transporting passengers and cargo. They operate complex aircraft, manage sophisticated systems, and make critical decisions under pressure to ensure flight safety and efficiency. This career demands rigorous training, precision, and unwavering discipline.",
+      "salaryRange": "$90k - $250k",
+      "roiRating": "High"
+    },
+    {
       "id": "airline-pilot",
       "title": "Airline Pilot",
       "icon": "plane",
