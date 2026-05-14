@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "flight-attendant",
+      "title": "Flight Attendant",
+      "icon": "plane",
+      "description": "This career places you directly on the front lines of public safety and customer service in the aviation industry. While primarily employed by private airlines, your core function is enforcing government-mandated safety protocols and ensuring the well-being of hundreds of passengers daily. Expect long, unpredictable hours and moderate pay, with significant demands on your patience and resilience.",
+      "salaryRange": "$35k (Entry) - $80k+ (Senior)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "transit-operator",
       "title": "Transit Operator",
       "icon": "bus",
