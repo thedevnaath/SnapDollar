@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "biogerontologist",
+      "title": "Biogerontologist",
+      "icon": "dna",
+      "description": "Biogerontologists are scientific detectives, unraveling the complex biological mysteries of aging. Their ultimate goal? To extend not just human lifespan, but 'healthspan' – the period of life lived free from debilitating age-related diseases. This research holds the promise of immense societal and economic impact, potentially redefining human health.",
+      "salaryRange": "$55k (Academia Post-Doc) - $250k+ (Industry Director)",
+      "roiRating": "Medium-High"
+    },
+    {
       "id": "pharmacognosist",
       "title": "Pharmacognosist",
       "icon": "leaf",
