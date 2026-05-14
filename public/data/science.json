@@ -3,6 +3,14 @@
   "description": "Cutting-edge careers in applied sciences, laboratory research, and pharmaceutical development.",
   "careers": [
     {
+      "id": "teratologist",
+      "title": "Teratologist",
+      "icon": "dna",
+      "description": "Teratologists are scientific detectives who study birth defects (congenital anomalies) to understand why they happen and how to prevent them. They investigate the effects of drugs, chemicals, infections, and genetic factors on embryonic and fetal development. The ultimate goal is to safeguard public health, make medications safer, and improve outcomes for future generations.",
+      "salaryRange": "$60k (Academia, Post-Doc) - $220k+ (Industry, Senior Scientist)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "ergonomist",
       "title": "Ergonomist",
       "icon": "user-check",
