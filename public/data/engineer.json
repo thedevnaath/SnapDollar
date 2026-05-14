@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "electrician",
+      "title": "Electrician",
+      "icon": "bolt",
+      "description": "Electricians are highly skilled tradespeople who install, maintain, and repair electrical power, communications, lighting, and control systems. They ensure homes, businesses, and industrial sites have safe and reliable power, preventing outages and hazards. This job combines technical knowledge with hands-on problem-solving in various environments.",
+      "salaryRange": "$60k - $100k",
+      "roiRating": "High"
+    },
+    {
       "id": "commercial-pilot",
       "title": "Commercial Pilot",
       "icon": "plane",
