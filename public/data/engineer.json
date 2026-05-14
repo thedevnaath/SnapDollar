@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "airline-pilot",
+      "title": "Airline Pilot",
+      "icon": "plane",
+      "description": "Airline Pilots are highly trained professionals responsible for safely operating commercial aircraft, transporting passengers and cargo worldwide. They navigate complex airspaces, manage sophisticated systems, and make critical decisions to ensure safe and efficient flight. This role demands extreme precision, continuous learning, and significant personal commitment.",
+      "salaryRange": "$90k - $350k+",
+      "roiRating": "High"
+    },
+    {
       "id": "quality-engineer",
       "title": "Quality Engineer",
       "icon": "checklist",
