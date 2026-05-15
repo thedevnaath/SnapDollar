@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "elevator-mechanic",
+      "title": "Elevator Mechanic",
+      "icon": "building",
+      "description": "Elevator Mechanics are highly skilled technicians who install, maintain, and repair critical systems like elevators, escalators, and moving walkways. They ensure these complex machines operate safely and efficiently, keeping buildings running smoothly. This role combines advanced electrical, mechanical, and safety expertise.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "High"
+    },
+    {
       "id": "boilermaker-career-profile",
       "title": "Boilermaker",
       "icon": "wrench",
