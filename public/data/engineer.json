@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "ironworker",
+      "title": "Ironworker",
+      "icon": "crane",
+      "description": "Ironworkers are the essential builders who bring massive structures to life. They physically connect and assemble the steel skeletons of skyscrapers, bridges, and stadiums. It's tough, dangerous work with significant financial rewards for skilled professionals.",
+      "salaryRange": "$50k - $100k+",
+      "roiRating": "High"
+    },
+    {
       "id": "elevator-mechanic",
       "title": "Elevator Mechanic",
       "icon": "building",
