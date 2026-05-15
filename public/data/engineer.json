@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "heavy-equipment-operator",
+      "title": "Heavy Equipment Operator",
+      "icon": "building-2",
+      "description": "Heavy Equipment Operators are the skilled hands that bring engineering blueprints to life, moving earth, lifting beams, and shaping landscapes. They command powerful machinery on construction, mining, and infrastructure projects. This role offers strong pay and tangible results for those who enjoy working with large machines outdoors.",
+      "salaryRange": "$55k - $105k",
+      "roiRating": "High"
+    },
+    {
       "id": "pipefitter",
       "title": "Pipefitter",
       "icon": "pipe",
