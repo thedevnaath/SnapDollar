@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "pipefitter",
+      "title": "Pipefitter",
+      "icon": "pipe",
+      "description": "Pipefitters are highly skilled craftspeople who build and maintain complex systems that carry liquids and gases. They cut, weld, and install pipes for everything from power plants to shipyards, ensuring critical infrastructure runs safely and efficiently.",
+      "salaryRange": "$55k - $110k",
+      "roiRating": "High"
+    },
+    {
       "id": "ironworker",
       "title": "Ironworker",
       "icon": "crane",
