@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "crane-operator",
+      "title": "Crane Operator",
+      "icon": "crane",
+      "description": "Crane Operators are the masters of massive machines, safely lifting and moving incredibly heavy materials on construction sites and in industrial settings. It's a high-stakes job demanding extreme precision and focus, vital for building our modern world. They turn blueprints into physical structures, one heavy lift at a time.",
+      "salaryRange": "$55k - $110k",
+      "roiRating": "High"
+    },
+    {
       "id": "heavy-equipment-operator",
       "title": "Heavy Equipment Operator",
       "icon": "building-2",
