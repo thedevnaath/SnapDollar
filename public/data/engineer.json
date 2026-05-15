@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "industrial-coatings-engineer",
+      "title": "Industrial Coatings Engineer",
+      "icon": "spray-gun",
+      "description": "You're the scientist and strategist behind the tough skin of our world's most important machines and structures. You design, test, and apply special 'paint' – technically, advanced coatings – that protect everything from airplane wings to bridges from rust, heat, and wear, making them last longer and perform better.",
+      "salaryRange": "$75k - $140k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "crane-operator",
       "title": "Crane Operator",
       "icon": "crane",
