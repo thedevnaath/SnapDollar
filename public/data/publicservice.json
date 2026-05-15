@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "train-conductor",
+      "title": "Train Conductor",
+      "icon": "train",
+      "description": "The Train Conductor is the operational backbone of rail transport, ensuring the safe and efficient movement of goods and people across vast networks. It's a role demanding meticulous adherence to rules and unwavering vigilance, offering solid stability and benefits, but little room for entrepreneurial flights of fancy or traditional career ladder climbing outside of specific operational tracks.",
+      "salaryRange": "$60k - $100k+ (Often Unionized, Strong Benefits)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "flight-attendant",
       "title": "Flight Attendant",
       "icon": "plane",
