@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "glazier-career-profile",
+      "title": "Glazier",
+      "icon": "square",
+      "description": "Glaziers are skilled craftspeople who cut, install, and remove glass in buildings and other structures. They work on windows, doors, skylights, and custom glass projects, ensuring precise fits and safe installations. It's a hands-on job crucial for construction and repair.",
+      "salaryRange": "$45k - $85k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "brickmason-career-profile",
       "title": "Brickmason",
       "icon": "hammer",
