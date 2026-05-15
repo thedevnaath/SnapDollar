@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "insulation-worker",
+      "title": "Insulation Worker",
+      "icon": "thermometer",
+      "description": "Insulation Workers install and replace materials that control heating and cooling in buildings and systems. Their work is crucial for energy efficiency, comfort, and noise reduction, impacting everything from homes to industrial facilities.",
+      "salaryRange": "$35k - $70k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "tile-and-marble-setter",
       "title": "Tile and Marble Setter",
       "icon": "trowel",
