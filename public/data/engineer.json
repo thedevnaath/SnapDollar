@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "locomotive-engineer",
+      "title": "Locomotive Engineer",
+      "icon": "train",
+      "description": "Locomotive Engineers operate trains, primarily freight and passenger. They are responsible for safe, on-time movement, handling complex controls, and ensuring the safety of cargo and passengers. This job requires intense focus, adherence to strict regulations, and handling powerful machinery.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "insulation-worker",
       "title": "Insulation Worker",
       "icon": "thermometer",
