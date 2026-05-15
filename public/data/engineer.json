@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "boilermaker-career-profile",
+      "title": "Boilermaker",
+      "icon": "wrench",
+      "description": "Boilermakers build and repair huge metal containers like boilers, tanks, and pressure vessels. This is a hands-on, highly skilled trade crucial for power plants, factories, and industrial sites. It requires serious technical know-how and physical stamina.",
+      "salaryRange": "$70k - $120k",
+      "roiRating": "High"
+    },
+    {
       "id": "glazier-career-profile",
       "title": "Glazier",
       "icon": "square",
