@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "tile-and-marble-setter",
+      "title": "Tile and Marble Setter",
+      "icon": "trowel",
+      "description": "Tile and Marble Setters are skilled craftspeople who precisely install decorative and functional surfaces. They transform raw materials like ceramic, porcelain, and natural stone into durable, beautiful finishes for floors, walls, and countertops. This role requires meticulous planning, precise execution, and a deep understanding of materials and structural integrity.",
+      "salaryRange": "$50k - $95k",
+      "roiRating": "Medium"
+    },
+    {
       "id": "industrial-coatings-engineer",
       "title": "Industrial Coatings Engineer",
       "icon": "spray-gun",
