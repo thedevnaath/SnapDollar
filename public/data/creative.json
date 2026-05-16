@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "bartender",
+      "title": "Bartender",
+      "icon": "Martini",
+      "description": "Bartending is the art of crafting bespoke liquid experiences, mixing spirits, liqueurs, and fresh ingredients into captivating cocktails. It's a high-pressure performance role that demands creativity, speed, and exceptional customer interaction. The commercial upside lies in high tips, private event bookings, and the potential to own or consult for high-end hospitality venues.",
+      "salaryRange": "$30k - $100k+ (Highly Variable, Tips-Dependent)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "mixologist",
       "title": "Mixologist",
       "icon": "Martini",
