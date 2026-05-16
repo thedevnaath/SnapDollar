@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "delivery-driver-public-service",
+      "title": "Public Sector Delivery Specialist",
+      "icon": "truck",
+      "description": "This role embodies the unsung backbone of public logistics, ensuring essential goods and documents reach citizens and agencies. It's a career marked by routine, physical demand, and critical reliability, often within a structured, benefit-rich, but lower-paying governmental framework.",
+      "salaryRange": "$35k (Public) - $60k (Public)",
+      "roiRating": "Low"
+    },
+    {
       "id": "train-conductor",
       "title": "Train Conductor",
       "icon": "train",
