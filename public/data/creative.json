@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "executive-chef",
+      "title": "Executive Chef",
+      "icon": "chef-hat",
+      "description": "An Executive Chef is the ultimate creative director of a restaurant's culinary operations, blending artistic vision with rigorous business management. They craft menus, innovate dishes, and lead a brigade of chefs, directly impacting a restaurant's brand and financial success.",
+      "salaryRange": "$60,000 - $180,000+ (Highly Variable)",
+      "roiRating": "High"
+    },
+    {
       "id": "set-designer",
       "title": "Set Designer",
       "icon": "layout-dashboard",
