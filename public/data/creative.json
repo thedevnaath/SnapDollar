@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "tour-guide",
+      "title": "Tour Guide",
+      "icon": "megaphone",
+      "description": "Tour Guides are creative storytellers and experience designers, transforming history, culture, or nature into engaging narratives. Their ultimate commercial upside lies in captivating audiences, boosting local tourism, and building powerful personal brands that drive repeat business and referrals.",
+      "salaryRange": "$25k - $70k+ (Highly Variable)",
+      "roiRating": "Low"
+    },
+    {
       "id": "event-coordinator",
       "title": "Event Coordinator",
       "icon": "calendar-days",
