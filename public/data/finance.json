@@ -3,6 +3,14 @@
   "description": "High-leverage roles in quantitative analysis, investment banking, and decentralized wealth management.",
   "careers": [
     {
+      "id": "travel-agent",
+      "title": "Travel Agent",
+      "icon": "plane",
+      "description": "A Travel Agent manages client travel budgets, sources optimal value deals, and handles all financial transactions related to bookings. This role demands meticulous financial oversight and cost-efficiency, often operating on commission-based revenue models, directly impacting personal and agency profitability.",
+      "salaryRange": "$30k - $75k+ (Includes Commissions)",
+      "roiRating": "Low"
+    },
+    {
       "id": "hotel-general-manager",
       "title": "Hotel General Manager",
       "icon": "landmark",
