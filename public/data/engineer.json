@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "commercial-truck-driver",
+      "title": "Commercial Truck Driver",
+      "icon": "truck",
+      "description": "Commercial Truck Drivers are the backbone of supply chains, moving goods across vast distances. They operate heavy-duty vehicles, ensuring safe and timely delivery of everything from food to building materials. This role requires discipline, independence, and a commitment to road safety.",
+      "salaryRange": "$50k - $120k",
+      "roiRating": "High"
+    },
+    {
       "id": "locomotive-engineer",
       "title": "Locomotive Engineer",
       "icon": "train",
