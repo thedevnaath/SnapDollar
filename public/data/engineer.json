@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "ship-captain",
+      "title": "Ship Captain",
+      "icon": "anchor",
+      "description": "Ship Captains are ultimate leaders, responsible for the safe and efficient operation of a vessel, its crew, and cargo. They navigate complex waters, manage high-stakes logistics, and ensure strict compliance with global maritime laws, often far from home for extended periods. It's a role demanding unparalleled responsibility and expert decision-making.",
+      "salaryRange": "$120k - $250k+",
+      "roiRating": "High"
+    },
+    {
       "id": "commercial-truck-driver",
       "title": "Commercial Truck Driver",
       "icon": "truck",
