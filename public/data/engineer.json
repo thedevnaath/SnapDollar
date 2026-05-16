@@ -3,6 +3,14 @@
   "description": "High-leverage positions in structural design, systems architecture, and specialized technical trades.",
   "careers": [
     {
+      "id": "marine-pilot",
+      "title": "Marine Pilot",
+      "icon": "ship",
+      "description": "A Marine Pilot is a highly specialized mariner responsible for guiding large ships safely through challenging and congested waterways. They prevent accidents, protect the environment, and ensure efficient global trade by expertly navigating vessels in and out of ports.",
+      "salaryRange": "$180k - $400k+",
+      "roiRating": "High"
+    },
+    {
       "id": "ship-captain",
       "title": "Ship Captain",
       "icon": "anchor",
