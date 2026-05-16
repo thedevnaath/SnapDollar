@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "barista-creative-craft",
+      "title": "Barista (Craft & Experience Creator)",
+      "icon": "coffee",
+      "description": "Beyond pouring coffee, a Barista is a craftsman, an artist in liquid form, and an experience designer. They meticulously craft beverages, curate sensory journeys, and build genuine human connections, transforming a simple drink into a memorable moment. The upside is mastery of a unique craft and direct impact on customer happiness, but financial returns are often challenging.",
+      "salaryRange": "$25,000 - $40,000+ (Highly Variable, often includes tips)",
+      "roiRating": "Low"
+    },
+    {
       "id": "bartender",
       "title": "Bartender",
       "icon": "Martini",
