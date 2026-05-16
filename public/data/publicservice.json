@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "transit-bus-driver",
+      "title": "Transit Bus Driver",
+      "icon": "bus",
+      "description": "Transit Bus Drivers are the unsung heroes transporting communities daily. This role offers rock-solid job security and benefits in public service, but demands patience, resilience, and an iron stomach for navigating urban chaos and diverse personalities, all for a modest wage.",
+      "salaryRange": "$45k - $75k (Public, with Strong Benefits)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "delivery-driver-public-service",
       "title": "Public Sector Delivery Specialist",
       "icon": "truck",
