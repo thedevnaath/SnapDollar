@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "sous-chef-creative",
+      "title": "Sous Chef",
+      "icon": "cooking-pot",
+      "description": "As a Sous Chef, you're the executive chef's right-hand and a crucial creative force in the kitchen. You translate culinary vision into edible art, innovate menu items, manage the team, and ensure every dish is a masterpiece. The commercial upside directly ties into the restaurant's reputation, customer loyalty, and ultimately, its profitability.",
+      "salaryRange": "$45k - $80k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "executive-chef",
       "title": "Executive Chef",
       "icon": "chef-hat",
