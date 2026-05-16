@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "mixologist",
+      "title": "Mixologist",
+      "icon": "Martini",
+      "description": "A Mixologist is a culinary artist focused on crafting unique, balanced, and aesthetically pleasing alcoholic and non-alcoholic beverages. This role blends scientific precision with artistic flair to create memorable drink experiences, with commercial upside in high-end hospitality, brand ambassadorship, or even product development.",
+      "salaryRange": "$40k - $100k+ (Highly Variable with Tips)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "sommelier-career-profile",
       "title": "Sommelier",
       "icon": "wine",
