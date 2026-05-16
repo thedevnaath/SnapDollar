@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "sommelier-career-profile",
+      "title": "Sommelier",
+      "icon": "wine",
+      "description": "A Sommelier curates the perfect beverage experience, blending deep scientific knowledge of wine with the artistry of pairing and impeccable service. They elevate dining, impacting both guest satisfaction and the establishment's bottom line.",
+      "salaryRange": "$45k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "pastry-chef",
       "title": "Pastry Chef",
       "icon": "chef-hat",
