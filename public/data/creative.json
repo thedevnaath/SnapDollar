@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "pastry-chef",
+      "title": "Pastry Chef",
+      "icon": "chef-hat",
+      "description": "Crafting edible art with precision and flair. A Pastry Chef blends culinary science with artistic vision to create unforgettable desserts, driving significant revenue for high-end establishments or building a luxury brand.",
+      "salaryRange": "$35k - $150k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "sous-chef-creative",
       "title": "Sous Chef",
       "icon": "cooking-pot",
