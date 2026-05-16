@@ -3,6 +3,14 @@
   "description": "Lucrative paths in digital design, content direction, and strategic media management.",
   "careers": [
     {
+      "id": "event-coordinator",
+      "title": "Event Coordinator",
+      "icon": "calendar-days",
+      "description": "An Event Coordinator is the architect of experiences, orchestrating every detail from grand corporate conferences to intimate, unforgettable celebrations. You blend meticulous planning with creative vision, ensuring every moment captivates and achieves its strategic objective. This role offers immense creative satisfaction but demands relentless precision and nerves of steel.",
+      "salaryRange": "$40k - $120k+ (Highly Variable)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "barista-creative-craft",
       "title": "Barista (Craft & Experience Creator)",
       "icon": "coffee",
