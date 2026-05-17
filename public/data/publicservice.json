@@ -3,6 +3,14 @@
   "description": "Elite roles in corporate law, public policy, and high-level government administration.",
   "careers": [
     {
+      "id": "publicservice-navigator",
+      "title": "Public Service Navigator (Citizen Services Concierge)",
+      "icon": "users",
+      "description": "Navigating the labyrinthine world of government services for ordinary citizens, this role offers direct impact by simplifying bureaucracy. Expect stable but modest pay, high emotional labor, and a constant fight against systemic inefficiencies.",
+      "salaryRange": "$35k - $70k (Public)",
+      "roiRating": "Medium"
+    },
+    {
       "id": "transit-bus-driver",
       "title": "Transit Bus Driver",
       "icon": "bus",
